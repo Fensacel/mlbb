@@ -1,0 +1,18 @@
+{
+  "slug": "Miya",
+  "name": "Miya",
+  "url": "https://mobile-legends.fandom.com/wiki/Miya",
+  "intro": "Miya adalah hero Marksman klasik dengan attack speed tinggi.",
+  "infobox": {
+    "Role": "Marksman",
+    "Specialty": "Reap"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Moon Blessing",
+      "description": "Basic attack memberi stack attack speed.",
+      "properties": {}
+    }
+  ]
+}

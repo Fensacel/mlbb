@@ -1,0 +1,13 @@
+{
+  "name": "molebuild-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync:data": "node scripts/sync-data.mjs",
+    "dev": "npm run sync:data && wrangler dev",
+    "deploy": "npm run sync:data && wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.9.0"
+  }
+}

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLBB Stats API Docs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="bg-orb orb-one"></div>
+    <div class="bg-orb orb-two"></div>
+
+    <main class="container">
+      <section class="hero">
+        <span class="badge">Cloudflare Worker API</span>
+        <h1>MLBB Stats API</h1>
+        <p class="subtitle">
+          Dokumentasi ringkas + playground untuk ngetes endpoint secara langsung.
+        </p>
+        <div class="quick-links">
+          <a href="/api" target="_blank" rel="noreferrer">GET /api</a>
+          <a href="/api/schema" target="_blank" rel="noreferrer">GET /api/schema</a>
+          <a href="/api/health" target="_blank" rel="noreferrer">GET /api/health</a>
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h2>Endpoints</h2>
+          <ul id="endpoint-list" class="endpoint-list"></ul>
+        </article>
+
+        <article class="card">
+          <h2>API Tester</h2>
+          <form id="tester-form" class="tester-form">
+            <label for="path">Path Endpoint</label>
+            <input id="path" type="text" value="/api/heroes?limit=5" />
+
+            <button type="submit">Run Request</button>
+          </form>
+          <p id="status" class="status"></p>
+        </article>
+      </section>
+
+      <section class="card response-card">
+        <div class="response-head">
+          <h2>Response</h2>
+          <button id="copy-response" type="button">Copy JSON</button>
+        </div>
+        <pre id="response" class="response">Klik "Run Request" untuk lihat output.</pre>
+      </section>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

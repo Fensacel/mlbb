@@ -1,0 +1,50 @@
+name: Scrape Heroes Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20,50 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-heroes
+  cancel-in-progress: false
+
+jobs:
+  scrape-heroes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scrape hero data
+        run: python scraper2.py --heroes hero.json --output hero_details.json --output-dir hero_by_slug
+
+      - name: Commit and push hero changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add hero_details.json hero_by_slug
+
+          if git diff --cached --quiet; then
+            echo "No hero changes to commit"
+            exit 0
+          fi
+
+          git commit -m "chore(data): update hero details"
+          git pull --rebase origin ${GITHUB_REF_NAME}
+          git push

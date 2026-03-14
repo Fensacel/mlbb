@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Magic Boots",
+    "slug": "magic-boots",
+    "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
+    "stats": [
+      "720",
+      "Movement",
+      "+40 movement speed",
+      "+10% cooldown reduction"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "slug": "oracle",
+    "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
+    "stats": [
+      "1860",
+      "Defense",
+      "+850 hp",
+      "+20 magic defense"
+    ]
+  }
+]

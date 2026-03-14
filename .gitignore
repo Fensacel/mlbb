@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+public/
+node_modules/
+.wrangler/
+.auto_scraper1.lock
+.auto_scraper2.lock
+.scrape_state.json
+.scrape2_state.json
