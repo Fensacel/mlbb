@@ -35,8 +35,8 @@ jobs:
 
       - name: Commit and push hero changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "Fensacel"
+          git config user.email "fachrimufidan26@gmail.com"
 
           git add hero_details.json hero_by_slug
 
