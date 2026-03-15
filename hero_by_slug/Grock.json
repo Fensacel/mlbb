@@ -1,0 +1,104 @@
+{
+  "slug": "Grock",
+  "name": "Grock",
+  "url": "https://mobile-legends.fandom.com/wiki/Grock",
+  "intro": "Grock, the Fortress Titan, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Bastion of Stone",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Bastion_of_Stone.png/revision/latest?cb=20250811073743",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Grock gains a Shield equal to 10% of his Max HP and empowers the next Basic Attack to deal Physical Damage equal to 4 (+2% Total Physical Defense) % of the target's Max HP (capped at 300 (+20 × Hero Level) against non-hero units). This effect has a 18-12 seconds cooldown (decreases with level), which reduces by 200% when near terrain. Grock gains Control Immunity while casting skills and 30 (+6 × Hero Level) % extra Physical Defense while the Shield is active. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Mighty Swing",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Mighty_Swing.png/revision/latest?cb=20250811073747",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Grock strikes forward with massive force, dealing 240–440 (+100% Extra Physical Attack) Physical Damage . Enemies with obstacle, launched airborne , and take extra Physical Damage equal to 4 (+2% Total Physical Defense) % of their Max HP (capped at 300 (+20 × Hero Level) against non-hero units). If there are no obstacles behind, enemies are only knocked back slightly. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Base Damage": {
+          "1": "240",
+          "2": "280",
+          "3": "320",
+          "4": "360",
+          "5": "400",
+          "6": "440"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Earthen Rampart",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Earthen_Rampart.png/revision/latest?cb=20250811073745",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE After a brief delay, Grock summons a stone wall in the target area, dealing 100–200 (+60% Extra Physical Attack) Physical Damage and knocking enemies towards him. Use Again : Cancel the wall early.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.2",
+          "3": "12.4",
+          "4": "11.6",
+          "5": "10.8",
+          "6": "10.0"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Tectonic Charge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Tectonic_Charge.png/revision/latest?cb=20250811073748",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE The brave fear nothing. Grock charges forward, dealing 100 (+50% Total Physical Attack) Physical Damage to enemies in his path. Upon hitting terrain, he immediately stops and triggers a massive explosion that knocks nearby enemies airborne for 1 second and deals (+300% Total Physical Attack) . If this skill doesn't hit terrain, 50% of its cooldown is refunded. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Charge Movement ability that cannot pass through obstacles. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "100",
+          "3": "100"
+        },
+        "Added Damage": {
+          "1": "650",
+          "2": "850",
+          "3": "1050"
+        }
+      }
+    }
+  ]
+}

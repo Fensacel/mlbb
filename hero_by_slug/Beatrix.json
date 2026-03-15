@@ -1,0 +1,60 @@
+{
+  "slug": "Beatrix",
+  "name": "Beatrix",
+  "url": "https://mobile-legends.fandom.com/wiki/Beatrix",
+  "intro": "Beatrix, the Dawnbreak Soldier, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Skill 1",
+      "name": "Masterful Gunner",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Masterful_Gunner.png/revision/latest?cb=20210905120003",
+      "tags": [
+        "Morph",
+        "Buff"
+      ],
+      "description": "Morph Buff Passive : Beatrix can carry 2 weapons at once, and increase her Physical Attack by 5–30. Active: Beatrix takes 0.6 second to swap her primary weapon with the secondary weapon she has slung over her back, gaining an all-new way to attack and Ultimate.",
+      "properties": {
+        "Cooldown": {
+          "1": "12",
+          "2": "11",
+          "3": "10",
+          "4": "9",
+          "5": "8",
+          "6": "7"
+        },
+        "Physcial Attack": {
+          "1": "5",
+          "2": "10",
+          "3": "15",
+          "4": "20",
+          "5": "25",
+          "6": "30"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Tactical Reposition",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Tactical_Reposition.png/revision/latest?cb=20210905120337",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Beatrix: drops and rolls forward ( Renner ); leaps and nimbly forward ( Bennett ); rolls ahead sideways ( Wesker ); slides forward ( Nibiru ) and fully reloads her current weapon. Skill terms Blink Movement ability that can pass through obstacles.",
+      "properties": {}
+    },
+    {
+      "section": "Other",
+      "name": "Need Backup",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fb/Need_Backup.png/revision/latest?cb=20210315233339",
+      "tags": [
+        "Morph"
+      ],
+      "description": "Morph Having escaped battle for 3 seconds, Beatrix can call for her butler Morgan to provide her with a backup weapons crate. Beatrix must then choose two weapon from the crate to serve as her primary and secondary. Her weapon selection is interrupted if she commits any action or is controlled during this period.",
+      "properties": {}
+    }
+  ]
+}

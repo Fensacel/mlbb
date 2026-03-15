@@ -1,0 +1,130 @@
+{
+  "slug": "Bruno",
+  "name": "Bruno",
+  "url": "https://mobile-legends.fandom.com/wiki/Bruno",
+  "intro": "Bruno, the Protector, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Mecha Legs",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/79/Mecha_Legs.png/revision/latest?cb=20231231124711",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Bruno gains 2.5% extra Crit Chance each time he deals damage with his skills (up to 8 stacks). Bruno has higher Physical Attack but only gains 80% extra Attack Speed from all sources. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. [[Extra ATK Speed Stack(s) lasts for 5 seconds. Its timer resets when it is until consumed by Bruno's next enhanced Basic Attack or skill damage.]]",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Volley Shot",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Volley_Shot.png/revision/latest?cb=20231231124727",
+      "tags": [
+        "Damage",
+        "Slow"
+      ],
+      "description": "Damage Slow Bruno kicks a Powerball on his next Basic Attack , dealing 100–225 (+100% Total Physical Attack) Physical Damage to the target, slowing them by 30%, and speeding up 30% for 0.5 seconds. The Powerball then bounces back toward Bruno and lands on the ground. He or allied heroes can retrieve the Powerball for another attack and reduce the cooldown of Flying Tackle by 1 second. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated). Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.5",
+          "3": "9.0",
+          "4": "8.5",
+          "5": "8.0",
+          "6": "7.5"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "60",
+          "3": "70",
+          "4": "80",
+          "5": "90",
+          "6": "100"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "125",
+          "3": "150",
+          "4": "175",
+          "5": "200",
+          "6": "225"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Flying Tackle",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Flying_Tackle.png/revision/latest?cb=20231231124738",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Bruno makes a slide tackle in the target direction dealing 140–265 (+40% Total Physical Attack) Physical Damage to enemies in his path and stunning them for 0.5 seconds. If the Powerball is bouncing back, Bruno also draws the Powerball toward him. Skill terms Blink Movement ability that can pass through obstacles. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "55",
+          "3": "50",
+          "4": "45",
+          "5": "40",
+          "6": "35"
+        },
+        "Base Damage": {
+          "1": "140",
+          "2": "165",
+          "3": "190",
+          "4": "215",
+          "5": "240",
+          "6": "265"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Worldie",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fa/Worldie.png/revision/latest?cb=20231231124747",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Bruno kicks his Energy Ball at the target enemy hero, 250–450 (+83% Total Physical Attack) Physical Damage and knocking them back . The Energy Ball then bounces between nearby enemies up to 10 times, each time dealing 150–270 (+50% Total Physical Attack) Physical Damage . Each hit also reduces the enemy's Physical Defense by 4%–8% for 8 seconds (up to 3 stacks). Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {
+        "Cooldown": {
+          "1": "38.0",
+          "2": "33.0",
+          "3": "28.0"
+        },
+        "Mana Cost": {
+          "1": "140",
+          "2": "160",
+          "3": "180"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "350",
+          "3": "450"
+        },
+        "Defense reduction|Physical Defense Reduced": {
+          "1": "4%",
+          "2": "6%",
+          "3": "8%"
+        },
+        "Extra Damage": {
+          "1": "150",
+          "2": "210",
+          "3": "270"
+        },
+        "Physical Defense Reduction Stacks": {
+          "1": "{4%, 8%, 12%}",
+          "2": "{6%, 12%, 18%}",
+          "3": "{8%, 16%, 24%}"
+        }
+      }
+    }
+  ]
+}

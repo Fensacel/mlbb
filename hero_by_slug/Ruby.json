@@ -1,0 +1,116 @@
+{
+  "slug": "Ruby",
+  "name": "Ruby",
+  "url": "https://mobile-legends.fandom.com/wiki/Ruby",
+  "intro": "Ruby, the Little Red Hood, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Let's Dance!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Let%27s_dance%21.png/revision/latest?cb=20210816063243",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Ruby gains 6%-20% Spell Vamp (based on level) and inherits 125% Spell Vamp Ratio ( Basic Attacks cannot trigger Lifesteal ). After each skill cast, Ruby can dash to another location, gaining 7.5 (+1.5 × Hero Level) Physical & Magic Defense (scales with level) for 4 seconds. (stacks up to 3 times). Skill terms Blink Movement ability that can pass through obstacles. Spell Vamp Percentage of HP recovered from dealing Skill Damage to an enemy. HP recovered = Skill Damage × Spell Vamp × Spell Vamp Ratio. Usually the Spell Vamp Ratio is 30%–120%, depending on the skill's damage, range and duration.",
+      "properties": {
+        "Extra Hybrid Defense (hero lv. 1)": {
+          "1": "10.8",
+          "2": "21.6",
+          "3": "32.4"
+        },
+        "Extra Hybrid Defense (hero lv. 15)": {
+          "1": "36",
+          "2": "72",
+          "3": "108"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Be Good!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Be_good%21.png/revision/latest?cb=20210816063353",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow | Spell Vamp Ratio: 125% Ruby swings her scythe, dealing 90 (+70%–130% Total Physical Attack) Physical Damage to enemies hit. She then unleashes a shockwave In the same direction, dealing 90 (+70%–130% Total Physical Attack) Physical Damage to enemies hit and slowing them by 40% for 1 second. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Mana Cost": [
+          "25"
+        ],
+        "Physical Bonus": {
+          "1": "70%",
+          "2": "82%",
+          "3": "94%",
+          "4": "106%",
+          "5": "118%",
+          "6": "130%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Don't Run, Wolf King!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0a/Don%27t_run%2C_Wolf_King%21.png/revision/latest?cb=20210816063441",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 125% Ruby swings her scythe herself twice, each swing dealing 60–185 (+55% Total Physical Attack) Physical Damage to nearby enemies, stunning them for 0.5 seconds, and slowly pulling them toward her. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "60",
+          "2": "85",
+          "3": "110",
+          "4": "135",
+          "5": "160",
+          "6": "185"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "I'm Offended!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a9/I%27m_offended%21.png/revision/latest?cb=20210816063549",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 125% Ruby sweeps scythe in the target direction, dealing 200–480 (+200% Total Physical Attack) Physical Damage to enemies hit, pulling them toward her, and stunning them for 0.5 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": {
+          "1": "26.0",
+          "2": "23.0",
+          "3": "20.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "100",
+          "3": "120"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "340",
+          "3": "480"
+        }
+      }
+    }
+  ]
+}

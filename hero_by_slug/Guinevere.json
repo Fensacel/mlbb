@@ -1,0 +1,103 @@
+{
+  "slug": "Guinevere",
+  "name": "Guinevere",
+  "url": "https://mobile-legends.fandom.com/wiki/Guinevere",
+  "intro": "Guinevere, the Ms. Violet, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Super Magic",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Super_Magic.png/revision/latest?cb=20210808074341",
+      "tags": [
+        "Buff",
+        "Damage"
+      ],
+      "description": "Buff Damage Guinevere deals 25% extra damage to airborne enemies. Guinevere deals (+80% Total Physical Attack) (+60% Total Magic Power) Magic Damage with her Basic Attacks and accumulates Super Magic each time she deals damage. When she's fully charged, her next Basic Attack becomes guided , dealing 80 (+100% Total Physical Attack) (+90% Total Magic Power) Magic Damage on hit and restoring 80 (+Guinevere's 8% Lost HP) HP . Enemies hit by Guinevere's enhanced Basic Attack, Energy Wave , or Spatial Migration are marked for 5 seconds. Those with 3 marks will be knocked airborne when hit by her Violet Requiem . Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Energy Wave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Energy_Wave.png/revision/latest?cb=20210808074449",
+      "tags": [
+        "Damage",
+        "Buff"
+      ],
+      "description": "Damage Buff Guinevere releases an energy orb in the target direction, dealing 300–525 (+125% Total Magic Power) Magic Damage to the first enemy hit and slowing them by 25% for 1.2 seconds. Successfully hitting an enemy reduces all her skill cooldowns by 1 second. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Base Damage": {
+          "1": "300",
+          "2": "345",
+          "3": "390",
+          "4": "435",
+          "5": "480",
+          "6": "525"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Spatial Migration",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bd/Spatial_Migration.png/revision/latest?cb=20210808074631",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Guinevere thumps at the target location for 250–400 (+80% Total Magic Power) Magic Damage [, stunning enemies within it for 1 second]. Enemy heroes and creeps hit will be knocked airborne for 1 second and take 125–200 (+50% Total Magic Power) additional Magic Damage . After cast, Guinevere can reactivate the skill in 5 seconds to blink toward the target direction [while invisible for 0.5 seconds] and leave an illusion behind. If the illusion takes damage, it restores Super Magic for Guinevere and will explode in 1.5 seconds, dealing 100 (+30% Total Magic Power) Magic Damage to nearby enemies. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": {
+          "1": "17.0",
+          "2": "16.4",
+          "3": "15.8",
+          "4": "15.2",
+          "5": "14.6",
+          "6": "14.0"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "280",
+          "3": "310",
+          "4": "340",
+          "5": "370",
+          "6": "400"
+        },
+        "Extra Damage": {
+          "1": "125",
+          "2": "140",
+          "3": "155",
+          "4": "170",
+          "5": "185",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Violet Requiem",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Violet_Requiem.png/revision/latest?cb=20210808074543",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Violet Requiem, where is my dear friend? Guinevere creates a force field around her [for 2 seconds], attacking nearby enemies 11 times within 2 seconds, dealing 880–1320 (+385% Total Magic Power) Magic Damage in total. If the enemy hit is already airborne , they will be knocked airborne again, up to 8 additional times. Guinevere is immune to crowd control while casting this skill. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "52.0",
+          "2": "46.0",
+          "3": "40.0"
+        },
+        "Base Damage": {
+          "1": "880",
+          "2": "1100",
+          "3": "1320"
+        }
+      }
+    }
+  ]
+}

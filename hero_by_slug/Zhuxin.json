@@ -1,0 +1,131 @@
+{
+  "slug": "Zhuxin",
+  "name": "Zhuxin",
+  "url": "https://mobile-legends.fandom.com/wiki/Zhuxin",
+  "intro": "Zhuxin, the Beacon of Spirits, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Crimson Butterflies",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Crimson_Butterflies.png/revision/latest?cb=20240620224157",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Every time Zhuxin channels Lantern Flare , she converts the Mana spent into up to 20 Crimson Butterflies to follow her Spirit Lantern . After Zhuxin stops channeling Lantern Flare , the Crimson Butterflies will gradually disappear, each restoring 4% of her Max Mana. Zhuxin has a naturally high base Max Mana, but it doesn't scale with her level.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Fluttering Grace",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Fluttering_Grace.png/revision/latest?cb=20240620224301",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff | Spell Vamp Ratio: 50% Zhuxin deals 150–210 (+30% Total Magic Power) Magic Damage to all enemies in a fan-shaped area and applies 1 stack(s) of Soul Snare . Zhuxin also slows all enemy heroes hit by 20%–40% and gains 20%–40% of extra Movement Speed herself for 1.5 seconds.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.6",
+          "3": "11.2",
+          "4": "10.8",
+          "5": "10.4",
+          "6": "10.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "162",
+          "3": "174",
+          "4": "186",
+          "5": "198",
+          "6": "210"
+        },
+        "Movement Speed Boost": {
+          "1": "20%",
+          "2": "24%",
+          "3": "28%",
+          "4": "32%",
+          "5": "36%",
+          "6": "40%"
+        },
+        "Movement Speed Reduction": {
+          "1": "20%",
+          "2": "24%",
+          "3": "28%",
+          "4": "32%",
+          "5": "36%",
+          "6": "40%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Lantern Flare",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Lantern_Flare.png/revision/latest?cb=20240620224332",
+      "tags": [
+        "Damage",
+        "CC"
+      ],
+      "description": "Damage CC | Spell Vamp Ratio: 50% Hold : Zhuxin can move the Spirit Lantern with the skill button, dealing 33–88 (+28% Total Magic Power) Magic Damage to all enemies within range every 0.25 seconds (damage to Minions increased by 28%) and applying Soul Snare to enemy heroes hit, each time consuming 90–120 Mana. When an enemy hero has 10 stacks of Soul Snare, the Crimson Butterflies will capture them, pulling them airborne for 1 second. Release : Throws all captured enemies to the target location, dealing 270–645 (+150% Total Magic Power) Magic Damage to all enemies in the area. (If an enemy takes damage multiple times, subsequent damage taken will be reduced by 80%.)",
+      "properties": {
+        "Cooldown": [
+          "0.5"
+        ],
+        "Mana Cost": {
+          "1": "90",
+          "2": "96",
+          "3": "102",
+          "4": "108",
+          "5": "114",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "33",
+          "2": "44",
+          "3": "55",
+          "4": "66",
+          "5": "77",
+          "6": "88"
+        },
+        "Extra Damage": {
+          "1": "270",
+          "2": "345",
+          "3": "420",
+          "4": "495",
+          "5": "570",
+          "6": "645"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Crimson Beacon",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Crimson_Beacon.png/revision/latest?cb=20240620224352",
+      "tags": [
+        "Shield",
+        "Mobility"
+      ],
+      "description": "Shield Mobility | Spell Vamp Ratio: 50% Zhuxin blinks to the target location while gaining a 400–700 (+100% Total Magic Power) shield . While flying, she creates a field around her for 6 seconds. The field deals 60–90 (+20% Total Magic Power) Magic Damage and applies 1 stack of Soul Snare to enemies every 1 second.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Shield": {
+          "1": "400",
+          "2": "550",
+          "3": "700"
+        },
+        "Base Damage": {
+          "1": "60",
+          "2": "75",
+          "3": "90"
+        }
+      }
+    }
+  ]
+}

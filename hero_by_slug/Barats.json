@@ -1,0 +1,210 @@
+{
+  "slug": "Barats",
+  "name": "Barats",
+  "url": "https://mobile-legends.fandom.com/wiki/Barats",
+  "intro": "Barats, the Dino Rider, is a hero in Mobile Legends: Bang Bang , and is accompanied by Detona.",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Big Guy",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Big_Guy.png/revision/latest?cb=20240104040408",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Detona gains a stack of Big Guy for 12 seconds each time it or Barats damages an enemy with their skills (up to 10 stacks). Each stack of Big Guy increases Detona's size, and grants 4–10 extra Hybrid Defense (scales with the level of Detona's Welcome) and 5% extra Resilience . At max stacks, Detona's Basic Attacks will be replaced with Trample , which deals (+140% Total Physical Attack) (+3.5% Total HP) Physical Damage to enemies in a circular area, slows them by 40% for 0.2 seconds, and refreshes the duration of Big Guy with each hit. Skill terms Resilience The reduction ratio on the duration of enemy CC effects while it's active. Max HP The maximum HP currently can have. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Hybrid Defense (Ultimate lv. 0)": {
+          "1": "4",
+          "2": "8",
+          "3": "12",
+          "4": "16",
+          "5": "20",
+          "6": "24",
+          "7": "28",
+          "8": "32",
+          "9": "36",
+          "10": "40"
+        },
+        "Hybrid Defense (Ultimate lv. 1)": {
+          "1": "6",
+          "2": "12",
+          "3": "18",
+          "4": "24",
+          "5": "30",
+          "6": "36",
+          "7": "42",
+          "8": "48",
+          "9": "54",
+          "10": "60"
+        },
+        "Hybrid Defense (Ultimate lv. 2)": {
+          "1": "8",
+          "2": "16",
+          "3": "24",
+          "4": "32",
+          "5": "40",
+          "6": "48",
+          "7": "56",
+          "8": "64",
+          "9": "72",
+          "10": "80"
+        },
+        "Hybrid Defense (Ultimate lv. 3)": {
+          "1": "10",
+          "2": "20",
+          "3": "30",
+          "4": "40",
+          "5": "50",
+          "6": "60",
+          "7": "70",
+          "8": "80",
+          "9": "90",
+          "10": "100"
+        },
+        "Resilience": {
+          "1": "5%",
+          "2": "10%",
+          "3": "15%",
+          "4": "20%",
+          "5": "25%",
+          "6": "30%",
+          "7": "35%",
+          "8": "40%",
+          "9": "45%",
+          "10": "50%"
+        },
+        "Extra Basic Attack Range": {
+          "1": "0.0",
+          "2": "0.0",
+          "3": "0.0",
+          "4": "0.2",
+          "5": "0.2",
+          "6": "0.2",
+          "7": "0.2",
+          "8": "0.2",
+          "9": "0.2",
+          "10": "0.4"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "So-Called Teamwork",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/So-Called_Teamwork.png/revision/latest?cb=20240104040431",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE | Spell Vamp Ratio: 50% Detona spits contaminated oil in the target direction, dealing 60–160 (+7% Total HP) Physical Damage to enemies in a fan-shaped area. Barats then ignites the oil with a firecracker, dealing 120–320 (+200% Total Physical Attack) Physical Damage to enemies in the area. The area of effect of So-Called Teamwork increases with the number of Big Guy stacks. [ how much? ] Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Max HP The maximum HP currently can have. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "25",
+          "2": "30",
+          "3": "35",
+          "4": "40",
+          "5": "45",
+          "6": "50"
+        },
+        "Oil Damage": {
+          "1": "60",
+          "2": "80",
+          "3": "100",
+          "4": "120",
+          "5": "140",
+          "6": "160"
+        },
+        "Detonation Damage": {
+          "1": "120",
+          "2": "160",
+          "3": "200",
+          "4": "240",
+          "5": "280",
+          "6": "320"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Missile \"Expert\"",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Missile_%27Expert%27.png/revision/latest?cb=20240104040506",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Barats fires two missiles at the target location, dealing 100–175 (+75% Total Physical Attack) Physical Damage and slowing enemies by 40% for 1 second. The missiles expel fumes from their exhausts upon landing, dealing 100–175 (+75% Total Physical Attack) Physical Damage to enemies in a rectangular area and pushing them toward Barats. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.4",
+          "3": "9.8",
+          "4": "9.2",
+          "5": "8.6",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "76",
+          "3": "82",
+          "4": "88",
+          "5": "94",
+          "6": "100"
+        },
+        "Base Damage, Extra Damage": {
+          "1": "100",
+          "2": "115",
+          "3": "130",
+          "4": "145",
+          "5": "160",
+          "6": "175"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Detona's Welcome",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6f/Detona%27s_Welcome.png/revision/latest?cb=20240104040522",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC After a short delay, Detona charges in the target direction, dealing 120–200 (+70% Total Physical Attack) (+1.2% Total HP) Physical Damage to the first enemy hit, devouring and suppressing them for 1.2 seconds before spitting them out. If the target hits an enemy hero or a wall after being spit out, the target will cause an explosion, they and nearby enemies will take an additional 180–300 (+105% Total Physical Attack) (+1.8% Total HP) Physical Damage and be stunned for 1 second. For the duration, Barats becomes immune to control effects . If the channeling is canceled, 60% of the skill cooldown will be refunded. Passive : Detona gains 4–10 stacks of Big Guy upon respawn. Skill terms Suppress Ultimate level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink or Charge effects. Cannot be removed. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "120",
+          "3": "140"
+        },
+        "Base Damage": {
+          "1": "120",
+          "2": "160",
+          "3": "200"
+        },
+        "Extra Damage": {
+          "1": "180",
+          "2": "240",
+          "3": "300"
+        },
+        "Respawn Stacks": {
+          "1": "4",
+          "2": "7",
+          "3": "10"
+        }
+      }
+    }
+  ]
+}

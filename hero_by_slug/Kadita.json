@@ -1,0 +1,120 @@
+{
+  "slug": "Kadita",
+  "name": "Kadita",
+  "url": "https://mobile-legends.fandom.com/wiki/Kadita",
+  "intro": "Kadita, the Ocean Goddess, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Thalassophobia",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Thalassophobia.png/revision/latest?cb=20210809092741",
+      "tags": [
+        "Heal"
+      ],
+      "description": "Heal Kadita gains the Blessing of the Ocean every 30 seconds. The Blessing is triggered when she takes damage from enemy heroes and lasts 4 seconds, allowing her to recover 65% of the HP Lost within the duration afterward.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Ocean Ode",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Ocean_Ode.png/revision/latest?cb=20210809092828",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE | Spell Vamp Ratio: 50% Kadita summons an ocean wave to carry herself in the target direction and back, dealing 250–450 (+90% Total Magic Power) Magic Damage to enemies hit and slowing them by 30%. While inside the wave, she gains Control Immunity and 50% Damage Reduction . This skill can pass through obstacles and terrain. Use Again : Kadita exits the wave without interrupting the wave's movement. Skill terms Blink Movement ability that can pass through obstacles. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "9.0",
+          "2": "8.5",
+          "3": "8.0",
+          "4": "7.5",
+          "5": "7.0",
+          "6": "6.5"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "290",
+          "3": "330",
+          "4": "370",
+          "5": "410",
+          "6": "450"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Breath of the Ocean",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Breath_of_the_Ocean.png/revision/latest?cb=20210809092915",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC | Spell Vamp Ratio: 50% After a short delay, Kadita summons an ocean wave to erupt at the target location, dealing 350–550 (+140% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 1 second. Kadita can cast this skill during Ocean Ode to summon an ocean wave beneath her with a shorter eruption delay. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Mana Cost": {
+          "1": "90",
+          "2": "100",
+          "3": "110",
+          "4": "120",
+          "5": "130",
+          "6": "140"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "380",
+          "3": "410",
+          "4": "440",
+          "5": "470",
+          "6": "550"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Rough Waves",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a0/Rough_Waves.png/revision/latest?cb=20210809093025",
+      "tags": [
+        "Burst",
+        "Invincible"
+      ],
+      "description": "Burst Invincible | Spell Vamp Ratio: 50% Kadita dives into the ground and sends ocean waves in all directions, each dealing 270–330 (+60% Total Magic Power) Magic Damage to enemies hit and slowing them by 30%. Enemies hit by multiple waves take increased damage. After a short period, the waves return to Kadita, each dealing 180–220 (+40% Total Magic Power) Magic Damage to enemies hit. When diving underground, Kadita cannot be interrupted (excluding Suppression ). When underground, Kadita becomes untargetable and gains 60% Movement Speed . Skill terms Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "36.0",
+          "3": "32.0"
+        },
+        "Mana Cost": {
+          "1": "200",
+          "2": "240",
+          "3": "280"
+        },
+        "Base Damage": {
+          "1": "270",
+          "2": "300",
+          "3": "330"
+        },
+        "Return Damage": {
+          "1": "180",
+          "2": "200",
+          "3": "220"
+        }
+      }
+    }
+  ]
+}

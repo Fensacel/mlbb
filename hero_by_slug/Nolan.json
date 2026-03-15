@@ -1,0 +1,105 @@
+{
+  "slug": "Nolan",
+  "name": "Nolan",
+  "url": "https://mobile-legends.fandom.com/wiki/Nolan",
+  "intro": "Nolan, the Cosmic Wayfinder, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Dimensional Rift",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Dimensional_Rift.png/revision/latest/scale-to-width-down/100?cb=20231110015640",
+      "tags": [
+        "Damage"
+      ],
+      "description": "Damage The father who swore to protect his shining star. Nolan's skills will leave a Rift that lasts 5 seconds and slows enemies by 30%. When a rift comes into contact with another rift, they will activate and pull enemies to their center and deal 220 (+140% Extra Physical Attack) Physical Damage after a short delay. Each time a rift activation hits an enemy hero or Creep , Nolan will gain 15 Energy and heals 150 (+120% Extra Physical Attack) for himself. If an enemy is hit by multiple rift activations, the damage after the first hit will be reduced to 40%. Cosmic Leap: If Nolan does not deal or take damage for 5 seconds, he enhances his next Basic Attack to dash to the target, dealing (+120% Total Physical Attack) Physical Damage and leaving a rift. (Damage to and from Minions or Creeps will not prevent Nolan from getting this effect.) Skill terms Pull Target Displacement: Cannot interrupt skills or Blink.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Expansion",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Expansion.png/revision/latest/scale-to-width-down/100?cb=20231110015656",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE The scholar that explored the edge of the universe. Nolan cuts a rectangular area in front of him with his cosmic gauge, dealing 230–480 (+40% Total Physical Attack) Physical Damage and leaving a rift at the first enemy hit.",
+      "properties": {
+        "Cooldown": {
+          "1": "2.0",
+          "2": "1.8",
+          "3": "1.6",
+          "4": "1.4",
+          "5": "1.2",
+          "6": "1.0"
+        },
+        "Energy Cost": [
+          "25"
+        ],
+        "Base Damage": {
+          "1": "230",
+          "2": "280",
+          "3": "330",
+          "4": "380",
+          "5": "430",
+          "6": "480"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Gauge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Gauge.png/revision/latest/scale-to-width-down/100?cb=20231110015706",
+      "tags": [
+        "Mobility"
+      ],
+      "description": "Mobility The wayfinder that measured the distance of the star Nolan charges in the target direction and slashes with his cosmic gauge, dealing 70–220 (+13% Total Physical Attack) Physical Damage to enemies in his path and leaving a Rift .",
+      "properties": {
+        "Cooldown": {
+          "1": "2.0",
+          "2": "1.8",
+          "3": "1.6",
+          "4": "1.4",
+          "5": "1.2",
+          "6": "1.0"
+        },
+        "Energy Cost": [
+          "25"
+        ],
+        "Base Damage": {
+          "1": "70",
+          "2": "100",
+          "3": "130",
+          "4": "160",
+          "5": "190",
+          "6": "220"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Fracture",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Fracture.png/revision/latest/scale-to-width-down/100?cb=20231110015726",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst The hero that finally returned home. Nolan slashes the target location 3 times, 120–180 (+50% Extra Physical Attack) Physical Damage with each slash while leaving 3 Rifts and slowing the target hit by 30% for 0.5s. The rifts will be activated automatically while Nolan dashes backwards.",
+      "properties": {
+        "Cooldown": {
+          "1": "21.0",
+          "2": "18.0",
+          "3": "15.0"
+        },
+        "Energy Cost": [
+          "0"
+        ],
+        "Base Damage": {
+          "1": "120",
+          "2": "150",
+          "3": "180"
+        }
+      }
+    }
+  ]
+}

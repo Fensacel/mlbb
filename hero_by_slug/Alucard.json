@@ -1,0 +1,116 @@
+{
+  "slug": "Alucard",
+  "name": "Alucard",
+  "url": "https://mobile-legends.fandom.com/wiki/Alucard",
+  "intro": "Alucard, the Demon Hunter, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Pursuit",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Pursuit.png/revision/latest?cb=20211216232556",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After each skill cast, Alucard's next Basic Attack allows him to dash to the target's location and deal (+140% Total Physical Attack) Physical Damage . Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Groundsplitter",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Groundsplitter.png/revision/latest?cb=20200718155948",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Alucard rolls to the target location and slams his blade on the ground, dealing 270–370 (+110% Extra Physical Attack) Physical Damage to enemies hit and slowing them by 40% for 2 seconds. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.5",
+          "2": "8.1",
+          "3": "7.7",
+          "4": "7.3",
+          "5": "6.9",
+          "6": "6.5"
+        },
+        "Base Damage": {
+          "1": "270",
+          "2": "290",
+          "3": "310",
+          "4": "330",
+          "5": "350",
+          "6": "370"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Whirling Smash",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Whirling_Smash.png/revision/latest?cb=20211216232613",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Alucard launches a whirling slash, dealing 345–570 (+120% Extra Physical Attack) Physical Damage to nearby enemies. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "6.0",
+          "2": "5.6",
+          "3": "5.2",
+          "4": "4.8",
+          "5": "4.4",
+          "6": "4.0"
+        },
+        "Base Damage": {
+          "1": "345",
+          "2": "390",
+          "3": "435",
+          "4": "480",
+          "5": "525",
+          "6": "570"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Fission Wave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a0/Fission_Wave.png/revision/latest?cb=20211216232655",
+      "tags": [
+        "Buff",
+        "Burst"
+      ],
+      "description": "Buff Burst Passive: Alucard permanently gains 10%-30% extra Hybrid Lifesteal . Active: Alucard absorbs the energy of enemies in the target area, reducing their Movement Speed by 30% and Hybrid Defense by 10-20. Alucard gains 10-20 Hybrid Defense for each enemy hero hit and reduces the cooldown of his other skills to 50% for 6 seconds. Use Again : Alucard releases a shockwave in the target direction, dealing 400–700 (+200% Extra Physical Attack) Physical Damage to enemies hit. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Hybrid Defense Physical + Magic Defense. Hybrid Lifesteal Lifesteal (Basic Attacks) + Spell Vamp (Skills).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Duration": [
+          "6.0"
+        ],
+        "Hybrid Lifesteal (Passive)": {
+          "1": "10%",
+          "2": "20%",
+          "3": "30%"
+        },
+        "Hybrid Defense (Active)": {
+          "1": "10",
+          "2": "15",
+          "3": "20"
+        },
+        "Reduce Hybrid Defense (Enemies)": {
+          "1": "10",
+          "2": "15",
+          "3": "20"
+        },
+        "Base Damage": {
+          "1": "400",
+          "2": "550",
+          "3": "700"
+        }
+      }
+    }
+  ]
+}

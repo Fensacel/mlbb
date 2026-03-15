@@ -1,0 +1,125 @@
+{
+  "slug": "Atlas",
+  "name": "Atlas",
+  "url": "https://mobile-legends.fandom.com/wiki/Atlas",
+  "intro": "Atlas, the Ocean Gladiator, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Frigid Breath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Frigid_Breath.png/revision/latest?cb=20220410091657",
+      "tags": [
+        "Buff",
+        "Debuff"
+      ],
+      "description": "Buff Debuff Atlas generates Frigid Breath around him for 5 seconds each time he casts a skill. Enemies who stay in the area over 1.5 seconds will have their Movement Speed gradually reduced until they are frozen for 0.5 seconds. Atlas gains 16-30 extra Physical and Magic Defense when Frigid Breath is present. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Annihilate",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Annihilate.png/revision/latest?cb=20220410091648",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Atlas smashes the ground and causes 3 explosions. Each explosion deals 230–430 (+60% Total Magic Power) Magic Damage to enemies. Ejected State : If Atlas has ejected from his Mecha Sentry, both himself and his Mecha will cast Annihilate . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.5",
+          "3": "6.0",
+          "4": "5.5",
+          "5": "5.0",
+          "6": "4.5"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "66",
+          "3": "72",
+          "4": "78",
+          "5": "84",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "230",
+          "2": "270",
+          "3": "310",
+          "4": "350",
+          "5": "390",
+          "6": "430"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Perfect Match",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Perfect_Match.png/revision/latest?cb=20220410091559",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Atlas enters Ejected State , gaining 40% Movement Speed and immunity to slow effects . In this state, the Mecha Sentry will follow the pilot at an increasing speed (can only be controlled by Suppression ). Once they meet, Atlas will return to the Mecha, dealing 320–420 (+80% Total Magic Power) Magic Damage to enemies nearby and stunning them for 1 second. Ejected State : Atlas and his Mecha share the same HP bar and reduce 50% of the damage taken in this state. Skill terms Slow Immunity You are immune to enemy slow effects within the duration. Stunned A state that prevents a target from moving, attacking, or using skills. Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.0",
+          "3": "13.0",
+          "4": "12.0",
+          "5": "11.0",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "75",
+          "2": "80",
+          "3": "85",
+          "4": "90",
+          "5": "95",
+          "6": "100"
+        },
+        "Base Damage": {
+          "1": "320",
+          "2": "340",
+          "3": "360",
+          "4": "380",
+          "5": "400",
+          "6": "420"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Fatal Links",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Fatal_Links.png/revision/latest?cb=20220410091537",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Atlas hurls chains around and starts to channel (can only be interrupted by suppressing ), dealing 225–475 (+75% Total Magic Power) Magic Damage to enemy heroes hit and slowing them by 40% for 3 seconds. Use this skill again while channeling: Atlas will drag the targets toward him and plunk them down on the designated location, dealing 360–760 (+180% Total Magic Power) Magic Damage . Use this skill in Ejected State : The Mecha Sentry will return to Atlas immediately, but the stun effect will be replaced by 40% slow effect . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Mana Cost": {
+          "1": "130",
+          "2": "150",
+          "3": "170"
+        },
+        "Base Connection Damage": {
+          "1": "225",
+          "2": "350",
+          "3": "475"
+        },
+        "Base Smash Damage": {
+          "1": "360",
+          "2": "560",
+          "3": "760"
+        }
+      }
+    }
+  ]
+}

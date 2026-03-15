@@ -1,0 +1,111 @@
+{
+  "slug": "Dyrroth",
+  "name": "Dyrroth",
+  "url": "https://mobile-legends.fandom.com/wiki/Dyrroth",
+  "intro": "Dyrroth, the Prince of the Abyss, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Wrath of the Abyss",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/53/Wrath_of_the_Abyss.png/revision/latest?cb=20250917081930",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal When Dyrroth's Rage reaches 50%, he will enhance Burst Strike and Spectre Step . After each 2 Basic Attacks , Dyrroth will release Circle Strike , dealing (+160% Total Physical Attack) Physical Damage to enemies in the circle and regenerating [50 + 40% of the damage dealt HP ] (Circle Strike doesn't have ATK Effect). Each time he hits an enemy hero, the CD of Burst Strike and Spectre Step will be decreased by 1 second. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%). CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Burst Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Burst_Strike.png/revision/latest?cb=20250917081928",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Dyrroth releases a burst strike in a designated direction. Each burst deals 200–450 (+60% Extra Physical Attack) Physical Damage to enemies and slows them by 25% for 1.5 seconds. (The damage decays against the same target and decreases to only 75% on minions .) Abyss Enhanced : Burst Strike has a longer range, deals 140% of the original damage , and its slow effect is doubled. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "250",
+          "3": "300",
+          "4": "350",
+          "5": "400",
+          "6": "450"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Spectre Step",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Spectre_Step.png/revision/latest?cb=20250917081929",
+      "tags": [
+        "Mobility",
+        "Damage"
+      ],
+      "description": "Mobility Damage Dyrroth dashes in the designated direction. He will stop when he hits a [non-minion] target, dealing 230–355 (+60% Extra Physical Attack) Physical Damage to enemies. When he uses this skill again, he will lock onto a target and release a Fatal Strike, dealing [a total of] 345–570 (+120% Extra Physical Attack) Physical Damage . Enemy heroes or creeps hit by Fatal Strike will have their Physical Defense reduced by 40% for 4 seconds. Abyss Enhanced : Fatal Strike will deal 150% of the original damage , slow the target by an extra 90% [for 1 second] and reduce the target's Physical Defense by 60% [instead] for 4 seconds. Skill terms Blink Movement ability that can pass through obstacles. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.2",
+          "3": "6.4",
+          "4": "5.6",
+          "5": "4.8",
+          "6": "4.0"
+        },
+        "Base Damage": {
+          "1": "230",
+          "2": "255",
+          "3": "280",
+          "4": "305",
+          "5": "330",
+          "6": "355"
+        },
+        "Added Damage": {
+          "1": "345",
+          "2": "390",
+          "3": "435",
+          "4": "480",
+          "5": "525",
+          "6": "570"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Abysm Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/ff/Abysm_Strike.png/revision/latest?cb=20250917081927",
+      "tags": [
+        "Burst",
+        "Slow"
+      ],
+      "description": "Burst Slow After a short delay, Dyrroth launches a destrucive strike in the target direction (cannot be interrupted), dealing 650–1250 (+250% Extra Physical Attack) (+enemies' 20% Lost HP) Physical Damage to enemies along the way and slowing them by 55% for 0.8 seconds. Skill terms Lost HP Lost HP = Max HP - Current HP. Blink Movement ability that can pass through obstacles. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "32.0",
+          "3": "28.0"
+        },
+        "Base Damage": {
+          "1": "650",
+          "2": "950",
+          "3": "1250"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "Dyrroth BUFF",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0d/Dyrroth-Silvanna_BUFF.png/revision/latest?cb=20211210070349",
+      "tags": [],
+      "description": "If Silvanna is in the enemy's team, increases self's attack speed by 1%.",
+      "properties": {}
+    }
+  ]
+}

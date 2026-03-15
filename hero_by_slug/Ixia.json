@@ -1,0 +1,116 @@
+{
+  "slug": "Ixia",
+  "name": "Ixia",
+  "url": "https://mobile-legends.fandom.com/wiki/Ixia",
+  "intro": "Ixia, the Arclight Outlaw, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Siphon Starlium",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Siphon_Starlium.png/revision/latest?cb=20231230023556",
+      "tags": [
+        "Damage",
+        "Heal"
+      ],
+      "description": "Damage Heal Ixia's Basic Attacks and skills apply a stack of Starlium Charge to enemies on hit. When Ixia performs a Basic Attack on an enemy with two stacks of Starlium Charge, the attack will consume the stacks and be replaced with Siphon Starlium , dealing (+150% Total Physical Attack) (+200 × Lifesteal) plus (+10 × Hero Level) Physical Damage to the target. Ixia recovers HP equal to the damage dealt by Siphon Starlium (only 20 (+100 × Lifesteal) % against non-hero units). Siphon Starlium can trigger on all enemies in front of Ixia that are within her Basic Attack range, but it cannot critically strike . Ixia's Basic Attacks cannot trigger Lifesteal .",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Dual Beam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/ce/Dual_Beam.png/revision/latest?cb=20231230023610",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Ixia fires 2 Starlium-charged energy beams along the ground in the target direction, dealing 120–225 (+80% Total Physical Attack) Physical Damage to enemies in a rectangular area and slowing enemy heroes by 40%. Upon hitting an enemy hero, Ixia also gains 40% Movement Speed for 3 seconds. Enemies hit by both beams will take double damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.2",
+          "3": "6.4",
+          "4": "5.6",
+          "5": "4.8",
+          "6": "4.0"
+        },
+        "Mana Cost": {
+          "1": "40",
+          "2": "45",
+          "3": "50",
+          "4": "55",
+          "5": "60",
+          "6": "65"
+        },
+        "Base Damage": {
+          "1": "175",
+          "2": "200",
+          "3": "225",
+          "4": "250",
+          "5": "275",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Star Helix",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Star_Helix.png/revision/latest?cb=20231230023637",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Ixia launches a canister of Starlium energy in the target direction, knocking back nearby enemies, and pulling enemies in range to the center line after a short delay (approximately 0.5 seconds) and dealing 200–300 (+60% Total Physical Attack) Physical Damage .",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.6",
+          "3": "10.2",
+          "4": "9.8",
+          "5": "9.4",
+          "6": "9.0"
+        },
+        "Mana Cost": {
+          "1": "75",
+          "2": "80",
+          "3": "85",
+          "4": "90",
+          "5": "95",
+          "6": "100"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Full Barrage",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0a/Full_Barrage.png/revision/latest?cb=20231230023654",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Ixia disassembles her weapon into 6 smaller weapons and enters the Barrage state for 4 seconds. In this state, Ixia's Basic Attacks and skills can hit enemies in a large fan-shaped area but not outside of it. Ixia's Basic Attacks can hit up to 6 enemy units (prioritizes heroes), and Siphon Starlium will fire simultaneously with her normal Basic Attacks.",
+      "properties": {
+        "Cooldown": {
+          "1": "54.0",
+          "2": "48.0",
+          "3": "42.0"
+        },
+        "Mana Cost": {
+          "1": "75",
+          "2": "90",
+          "3": "105"
+        },
+        "Cast Range": [
+          "11 (Patch Notes 1.8.20)"
+        ]
+      }
+    }
+  ]
+}

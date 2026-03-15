@@ -1,0 +1,57 @@
+{
+  "slug": "Leomord",
+  "name": "Leomord",
+  "url": "https://mobile-legends.fandom.com/wiki/Leomord",
+  "intro": "Leomord, the Sworn Sword, is a hero in Mobile Legends: Bang Bang , and is accompanied by Barbiel.",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "The Oath Keeper",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ac/The_Oath_Keeper.png/revision/latest?cb=20220628181202",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Leomord's Basic Attacks and skills grant him 25 Oath Keeper energy each time they deal damage to targets. When this energy reach 100, his next Basic Attack deals 200% Crit Damage and restores 100 (+10 × Hero Level) (+15% Extra HP) . Leomord's Basic Attacks cannot normally Crit, and every 1% Crit Chance is converted into 1% Crit Damage. Mounted State : Each Oath Keeper energy gain is increased by 200%. Skill terms Crit Damage The ratio of Crit Damage to Base Damage. The default is 200%. Crit Damage Dealt = Original Damage × (200% + All Crit Damage Increase% - All Crit Damage Decrease%).",
+      "properties": {}
+    },
+    {
+      "section": "Ultimate",
+      "name": "Phantom Steed",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/ff/Phantom_Steed.png/revision/latest?cb=20220628181153",
+      "tags": [
+        "Summon",
+        "Morph"
+      ],
+      "description": "Summon Morph Leomord summons Barbiel to rush to him, dealing Template:Sscale to all enemies in its path. If Barbiel comes in contact with Leomord, they will enter the Mounted State, gaining 50% Movement Speed that decays over 2 seconds. Mounted State : Leomord gains a brand-new set of skills, and his Basic Attack can be used while moving and hits a circular area to deal AOE damage. Leomord also gains extra 70 Movement Speed and 30–110 Physical & Magic Defense . This lasts 10 seconds. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "30.0",
+          "2": "25.0",
+          "3": "20.0",
+          "4": "",
+          "5": "",
+          "6": ""
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "140",
+          "3": "180",
+          "4": "220",
+          "5": "260",
+          "6": "300"
+        },
+        "Hybrid Defense Increase": {
+          "1": "30",
+          "2": "70",
+          "3": "110",
+          "4": "",
+          "5": "",
+          "6": ""
+        }
+      }
+    }
+  ]
+}

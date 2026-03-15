@@ -1,0 +1,101 @@
+{
+  "slug": "Helcurt",
+  "name": "Helcurt",
+  "url": "https://mobile-legends.fandom.com/wiki/Helcurt",
+  "intro": "Helcurt, the Shadowbringer, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Shadow of Styx",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Shadow_of_Styx.png/revision/latest?cb=20240605110519",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff He who hides in the shadow. Helcurt remains in the Prowler state until spotted by the enemy team, gaining 15% extra Movement Speed , and continuously regenerating (+30% Total Physical Attack) HP if he has not dealt any damage. He gains 50% extra Attack Speed and 50% extra Movement Speed (decreasing over time) for 4 seconds upon being spotted and leaves Prowler state 0.75 second later. Any hero killed after hit by Helcurt leaves a dark fog that explodes and spreads with a cooldown of 10 seconds. Helcurt Conceals himself while within the dark fog .",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Hidden Terror",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Hidden_Terror.png/revision/latest?cb=20240605110545",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Passive : When Helcurt is in Prowler state, the skill terrifies enemy heroes hit and its cooldown decreases 3 times as fast Active : Helcurt blinks to the target location and deals 150–300 (+70% Total Physical Attack) Physical Damage to enemies within the area, reducing their Movement Speed by 60% for 0.75s. Skill terms Blink Movement ability that can pass through obstacles. CC",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.0",
+          "3": "13.0",
+          "4": "12.0",
+          "5": "11.0",
+          "6": "10.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Deadly Stinger",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Deadly_Stinger.png/revision/latest?cb=20240605110608",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst | Attack Effects: 100% He who awakes in the slaughter. Passive: Helcurt gains one Deadly Stinger for every 1.5s spent in Prowler state or on each Basic Attack . Up to 5 stingers can be stored. Active: Helcurt fires all Deadly Stingers forward, each dealing 180–280 (+42% Extra Physical Attack) Physical Damage to enemies ( Minions and Creeps only take 70% of the damage) Deadly Stinger counts as a Basic Attack, but it cannot Crit . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "4.0",
+          "2": "3.7",
+          "3": "3.4",
+          "4": "3.1",
+          "5": "2.8",
+          "6": "2.5"
+        },
+        "Base Damage": {
+          "1": "180",
+          "2": "200",
+          "3": "220",
+          "4": "240",
+          "5": "260",
+          "6": "280"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Dark Night Falls",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Dark_Night_Falls.png/revision/latest?cb=20240605110619",
+      "tags": [
+        "Buff",
+        "Debuff"
+      ],
+      "description": "Buff Debuff He who resurrects in the night. Helcurt summons the Dark Night , reducing all enemies' sight range and making them lose sight of their allies for 3s. During Dark Night , Helcurt gains 40% Movement Speed . The Dark Night makes it easier for Helcurt to leave enemies' sight range.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Duration": [
+          "3 seconds"
+        ],
+        "Movement Speed Bonus": {
+          "1": "40%",
+          "2": "45%",
+          "3": "50%"
+        }
+      }
+    }
+  ]
+}

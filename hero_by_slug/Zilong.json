@@ -1,0 +1,124 @@
+{
+  "slug": "Zilong",
+  "name": "Zilong",
+  "url": "https://mobile-legends.fandom.com/wiki/Zilong",
+  "intro": "Zilong, the Spear of Dragon, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Dragon Flurry",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/Dragon_Flurry.png/revision/latest?cb=20210903165112",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal After dealing damage 3 time(s) with Basic Attacks or skills, Zilong triggers Dragon Flurry on the next Basic Attack , hitting the target 3 time(s). Each hit deals 80 (+30% Total Physical Attack) Basic Attack Damage and heals himself for 50 (+20% Total Physical Attack) HP . Zilong's Basic Attack deals 100 (+80% Total Physical Attack) Physical Damage . If the target's HP is below 50%, all damage dealt by Zilong skills and Basic Attacks is increased by 30. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Spear Flip",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c2/Spear_Flip.png/revision/latest?cb=20210903165308",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Zilong flings the target enemy over his head, dealing 250–350 (+80% Total Physical Attack) Physical Damage . Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Skill Damage",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.5",
+          "3": "11.0",
+          "4": "10.5",
+          "5": "10.0",
+          "6": "9.5"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "85",
+          "3": "90",
+          "4": "95",
+          "5": "100",
+          "6": "105"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "270",
+          "3": "290",
+          "4": "310",
+          "5": "330",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Spear Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b6/Spear_Strike.png/revision/latest?cb=20210903165358",
+      "tags": [
+        "Mobility",
+        "Debuff"
+      ],
+      "description": "Mobility Debuff Zilong lunges at the target enemy, dealing 250–450 (+60% Total Physical Attack) Physical Damage and reducing their Physical Defense by 15–30 for 2 seconds. The cooldown of Spear Strike is reset each time Zilong kills an enemy. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.4",
+          "3": "10.8",
+          "4": "10.2",
+          "5": "9.6",
+          "6": "9.0"
+        },
+        "Mana Cost": [
+          "40"
+        ],
+        "Physical Defense Reduction": {
+          "1": "15",
+          "2": "18",
+          "3": "21",
+          "4": "24",
+          "5": "27",
+          "6": "30"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Supreme Warrior",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Supreme_Warrior.png/revision/latest?cb=20210903165435",
+      "tags": [
+        "Speed Up",
+        "Buff"
+      ],
+      "description": "Speed Up Buff Zilong removes all slow Effects on himself and gains 40% Movement Speed , 35%–55% Attack Speed , and Slow Immunity for 7.5 seconds. For the duration, he can trigger Dragon Furry after every 2 Basic Attacks (instead of the previous 3). Skill terms Slow Immunity You are immune to enemy slow effects within the duration. Exceptional Status Debuff applied to the enemy.",
+      "properties": {
+        "Cooldown": {
+          "1": "35.0",
+          "2": "31.0",
+          "3": "27.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "140",
+          "3": "160"
+        },
+        "Attack Speed Bonus": {
+          "1": "35%",
+          "2": "45%",
+          "3": "55%"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "The Oriental Fighters",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+      "tags": [],
+      "description": "A team will gain higher movement speed boost with more Oriental Fighters in the battlefield.",
+      "properties": {}
+    }
+  ]
+}

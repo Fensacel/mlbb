@@ -1,0 +1,191 @@
+{
+  "slug": "Carmilla",
+  "name": "Carmilla",
+  "url": "https://mobile-legends.fandom.com/wiki/Carmilla",
+  "intro": "Carmilla, the Shadow of Twilight, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Vampire Pact",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Vampire_Pact.png/revision/latest?cb=20241020152046",
+      "tags": [
+        "Buff",
+        "Debuff"
+      ],
+      "description": "Buff Debuff Each time Carmilla deals damage to an enemy hero, she steals 7–11 Physical Defense & Magic Defense (scales with level) from them. The stolen Physical and Magic Defense can stack up to 5 times and last 5 seconds. However, Carmilla can only steal defense from the same enemy hero once every 5 seconds. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+      "properties": {
+        "Stolen Physical & Magic Defense (level 1)": {
+          "1": "7",
+          "2": "14",
+          "3": "21",
+          "4": "28",
+          "5": "35"
+        },
+        "Stolen Physical & Magic Defense (level 8)": {
+          "1": "9",
+          "2": "18",
+          "3": "27",
+          "4": "36",
+          "5": "45"
+        },
+        "Stolen Physical & Magic Defense (level 15)": {
+          "1": "11",
+          "2": "22",
+          "3": "33",
+          "4": "44",
+          "5": "55"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Crimson Flower",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Crimson_Flower.png/revision/latest?cb=20241020152042",
+      "tags": [
+        "Damage",
+        "Heal"
+      ],
+      "description": "Damage Heal | Spell Vamp Ratio: 50% Carmilla summons two Crimson Flowers that circle around her for 5 seconds dealing 100–200 (+50% Total Magic Power) Magic Damage each time they hit an enemy and slowing them by 10% for 0.8 seconds (the slow effect stacks up to 50%). The circling speed of the Crimson Flowers also increases with each hit. [ speed unknown ] Carmilla recovers 75–150 (+35% Total Magic Power) HP each time a Crimson Flower deals damage (only recovers 30% of that amount when hitting Minions). Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": [
+          "9.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "58",
+          "3": "66",
+          "4": "74",
+          "5": "82",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        },
+        "HP Regen": {
+          "1": "75",
+          "2": "90",
+          "3": "105",
+          "4": "120",
+          "5": "135",
+          "6": "150"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Bloodbath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Bloodbath.png/revision/latest?cb=20241020152039",
+      "tags": [
+        "Speed Up",
+        "CC"
+      ],
+      "description": "Speed Up CC Carmilla accumulates Bloodbath Energy, gaining 70% Movement Speed that decays over 4.5 seconds. Use Again: Carmilla unleashes the accumulated Bloodbath Energy on the target enemy hero or Creep, dealing 150–300 (+120% Total Magic Power) Magic Damage and stunning them for 0.6 seconds. The damage and stun duration scale with the accumulation time (up to 100%). Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.2",
+          "3": "10.4",
+          "4": "9.6",
+          "5": "8.8",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "85",
+          "2": "100",
+          "3": "115",
+          "4": "130",
+          "5": "145",
+          "6": "160"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Curse of Blood",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Curse_of_Blood.png/revision/latest?cb=20241020152035",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC | Spell Vamp Ratio: 50% Carmilla casts Curse of Blood on the target location, slowing enemies hit by 50%. After 0.8 seconds, enemies still within the area will take 450–750 (+130% Total Magic Power) Magic Damage , and will be immobilized for 1 seconds, slowed by 30% and linked for 5 seconds. When a linked enemy takes damage or becomes controlled, all the other linked targets take 50% of the damage and become controlled for 100% of the duration. Enemies can move away from one another to break the link. [ range unknown ] Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "52.0",
+          "3": "44.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Base Damage": {
+          "1": "275",
+          "2": "400",
+          "3": "525"
+        }
+      }
+    },
+    {
+      "section": "Other",
+      "name": "Vermeil Shadow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/48/Vermeil_Shadow.png/revision/latest?cb=20220204080855",
+      "tags": [
+        "Mobility",
+        "Slow"
+      ],
+      "description": "Mobility Slow Cecilion summons Carmilla to become a Vermil [ sic ] Shadow as she wraps herself around him, granting him a 500 (+20 × Hero Level) shield . Use Again: Carmilla leaves Cecilion and charges at the target location, gaining an equal shield while dealing 500 (+20 × Hero Level) Magic Damage to enemies hit and slowing them by 30% for 1 second. The cooldowns of her Crimson Flower and Bloodbath will also reset. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Base Shield": {
+          "1": "520",
+          "2": "540",
+          "3": "560",
+          "4": "580",
+          "5": "600",
+          "6": "620",
+          "7": "640",
+          "8": "660",
+          "9": "680",
+          "10": "700",
+          "11": "720",
+          "12": "740",
+          "13": "760",
+          "14": "780",
+          "15": "800"
+        },
+        "Magic Damage": {
+          "1": "520",
+          "2": "540",
+          "3": "560",
+          "4": "580",
+          "5": "600",
+          "6": "620",
+          "7": "640",
+          "8": "660",
+          "9": "680",
+          "10": "700",
+          "11": "720",
+          "12": "740",
+          "13": "760",
+          "14": "780",
+          "15": "800"
+        }
+      }
+    }
+  ]
+}

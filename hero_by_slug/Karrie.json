@@ -1,0 +1,128 @@
+{
+  "slug": "Karrie",
+  "name": "Karrie",
+  "url": "https://mobile-legends.fandom.com/wiki/Karrie",
+  "intro": "Karrie, the Lost Star, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Lightwheel Mark",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Lightwheel_Mark.png/revision/latest?cb=20180524145209",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Karrie's Basic Attacks and skills apply a stack of Lightwheel Mark on hit. Once a target has 5 stacks of Lightwheel Marks, the marks will turn into a lightwheel, dealing True Damage equal to 6%-8% of the target's Max HP to them (only up to 300 damage against Creeps). Skill terms True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Max HP The maximum HP currently can have.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Spinning Lightwheel",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/be/Spinning_Lightwheel.png/revision/latest?cb=20180524145319",
+      "tags": [],
+      "description": "Karrie releases a sphere of surging energy in the target direction, dealing 250–375 (+90% Extra Physical Attack) Physical Damage to enemies in its path. The sphere will stop upon hitting an enemy hero or reaching its max travel distance, continuously dealing 150–200 (+20% Extra Physical Attack) Physical Damage to nearby enemies and slowing them by 80% for 1s. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Mana Cost": {
+          "1": "40",
+          "2": "45",
+          "3": "50",
+          "4": "55",
+          "5": "60",
+          "6": "65"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "275",
+          "3": "300",
+          "4": "325",
+          "5": "350",
+          "6": "375"
+        },
+        "Sustained Damage": {
+          "1": "150",
+          "2": "160",
+          "3": "170",
+          "4": "180",
+          "5": "190",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Phantom Step",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Phantom_Step.png/revision/latest?cb=20180524151835",
+      "tags": [
+        "Mobility",
+        "Damage"
+      ],
+      "description": "Mobility Damage Karrie dashes in the target direction while throwing a lightwheel at the nearest enemy, dealing 150–275 (+70% Extra Physical Attack) Physical Damage and applying a stack of Lightwheel Mark on them. When in Dual Wield state, Karrie throws two lightwheels instead. Skill terms Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "4.5",
+          "2": "4.1",
+          "3": "3.7",
+          "4": "3.3",
+          "5": "2.9",
+          "6": "2.5"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "175",
+          "3": "200",
+          "4": "225",
+          "5": "250",
+          "6": "275"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Speedy Lightwheel",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/da/Speedy_Lightwheel.png/revision/latest?cb=20180524151018",
+      "tags": [
+        "Buff",
+        "Burst"
+      ],
+      "description": "Buff Burst Karrie enters Dual Wield state for 6s, during which she gains 20% Movement Speed and throws two lightwheels with each Basic Attack, each dealing 50-70% Basic Attack damage annd inheriting a portion of Attack Effects. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {
+        "Cooldown": [
+          "35.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90"
+        },
+        "Duration": {
+          "1": "6",
+          "2": "8",
+          "3": "10"
+        },
+        "Attack Damage": {
+          "1": "50%",
+          "2": "60%",
+          "3": "70%"
+        },
+        "Attack Effect": {
+          "1": "50%",
+          "2": "60%",
+          "3": "70%"
+        }
+      }
+    }
+  ]
+}

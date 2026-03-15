@@ -1,0 +1,51 @@
+{
+  "slug": "Yin",
+  "name": "Yin",
+  "url": "https://mobile-legends.fandom.com/wiki/Yin",
+  "intro": "Yin, the Martial Genius, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Leave It to Me",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Leave_It_to_Me.png/revision/latest?cb=20220108155655",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff If there are no nearby allies within 4 units, Yin's damage is increased to 120% and gains 8% Spell Vamp .",
+      "properties": {}
+    },
+    {
+      "section": "Ultimate",
+      "name": "My Turn",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/My_Turn.png/revision/latest?cb=20220108155647",
+      "tags": [
+        "CC",
+        "Buff"
+      ],
+      "description": "CC Buff After a short delay Yin pulls an enemy (excluding pets and clones ) into his domain for up to 8 seconds and turns into Lieh . When in the domain, the two cannot be affected by other heroes' skills. Lieh has stronger skills and gains 50-80 Physical & Magic Defense that lasts for 8 seconds. The domain will end early if any of the two hero is killed. If Lieh successfully kills the enemy, he'll restore 20% Max HP , leave the domain with the cooldowns of Frenzy Strike and Instant Blast Instant Blast reset, and continue to fight as Lieh for 8 seconds. If Yin fails to pull his target into his domain, the skill will enter a 3 second cooldown. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Extra Defense": {
+          "1": "50",
+          "2": "65",
+          "3": "80"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "Forsaken Light",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+      "tags": [],
+      "description": "Since there are other Forsaken Light members on [Yin's] team, [his] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+      "properties": {}
+    }
+  ]
+}

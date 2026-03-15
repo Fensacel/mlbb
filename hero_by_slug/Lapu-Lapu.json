@@ -1,0 +1,22 @@
+{
+  "slug": "Lapu-Lapu",
+  "name": "Lapu-Lapu",
+  "url": "https://mobile-legends.fandom.com/wiki/Lapu-Lapu",
+  "intro": "Lapu-Lapu, the Courageous Blade, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Homeland Defender",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/99/Homeland_Defender.png/revision/latest?cb=20210930071154",
+      "tags": [
+        "Buff",
+        "Shield"
+      ],
+      "description": "Buff Shield Each time Lapu-Lapu deals damage, he gains 10 Bravery Blessing (halved from non-hero units). When his Bravery Blessing is full, his next Basic Attack or Justice Blades will be enhanced, granting Lapu-Lapu a shield that can absorb 250 (+65 × Hero Level) damage for 2.5 seconds. The enhanced Basic Attack) will cause him to dash toward the target, dealing (+150% Total Physical Attack) Physical Damage . This Basic Attack cannot be a critical hit . The enhanced Justice Blades will slow the target by 60% for 1 second. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    }
+  ]
+}

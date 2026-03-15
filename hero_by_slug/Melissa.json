@@ -1,0 +1,141 @@
+{
+  "slug": "Melissa",
+  "name": "Melissa",
+  "url": "https://mobile-legends.fandom.com/wiki/Melissa",
+  "intro": "Melissa, the Cursed Needle, is a hero in Mobile Legends: Bang Bang , and is accompanied by Cuddles, Giggles and Muddles.",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Doll Buster",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/Doll_Buster.png/revision/latest?cb=20220311092717",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Uh-oh, Melissa's taken apart another bunch of dolls! \"My tailor shop excels at \"fixing\" dolls and \"fixing\" dolls. Am I right?, Muddles ?\" (Melissa deals 125% damage to minions, creeps and summoned units.)",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Falling!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Falling%21.png/revision/latest?cb=20220311092948",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Melissa is falling… In your dreams! \"Watch me slide forward and increase my Attack Speed for 3 seconds—Ah, that was just boring…\" \" Muddles , go that way!\" \" Cuddles , come here!\" (The skill's cooldown is reduced by 0.5 seconds each time Melissa damages the enemy by attacking Muddles.) Skill terms Blink Movement ability that can pass through obstacles. ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.5",
+          "2": "7.0",
+          "3": "6.5",
+          "4": "6.0",
+          "5": "5.5",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50",
+          "6": "55"
+        },
+        "Attack Speed Bonus": {
+          "1": "50%",
+          "2": "55%",
+          "3": "60%",
+          "4": "65%",
+          "5": "70%",
+          "6": "75%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Eyes on You!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Eyes_on_You%21.png/revision/latest?cb=20220311093026",
+      "tags": [
+        "Debuff",
+        "AOE"
+      ],
+      "description": "Debuff AOE Go, Muddles! \"The plan's like this: Throw Muddles out to hold the bad guys, and then… I come on stage!\" \"I puncture the bad guys, while Giggles hit Muddles to punish the bad guys! Hee, fantastic!\" (Muddles deals 250–400 (+80% Total Physical Attack) Physical Damage on the first hit and links nearby [enemy heroes and summoned units] for up to 6 seconds. Linked enemies will be slowed by 60% that decays over 1.5 seconds and can break the link by moving out of the range. Muddles will return to Melissa early when she's too far away. When Muddles is present, you can tap the Attack Minion button to directly attack Muddles , though it cannot trigger the multi-hit damage.) Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "9.0",
+          "2": "8.6",
+          "3": "8.2",
+          "4": "7.8",
+          "5": "7.4",
+          "6": "7.0"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "50",
+          "3": "40",
+          "4": "30",
+          "5": "20",
+          "6": "10"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "280",
+          "3": "310",
+          "4": "340",
+          "5": "370",
+          "6": "400"
+        },
+        "Damage Transfer": [
+          "60%"
+        ]
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Go Away!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e4/Go_Away%21.png/revision/latest?cb=20220311093058",
+      "tags": [
+        "Summon",
+        "Buff"
+      ],
+      "description": "Summon Buff Do you know? Hugs will give you the courage to face the darkness. \" Cuddles , protect me! For 4 seconds, let no bad guys come close. Unless I say otherwise!\" (When activated, the field knocks back Melissa creates a dome that continuously damages and repels enemies in the area and deals 500–900 (+100% Total Magic Power) Magic Damage to them. It'll then continuously knock back enemies who attempt to enter the field. dealing 50–90 (+10% Total Magic Power) Magic Damage and briefly slowing them [by 60%]. The field will also interrupt the enemy's movement skills unless they're immune to control effects . The field will move with Melissa once, when she's about to move out of boundary. Passive : Melissa's Physical & Magical Defense are increased by 3. (This effect is increased to 5 times when the skill is active.) Skill terms Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "150",
+          "3": "180"
+        },
+        "Base Damage": {
+          "1": "500",
+          "2": "700",
+          "3": "900"
+        },
+        "Extra Damage": {
+          "1": "50",
+          "2": "70",
+          "3": "90"
+        },
+        "Extra Defense": {
+          "1": "3",
+          "2": "4",
+          "3": "5"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "Forsaken Light",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+      "tags": [],
+      "description": "Since there are other Forsaken Light members on [Melissa's] team, [her] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "slug": "Esmeralda",
+  "name": "Esmeralda",
+  "url": "https://mobile-legends.fandom.com/wiki/Esmeralda",
+  "intro": "Esmeralda, the Astrologer, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Starmoon Casket",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Starmoon_Casket.png/revision/latest?cb=20210808075519",
+      "tags": [
+        "Buff",
+        "Shield"
+      ],
+      "description": "Buff Shield Esmeralda manipulates Stardust and Frostmoon: Stardust deals Physical Damage while Frostmoon deals Magic Damage and gives the target a shield equal to 135% of Frostmoon's damage dealt. Each Basic Attack deals (+100% Total Physical Attack) Physical Damage and 100 (+75% Total Magic Power) Magic Damage . The damage dealt by Esmeralda ignores all shield effects and gradually converts her shield into HP. [ amount/conversion rate unknown ] Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Frostmoon Shield",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Frostmoon_Shield.png/revision/latest?cb=20210808075630",
+      "tags": [
+        "Shield",
+        "Buff"
+      ],
+      "description": "Shield Buff Esmeralda gains 300–750 (+150% Total Magic Power) shield and 40% Movement Speed which rapidly decays over its duration for 4 seconds. Meanwhile, she gradually transforms the shields of her nearby enemies into her own shield, [ amount unknown ] capped at 50% of her Max HP . Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "8.5"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100",
+          "6": "110"
+        },
+        "Base Shield": {
+          "1": "30",
+          "2": "390",
+          "3": "480",
+          "4": "570",
+          "5": "660",
+          "6": "750"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Stardust Dance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Stardust_Dance.png/revision/latest?cb=20210808075728",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Esmeralda waves Stardust and Frostmoon, dealing 240–440 (+60% Total Physical Attack) Physical Damage and 300–550 (+120% Total Magic Power) Magic Damage to nearby enemies. Each time she deals damage to a hero, the cooldown of Frostmoon Shield is reduced by 1.5 seconds (damaging non-hero units grants a 0.5 seconds reduction) and the enemy's Movement Speed is reduced by 10% for 1.5 second. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "4.5",
+          "2": "4.3",
+          "3": "4.1",
+          "4": "3.9",
+          "5": "3.7",
+          "6": "3.5"
+        },
+        "Mana Cost": {
+          "1": "75",
+          "2": "80",
+          "3": "85",
+          "4": "90",
+          "5": "95",
+          "6": "100"
+        },
+        "Base Damage": {
+          "1": "240",
+          "2": "280",
+          "3": "320",
+          "4": "360",
+          "5": "400",
+          "6": "440"
+        },
+        "Added Damage": {
+          "1": "300",
+          "2": "350",
+          "3": "400",
+          "4": "450",
+          "5": "500",
+          "6": "550"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Falling Starmoon",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Falling_Starmoon.png/revision/latest?cb=20210808075820",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility Esmeralda coheres the power of Astrospace into her two weapons - Stardust and Frostmoon. The longer this skill is channeled, the longer the cast range. Use Again : Esmeralda casts the Stardust at the target location, dealing 350–650 (+90% Total Physical Attack) Physical Damage , and then blinks to target location and casts Frostmoon, dealing 350–650 (+140% Total Magic Power) Magic Damage and immobilizing enemies in the area for 1 second. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Physical Magic Skill Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "32.0",
+          "2": "28.0",
+          "3": "24.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "500",
+          "3": "650"
+        },
+        "Added Damage": {
+          "1": "350",
+          "2": "500",
+          "3": "650"
+        }
+      }
+    }
+  ]
+}

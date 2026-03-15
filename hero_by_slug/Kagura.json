@@ -1,0 +1,58 @@
+{
+  "slug": "Kagura",
+  "name": "Kagura",
+  "url": "https://mobile-legends.fandom.com/wiki/Kagura",
+  "intro": "Kagura, the Onmyouji Master, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Yin Yang Gathering",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/79/Yin_Yang_Gathering.png/revision/latest?cb=20210930071737",
+      "tags": [
+        "Shield",
+        "CC"
+      ],
+      "description": "Shield CC Upon retrieving the Seimei Umbrella , Kagura gains a 450 (+50% Total Magic Power) shield , stuns nearby enemies for 0.5 second, and slows them by 60% for 1 second. Cooldown 4.5 seconds.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Seimei Umbrella Open",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Seimei_Umbrella_Open.png/revision/latest?cb=20210930071832",
+      "tags": [
+        "Damage",
+        "Slow"
+      ],
+      "description": "Damage Slow Kagura sends the Seimei Umbrella to the target location, dealing 365–590 (+105% Total Magic Power) Magic Damage to enemies in its path and slowing them by 60% for 0.5 second. The Umbrella will automatically return to Kagura when she's too far away. This skill deals 130% damage to non-hero enemies.",
+      "properties": {
+        "Cooldown": {
+          "1": "5.0",
+          "2": "4.7",
+          "3": "4.4",
+          "4": "4.1",
+          "5": "3.8",
+          "6": "3.5"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "56",
+          "3": "62",
+          "4": "68",
+          "5": "74",
+          "6": "80"
+        },
+        "Base Damage": {
+          "1": "365",
+          "2": "410",
+          "3": "455",
+          "4": "500",
+          "5": "545",
+          "6": "590"
+        }
+      }
+    }
+  ]
+}

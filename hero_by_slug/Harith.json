@@ -1,0 +1,107 @@
+{
+  "slug": "Harith",
+  "name": "Harith",
+  "url": "https://mobile-legends.fandom.com/wiki/Harith",
+  "intro": "Harith, the Time Traveler, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Key Insight",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/08/Key_Insight.png/revision/latest?cb=20240123231012",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Harith gains insight from his Key. He gains 7% Hybrid Lifesteal for each nearby enemy hero, stacking up to 35%. Skill terms Hybrid Lifesteal Lifesteal (Basic Attacks) + Spell Vamp (Skills). Spell Vamp Percentage of HP recovered from dealing Skill Damage to an enemy. HP recovered = Skill Damage × Spell Vamp × Spell Vamp Ratio. Usually the Spell Vamp Ratio is 30%–120%, depending on the skill's damage, range and duration. Lifesteal Percentage of HP recovered from dealing Basic Attack Damage to an enemy. HP recovered = Basic Attack Damage × Lifesteal × Lifesteal Ratio. Usually the Lifesteal Ratio is 30%–120%, depending on the skill's damage, range and duration.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Synchro Fission",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Synchro_Fission.png/revision/latest?cb=20240123230739",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Harith creates a phantom of himself in a distant location. Harith and his phantom will then release Synchro Fission toward each other, dealing 236–376 (+84% Total Magic Power) Magic Damage to all enemy units on the path. When the 2 energy waves collide, an explosion occurs, dealing 590–940 (+210% Total Magic Power) Magic Damage to all enmies in the explosion area. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "236",
+          "2": "264",
+          "3": "292",
+          "4": "320",
+          "5": "348",
+          "6": "376"
+        },
+        "Explosion Damage": {
+          "1": "590",
+          "2": "660",
+          "3": "730",
+          "4": "800",
+          "5": "870",
+          "6": "940"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ]
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Chrono Dash",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6e/Chrono_Dash.png/revision/latest?cb=20240123230652",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Harith dashes towards the target direction. When he arrives, he steals Magic power from enemy heroes, generates a shield that absorbs at least 185–310 (+140% Total Magic Power) damage and enhances his next Basic Attack . Harith's enhanced Basic Attack deals 225–350 (+100% Total Physical Attack) (+100% Total Magic Power) Magic Damage and slows enemies by 40%. Hitting an enemy with Harith's enhanced Basic Basic Attack reduces the cooldown of Chrono Dash by 3 seconds. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": [
+          "9.3"
+        ],
+        "Mana Cost": {
+          "1": "40",
+          "2": "43",
+          "3": "46",
+          "4": "49",
+          "5": "52",
+          "6": "55"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Zaman Force",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Zaman_Force.png/revision/latest?cb=20240123230545",
+      "tags": [
+        "Buff",
+        "Slow"
+      ],
+      "description": "Buff Slow They say geniuses recognize one another! , a quote from Harley . Harith uses his Key to summon the Zaman Force . When the multidimensional rift appears, the cooldown of Chrono Dash is reduced by 4 seconds. The rift initially slows enemy heroes in the area by 70% and will continuously slows enemy heroes by 35% afterwards. If Harith comes into contact with the rift using Chrono Dash , he will absorb the energy within and reduce the cooldown of Synchro Fission by 1 seconds and Chrono Dash by 3 seconds. Harith gains 15% Resilience while on the rift.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "160",
+          "3": "200"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "Jawhead",
+  "name": "Jawhead",
+  "url": "https://mobile-legends.fandom.com/wiki/Jawhead",
+  "intro": "Jawhead, the Steel Sweetheart, is a hero in Mobile Legends: Bang Bang , and is accompanied by Ailee.",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Mecha Suppression",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/de/Mecha_Suppression.png/revision/latest?cb=20210930074449",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Jawhead's attacks apply a stack of Mecha Suppression on hit (up to 10 stacks). Each stack lasts 3 seconds and increases the damage of Jawhead's Basic Attacks to the enemy by 8%. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Smart Missiles",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6f/Smart_Missiles.png/revision/latest?cb=20210930074500",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Jawhead launches up to 12 missiles at random nearby enemies over 5 seconds, each missile dealing 135–260 (+30% Total Physical Attack) Physical Damage to the enemy hit. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "65",
+          "3": "70",
+          "4": "75",
+          "5": "80",
+          "6": "85"
+        },
+        "Base Damage": {
+          "1": "135",
+          "2": "160",
+          "3": "185",
+          "4": "210",
+          "5": "235",
+          "6": "260"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ejector",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Ejector.png/revision/latest?cb=20210930074510",
+      "tags": [
+        "Shield",
+        "CC"
+      ],
+      "description": "Shield CC Jawhead gains 30% Movement Speed and a 250–600 (+180% Total Physical Attack) shield for S seconds. Use Again: Jawhead flings the nearest unit (prioritizes heroes) to the target location, dealing 300–500 (+80% Total Physical Attack) Physical Damage to enemies in the area and stunning them for 0.5 seconds. Can used on allied heroes and they will not take damage. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.4",
+          "3": "13.8",
+          "4": "13.2",
+          "5": "12.6",
+          "6": "12.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Shield": {
+          "1": "250",
+          "2": "320",
+          "3": "390",
+          "4": "460",
+          "5": "530",
+          "6": "600"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "340",
+          "3": "380",
+          "4": "420",
+          "5": "460",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Unstoppable Force",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/58/Unstoppable_Force.png/revision/latest?cb=20210930074522",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Jawhead charges into the target enemy hero, dealing 350–600 (+150% Total Physical Attack) Physical Damage and briefly stunning them. [ duration unknown ] Enemies around the target are knocked back and dealt the same amount of the damage. Jawhead is immune to control effects during the charge. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Blink Movement ability that can pass through obstacles. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": {
+          "1": "35.0",
+          "2": "30.0",
+          "3": "25.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "150",
+          "3": "180"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "475",
+          "3": "600"
+        }
+      }
+    }
+  ]
+}

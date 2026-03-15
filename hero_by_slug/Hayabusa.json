@@ -1,0 +1,118 @@
+{
+  "slug": "Hayabusa",
+  "name": "Hayabusa",
+  "url": "https://mobile-legends.fandom.com/wiki/Hayabusa",
+  "intro": "Hayabusa, the Crimson Shadow, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Ninjutsu: Trace of Shadow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Ninjutsu_Trace_of_Shadow.png/revision/latest?cb=20210930072349",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Hayabusa's attacks apply a stack of Shadow Mark on hit (up to 4 stacks). Each stack lasts 6 seconds and increases Hayabusa's damage to the enemy by 5%.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Ninjutsu: Phantom Shuriken",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/59/Ninjutsu_Phantom_Shuriken.png/revision/latest?cb=20210930072401",
+      "tags": [
+        "Damage",
+        "Buff"
+      ],
+      "description": "Damage Buff Hayabusa throws three returning shurikens in the target direction, each dealing 150–250 (+70% Extra Physical Attack) Physical Damage to enemies hit and slowing them by 35% for 2 seconds. Enemies hit by multiple shurikens take only 30% of the damage after the first hit. Hayabusa restores 10 energy for each non-Minion enemy hit. Passive: Hayabusa permanently gains 3%–18% Spell Vamp . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Spell Vamp Percentage of HP recovered from dealing Skill Damage to an enemy. HP recovered = Skill Damage × Spell Vamp × Spell Vamp Ratio. Usually the Spell Vamp Ratio is 30%–120%, depending on the skill's damage, range and duration. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Energy Cost": [
+          "30"
+        ],
+        "Spell Vamp": {
+          "1": "3%",
+          "2": "6%",
+          "3": "9%",
+          "4": "12%",
+          "5": "15%",
+          "6": "18%"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "170",
+          "3": "190",
+          "4": "210",
+          "5": "230",
+          "6": "250"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ninjutsu: Quad Shadow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Ninjutsu_Quad_Shadow.png/revision/latest?cb=20210930072410",
+      "tags": [
+        "Mobility",
+        "Summon"
+      ],
+      "description": "Mobility Summon Hayabusa dashes in the target direction and releases four phantoms that travel in separate directions. The phantoms will remain at the end of their paths or attach themselves to the first enemy hero hit, dealing 130–180 (+30% Extra Physical Attack) Physical Damage and slowing them by 40% for 2 seconds. Hayabusa will immediately stop if he hits an enemy hero during the dash. Use Again: Hayabusa teleports to a phantom's location and reduces the cooldown of Ninjutsu: Phantom Shuriken by 1 second. If the phantom is attached to an enemy hero, he also deals 130–180 (+30% Extra Physical Attack) Physical Damage to the enemy. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "20.0",
+          "2": "19.2",
+          "3": "18.4",
+          "4": "17.6",
+          "5": "16.8",
+          "6": "16.0"
+        },
+        "Energy Cost": [
+          "25"
+        ],
+        "Base Damage": {
+          "1": "130",
+          "2": "140",
+          "3": "150",
+          "4": "160",
+          "5": "170",
+          "6": "180"
+        },
+        "Extra Damage": {
+          "1": "130",
+          "2": "140",
+          "3": "150",
+          "4": "160",
+          "5": "170",
+          "6": "180"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Ougi: Shadow Kill",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Ougi_Shadow_Kill.png/revision/latest?cb=20210930072425",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst I, will be Akakage. Hayabusa blends into the shadows and launches 6 single-target attacks on enemies in the area, each dealing 140 (+75% Extra Physical Attack) Physical Damage . The attacks prioritize enemies with Shadow Mark and each will consume a mark to deal 45–85 (+20% Extra Physical Attack) extra Physical Damage . Does not apply Shadow Mark. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up).",
+      "properties": {
+        "Cooldown": [
+          "50.0"
+        ],
+        "Hits": {
+          "1": "6",
+          "2": "9",
+          "3": "12"
+        },
+        "Extra Damage": {
+          "1": "45",
+          "2": "65",
+          "3": "85"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "Ling",
+  "name": "Ling",
+  "url": "https://mobile-legends.fandom.com/wiki/Ling",
+  "intro": "Ling, the Cyan Finch, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Cloud Walker",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Cloud_Walker.png/revision/latest?cb=20240622134906",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Ling's superb Lightness Skill helps him leap among walls. When resting on the wall, He gains 4 Lightness Points per second when he's on a walland 5 extra Lightness Points each time he deals damage. Ling gains 1.6 times Crit Chance from all sources but only has 150% Critical Damage . Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Crit Damage The ratio of Crit Damage to Base Damage. The default is 200%. Crit Damage Dealt = Original Damage × (200% + All Crit Damage Increase% - All Crit Damage Decrease%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Finch Poise",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Finch_Poise.png/revision/latest?cb=20240622134915",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Passive: Ling’s Critical Chance is permanently increased by 2.5%–12.5%. Active: Ling casts his Lightness Skill, leaping onto the designated wall, entering half-stealth state, restoring Lightness Points more quickly and gaining 30% Movement Speed . If Ling receives damage, he will leave the half-stealth state. If he is controlled , he will fall onto the ground and be slowed by 30% for 2 seconds. When using this skill to jump from a wall to another, it will reset the Cooldown and refresh the half-stealth state. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Half-Stealth Enter Half-Stealth State within the duration, won't be easily spotted visually by the enemy but can be targeted by skills.",
+      "properties": {
+        "Cooldown": [
+          "20.0"
+        ],
+        "Energy Cost": [
+          "30"
+        ],
+        "Critical Chance": {
+          "1": "2.5%",
+          "2": "4.5%",
+          "3": "6.5%",
+          "4": "8.5%",
+          "5": "10.5%",
+          "6": "12.5%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Defiant Sword",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Defiant_Sword.png/revision/latest?cb=20240622134923",
+      "tags": [
+        "Mobility",
+        "Damage"
+      ],
+      "description": "Mobility Damage Ling charges in a designated direction and stabs the nearby enemies at his destination, dealing 300–400 (+40% Total Physical Attack) Physical Damage . If Ling casts this skill when he is on the wall, he'll dash to the target location on the ground, dealing 300–400 (+40% Total Physical Attack) Physical Damage to enemies within a small area and slowing them down by 30% for 1.5 seconds. If this attack critically strikes , the enemies will be slowed by extra 45% for 0.75 seconds. Defiant Sword is regarded as Basic Attack , can trigger attack effects, and restores 35–60 HP for Ling each time it hits an enemy. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. ATK Effect",
+      "properties": {
+        "Cooldown": [
+          "2.5"
+        ],
+        "Energy Cost": [
+          "40"
+        ],
+        "Base Damage": {
+          "1": "300",
+          "2": "320",
+          "3": "340",
+          "4": "360",
+          "5": "380",
+          "6": "400"
+        },
+        "HP Regen/Hit": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Tempest of Blades",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Tempest_of_Blades.png/revision/latest?cb=20240622134931",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Ling leaps into the air, becoming invincible and gaining 10% extra Movement Speed for 1.5 seconds. He can move freely when in the air. He then lands on the ground, dealing 250–450 (+100% Total Physical Attack) Physical Damage to enemies in the area, knocking those in the center airborne for 1 second, and creating a Sword Field for 8 seconds. Four Tempest of Blades will also appear on the edge of the Sword Field. Ling can touch them to reduce the cooldown of Finch Poise by 4 seconds, reset the cooldown of Defiant Sword , and gain 25 Lightness points . Skill terms Invincible You are immune to enemy CC and damage effects within the duration. Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+      "properties": {
+        "Cooldown": {
+          "1": "52.0",
+          "2": "49.0",
+          "3": "46.0"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "350",
+          "3": "450"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "The Oriental Fighters",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+      "tags": [],
+      "description": "[Ling] will gain [1] movement speed boost [for each allied] Oriental [Fighter] in the battlefield. (Original text: The Oriental Fighters: A team will gain higher movement speed boost with more Oriental Fighters in the battlefield. )",
+      "properties": {}
+    }
+  ]
+}

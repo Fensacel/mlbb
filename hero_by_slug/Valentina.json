@@ -1,0 +1,141 @@
+{
+  "slug": "Valentina",
+  "name": "Valentina",
+  "url": "https://mobile-legends.fandom.com/wiki/Valentina",
+  "intro": "Valentina, the Prophetess of the Night, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Primal Force",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Primal_Force.png/revision/latest?cb=20211202092807",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal Valentina gains 8–50 extra EXP each time she deals damage to an enemy hero. Cooldown: 2 seconds. If the enemy hero's level isn't higher than Valentina's, 30% of the damage dealt is converted into her HP . The EXP scales with Valentina's level.",
+      "properties": {
+        "Cooldown": [
+          "2.0"
+        ],
+        "EXP Increase": {
+          "1": "8",
+          "2": "11",
+          "3": "14",
+          "4": "17",
+          "5": "20",
+          "6": "23",
+          "7": "26",
+          "8": "29",
+          "9": "32",
+          "10": "35",
+          "11": "38",
+          "12": "41",
+          "13": "44",
+          "14": "47",
+          "15": "50"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Shadow Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Shadow_Strike.png/revision/latest?cb=20211202092839",
+      "tags": [
+        "Damage",
+        "CC"
+      ],
+      "description": "Damage CC Valentina casts Shadow Strike in the target direction, dealing 340–665 (+185% Total Magic Power) Magic Damage to enemies hit and slowing them by 40% for 1 second. Enemy heroes hit by Shadow Strike are marked with a Shadow Sigil for 4 seconds and will be terrified for 1s when hit by Shadow Strike again within the duration (a unit can only be terrified once within 4 seconds.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "75",
+          "3": "80",
+          "4": "85",
+          "5": "90",
+          "6": "95"
+        },
+        "Base Damage": {
+          "1": "340",
+          "2": "405",
+          "3": "470",
+          "4": "535",
+          "5": "600",
+          "6": "665"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Arcane Shade",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Arcane_Shade.png/revision/latest?cb=20211202092934",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Valentina dashes in the target direction, firing 3 Shadow Bolts at nearby enemies that deal 125–225 (+30% Total Magic Power) Magic Damage each. Valentina can cast this skill again within 6s (costs Mana ). The cooldown of Shadow Strike is reduced by 1 second each time a Shadow Bolt hits an enemy.",
+      "properties": {
+        "Cooldown": [
+          "12.0"
+        ],
+        "Mana Cost": {
+          "1": "45",
+          "2": "50",
+          "3": "55",
+          "4": "60",
+          "5": "65",
+          "6": "70"
+        },
+        "Base Damage": {
+          "1": "125",
+          "2": "145",
+          "3": "165",
+          "4": "185",
+          "5": "205",
+          "6": "225"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "I Am You",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/I_Am_You.png/revision/latest?cb=20211202093159",
+      "tags": [
+        "Morph",
+        "Slow"
+      ],
+      "description": "Morph Slow Valentina slows the target enemy hero by 70% for 0.5 seconds and gains the ability to cast their Ultimate . Casting the enemy's Ultimate turns Valentina into the enemy hero's form and allows her to inherit their Basic Attack type for up to 12 seconds. Her regular skills remain unchanged, unless the enemy's Ultimate has a Morph effect. The stolen Ultimate's level will be equal to Valentina's level and the cooldown will be 120%–100% of the target's cooldown (but not lower than 10 seconds). Valentina gains (+100% Total Magic Power) Physical Attack for the duration if the enemy is a Physical Damage hero. This cannot be used on an enemy Valentina. Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Physical ATK Total current Physical ATK. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": [
+          "Varying (>= 10 seconds)"
+        ],
+        "Mana Cost": [
+          "Varying"
+        ],
+        "CD Rate": {
+          "1": "120%",
+          "2": "110%",
+          "3": "100%"
+        },
+        "Skill Level": {
+          "1": "1",
+          "2": "2",
+          "3": "3"
+        },
+        "Steal Range\"`UNIQ--ref-00000011-QINU`\"": [
+          "7"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "Wanwan",
+  "name": "Wanwan",
+  "url": "https://mobile-legends.fandom.com/wiki/Wanwan",
+  "intro": "Wanwan, the Agile Tiger, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Tiger Pace",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Tiger_Pace.png/revision/latest?cb=20210809084948",
+      "tags": [
+        "Buff",
+        "Mobility"
+      ],
+      "description": "Buff Mobility | Attack Effects: 110% Enemy heroes hit by Wanwan's attacks will have their weakness[es] exposed and position revealed for 5 seconds. When hitting an enemy's weakness, Wanwan deals 67 (+3 × Hero Level) Extra True Damage and increases their damage taken from her subsequent attacks by 10% for 5 seconds. Wanwan can dash a short distance after each arrow fired from her Basic Attack . The dash speed scales with her Attack Speed. Skill terms True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Swallow's Path",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Swallow%27s_Path.png/revision/latest?cb=20210809085051",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC Wanwan throws a Fire Swallow in the target direction, triggering Tiger Pace while dealing 120 (+40% Total Physical Attack) Physical Damage to enemies in its path. The Fire Swallow then turns into 3 rotating Swallow Daggers. After a short delay, these Swallow Daggers will fly back to Wanwan one after another, dealing 60 (+65% Total Physical Attack) Physical Damage to enemies on their way back and slowing them by 30% for 1.5 seconds. Enemies hit by the Swallow Dagger twice are immobilized for 0.5 seconds. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "85",
+          "2": "90",
+          "3": "95",
+          "4": "100",
+          "5": "105",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "120",
+          "2": "140",
+          "3": "160",
+          "4": "180",
+          "5": "200",
+          "6": "220"
+        },
+        "Swallow Dagger Damage": {
+          "1": "60",
+          "2": "72",
+          "3": "84",
+          "4": "96",
+          "5": "108",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Needles in Flowers",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7e/Needles_in_Flowers.png/revision/latest?cb=20210809085122",
+      "tags": [
+        "Remove CC",
+        "AOE"
+      ],
+      "description": "Remove CC AOE Wanwan removes all control effects on herself and triggers Tiger Pace . Meanwhile, she shoots Deadly Needles in all directions, dealing 150 (+60% Total Physical Attack) Physical Damage to enemies hit. Skill terms Exceptional Status Debuff applied to the enemy. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "24.0",
+          "2": "23.2",
+          "3": "22.4",
+          "4": "21.6",
+          "5": "20.8",
+          "6": "20.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "95",
+          "3": "90",
+          "4": "85",
+          "5": "80",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "170",
+          "3": "190",
+          "4": "210",
+          "5": "230",
+          "6": "250"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Crossbow of Tang",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Crossbow_of_Tang.png/revision/latest?cb=20191128203850",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst | Attack Effects: 35% Wanwan leaps into the air and fires arrows at the target enemy hero for 2.5 seconds in rapid succession, dealing 60 (+35% Total Physical Attack) Physical Damage per arrow. If the target is killed during this attack, Wanwan will switch to another enemy hero in her attack range, gain 30% Attack Speed , and extend the skill duration by 1 second (this effect can trigger up to 3 times). Wanwan is untargetable and invincible for the duration and can trigger Tiger Pace upon killing an enemy and at the end of the duration. Crossbow of Tang can only be cast on enemy heroes with all their weaknesses hit and Wanwan gains 100% Movement Speed during the duration. This damage is regarded as Basic Attack damage, and the firing rate scales with Wanwan's Attack Speed. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "46.0",
+          "3": "42.0"
+        },
+        "Mana Cost": {
+          "1": "130",
+          "2": "150",
+          "3": "170"
+        },
+        "Base Damage": {
+          "1": "60",
+          "2": "75",
+          "3": "90"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "The Oriental Fighters",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+      "tags": [],
+      "description": "[Wanwan] will gain [1] movement speed boost [for each allied] Oriental [Fighter] in the battlefield. (Original text: The Oriental Fighters: A team will gain higher movement speed boost with more Oriental Fighters in the battlefield. )",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "Granger",
+  "name": "Granger",
+  "url": "https://mobile-legends.fandom.com/wiki/Granger",
+  "intro": "Granger, the Death Chanter, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Capriccio",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Capriccio.png/revision/latest?cb=20241107093833",
+      "tags": [
+        "Damage",
+        "Buff"
+      ],
+      "description": "Damage Buff Granger's unique Demon Hunting Gun and Cannon are powered by Demonic Energy. Both his weapons have a staring Energy cap of 800. His Gun restores 8% Energy per second while his Cannon restores 2% Energy per second. Each Minion / Creep kill will permanently increase the Energy cap of Granger's Gun and Cannon by 6 / 6, and instantly restore their Energy by 5% / 5%, respectively. Every kill or assist on an enemy hero will permanently increase their Energy cap by 12 and instantly restore 10% Energy. Every 1% CD Reduction Granger gains is converted into 2 Physical Attack . Demonic Energy Cost is not affected by Energy Cost Reductions.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Rhapsody",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e2/Rhapsody.png/revision/latest?cb=20241107093851",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Granger rapidly fires 6 shot(s) with his Gun , with each shot dealing 60–120 (+50% Total Physical Attack) Physical Damage and consuming 70 Gun Energy. The last bullet is guaranteed to Crit . Each bullet deals an additional 70 damage to Creeps and Minions . While firing, Granger's Movement Speed is increased by 15%. Granger stops firing when he runs out Energy, or when the skill is cast again. Rhapsody has a brief cooldown and can be cast once his Gun Energy is over 420.",
+      "properties": {
+        "Cooldown": [
+          "0.3"
+        ],
+        "Gun Energy Cost": [
+          "420"
+        ],
+        "Base Damage": {
+          "1": "60",
+          "2": "72",
+          "3": "84",
+          "4": "96",
+          "5": "108",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Rondo",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Rondo.png/revision/latest?cb=20241107093903",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Granger uses his Demon Hunter agility to dash in the target direction, instantly restoring 15%-25% Energy for his Gun . Rondo can be cast while channeling Rhapsody . Each time Rhapsody hits an enemy, Rondo's Cooldown is reduced by 0.5 second.",
+      "properties": {
+        "Cooldown": [
+          "12.0"
+        ],
+        "Energy Regen": {
+          "1": "15%",
+          "2": "17%",
+          "3": "19%",
+          "4": "21%",
+          "5": "23%",
+          "6": "25%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Death Sonata",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Death_Sonata.png/revision/latest?cb=20241107093910",
+      "tags": [
+        "Burst",
+        "Slow"
+      ],
+      "description": "Burst Slow Granger fires his Cannon in the target direction, dealing 150–300 (+100% Total Physical Attack) Physical Damage to the first enemy hero hit and other targets in the blast radius. Targets hit will be slowed and revealed for a brief duration. Granger can roll in the Joystick's direction after each shot. Death Sonata can be cast while firing Rhapsody . Death Sonata has a brief cooldown and consumes 250 of Granger's Cannon Energy per shot.",
+      "properties": {
+        "Cooldown": [
+          "0.6"
+        ],
+        "Cannon Energy Cost": [
+          "250"
+        ],
+        "Base Damage": {
+          "1": "250",
+          "2": "325",
+          "3": "400"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "slug": "Sun",
+  "name": "Sun",
+  "url": "https://mobile-legends.fandom.com/wiki/Sun",
+  "intro": "Sun, the Monkey King, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Simian God",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Simian_God.png/revision/latest?cb=20240208125440",
+      "tags": [
+        "Debuff",
+        "Heal"
+      ],
+      "description": "Debuff Heal Enemies hit by Sun and his Doppelgangers will have their Physical Defense reduced by 5% (stacks up to 6 times). Sun recovers HP equal to 75 plus 25% of the Doppelganger's Physical Attack each time a Doppelganger deals damage. Sun and his Doppelgangers' Basic Attacks deal 50 extra damage to Creeps . Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Endless Variety",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f9/Endless_Variety.png/revision/latest?cb=20240208125547",
+      "tags": [
+        "Summon",
+        "AOE"
+      ],
+      "description": "Summon AOE | Attack Effects: 40% /43% / 46% / 49% / 52% / 55% Sun hurls his Golden Staff in the target direction, dealing 200–400 (+40% Total Physical Attack) Physical Damage to enemies in its path. Upon hitting an enemy hero or Creep, or reaching the maximum range, the Golden Staff morphs into a Doppelganger that lasts 5 seconds and inherits 40%–55% of Sun's attributes (and a portion of his Attack Effects ). Endless Variety and Swift Exchange are learned and upgraded together and share the same cooldown. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "240",
+          "3": "280",
+          "4": "320",
+          "5": "360",
+          "6": "400"
+        },
+        "Attributes Inherited": {
+          "1": "40%",
+          "2": "43%",
+          "3": "46%",
+          "4": "49%",
+          "5": "52%",
+          "6": "55%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Swift Exchange",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9c/Swift_Exchange.png/revision/latest?cb=20240208125456",
+      "tags": [
+        "Mobility",
+        "Summon"
+      ],
+      "description": "Mobility Summon Sun hurls his Golden Staff in the target direction, dealing 200–400 (+40% Total Physical Attack) Physical Damage to enemies in its path. He conjures a Doppelganger at his location that lasts 5 seconds and inherits 40%–55% of his attributes (and a portion of Attack Effects ). Meanwhile, Sun conceals himself, and moves with the Golden Staff . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "240",
+          "3": "280",
+          "4": "320",
+          "5": "360",
+          "6": "400"
+        },
+        "Attributes Inherited": {
+          "1": "40%",
+          "2": "43%",
+          "3": "46%",
+          "4": "49%",
+          "5": "52%",
+          "6": "55%"
+        }
+      }
+    },
+    {
+      "section": "Skill 3",
+      "name": "Instantaneous Move",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/df/Instantaneous_Move.png/revision/latest?cb=20251110075150",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility Sun commands his Doppelgangers to strike at the target enemy with him, dealing 270–320 (+40% Total Physical Attack) Physical Damage and slowing target and enemies behind them by 20% (can be stacked) for 1.5 seconds. This counts as Basic Attack damage and can trigger Attack Effects but cannot Crit . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Mana Cost": {
+          "1": "40",
+          "2": "45",
+          "3": "50",
+          "4": "55",
+          "5": "60",
+          "6": "65"
+        },
+        "Base Damage": {
+          "1": "270",
+          "2": "280",
+          "3": "290",
+          "4": "300",
+          "5": "310",
+          "6": "320"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Clone Techniques",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b7/Clone_Techniques.png/revision/latest?cb=20240208125649",
+      "tags": [
+        "Summon"
+      ],
+      "description": "Summon No one can tell what's false and what's real. Sun summons a Doppelganger that lasts 8 seconds and inherits 70%&nash;100% of his attributes and a portion of his Attack Effects . The Doppelganger takes increased damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "32.0",
+          "3": "28.0"
+        },
+        "Duration": [
+          "8"
+        ],
+        "Attributes Inherited": {
+          "1": "70%",
+          "2": "85%",
+          "3": "100%"
+        }
+      }
+    }
+  ]
+}

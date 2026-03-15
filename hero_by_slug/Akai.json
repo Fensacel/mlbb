@@ -1,0 +1,117 @@
+{
+  "slug": "Akai",
+  "name": "Akai",
+  "url": "https://mobile-legends.fandom.com/wiki/Akai",
+  "intro": "Akai, the Panda Warrior, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Tai Chi",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Tai_Chi.png/revision/latest?cb=20220807024925",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Akai gains a 25 (+5% Total HP) shield for 4 seconds on each skill cast and can marks enemy heroes and Creeps hit by his skills. Akai's Basic Attacks deal 25 (+5% Total HP) extra Physical Damage to mark enemies. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Headbutt",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Headbutt.png/revision/latest?cb=20220807024902",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Akai charges in the target direction, dealing 300–400 (+50% Total Physical Attack) Physical Damage to enemies along the away. If Akai hits an enemy hero during this process, he'll knocks them airborne for 0.5 seconds and be able to roll in the Joystick's direction once. Akai can cast Headbutt during Heavy Spin to quickly adjust his position. Skill terms Blink Movement ability that can pass through obstacles. Stunn Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.4",
+          "3": "11.8",
+          "4": "11.2",
+          "5": "10.6",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "320",
+          "3": "340",
+          "4": "360",
+          "5": "380",
+          "6": "400"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Body Slam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2c/Body_Slam.png/revision/latest?cb=20220807024854",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Akai smashes the ground with his body, dealing 270–420 (+6% Total HP) Physical Damage to nearby enemies and slowing them by 45% for 2 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Max HP The maximum HP currently can have.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.7",
+          "3": "6.4",
+          "4": "6.1",
+          "5": "5.8",
+          "6": "5.5"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "75",
+          "3": "80",
+          "4": "85",
+          "5": "90",
+          "6": "95"
+        },
+        "Base Damage": {
+          "1": "270",
+          "2": "300",
+          "3": "330",
+          "4": "360",
+          "5": "390",
+          "6": "420"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Heavy Spin",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d1/Heavy_Spin.png/revision/latest?cb=20220807024909",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Akai removes all debuffs on him and spins for 4 seconds, gaining Slow Immunity while continuously dealing 200–450 (+100% Extra Physical Attack) Physical Damage to nearby enemies and knocking them back . Enemies heroes knocked back will knock back other heroes they collide with during the process. Akai also gradually increases his Movement Speed to 70% over the duration. This skill can only be interrupted by Suppression and Morph effects. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Exceptional Status Debuff applied to the enemy. Slow Immunity You are immune to enemy slow effects within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "36.0",
+          "3": "32.0"
+        },
+        "Mana Cost": [
+          "120"
+        ],
+        "Damage Per Hit": {
+          "1": "200",
+          "2": "325",
+          "3": "450"
+        }
+      }
+    }
+  ]
+}

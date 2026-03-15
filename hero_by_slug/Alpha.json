@@ -1,0 +1,145 @@
+{
+  "slug": "Alpha",
+  "name": "Alpha",
+  "url": "https://mobile-legends.fandom.com/wiki/Alpha",
+  "intro": "Alpha, the Blade of Enmity, is a hero in Mobile Legends: Bang Bang , and is accompanied by Beta.",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Beta, Advance!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Beta%2C_Advance%21.png/revision/latest?cb=20210616065533",
+      "tags": [
+        "Damage",
+        "Slow"
+      ],
+      "description": "Damage Slow When Alpha uses a skill, Beta will be summoned to attack. [Non-minion enemies] that are hit by Beta 2 time(s) will be Locked On . Locked On : After Alpha deals damage to the target, Beta will fire a laser at them, dealing 80 (+8 × Hero Level) (+100% Extra Physical Attack) True Damage and briefly applying a powerful [90% slow for 0.2 seconds]. Skill terms True Damage Skill Deal True Damage to enemies. Triggers Spell Vamp. True Damage If there is no way to reduce damage taken, you can try increasing Max HP.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Rotary Impact",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/ba/Rotary_Impact.png/revision/latest?cb=20210616065548",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Alpha unleashes an energy wave in the target direction, dealing 100–200 (+90% Extra Physical Attack) Physical Damage to enemies in its path and slowing them by 40% for 1 second. Beta then strafes enemies along the same path, dealing 60–120 (+30% Extra Physical Attack) True Damage . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Mana Cost": [
+          "50"
+        ],
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        },
+        "Spray Damage": {
+          "1": "60",
+          "2": "72",
+          "3": "84",
+          "4": "96",
+          "5": "108",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Force Swing",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Force_Swing.png/revision/latest?cb=20210616065559",
+      "tags": [
+        "AOE",
+        "Heal"
+      ],
+      "description": "AOE Heal After a short delay, Alpha swings his blade in the target direction, dealing 250–500 (+100% Total Physical Attack) Physical Damage to enemies in a fan-shaped area and recovering 100–200 (+30% Extra Physical Attack) HP for each enemy hit. Beta then strafes enemies in the same area, dealing 60–120 (+30% Extra Physical Attack) True Damage . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "6.0",
+          "2": "5.6",
+          "3": "5.2",
+          "4": "4.8",
+          "5": "4.4",
+          "6": "4.0"
+        },
+        "Mana Cost": {
+          "1": "45",
+          "2": "50",
+          "3": "55",
+          "4": "60",
+          "5": "65",
+          "6": "70"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "300",
+          "3": "350",
+          "4": "400",
+          "5": "450",
+          "6": "500"
+        },
+        "HP Regen": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        },
+        "Spray Damage": {
+          "1": "60",
+          "2": "72",
+          "3": "84",
+          "4": "96",
+          "5": "108",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Spear of Alpha",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Spear_of_Alpha.png/revision/latest?cb=20210616065612",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Beta dives into target location, dealing 100–200 (+20% Total Physical Attack) Physical Damage to enemies hit and stunning them for 1 second. Alpha then leaps towards the same location, knocking enemies in his path airborne and carrying them to the landing location. Alpha then slams down, dealing 250–500 (+100% Total Physical Attack) Physical Damage and slowing the enemies by 40% for 1.5 seconds. Beta then strafes enemies in the same area 5 times, dealing 15–30 (+30% Extra Physical Attack) True Damage . Skill terms Blink Movement ability that can pass through obstacles. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+      "properties": {
+        "Cooldown": {
+          "1": "20.0",
+          "2": "18.0",
+          "3": "16.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "150",
+          "3": "200"
+        },
+        "End Damage": {
+          "1": "250",
+          "2": "375",
+          "3": "500"
+        },
+        "Beta Damage": {
+          "1": "15",
+          "2": "22.5",
+          "3": "30"
+        }
+      }
+    }
+  ]
+}

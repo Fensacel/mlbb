@@ -1,0 +1,96 @@
+{
+  "slug": "Chou",
+  "name": "Chou",
+  "url": "https://mobile-legends.fandom.com/wiki/Chou",
+  "intro": "Chou, the Kung Fu Boy, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Only Fast",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/02/Only_Fast.png/revision/latest?cb=20210808080206",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After travelling 5 units, Chou's deals 180% damage on his next Basic Attack (cannot Crit), briefly slows the target by 80% and reduces their Physical Defense by 10(+1*Hero Level) for 3s (up to 2 stacks). Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Jeet Kune Do",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/48/Jeet_Kune_Do.png/revision/latest?cb=20210808080309",
+      "tags": [
+        "AOE",
+        "Mobility"
+      ],
+      "description": "AOE Mobility Chou strikes in the target direction, dealing 180 (+70% Total Physical Attack) Physical Damage to enemies hit. This skill can be cast 3 times before it goes on coldown. On the 3rd cast, Chou also knocks enemies hit airborne. Hitting an enemy hero with the 3rd cast resets the cooldown of Shunpo. Skill terms Blink Movement ability that can pass through obstacles. Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "9.5",
+          "2": "9.2",
+          "3": "8.9",
+          "4": "8.6",
+          "5": "8.3",
+          "6": "8.0"
+        },
+        "Base Damage": {
+          "1": "180",
+          "2": "200",
+          "3": "220",
+          "4": "240",
+          "5": "260",
+          "6": "280"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Shunpo",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Shunpo.png/revision/latest?cb=20210808080502",
+      "tags": [
+        "Mobility"
+      ],
+      "description": "Mobility Chou charges in the target direction gaining Control Immunity and a 200 (+200% Extra Physical Attack) Physical Damage shield. Skill terms Blink Movement ability that can pass through obstacles. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Base Shield": {
+          "1": "200",
+          "2": "230",
+          "3": "260",
+          "4": "290",
+          "5": "320",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "The Way of Dragon",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/65/The_Way_of_Dragon.png/revision/latest?cb=20210808080412",
+      "tags": [
+        "CC",
+        "Burst"
+      ],
+      "description": "CC Burst Chou strikes the target enemy hero with a roundhouse kick at the target enemy hero, dealing them 400 (+200% Extra Physical Attack) Physical Damage and knocking them back. Cast this skill again to chase up the target, dealing a total of 480 (+220% Extra Physical Attack) Physical Damage . Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": [
+          "34.0"
+        ],
+        "Base Damage": {
+          "1": "400",
+          "2": "450",
+          "3": "500"
+        },
+        "Chase Damage": {
+          "1": "480",
+          "2": "530",
+          "3": "580"
+        }
+      }
+    }
+  ]
+}

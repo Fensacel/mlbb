@@ -1,0 +1,120 @@
+{
+  "slug": "Gatotkaca",
+  "name": "Gatotkaca",
+  "url": "https://mobile-legends.fandom.com/wiki/Gatotkaca",
+  "intro": "Gatotkaca, the Mighty Legend, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Steel Bones",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Steel_Bones.png/revision/latest?cb=20210627030035",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal Gatotkaca gains [1] Physical Defense equal to 2% of his lost HP (up to 100). For every 300 damage he takes (calculated before damage reduction), he gains 5 Rage (up to 100). Upon reaching over 25 Rage, Gatotkaca's next Basic Attack becomes enhanced, consuming all Rage to deal extra Magic Damage and recover. The extra damage scales with his Rage, level, and Magic Power . Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Lost HP Lost HP = Max HP - Current HP. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Blast Iron Fist",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Blast_Iron_Fist.png/revision/latest?cb=20210627025912",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Gatotkaca slams the ground, creating a shattered zone in the target direction while dealing 200–300 (+150% Total Magic Power) Magic Damage to enemies within. Enemies in the shattered zone will take 100–150 (+20% Total Magic Power) Magic Damage per second and be slowed by 30%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Duration": [
+          "approx. 3.5"
+        ],
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Sustained Damage": {
+          "1": "100",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Unbreakable",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Unbreakable.png/revision/latest?cb=20171010092652",
+      "tags": [
+        "CC",
+        "Mobility"
+      ],
+      "description": "CC Mobility Impregnable! Gatotkaca begins channeling, then sprints in the target direction with a battle cry, forcing enemies on the path to attack him and deal 200–300 (+100% Total Magic Power) Magic Damage for 1.5 seconds. The sprint distance scales with the channel time. Canceling the Skill reduces 50% of the remaining Cooldown . Skill terms Taunt Basic level Crowd Control: Forces a target to use Basic Attacks on the caster and chase them, and prevents them from using skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Max HP The maximum HP currently can have.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.6",
+          "3": "11.2",
+          "4": "10.8",
+          "5": "10.4",
+          "6": "10.0"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Avatar of the Guardian",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Avatar_of_the_Guardian.png/revision/latest?cb=20171010092756",
+      "tags": [
+        "CC",
+        "Mobility"
+      ],
+      "description": "CC Mobility A leap holds the world in awe. Gatotkaca jumps to the target location, dealing 500–1000 (+300% Total Magic Power) Magic Damage to nearby enemies and knocking them airborne for 1 second. Enemies near the center of the area will be knocked airborne for a longer duration, while enemies on the fringes will be pulled to the center. The camera will move with the skill indicator but won't grant extra sight.",
+      "properties": {
+        "Cooldown": {
+          "1": "54.0",
+          "2": "50.0",
+          "3": "46.0"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "500",
+          "2": "750",
+          "3": "1000"
+        }
+      }
+    }
+  ]
+}

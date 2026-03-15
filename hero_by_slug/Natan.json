@@ -1,0 +1,133 @@
+{
+  "slug": "Natan",
+  "name": "Natan",
+  "url": "https://mobile-legends.fandom.com/wiki/Natan",
+  "intro": "Natan, the Spacetime Walker, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Theory of Everything",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/57/Theory_of_Everything.png/revision/latest?cb=20210903170055",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Time is nothing more than a descriptor of space… Natan gains a stack of Entanglement each time he or his Reverse-Clone hits an enemy with a skill (up to 6 stacks). Each stack lasts 2.5 seconds and grants 7.5% extra Attack Speed and 5% Movement Speed . Natan's Basic Attacks projectiles will return to Natan after reaching the maximum range, dealing an extra 30 (+50% Total Physical Attack) (+60% Total Magic Power) Magic Damage to enemies along the way (inherits 60% of Natan's attack effects). Hitting an enemy refreshes Entanglement's duration. Skill terms ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Extra Attack Speed": {
+          "1": "{7.5%, 15%, 22.5%, 30%, 37.5%, 45%}"
+        },
+        "Extra Movement Speed": {
+          "1": "{5%, 10%, 15%, 20%, 25%, 30%}"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Superposition",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Superposition.png/revision/latest?cb=20210903170126",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst There is no \"collapse\". Natan shoots a dense mass of energy, dealing 225–400 (+100% Total Physical Attack) (+120% Total Magic Power) Magic Damage to enemies along its path. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.4",
+          "3": "6.8",
+          "4": "6.2",
+          "5": "5.6",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "225",
+          "2": "260",
+          "3": "295",
+          "4": "330",
+          "5": "365",
+          "6": "400"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Interference!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Interference%21.png/revision/latest?cb=20210903170153",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC There is only \"decoherence\". Natan launches a Gravitational Attractor which carries enemies on contact along the path and deals 150–300 (+50% Total Physical Attack) (+60% Total Magic Power) Magic Damage to them. The attractor explodes upon reaching the end, knocking back nearby enemies, stunning them for 0.1 second, and dealing 30–55 (+10% Total Physical Attack) (+12% Total Magic Power) Magic Damage to them. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.6",
+          "3": "11.2",
+          "4": "10.8",
+          "5": "10.4",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "65",
+          "3": "70",
+          "4": "75",
+          "5": "80",
+          "6": "85"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        },
+        "Base Extra Damage": {
+          "1": "30",
+          "2": "35",
+          "3": "40",
+          "4": "45",
+          "5": "50",
+          "6": "55"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Entropy?",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/53/Entropy%3F.png/revision/latest?cb=20210903170224",
+      "tags": [
+        "Summon",
+        "Mobility"
+      ],
+      "description": "Summon Mobility Entropy can decrease. Natan summons a Reverse-Clone at a target location 6 units away that lasts 10s, inherits 35% / 37.5% / 40% of his attack attributes (and 35% of Natan's attack effects), and will copy his moves and attacks in reverse. Use Again : Natan switches places with the Reverse-Clone. [ Cooldown : 12 seconds.] Each cast reduces other skills' remaining cooldowns by 50%. The Reverse-Clone will disappear if Natan is too far away. Skill terms Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": {
+          "1": "24.0",
+          "2": "20.0",
+          "3": "16.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "50",
+          "3": "0"
+        },
+        "Attributes Inherit": {
+          "1": "35%",
+          "2": "37.5%",
+          "3": "40%"
+        }
+      }
+    }
+  ]
+}

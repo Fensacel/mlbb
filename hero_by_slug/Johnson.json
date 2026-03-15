@@ -1,0 +1,44 @@
+{
+  "slug": "Johnson",
+  "name": "Johnson",
+  "url": "https://mobile-legends.fandom.com/wiki/Johnson",
+  "intro": "Johnson, the Wild Engine, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Electro Airbag",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/05/Electro_Airbag.png/revision/latest?cb=20231231123336",
+      "tags": [
+        "Shield"
+      ],
+      "description": "Shield When Johnson's HP drops below 30%, he gains a 300 (+700% Total Physical Defense) shield for 10 seconds. Cooldown: 100.0 seconds.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Impact Wrench",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Impact_Wrench.png/revision/latest?cb=20231231123358",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 50% Johnson throws his wrench toward the target location, dealing 120–220 (+220% Total Physical Defense) Magic Damage to enemies in its path. Enemies around the landing point are stunned for 0.8 seconds. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Base Damage": {
+          "1": "120",
+          "2": "140",
+          "3": "160",
+          "4": "180",
+          "5": "200",
+          "6": "220"
+        }
+      }
+    }
+  ]
+}

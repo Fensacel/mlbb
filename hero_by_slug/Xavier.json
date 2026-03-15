@@ -1,0 +1,128 @@
+{
+  "slug": "Xavier",
+  "name": "Xavier",
+  "url": "https://mobile-legends.fandom.com/wiki/Xavier",
+  "intro": "Xavier, the Defier of Light, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Transcendence",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/85/Transcendence.png/revision/latest?cb=20220317095446",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Xavier enhances his subsequent skills each time his skill hits an enemy hero. Stage I : Increases Movement Speed by 50% when subsequent skills hit, decaying over 1.2 seconds. Stage II : Width of subsequent skills will be greatly increased. Stage III : Skill Cooldown reduced by 4 seconds (36 seconds for the Ultimate ). At Stage III , Xavier enters the Transcendence state. Transcendence : All of Xavier's skills are enhanced to Stage III state for 5 seconds (this duration is extend by 1 second each time Xavier's skill hits an enemy). Skill terms CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Infinite Extension",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/98/Infinite_Extension.png/revision/latest?cb=20220317095424",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Xavier fires a Mystic Bullet that deals 480–650 (+100% Total Magic Power) Magic Damage to enemies it passes through. The Bullet's flying distance increases each time it hits an enemy or the Mystic Barrier (up to 5 times). Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "6.5",
+          "2": "6.4",
+          "3": "6.3",
+          "4": "6.2",
+          "5": "6.1",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "480",
+          "2": "514",
+          "3": "548",
+          "4": "582",
+          "5": "616",
+          "6": "650"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Mystic Field",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Mystic_Field.png/revision/latest?cb=20220317095438",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Xavier conjures a Mystic Barrier that lasts 5 seconds. Enemies that come into contact with the Barrier will take 220–340 and be slowed by 50%, while allies will gain extra Movement Speed that decays over 1.2 seconds. When hit by Xavier's other skills, the Barrier expands into a forbidden field for 3 seconds, dealing 220–340 (+65% Total Magic Power) Magic Damage to enemies within and immobilizing them for 1.2 seconds. Skill terms Immobilized A state that prevents a target from moving. The target can't use Blink within the duration. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "13.0"
+        ],
+        "Mana Cost": {
+          "1": "80",
+          "2": "88",
+          "3": "96",
+          "4": "104",
+          "5": "112",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "220",
+          "2": "244",
+          "3": "268",
+          "4": "292",
+          "5": "316",
+          "6": "340"
+        },
+        "Extra Damage": {
+          "1": "220",
+          "2": "244",
+          "3": "268",
+          "4": "292",
+          "5": "316",
+          "6": "340"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Dawning Light",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Dawning_Light.png/revision/latest?cb=20220317095409",
+      "tags": [
+        "Burst",
+        "Buff"
+      ],
+      "description": "Burst Buff Xavier unleashes a beam of Mystic magic that deals 600–1100 (+180% Total Magic Power) Magic Damage to all enemies along its path. Once cast, he also directly enters the Transcendence state and resets the state's duration.",
+      "properties": {
+        "Cooldown": [
+          "56.0"
+        ],
+        "Mana Cost": {
+          "1": "120",
+          "2": "160",
+          "3": "200"
+        },
+        "Base Damage": {
+          "1": "600",
+          "2": "850",
+          "3": "1100"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "Forsaken Light",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+      "tags": [],
+      "description": "Since there are other Forsaken Light members on [Xavier's] team, [his] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+      "properties": {}
+    }
+  ]
+}

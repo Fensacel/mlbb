@@ -1,0 +1,53 @@
+{
+  "slug": "Edith",
+  "name": "Edith",
+  "url": "https://mobile-legends.fandom.com/wiki/Edith",
+  "intro": "Edith, the Ancient Guard, is a hero in Mobile Legends: Bang Bang , and is accompanied by Phylax.",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Overload",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Overload.png/revision/latest?cb=20211224061826",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After each skill cast, Edith and Phylax become Overloaded for 3 seconds, during which all Basic Attacks will trigger chain lightning, dealing extra Magic Damage equal to (+30% Total Magic Power) (+target's 4–8% Total HP) to up to 4 enemies. Chain lightning damage against Minions is increased to 150%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {}
+    },
+    {
+      "section": "Ultimate",
+      "name": "Primal Wrath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/24/Primal_Wrath.png/revision/latest?cb=20211224061924",
+      "tags": [
+        "Morph",
+        "Buff"
+      ],
+      "description": "Morph Buff Passive : When inside Phylax, Edith can accumulate Wrath according to the damage she receives (calculated before damage reduction ). Active : Edith ejects herself forward from Phylax, knocking back nearby enemies. After that, she takes flight and can perform ranged Basic Attacks , each dealing 35–65 (+75% Total Physical Attack) (+25% Total Magic Power) Magic Damage . Edith also gains new skills in this state. When in flight, Edith gains 350–650 (+5% Total HP) –350–650 (+20% Total HP) extra Shield , 50%–150% extra Attack Speed and 5%-20% Hybrid Lifesteal based on Wrath she accumulated, and converts each point of Extra Physical Defense and Extra Magic Defense into 3.5 Magic Power . The Flight state lasts up to 8–12 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second). Hybrid Lifesteal Lifesteal (Basic Attacks) + Spell Vamp (Skills).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "37.0",
+          "3": "34.0"
+        },
+        "Duration": {
+          "1": "8",
+          "2": "10",
+          "3": "12"
+        },
+        "Basic Attack Damage": {
+          "1": "35",
+          "2": "50",
+          "3": "65"
+        },
+        "Base Shield": {
+          "1": "350",
+          "2": "500",
+          "3": "650"
+        }
+      }
+    }
+  ]
+}

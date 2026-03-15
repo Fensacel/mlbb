@@ -1,0 +1,21 @@
+{
+  "slug": "Diggie",
+  "name": "Diggie",
+  "url": "https://mobile-legends.fandom.com/wiki/Diggie",
+  "intro": "Diggie, the Timekeeper, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Young Again",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Young_Again.png/revision/latest?cb=20211002145722",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Upon death , Diggie reverses time and turns to egg form, in which he can continue to move around and gains a new set of skills. He cannot be targeted in egg form and will revive after a period of time. Skill terms Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Invincible You are immune to enemy CC and damage effects within the duration.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "slug": "Phoveus",
+  "name": "Phoveus",
+  "url": "https://mobile-legends.fandom.com/wiki/Phoveus",
+  "intro": "Phoveus, the Chains of Sin, is a hero in Mobile Legends: Bang Bang , and is accompanied by Astaros.",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Demonic Force",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Demonic_Force.png/revision/latest?cb=20240929060141",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Phoveus' next Basic Attack allows him to charge at the enemy, knocking them back , dealing extra Magic Damage equal to 4% of the enemy's Max HP, and gaining a Shield equal to 8% of his Max Hp. This effect has a 26-14 seconds cooldown (based on Infernal Pursuit level). Astaros' Gaze : Whenever an enemy hero blink, dashes, or is displaced within 8 units of Phoveus, the cooldown of Demonic Force will be reduced by 20% and the cooldown of his other skills will be reduced by 0.5 second. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Demonic Impact",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Demonic_Impact.png/revision/latest?cb=20240929060119",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Phoveus slams his monolith into the ground, dealing 200–500 (+120% Total Physical Attack) Physical Damage to enemies in the area and slowing them by 70% for 0.5 second. If this skills hits an enemy, Phoveus' next Demonic Impact will leave behind an Astaros Eye . Astaros Eye : Implodes after a short delay, dealing 100–250 (+60% Total Physical Attack) Magic Damage to the enemies. Skill terms Dispacement",
+      "properties": {
+        "Cooldown": [
+          "6.0"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "260",
+          "3": "320",
+          "4": "380",
+          "5": "440",
+          "6": "500"
+        },
+        "Astaros Eye Damage": {
+          "1": "100",
+          "2": "130",
+          "3": "160",
+          "4": "190",
+          "5": "220",
+          "6": "250"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Dark Wave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Dark_Wave.png/revision/latest?cb=20240929060137",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC Phoveus drops the stone and releases his demonic power in the target direction, knocking enemies airborne , dragging them along, and dealing 250–500 (+100% Extra Physical Attack) Magic Damage . Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Base Damage": {
+          "1": "250",
+          "2": "300",
+          "3": "350",
+          "4": "400",
+          "5": "450",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Infernal Pursuit",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Infernal_Pursuit.png/revision/latest?cb=20240802111808",
+      "tags": [
+        "Mobility",
+        "Burst"
+      ],
+      "description": "Mobility Burst Sinner : Demonic Force , Astaros Eye , and Dark Wave can apply Sinner's Mark to the enemy hero hit. Judgement : Phoveus leaps into the air and smashes down with his monolith at the enemy hero with Sinner's Mark , dealing 250–500 (+100% Total Physical Attack) plus extra Physical Damage equal to 5% of the target's Max HP to enemies in the area while Phoveus recovers 50 plus 6% of his Lost HP. The HP recovered is reduced by 80% when hitting multiple enemies.",
+      "properties": {
+        "Base Damage": {
+          "1": "250",
+          "2": "375",
+          "3": "500"
+        },
+        "Bonus Damage": {
+          "1": "5%",
+          "2": "7.5%",
+          "3": "10%"
+        }
+      }
+    }
+  ]
+}

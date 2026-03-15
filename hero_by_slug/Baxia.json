@@ -1,0 +1,145 @@
+{
+  "slug": "Baxia",
+  "name": "Baxia",
+  "url": "https://mobile-legends.fandom.com/wiki/Baxia",
+  "intro": "Baxia, the Mystic Tortoise, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Baxia Mark",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3e/Baxia_Mark.png/revision/latest?cb=20220622095220",
+      "tags": [
+        "Buff",
+        "Debuff"
+      ],
+      "description": "Buff Debuff Baxia activates the Baxia Mark permanently, reducing the final damage received by 15 (+1 Hero Level). At the same time Baxia's will reduce the enemy hero's Shield and HP Regen by 50% for 4 seconds when hit by his skills. Skill terms Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Baxia-Shield Unity",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/23/Shield_Unity.png/revision/latest?cb=20220622095232",
+      "tags": [
+        "Speed Up",
+        "CC"
+      ],
+      "description": "Speed Up CC Baxia retracts himself into his shield and accelerates forward [for 9 seconds]. When hitting an enemy unit, he will deal 300–400 (+60% Total Magic Power) Magic Damage to it and nearby enemies, stunning the target for 0.8 second and slightly knocking other nearby enemies back . During the process of accelerating forward, use this skill again to launch Baxia upward so that he can cross obstacles and enemy minions. When leaping up, if there is an enemy hero under Baxia, he will strike down this hero, dealing 375–500 (+75% Total Magic Power) Magic Damage to this hero and nearby enemies, stunning the hit target for 1.5 seconds, and slightly knocking other nearby enemy targets back . Skill terms Stunned A state that prevents a target from moving, attacking, or using skills. Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.4",
+          "3": "13.8",
+          "4": "13.2",
+          "5": "12.6",
+          "6": "12.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "320",
+          "3": "340",
+          "4": "360",
+          "5": "380",
+          "6": "400"
+        },
+        "Impact Damage": {
+          "1": "375",
+          "2": "400",
+          "3": "425",
+          "4": "450",
+          "5": "475",
+          "6": "500"
+        },
+        "Leaping Cooldown": [
+          "1.5"
+        ]
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Shield of Spirit",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Shield_of_Spirit.png/revision/latest?cb=20220622095245",
+      "tags": [
+        "Damage",
+        "Slow"
+      ],
+      "description": "Damage Slow Baxia throws his shield forward that will disappear upon hitting an enemy hero or creeps, dealing 180–255 (+120% Total Magic Power) (+target's 6% Total HP) Magic Damage to the target and minions on the path. Meanwhile, marks them for 5 seconds and slows them down by 50% for 1 second. The shield disappears upon hitting the first enemy hero or creep. Baxia can cast this skill again [for 5 seconds]. If an enemy hero or creep us hit by the skill, the cooldown will be reduced by 15%. Skill terms Max HP The maximum HP currently can have. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.4",
+          "3": "8.8",
+          "4": "8.2",
+          "5": "7.6",
+          "6": "7.0"
+        },
+        "Mana Cost": {
+          "1": "25",
+          "2": "30",
+          "3": "35",
+          "4": "40",
+          "5": "45",
+          "6": "50"
+        },
+        "Base Damage": {
+          "1": "125",
+          "2": "150",
+          "3": "175",
+          "4": "200",
+          "5": "225",
+          "6": "250"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Tortoise's Puissance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d1/Tortoise%27s_Puissance.png/revision/latest?cb=20220622095259",
+      "tags": [
+        "Speed Up",
+        "AOE"
+      ],
+      "description": "Speed Up AOE Baxia holds his shield to the front and begins sprinting frantically, gaining 30% extra Movement Speed for 10 seconds while leaving a lava path behind. Enemies on the path will take 40–50 (+30% Total Magic Power) Magic Damage and be slowed by 15% for 0.5 seconds every 0.5 seconds. For the duration, the Damage Reduction effect from Baxia Mark is increased to 240% (85). Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "37.5",
+          "3": "35.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Duration": {
+          "1": "10",
+          "2": "12",
+          "3": "14"
+        },
+        "Base Damage": {
+          "1": "40",
+          "2": "45",
+          "3": "50"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "The Oriental Fighters",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+      "tags": [],
+      "description": "[Baxia] will gain [1] movement speed boost [for each allied] Oriental [Fighter] in the battlefield. (Original text: The Oriental Fighters: A team will gain higher movement speed boost with more Oriental Fighters in the battlefield. )",
+      "properties": {}
+    }
+  ]
+}

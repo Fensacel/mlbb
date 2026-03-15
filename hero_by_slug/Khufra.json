@@ -1,0 +1,129 @@
+{
+  "slug": "Khufra",
+  "name": "Khufra",
+  "url": "https://mobile-legends.fandom.com/wiki/Khufra",
+  "intro": "Khufra, the Desert Tyrant, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Spell Curse",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Spell_Curse.png/revision/latest?cb=20240113135908",
+      "tags": [
+        "Heal",
+        "Damage"
+      ],
+      "description": "Heal Damage Khufra activates the Spell Curse left by Esmeralda every 12 seconds, enhancing his next Basic Attack . The enhanced Basic Attack gains extra attack range [Cast Range: 4.9] and deals [ (+120% Total Physical Attack) (+target's 6% Max HP) Magic Damage ]. Also slows the target by 30% for 1.5 seconds and heals Khufra by 8% of his Max HP on hit. Each time Khufra applies a control effect to an enemy hero with his skill, the cooldown of Spell Curse is reduced by 4 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ... Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Tyrant's Revenge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Tyrant%27s_Revenge.png/revision/latest?cb=20240113140327",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Khufra pulls the bandage on his arms to launch himself in the specified direction, dealing 50–100 plus 7 (+1.5% Extra Physical Attack) % of his Max HP Physical Damage to all enemy units on the path. When blinking to the furthest distance or encountering a first enemy hero, Khufra will immediately stop, dealing 50–100 plus 7 (+1.5% Extra Physical Attack) % of his Max HP Physical Damage to enemies nearby and then knocking them in the air for up to 1.1 seconds. Skill terms Blink Movement ability that can pass through obstacles. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.0",
+          "3": "13.0",
+          "4": "12.0",
+          "5": "11.0",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "85",
+          "3": "90",
+          "4": "95",
+          "5": "100",
+          "6": "105"
+        },
+        "Path Damage, Airborne Damage": {
+          "1": "50",
+          "2": "60",
+          "3": "70",
+          "4": "80",
+          "5": "90",
+          "6": "100"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Bouncing Ball",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4c/Bouncing_Ball.png/revision/latest?cb=20240113140156",
+      "tags": [
+        "Slow",
+        "Buff"
+      ],
+      "description": "Slow Buff Khufra uses bandage to wrap himself into a magic bouncing ball, increasing his own Physical & Magic Defense by 30%–100&. Enemies trying to use blink skills to move across Khufra will be knocked airborne . [ duration needed ] Each time the magic bouncing ball hits the ground, it will deal Magic Damage equal to 50–100 plus 3 (+2% Extra Physical Attack) % of his Max HP to enemies nearby and slow them by 80%. Lasts 0.2 seconds. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "75",
+          "3": "80",
+          "4": "85",
+          "5": "90",
+          "6": "95"
+        },
+        "Defense Increase": {
+          "1": "30%",
+          "2": "44%",
+          "3": "58%",
+          "4": "72%",
+          "5": "86%",
+          "6": "100%"
+        },
+        "Base Damage": {
+          "1": "50",
+          "2": "60",
+          "3": "70",
+          "4": "80",
+          "5": "90",
+          "6": "100"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Tyrant's Rage",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Tyrant%27s_Rage.png/revision/latest?cb=20240113140253",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Let those who comply with me thrive and those who resist me perish. Khufra pulls back all enemy targets around him toward his front, dealing 300–600 (+100% Total Physical Attack) Physical Damage and slowing them down for 1.25–1.75 seconds. If the enemies are knocked against walls, extra Physical Damage equal to 150% of this skill's damage will be inflicted upon them, and they will be stunned , instead of slowed. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "450",
+          "3": "600"
+        },
+        "Slow Duration": {
+          "1": "1.25",
+          "2": "1.5",
+          "3": "1.75"
+        }
+      }
+    }
+  ]
+}

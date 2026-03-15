@@ -1,0 +1,124 @@
+{
+  "slug": "Gord",
+  "name": "Gord",
+  "url": "https://mobile-legends.fandom.com/wiki/Gord",
+  "intro": "Gord, the Professor of the Mystics, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Mystic Favor",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/69/Mystic_Favor.png/revision/latest?cb=20171023001614",
+      "tags": [
+        "Buff",
+        "Slow"
+      ],
+      "description": "Buff Slow After Gord hits an enemy 4 times with Basic Attacks or skills within a short period of time, the next attack on the target will deal an additional 140 (+60% Total Magic Power) True Damage and slow them by 20% for 1 second (the slow effect stacks up to 2 times). Skill terms True Damage Skill Deal True Damage to enemies. Triggers Spell Vamp. True Damage If there is no way to reduce damage taken, you can try increasing Max HP.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Mystic Projectile",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Mystic_Projectile.png/revision/latest?cb=20171023001237",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Gord conjures a Mystic Orb that bounces in the target direction and explodes on the first enemy hit, dealing 270–495 (+80% Total Magic Power) Magic Damage to enemies in the area, while stunning them and revealing their locations for 1 second. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.5",
+          "3": "9.0",
+          "4": "8.5",
+          "5": "8.0",
+          "6": "7.5"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "100",
+          "3": "110",
+          "4": "120",
+          "5": "130",
+          "6": "140"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "270",
+          "2": "315",
+          "3": "360",
+          "4": "405",
+          "5": "450",
+          "6": "495"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Mystic Injunction",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Mystic_Injunction.png/revision/latest?cb=20171023001345",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Gord create an energy field in the target area, dealing 55–105 (+16% Total Magic Power) Magic Damage every 0.3 second to enemies within (up to 13 times). Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "55",
+          "2": "65",
+          "3": "75",
+          "4": "85",
+          "5": "95",
+          "6": "105"
+        },
+        "Damage Per Hit": {
+          "1": "55",
+          "2": "65",
+          "3": "75",
+          "4": "85",
+          "5": "95",
+          "6": "105"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Mystic Gush",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Mystic_Gush.png/revision/latest?cb=20171023001719",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Gord unleashes an energy beam in the target direction, dealing 110–210 (+32% Total Magic Power) Magic Damage to enemies hit every 0.2 seconds (up to 16 times). The direction of the beam can be adjusted using the Joystick. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "44.0",
+          "2": "40.0",
+          "3": "36.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "170",
+          "3": "190"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Damage Per Hit": {
+          "1": "110",
+          "2": "160",
+          "3": "210"
+        }
+      }
+    }
+  ]
+}

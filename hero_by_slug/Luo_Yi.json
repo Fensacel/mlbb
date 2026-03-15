@@ -1,0 +1,135 @@
+{
+  "slug": "Luo_Yi",
+  "name": "Luo Yi",
+  "url": "https://mobile-legends.fandom.com/wiki/Luo_Yi",
+  "intro": "Luo Yi, the Yin-yang Geomancer, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Duality",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Duality.png/revision/latest?cb=20210816212033",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Luo Yi's skills create Sigils of Yin/Yang on the battlefield. Each Sigil lasts up to 6 seconds. Sigils opposite attributes will trigger Yin-Yang Reaction when they are within a certain distance, [ how much? ] dealing 365 (+20 × Hero Level) (+190% Total Magic Power) Magic Damage to the marked [enemy heroes], stunning them for 1 second, and pulling them toward each other . Each time Luo Yi applies a new Sigil to a marked enemy [hero], she gains 300 (+10 × Hero Level) (+150% Total Magic Power) shield (up to 3 stacks) and 30% extra Movement Speed that decays over 2 seconds. Skill terms Stunned A state that prevents a target from moving, attacking, or using skills. Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Base Shield": {
+          "1": "{310, 620, 930} (level 1) {450, 900, 1350} (level 15)"
+        },
+        "Magic Bonus Shield": {
+          "1": "{150%, 300%, 450%}"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Dispersion",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/92/Dispersion.png/revision/latest?cb=20220201082322",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Luo Yi casts the energy of Yin/Yang in the target direction, dealing 210–410 (+120% Total Magic Power) Magic Damage to the first enemy hit ad those behind in a cone. Enemy heroes hit are marked with Sigil of Yin/Yang . Luo Yi stores up to 4 Dispersion charges and gains 1 charge every 8 seconds. She also gains 1 charge each time Yin-Yang Reaction is triggered. The state of this skill changes on each cast. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Energy Charging Time",
+      "properties": {
+        "Cooldown": [
+          "1.2"
+        ],
+        "Recharging Time": {
+          "1": "8",
+          "2": "7.7",
+          "3": "7.4",
+          "4": "7.1",
+          "5": "6.8",
+          "6": "6.5"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "58",
+          "3": "66",
+          "4": "74",
+          "5": "82",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "210",
+          "2": "250",
+          "3": "290",
+          "4": "330",
+          "5": "370",
+          "6": "410"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Rotation",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c9/Rotation.png/revision/latest?cb=20220201090009",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Luo Yi summons Fire of Yang/Aqua of Yin at a target location, dealing 250–350 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 60% for 0.5 seconds. Fire of Yang/Aqua of Yin then remains at the location for 6 seconds, dealing 50–70 (+10% Total Magic Power) Magic Damage every 0.7 seconds. It can also trigger Yin-Yang Reaction with mark of opposite attributes. The state of this skill changes on each cast. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "12.0"
+        ],
+        "Mana Cost": {
+          "1": "120",
+          "2": "130",
+          "3": "140",
+          "4": "150",
+          "5": "160",
+          "6": "170"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "270",
+          "3": "290",
+          "4": "310",
+          "5": "330",
+          "6": "250"
+        },
+        "Continuous Damage": {
+          "1": "50",
+          "2": "54",
+          "3": "58",
+          "4": "62",
+          "5": "66",
+          "6": "70"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Diversion",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Diversion.png/revision/latest?cb=20210816212341",
+      "tags": [
+        "Teleport"
+      ],
+      "description": "Teleport Active: Luo Yi creates a Teleport Circle around herself and marks target location (within 20 units) as its destination. After 3 seconds delay, allied heroes (including herself) within the Circle will be teleported to the location. Passive: Luo Yi’s Cooldown Reduction is increased by 6%–10%. Skill terms Blink Movement ability that can pass through obstacles. CD Reduction Attribute for reducing the Skill Charging Time and Skill CD, the default of which is 0. It can be gained via items, emblems, Soul of the Wind buff, and specified skill. The max CD Reduction is 40% (unless otherwise stated), which is invalid to Battle Spell and specified skills.",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Mana Cost": [
+          "0"
+        ],
+        "Cooldown Reduction": {
+          "1": "6%",
+          "2": "8%",
+          "3": "10%"
+        },
+        "Max Range": {
+          "1": "20",
+          "2": "24",
+          "3": "28"
+        }
+      }
+    }
+  ]
+}

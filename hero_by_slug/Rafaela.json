@@ -1,0 +1,134 @@
+{
+  "slug": "Rafaela",
+  "name": "Rafaela",
+  "url": "https://mobile-legends.fandom.com/wiki/Rafaela",
+  "intro": "Rafaela, the Wings of Holiness, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Divine Resurrection",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Divine_Resurrection.png/revision/latest?cb=20250917074635",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff At regular intervals, Rafaela can use a special skill to instantly resurrect a fallen allied hero after a brief channeling. The resurrected allied hero will respawn at the base and is granted increased Movement Speed. This skill's cooldown is determined by both its base cooldown and the remaining respawn time of the revived hero. It is not affected by Cooldown Reduction.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Light of Retribution",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Light_of_Retribution.png/revision/latest?cb=20240118091251",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Rafaela strikes the three nearest enemies With Light of Retribution, dealing them 225–500 (+120% Total Magic Power) Magic Damage , briefly revealing their positions, and slowing them by 40% for 1.5s. Enemies hit by Light of Retribution again within 5 seconds will take 20% extra damage (this effect stacks up to 3 times). Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. [[Movement Speed ,]]",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "85",
+          "3": "100",
+          "4": "115",
+          "5": "130",
+          "6": "145"
+        },
+        "Base Damage": {
+          "1": "225",
+          "2": "280",
+          "3": "335",
+          "4": "390",
+          "5": "445",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Holy Healing",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Holy_Healing.png/revision/latest?cb=20200917011935",
+      "tags": [
+        "Heal",
+        "Speed Up"
+      ],
+      "description": "Heal Speed Up Rafaela calls upon Holy Light , restoring 100–125 (+35% Total Magic Power) HP to nearby allied heroes, plus and additional 150–250 (+45% Total Magic Power) HP to herself and the most injured allied hero in range. Also increases Movement Speed of nearby allied heroes by 30% and grants Slow Immunity for 1 seconds. Every 20 point(s) of Magic Power will add 1% to the Movement Speed bonus, up to 80%. Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ... Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.5",
+          "2": "10.1",
+          "3": "9.7",
+          "4": "9.3",
+          "5": "8.9",
+          "6": "8.5"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        },
+        "Basic Healing": {
+          "1": "250",
+          "2": "290",
+          "3": "330",
+          "4": "270",
+          "5": "410",
+          "6": "450"
+        },
+        "Secondary Heal": {
+          "1": "100",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        },
+        "Magic Power, Total Movement Speed Increase": {
+          "1": "(1, 30.05%)",
+          "2": "(2, 30.1%)",
+          "3": "(3, 30.15%)",
+          "4": "…",
+          "5": "(1000, 80%)",
+          "6": ""
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Holy Baptism",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Holy_Baptism.png/revision/latest?cb=20200917011934",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Rafaela unleashes the true power of Holy Light in the target direction, dealing 460–660 (+120% Total Magic Power) Magic Damage to enemies in a line and stunning them for 1.5 seconds. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "42.0",
+          "2": "38.0",
+          "3": "34.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "460",
+          "2": "560",
+          "3": "660"
+        }
+      }
+    }
+  ]
+}

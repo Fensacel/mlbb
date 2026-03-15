@@ -1,0 +1,102 @@
+{
+  "slug": "Martis",
+  "name": "Martis",
+  "url": "https://mobile-legends.fandom.com/wiki/Martis",
+  "intro": "Martis, the Ashura King, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Asura's Wrath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Asura%27s_Wrath.png/revision/latest?cb=20231226165530",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Each time Martis uses a skill, his Attack Speed will be increased by 30%, 120% maximum. Lasts 4 seconds. He gains (6*Hero Level) extra Attack at full stacks. Skill terms Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Asura Aura",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/be/Asura_Aura.png/revision/latest?cb=20231226165646",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Martis draws enemies to a fan-shaped area in front of him and deals 350–650 (+130% Extra Physical Attack) Physical Damage , slowing them by 40% for 2 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "410",
+          "3": "470",
+          "4": "530",
+          "5": "590",
+          "6": "650"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Mortal Coil",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/41/Mortal_Coil.png/revision/latest?cb=20231226165916",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Martis strikes in the target direction three times, each time dealing 225–300 (+120% Extra Physical Attack) Physical Damage to enemies hit. Enemies hit by the first and third strike are also knocked back. The attack direction can be changed once using the Joystick. Use Again: Martis leaps in the target direction, dealing 300–400 (+150% Extra Physical Attack) Physical Damage to enemies in his path and knocking them airborne . Martis gains Control Immunity and 60% Damage Reduction when casting this skill. Skill terms Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Base Damage": {
+          "1": "225",
+          "2": "240",
+          "3": "255",
+          "4": "270",
+          "5": "285",
+          "6": "300"
+        },
+        "Extra Damage": {
+          "1": "300",
+          "2": "320",
+          "3": "340",
+          "4": "360",
+          "5": "380",
+          "6": "400"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Decimation",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6f/Decimation.png/revision/latest?cb=20231226170036",
+      "tags": [
+        "Burst",
+        "Buff"
+      ],
+      "description": "Burst Buff Martis lunges at a designated enemy hero, dealing 800–1000 (+100% Extra Physical Attack) Physical Damage (deals True Damage if the enemy's HP is below 50%). If the enemy is killed by this skill, Martis can cast the skill again within 10 seconds and gains 100% extra Movement Speed that gradually decays over 5 seconds. Each successive cast also increases the skill's damage by 15% (up to 30%). Skill terms Current HP Death happens when current HP is or below 0. When there is Death Immune Effect, the current HP will not be below 1. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated). Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "32.0",
+          "3": "28.0"
+        },
+        "Base Damage": {
+          "1": "800",
+          "2": "900",
+          "3": "1000"
+        }
+      }
+    }
+  ]
+}

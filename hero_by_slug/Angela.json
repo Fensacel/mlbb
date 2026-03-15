@@ -1,0 +1,140 @@
+{
+  "slug": "Angela",
+  "name": "Angela",
+  "url": "https://mobile-legends.fandom.com/wiki/Angela",
+  "intro": "Angela, the Bunnylove, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Smart Heart",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7b/Smart_Heart.png/revision/latest?cb=20210816222919",
+      "tags": [
+        "Speed Up"
+      ],
+      "description": "Speed Up Angela gains 7.5% extra Movement Speed for 4 seconds each time she casts a skill (up to 30%). When she's attached to an allied hero, the Movement Speed boost is transferred to the allied hero. Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Love Waves",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Love_Waves.png/revision/latest?cb=20210816223021",
+      "tags": [
+        "Heal",
+        "AOE"
+      ],
+      "description": "Heal AOE | Spell Vamp Ratio: 50% Angela sends Love Waves in the target direction, dealing 170–320 (+80% Total Magic Power) Magic Damage to enemies hit, revealing their positions briefly, [ duration needed ] and applying a stack of Lover's Mark to them (up to 5 stacks). Each stack of Lover's Mark increases the damage by 20% and slows enemies hit by 8% for 3 seconds. The Love Waves also restore 150–200 (+75% Total Magic Power) HP to allied heroes hit. Angela can store up to 5 charges of this skill and the recharge time is affected by Cooldown Reduction . Skill terms Skill Charging Time As for Stored Skill, the interval between restoring each stack is called Recharge Time, which is affected by CD Reduction (unless otherwise stated). Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": [
+          "2.0"
+        ],
+        "Recharging Time": [
+          "6.0"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "170",
+          "2": "200",
+          "3": "230",
+          "4": "260",
+          "5": "290",
+          "6": "320"
+        },
+        "Healing Bonus": {
+          "1": "150",
+          "2": "160",
+          "3": "170",
+          "4": "180",
+          "5": "190",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Puppet-on-a-String",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a6/Puppet-on-a-String.png/revision/latest?cb=20210816223118",
+      "tags": [
+        "Slow",
+        "CC"
+      ],
+      "description": "Slow CC Angela launches a Puppet String at the target enemy, dealing 300–450 (+40% Total Magic Power) Magic Damage and gradually slowing them up to 80%. If the enemy is still connected to the string after 3 seconds, they'll be immobilized for 1.5 seconds and dealt 450–675 (+60% Total Magic Power) Magic Damage . Each stack of Lover's Mark increases the final damage by 20%. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.4",
+          "3": "11.8",
+          "4": "11.2",
+          "5": "10.6",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "100",
+          "3": "110",
+          "4": "120",
+          "5": "130",
+          "6": "140"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "330",
+          "3": "360",
+          "4": "390",
+          "5": "420",
+          "6": "450"
+        },
+        "Extra Damage": {
+          "1": "450",
+          "2": "495",
+          "3": "540",
+          "4": "585",
+          "5": "630",
+          "6": "675"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Heartguard",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a0/Heartguard.png/revision/latest?cb=20210816223245",
+      "tags": [
+        "Attach",
+        "Shield"
+      ],
+      "description": "Attach Shield Angela begins channeling [for 2 seconds], applying a 1000–2000 (+200–300% Total Magic Power) shield that lasts 6 seconds to the target allied hero regardless of distance. After the channeling is complete, she attaches herself to the allied hero for 12 seconds, during which she can cast skills at zero Mana cost. Angela can cast this skill again to cancel the channeling or detach herself from the allied hero. The attaching state will end early if the allied hero is killed. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {
+        "Cooldown": [
+          "60.0"
+        ],
+        "Mana Cost": {
+          "1": "100",
+          "2": "150",
+          "3": "200"
+        },
+        "Cast Range": [
+          "infinite"
+        ],
+        "Base Shield": {
+          "1": "1000",
+          "2": "1300",
+          "3": "1600"
+        },
+        "Shield Bonus": {
+          "1": "200%",
+          "2": "250%",
+          "3": "300%"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "Julian",
+  "name": "Julian",
+  "url": "https://mobile-legends.fandom.com/wiki/Julian",
+  "intro": "Julian, the Scarlet Raven, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Smith's Legacy",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/69/Smith%27s_Legacy.png/revision/latest?cb=20220525112147",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After casting two different skills, Julian enhances his third skill. Casting the enhanced skill makes all his skills go on a 9–6 seconds cooldown (decreases with his level. After casting any skill, his Basic Attacks within the next 5 seconds to deal 100 (+100% Total Physical Attack) (+100% Total Magic Power) Magic Damage and pull the target toward him. Casting another skill extends the duration. Julian gains 15% extra Hybrid Lifesteal for 5 seconds each time he hits an enemy hero with his skills (up to 3 stacks). Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "BUFF",
+      "name": "Forsaken Light",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+      "tags": [],
+      "description": "Since there are other Forsaken Light members on [Julian's] team, [his] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+      "properties": {}
+    }
+  ]
+}

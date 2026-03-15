@@ -1,0 +1,129 @@
+{
+  "slug": "Yve",
+  "name": "Yve",
+  "url": "https://mobile-legends.fandom.com/wiki/Yve",
+  "intro": "Yve, the Astrowarden, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Galactic Power",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Galactic_Power.png/revision/latest?cb=20210315234218",
+      "tags": [
+        "Buff",
+        "Shield"
+      ],
+      "description": "Buff Shield Yve gains a stack of Galactic Power each time she hits an enemy hero with Void Blast or Void Crystal (up to 10 stacks). Each stack of Galactic Power allows Yve to launch an extra attack on the next Real World Manipulation cast and increases the amount of shield gained by 5%.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Void Blast",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b0/Void_Blast.png/revision/latest?cb=20210315234044",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Yve detonates Galactic Energy at the target location, dealing 350–600 (+150% Total Magic Power) Magic Damage to enemies in the area Successfully hitting an enemy grants Yve 55% extra Movement Speed (halved if a non-hero enemy is hit) that decays over 1 second. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "5.0",
+          "2": "4.5",
+          "3": "4.0",
+          "4": "3.5",
+          "5": "3.0",
+          "6": "2.5"
+        },
+        "Mana Cost": {
+          "1": "65",
+          "2": "70",
+          "3": "75",
+          "4": "80",
+          "5": "85",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "400",
+          "3": "450",
+          "4": "500",
+          "5": "550",
+          "6": "600"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Void Crystal",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Void_Crystal.png/revision/latest?cb=20210315234111",
+      "tags": [
+        "Slow",
+        "AOE"
+      ],
+      "description": "Slow AOE Yve summons a Void Crystal at the target location, dealing 220–420 (+40% Total Magic Power) Magic Damage to nearby enemies. Use Again : Yve commands the Crystal to fire materialized energy in the target direction for 2.7 seconds, dealing 105–180 (+20% Total Magic Power) Magic Damage every 0.45 seconds to enemies hit and slowing them by 30%. Enemies hit multiple times are slowed by an extra 6% for each hit after the first (up to 60%). Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.6",
+          "3": "13.2",
+          "4": "12.8",
+          "5": "12.4",
+          "6": "12.0"
+        },
+        "Base Damage": {
+          "1": "220",
+          "2": "260",
+          "3": "300",
+          "4": "340",
+          "5": "380",
+          "6": "420"
+        },
+        "Continuous Damage": {
+          "1": "105",
+          "2": "120",
+          "3": "135",
+          "4": "150",
+          "5": "165",
+          "6": "180"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Real World Manipulation",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Real_World_Manipulation.png/revision/latest?cb=20210315234144",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Yve creates a Starfield that lasts [for] 15 seconds, gaining Displacement Immunity and a 400–800 (+120% Total Magic Power) shield . Within the duration, you can Tap or Slide the screen to launch up to 15 attacks. Tap: Deals 340–540 (+120% Total Magic Power) Magic Damage to enemies in the target area. Slide: Deals 65–125 (+10% Total Magic Power) Magic Damage every 0.45 seconds to enemies in the target area for 2.7 seconds and slows them by 50%. Enemies leaving or entering the Starfield are immobilized for 0.8 seconds (only once against the same target). The Starfield will remain if Yve is controlled , expect for suppression . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "60.0"
+        ],
+        "Mana Cost": {
+          "1": "180",
+          "2": "220",
+          "3": "260"
+        },
+        "Gain Shield": {
+          "1": "400",
+          "2": "550",
+          "3": "800"
+        },
+        "Tap Damage": {
+          "1": "340",
+          "2": "440",
+          "3": "540"
+        },
+        "Slide Damage": {
+          "1": "65",
+          "2": "95",
+          "3": "125"
+        }
+      }
+    }
+  ]
+}

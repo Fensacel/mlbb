@@ -1,0 +1,111 @@
+{
+  "slug": "Obsidia",
+  "name": "Obsidia",
+  "url": "https://mobile-legends.fandom.com/wiki/Obsidia",
+  "intro": "Obsidia, the Sovereign of Dark's End, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Return to Bone",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Return_to_Bone.png/revision/latest?cb=20250918010853",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff When Obsidia deals damage to enemies, she gains Bone Energy (Basic Attacks against non-hero units grant 1 Energy, against hero units grant 2 Energy, and skills grant 3 times the Energy. No Energy is gained from hitting creeps). When Bone Energy reaches 30, it forms a Bone Shard, up to 25 shards. When Obsidia uses Basic Attacks, all Bone Shards strike the target, each dealing (7% Total Physical Attack) Physical Damage and inheriting 7% Attack Effects.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Abyssal Bone Needle",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/ff/Abyssal_Bone_Needle.png/revision/latest?cb=20250918010947",
+      "tags": [
+        "Damage",
+        "AOE"
+      ],
+      "description": "Damage AOE Obsidia launches an Abyssal Bone Needle dealing 325 (+80% Total Physical Attack) Physical Damage to enemies hit and triggering Return to Bone on the first enemy hero attack.",
+      "properties": {
+        "Cooldown": {
+          "1": "4.5",
+          "2": "4.2",
+          "3": "3.9",
+          "4": "3.6",
+          "5": "3.3",
+          "6": "3.0"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "38",
+          "3": "41",
+          "4": "44",
+          "5": "47",
+          "6": "50"
+        },
+        "Base Damage": {
+          "1": "325",
+          "2": "360",
+          "3": "395",
+          "4": "430",
+          "5": "465",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Phantom Shadowmeld",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Phantom_Shadowmeld.png/revision/latest?cb=20250918011152",
+      "tags": [
+        "Speed Up"
+      ],
+      "description": "Speed Up Obsidia descends into the Abyss and enters Shadowmeld Form , gaining 500% Movement Speed for 0.3s.",
+      "properties": {
+        "Cooldown": {
+          "1": "4.5",
+          "2": "4.2",
+          "3": "3.9",
+          "4": "3.6",
+          "5": "3.3",
+          "6": "3.0"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Hunt of Bone",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/33/Hunt_of_Bone.png/revision/latest?cb=20250918011139",
+      "tags": [
+        "CC",
+        "Mobility"
+      ],
+      "description": "CC Mobility Obsidia shoots Bones of Wrath , in the target direction, dealing 125 (+60% Total Physical Attack) Physical Damage and briefly stunning the first enemy hero hit, and pulls herself near them. The Bones of Wrath then tether to the enemy, preventing Obsidia from moving more than 4 units away from them. The enemy cannot use displacement skills , and their movement will pull Obsidia along. During this time, Obsidia gains 5 temporary Bone Shard(s) . This effect lasts 3s. During this time, Obsidia can move through obstacles and use Basic Attacks while moving. Phantom Shadowmeld is enhanced, with its duration increased to 1s and cooldown reduced to 33%.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "50",
+          "3": "0"
+        },
+        "Base Damage": {
+          "1": "125",
+          "2": "175",
+          "3": "225"
+        }
+      }
+    }
+  ]
+}

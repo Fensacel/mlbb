@@ -1,0 +1,136 @@
+{
+  "slug": "Aulus",
+  "name": "Aulus",
+  "url": "https://mobile-legends.fandom.com/wiki/Aulus",
+  "intro": "Aulus, the Warrior of Ferocity, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Fighting Spirit",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/75/Fighting_Spirit.png/revision/latest?cb=20210903164549",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff A war axe that fights more fiercely as the battle continues. Aulus adds a stack of Fighting Spirit to his axe per second for 3 seconds after dealing damage to any enemy (up to 4 stacks). Each stack grants 9-15% extra Attack speed and 1-4 Physical Penetration (scales with Undying Fury level). Aulus also gains 10% extra Movement Speed and 42-210 Basic Attack Damage at max Fighting Spirit stacks (scales with level). Skill terms Physical ATK Total current Physical ATK. Physical PEN Deduct enemy’s Physical Defense by a fixed point or by percent. Enemy’s actual Physical Defense = Enemy’s Physical Defense × (100% - Percent of Physical PEN) - - Fixed points of Physical PEN. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Aulus, Charge!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Aulus%2C_Charge%21.png/revision/latest?cb=20210903164631",
+      "tags": [
+        "Speed Up",
+        "Slow"
+      ],
+      "description": "Speed Up Slow Aulus removes all slow effects and gains 30-50% extra Movement Speed and 20-50% Damage Reduction against attacks from the front for 5 seconds. Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage.",
+      "properties": {
+        "Cooldown": {
+          "1": "16.0",
+          "2": "15.6",
+          "3": "15.2",
+          "4": "14.8",
+          "5": "14.4",
+          "6": "14.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Movement Speed Bonus": {
+          "1": "30%",
+          "2": "34%",
+          "3": "38%",
+          "4": "42%",
+          "5": "46%",
+          "6": "50%"
+        },
+        "Damage Reduction": {
+          "1": "30%",
+          "2": "34%",
+          "3": "38%",
+          "4": "42%",
+          "5": "46%",
+          "6": "50%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "The Power of Axe",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/The_Power_of_Axe.png/revision/latest?cb=20210903164704",
+      "tags": [
+        "Burst",
+        "Buff"
+      ],
+      "description": "Burst Buff Aulus brandishes his axe, dealing 150–550 (+120% Extra Physical Attack) Physical Damage to enemies in a fan-shaped area, and enhancing his next Basic Attacks for 3 seconds after hitting enemy heroes or Creeps. Aulus recovers HP by 50-100 (+1% Total HP) Basic Attack .",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Mana Cost": {
+          "1": "40",
+          "2": "46",
+          "3": "52",
+          "4": "58",
+          "5": "64",
+          "6": "70"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "230",
+          "3": "310",
+          "4": "390",
+          "5": "470",
+          "6": "550"
+        },
+        "Attack Speed Boost": {
+          "1": "100%",
+          "2": "120%",
+          "3": "140%",
+          "4": "160%",
+          "5": "180%",
+          "6": "200%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Undying Fury",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Undying_Fury.png/revision/latest?cb=20210903164732",
+      "tags": [
+        "Slow",
+        "Buff"
+      ],
+      "description": "Slow Buff Passive: Every time Undying Fury is upgraded, Aulus crafts a part for his axe in order. Blade Craft: Permanently increases his Basic Attacks ' Physical Damage by 50. Handle Craft: Permanently increases his Attack Range by 65% and the range of The Power of Axe . Hammer Craft: Permanently increases his Physical Penetration by 20%. Active: Aulus raises his axe and smashes it to the ground, dealing 210–290 (+100% Extra Physical Attack) Physical Damage to enemies in a line and slowing them by 90% for 0.5 seconds. A burning trail that lasts for 5 seconds is left on the ground, dealing 90–130 (+40% Extra Physical Attack) Physical Damage to enemies who walk on it every 0.5 seconds and slowing them by 70%. Skill terms Physical Penetration Physical Damage Physical Damage taken can be reduced by increasing Physical Defense. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "180",
+          "3": "210"
+        },
+        "Base Damage": {
+          "1": "210",
+          "2": "250",
+          "3": "290"
+        },
+        "Sustained Damage": {
+          "1": "90",
+          "2": "110",
+          "3": "130"
+        }
+      }
+    }
+  ]
+}

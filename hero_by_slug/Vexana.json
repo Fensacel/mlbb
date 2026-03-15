@@ -1,0 +1,132 @@
+{
+  "slug": "Vexana",
+  "name": "Vexana",
+  "url": "https://mobile-legends.fandom.com/wiki/Vexana",
+  "intro": "Vexana, the Shimmer of Hope, is a hero in Mobile Legends: Bang Bang , and is accompanied by Eternal Guard.",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Nether Touch",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ec/Nether_Touch.png/revision/latest?cb=20241018163634",
+      "tags": [
+        "Damage"
+      ],
+      "description": "Damage Vexana and the Eternal Guard inflict Nether Curse on enemies hit. The Curse lasts 5 seconds and will cause the affected enemy to explode upon death, dealing [108 (+38 × Hero Level) (+60% Total Magic Power) Magic Damage ] to nearby enemies.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Deathly Grasp",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Deathly_Grasp.png/revision/latest?cb=20241018163631",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 50% Vexana unleashes a Deathly Grasp in the target direction, dealing 200–300 (+60% Total Magic Power) Magic Damage to enemies in its path. The projectile stops upon hitting an enemy hero, terrifying them and knocking them back , then it explodes, dealing 200–300 (+60% Total Magic Power) Magic Damage to nearby enemies and terrifying them for 1 second. Skill terms Terrify Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.4",
+          "3": "12.88",
+          "4": "12.2",
+          "5": "11.6",
+          "6": "11.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Explosion Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Cursed Blast",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Cursed_Blast.png/revision/latest?cb=20241018163628",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE | Spell Vamp Ratio: 50% Vexana marks the target area with the power of the undead, striking it after 0.8 seconds delay and dealing 580–850 (+160% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.7",
+          "3": "6.4",
+          "4": "6.1",
+          "5": "5.8",
+          "6": "5.5"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "580",
+          "2": "634",
+          "3": "689",
+          "4": "743",
+          "5": "797",
+          "6": "850"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Eternal Guard",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Eternal_Guard.png/revision/latest?cb=20241018163624",
+      "tags": [
+        "Summon",
+        "Damage"
+      ],
+      "description": "Summon Damage | Spell Vamp Ratio: 50% Vexana summons an Eternal Guard at the target location, dealing 500–700 (+60% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 0.8 seconds. The Eternal Guard then joins Vexana in battle for 15 seconds. Each of Eternal Guard's attacks deals [225–275 (+40% Total Magic Power) (+enemy's 5% Total HP) Magic Damage ] to enemies in a large area.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "35.0",
+          "3": "46.0"
+        },
+        "Mana Cost": {
+          "1": "200",
+          "2": "300",
+          "3": "400"
+        },
+        "Base Damage": {
+          "1": "500",
+          "2": "600",
+          "3": "700"
+        },
+        "Slash Damage": {
+          "1": "225",
+          "2": "250",
+          "3": "275"
+        }
+      }
+    }
+  ]
+}

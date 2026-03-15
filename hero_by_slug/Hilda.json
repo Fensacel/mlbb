@@ -1,0 +1,112 @@
+{
+  "slug": "Hilda",
+  "name": "Hilda",
+  "url": "https://mobile-legends.fandom.com/wiki/Hilda",
+  "intro": "Hilda, the Power of Megalith, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Blessing of Wilderness",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Blessing_of_Wilderness.png/revision/latest?cb=20210315234429",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Hilda regenerates 2% of her Max HP per second while staying in the bush. When entering a bush, she gains a shield equal to 15% of her Max HP . After leaving the bush, the shield lasts for 5 seconds. This effect has a 10 seconds cooldown. Hilda's Basic Attack and Skills apply a Wilderness Mark on hit, which lasts up to 4 seconds and stacks up to 6. Each stack reduce the target's Physical Defense and Magic Defense by 4%. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. HP Regen HP regens every 1 second. Max HP The maximum HP currently can have.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Combat Ritual",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Combat_Ritual.png/revision/latest?cb=20210315234250",
+      "tags": [
+        "Speed Up",
+        "AOE"
+      ],
+      "description": "Speed Up AOE Hilda activates the runic power of her great axe, increasing her Movement Speed by 60% for 3 seconds and enhancing her next Basic Attack to deal 200 200–300 (+100% Total Physical Attack) Physical Damage and slow the target by 40% for 3 seconds. The attack will also deal 120–180 (+60% Total Physical Attack) Physical Damage to enemies behind the target. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.5",
+          "3": "9.0",
+          "4": "8.5",
+          "5": "8.0",
+          "6": "7.5"
+        },
+        "Target Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Diffusion Damage": {
+          "1": "120",
+          "2": "132",
+          "3": "144",
+          "4": "156",
+          "5": "168",
+          "6": "180"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Art of Hunting",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Art_of_Hunting.png/revision/latest?cb=20210315234319",
+      "tags": [
+        "Damage",
+        "CC"
+      ],
+      "description": "Damage CC Hilda locks onto an enemy target, each time dealing 220–420 (+100% Total Physical Attack) Physical Damage . Skill can be released 3 times at most. The 2nd attack will deal damage to target's surroundings, and the 3rd attack will knock back the target and surrounding enemies temporarily. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Base Damage": {
+          "1": "220",
+          "2": "260",
+          "3": "320",
+          "4": "360",
+          "5": "400",
+          "6": "420"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Power of Wildness",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Power_of_Wildness.png/revision/latest?cb=20210315234351",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Hilda launches a powerful slash on the target enemy, dealing 600–1000 (+250% Extra Physical Attack) Physical Damage and stunning them for 0.2 seconds. Nearby enemies also take 60% damage. Each stack of Wilderness Mark makes Power of Wildness deal 2.5% of the target's Max HP as extra damage. At max stacks, Power of Wildness deal 20% of the target's Max HP as extra damage. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Physical Penetration",
+      "properties": {
+        "Cooldown": {
+          "1": "32.0",
+          "2": "28.0",
+          "3": "24.0"
+        },
+        "Base Damage": {
+          "1": "600",
+          "2": "800",
+          "3": "1000"
+        },
+        "Extra Percentage Damage": {
+          "1": "20%",
+          "2": "28%",
+          "3": "36%"
+        }
+      }
+    }
+  ]
+}

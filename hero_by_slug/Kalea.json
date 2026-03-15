@@ -1,0 +1,92 @@
+{
+  "slug": "Kalea",
+  "name": "Kalea",
+  "url": "https://mobile-legends.fandom.com/wiki/Kalea",
+  "intro": "Kalea, the Surging Wave, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Surge of Life",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Surge_of_Life.png/revision/latest?cb=20250222151008",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After casting a skill, Kalea creates a Water Zone on the ground. When Kalea casts a skill within this zone, she will absorb it to enhance her next three Basic Attacks with different effects: First Basic Attack: Kalea dashes to the target, dealing (+100% Total Physical Attack) Physical Damage . Second Basic Attack: Kalea unleashes a flurry of attacks, dealing 300 (+100% Total Physical Attack) Physical Damage and recovering 120 (+10% Total HP) (+60% Total Magic Power) HP for herself and the nearby lowest HP ally. Third Basic Attack: Kalea uses her tail to strike the area around her target, dealing 100 (+100% Total Physical Attack) Physical Damage and creating a new Water Zone . Enhanced Basic Attacks are not affected by Attack Speed.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Wavebreaker",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/08/Wavebreaker.png/revision/latest?cb=20250222151011",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Kalea slams her fist into the ground, creating a wave that deals 250 (+5% Total HP) Physical Damage to nearby enemies and slows them by 40% for 1.5 seconds.",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Base Damage": {
+          "1": "180",
+          "2": "200",
+          "3": "220",
+          "4": "240",
+          "5": "260",
+          "6": "280"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Tidal Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/91/Tidal_Strike.png/revision/latest?cb=20250222151009",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Kalea charges forward and body slams the first enemy hero she encounters, knocking them airborne for 0.6s while dealing 150 (+60% Total Physical Attack) Physical Damage . If she collides with an obstacle or touches the edge of a Water Zone during her charge, Kalea will leap into the air. Cast the skill again to slam down at a target location, dealing 150 (+60% Total Physical Attack) Physical Damage and knocking enemies airborne for 0.6s.",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.6",
+          "3": "12.2",
+          "4": "11.8",
+          "5": "11.4",
+          "6": "11.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "175",
+          "3": "200",
+          "4": "225",
+          "5": "250",
+          "6": "275"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Tsunami Slam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Tsunami_Slam.png/revision/latest?cb=20250222151010",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Kalea grabs an enemy hero with her tail and slams them down in the Joystick's direction, dealing 300 (+80% Total Physical Attack) Physical Damage to the target and nearby enemies.",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "400",
+          "3": "500"
+        }
+      }
+    }
+  ]
+}
