@@ -6,6 +6,80 @@
   "infobox": {
     "Durability": "8"
   },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2709",
+      "level_15": "6069",
+      "growth": "240"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "6.4",
+      "level_15": "14.8",
+      "growth": "0.6"
+    },
+    "mana": {
+      "label": "Mana",
+      "values": [
+        "0"
+      ]
+    },
+    "mana_regen": {
+      "label": "Mana Regen",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "126",
+      "level_15": "240",
+      "growth": "8.14"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "20 (14.3%)",
+      "level_15": "76 (38.8%)",
+      "growth": "4"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "38 (24.1%)",
+      "growth": "1.6429"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "1.06",
+      "level_15": "1.34",
+      "growth": "0.02"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "100%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "260"
+      ]
+    }
+  },
   "abilities": [
     {
       "section": "Passive",
