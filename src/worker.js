@@ -8,6 +8,7 @@ const JSON_HEADERS = {
 
 const API_TITLE = "MLBB Stats API";
 const API_VERSION = "1.1.0";
+const NOISE_PATH_SEGMENTS = ["wp-login", "xmlrpc", "phpmyadmin", ".env"];
 
 function normalizeKey(value) {
   return String(value || "")
@@ -27,6 +28,28 @@ function emptyResponse(status = 204) {
     status,
     headers: JSON_HEADERS
   });
+}
+
+function notFoundResponse(path) {
+  return jsonResponse({ error: `Path '${path}' not found` }, 404);
+}
+
+function getQueryContext(url) {
+  const q = (url.searchParams.get("q") || "").trim().toLowerCase();
+  const limitRaw = Number.parseInt(url.searchParams.get("limit") || "0", 10);
+  return { q, limitRaw };
+}
+
+function applyLimit(values, limitRaw) {
+  if (Number.isFinite(limitRaw) && limitRaw > 0) {
+    return values.slice(0, limitRaw);
+  }
+  return values;
+}
+
+function containsNoisePath(path) {
+  const lowered = path.toLowerCase();
+  return NOISE_PATH_SEGMENTS.some((segment) => lowered.includes(segment));
 }
 
 async function fetchAsset(request, env, assetPath) {
@@ -131,6 +154,10 @@ async function handleApiRoutes(request, env) {
   const url = new URL(request.url);
   const path = url.pathname.replace(/\/+$/, "") || "/";
 
+  if (containsNoisePath(path)) {
+    return notFoundResponse(path);
+  }
+
   if (path === "/api" || path === "/api/") {
     return jsonResponse({
       name: API_TITLE,
@@ -158,17 +185,14 @@ async function handleApiRoutes(request, env) {
 
   if (path === "/api/heroes") {
     const heroes = await getHeroesList(request, env);
-    const q = (url.searchParams.get("q") || "").trim().toLowerCase();
-    const limitRaw = Number.parseInt(url.searchParams.get("limit") || "0", 10);
+    const { q, limitRaw } = getQueryContext(url);
 
     let filtered = heroes;
     if (q) {
       filtered = heroes.filter((name) => String(name).toLowerCase().includes(q));
     }
 
-    if (Number.isFinite(limitRaw) && limitRaw > 0) {
-      filtered = filtered.slice(0, limitRaw);
-    }
+    filtered = applyLimit(filtered, limitRaw);
 
     return jsonResponse({ count: filtered.length, data: filtered });
   }
@@ -194,9 +218,7 @@ async function handleApiRoutes(request, env) {
   if (path === "/api/items") {
     const items = await fetchAssetJson(request, env, "/items_data.json");
     const normalizedItems = Array.isArray(items) ? items : [];
-
-    const q = (url.searchParams.get("q") || "").trim().toLowerCase();
-    const limitRaw = Number.parseInt(url.searchParams.get("limit") || "0", 10);
+    const { q, limitRaw } = getQueryContext(url);
 
     let filtered = normalizedItems;
     if (q) {
@@ -207,9 +229,7 @@ async function handleApiRoutes(request, env) {
       });
     }
 
-    if (Number.isFinite(limitRaw) && limitRaw > 0) {
-      filtered = filtered.slice(0, limitRaw);
-    }
+    filtered = applyLimit(filtered, limitRaw);
 
     return jsonResponse({ count: filtered.length, data: filtered });
   }

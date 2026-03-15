@@ -29,53 +29,54 @@ async function exists(targetPath) {
   }
 }
 
+async function copyAllowedJsonFiles(sourceDir, destinationDir, copiedJsonFiles = new Set()) {
+  if (!(await exists(sourceDir))) {
+    return copiedJsonFiles;
+  }
+
+  const entries = await readdir(sourceDir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (
+      entry.isFile() &&
+      entry.name.toLowerCase().endsWith(".json") &&
+      ALLOWED_JSON_FILES.has(entry.name) &&
+      !copiedJsonFiles.has(entry.name)
+    ) {
+      const source = path.join(sourceDir, entry.name);
+      const destination = path.join(destinationDir, entry.name);
+      await cp(source, destination);
+      copiedJsonFiles.add(entry.name);
+    }
+  }
+
+  return copiedJsonFiles;
+}
+
+async function copyFirstExistingDir(candidates, destinationDir) {
+  for (const sourceDir of candidates) {
+    if (await exists(sourceDir)) {
+      await cp(sourceDir, destinationDir, { recursive: true });
+      return true;
+    }
+  }
+
+  return false;
+}
+
 async function syncJsonFiles() {
   await mkdir(outputDir, { recursive: true });
 
   // Recreate fallback-generated folder to prevent stale hero detail files.
   await rm(path.join(outputDir, "hero_by_slug"), { recursive: true, force: true });
 
-  const entries = await readdir(rootDir, { withFileTypes: true });
-  const copiedJsonFiles = new Set();
-  for (const entry of entries) {
-    if (
-      entry.isFile() &&
-      entry.name.toLowerCase().endsWith(".json") &&
-      ALLOWED_JSON_FILES.has(entry.name)
-    ) {
-      const source = path.join(rootDir, entry.name);
-      const destination = path.join(outputDir, entry.name);
-      await cp(source, destination);
-      copiedJsonFiles.add(entry.name);
-    }
-  }
-
-  if (await exists(fallbackDataDir)) {
-    const fallbackEntries = await readdir(fallbackDataDir, { withFileTypes: true });
-    for (const entry of fallbackEntries) {
-      if (
-        entry.isFile() &&
-        entry.name.toLowerCase().endsWith(".json") &&
-        ALLOWED_JSON_FILES.has(entry.name) &&
-        !copiedJsonFiles.has(entry.name)
-      ) {
-        const source = path.join(fallbackDataDir, entry.name);
-        const destination = path.join(outputDir, entry.name);
-        await cp(source, destination);
-      }
-    }
-  }
+  let copiedJsonFiles = new Set();
+  copiedJsonFiles = await copyAllowedJsonFiles(rootDir, outputDir, copiedJsonFiles);
+  copiedJsonFiles = await copyAllowedJsonFiles(fallbackDataDir, outputDir, copiedJsonFiles);
 
   const heroBySlugSource = path.join(rootDir, "hero_by_slug");
   const heroBySlugDestination = path.join(outputDir, "hero_by_slug");
-  if (await exists(heroBySlugSource)) {
-    await cp(heroBySlugSource, heroBySlugDestination, { recursive: true });
-  } else {
-    const fallbackHeroBySlug = path.join(fallbackDataDir, "hero_by_slug");
-    if (await exists(fallbackHeroBySlug)) {
-      await cp(fallbackHeroBySlug, heroBySlugDestination, { recursive: true });
-    }
-  }
+  const fallbackHeroBySlug = path.join(fallbackDataDir, "hero_by_slug");
+  await copyFirstExistingDir([heroBySlugSource, fallbackHeroBySlug], heroBySlugDestination);
 
   if (await exists(webDir)) {
     await cp(webDir, outputDir, { recursive: true });
