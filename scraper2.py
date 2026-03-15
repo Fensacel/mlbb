@@ -8,7 +8,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-BASE_WIKI = "https://mobile-legends.fandom.com/wiki"
+BASE_WIKI = "https://mobile-legends.fandom.com/wiki/"
 API_URL = "https://mobile-legends.fandom.com/api.php"
 HEADERS = {
     "User-Agent": (
@@ -18,6 +18,22 @@ HEADERS = {
     ),
     "Accept-Language": "en-US,en;q=0.9",
 }
+
+NOISY_TITLE_KEYWORDS = (
+    "patch notes",
+    "update",
+    "advance server",
+    "events",
+)
+
+
+def normalize_lookup(text):
+    return re.sub(r"[^a-z0-9]", "", str(text).lower())
+
+
+def build_wiki_url(title):
+    page = quote(str(title).replace(" ", "_"))
+    return f"{BASE_WIKI}{page}"
 
 
 def load_hero_slugs(path):
@@ -32,11 +48,17 @@ def load_hero_slugs(path):
 
 def resolve_page_title(slug):
     """Cari judul halaman wiki yang paling cocok untuk slug hero."""
+    readable_slug = str(slug).replace("_", " ").replace("-", " ").strip()
+    slug_norm = normalize_lookup(readable_slug)
+
     search_terms = [
-        slug,
-        slug.replace("-", " "),
-        slug.replace("-", " ").title(),
+        readable_slug,
+        readable_slug.title(),
+        f'"{readable_slug}"',
     ]
+
+    best_title = None
+    best_score = -1
 
     for term in search_terms:
         params = {
@@ -54,15 +76,47 @@ def resolve_page_title(slug):
         if not results:
             continue
 
-        slug_norm = slug.replace("-", "").lower()
         for result in results:
             title = result.get("title", "")
-            if title and title.replace(" ", "").replace("-", "").lower() == slug_norm:
-                return title
+            if not title:
+                continue
 
-        title = results[0].get("title")
-        if title:
-            return title
+            title_norm = normalize_lookup(title)
+            score = 0
+
+            if title_norm == slug_norm:
+                score += 100
+            elif slug_norm and slug_norm in title_norm:
+                score += 70
+
+            lowered_title = title.lower()
+            if any(keyword in lowered_title for keyword in NOISY_TITLE_KEYWORDS):
+                score -= 80
+
+            if score > best_score:
+                best_score = score
+                best_title = title
+
+    if best_title and best_score > 0:
+        return best_title
+
+    # Fallback terakhir: ambil title pertama yang bukan patch/update page.
+    for term in search_terms:
+        params = {
+            "action": "query",
+            "list": "search",
+            "format": "json",
+            "srsearch": term,
+            "srlimit": 5,
+        }
+        resp = requests.get(API_URL, params=params, timeout=20)
+        resp.raise_for_status()
+        payload = resp.json()
+
+        for result in payload.get("query", {}).get("search", []):
+            title = result.get("title", "")
+            if title and not any(keyword in title.lower() for keyword in NOISY_TITLE_KEYWORDS):
+                return title
 
     return None
 
@@ -249,9 +303,103 @@ def parse_abilities(soup):
     return abilities
 
 
+def normalize_stat_key(label):
+    key = clean_text(label)
+    key = re.sub(r"\(.*?\)", "", key)
+    key = re.sub(r"[^a-zA-Z0-9]+", "_", key).strip("_").lower()
+    return key
+
+
+def parse_hero_stats(soup):
+    content = soup.select_one("div.mw-parser-output") or soup
+
+    for table in content.select("table.wikitable"):
+        rows = table.select("tr")
+        if len(rows) < 2:
+            continue
+
+        header_row_idx = None
+        header_text = []
+        for idx in range(min(4, len(rows))):
+            probe_cells = rows[idx].select("th,td")
+            probe_text = [clean_text(c.get_text(" ", strip=True)) for c in probe_cells]
+            probe_blob = " ".join(probe_text).lower()
+            if "attribute" in probe_blob and ("level 1" in probe_blob or "base stats" in probe_blob):
+                header_row_idx = idx
+                header_text = probe_text
+                break
+
+        looks_like_stats_table = header_row_idx is not None
+        if not looks_like_stats_table:
+            continue
+
+        headers = []
+        for head in header_text:
+            if head:
+                headers.append(head)
+
+        if not headers:
+            continue
+
+        if header_row_idx + 1 < len(rows):
+            second_header_cells = rows[header_row_idx + 1].select("th,td")
+            second_header = [clean_text(c.get_text(" ", strip=True)) for c in second_header_cells]
+            if second_header and any(x for x in second_header if x.lower().startswith("level") or x.lower() == "growth"):
+                headers = [headers[0]] + [x for x in second_header if x]
+
+        stats = {}
+        data_start_idx = header_row_idx + 1
+        # Jika ada subheader level/growth, data mulai dari baris setelahnya.
+        if data_start_idx < len(rows):
+            probe_cells = [clean_text(c.get_text(" ", strip=True)) for c in rows[data_start_idx].select("th,td")]
+            probe_blob = " ".join(probe_cells).lower()
+            if any(x in probe_blob for x in ("level 1", "level 15", "growth")):
+                data_start_idx += 1
+
+        for row in rows[data_start_idx:]:
+            cells = [clean_text(c.get_text(" ", strip=True)) for c in row.select("th,td")]
+            cells = [c for c in cells if c]
+            if len(cells) < 2:
+                continue
+
+            label = cells[0]
+            label_lower = label.lower()
+            if label_lower in {"attribute", "base stats", "level 1", "level 15", "growth"}:
+                continue
+
+            values = cells[1:]
+            if not values:
+                continue
+
+            stat_key = normalize_stat_key(label)
+            if not stat_key:
+                continue
+
+            row_data = {}
+            if len(headers) > 1:
+                value_headers = headers[1:]
+                if len(values) == len(value_headers):
+                    for idx, val in enumerate(values):
+                        row_data[normalize_stat_key(value_headers[idx])] = val
+                else:
+                    row_data["values"] = values
+            else:
+                row_data["values"] = values
+
+            stats[stat_key] = {
+                "label": label,
+                **row_data,
+            }
+
+        if stats:
+            return stats
+
+    return {}
+
+
 def fetch_hero_page_html(title):
     """Ambil HTML hero dari API parse; fallback ke halaman langsung jika perlu."""
-    url = f"{BASE_WIKI}/{quote(title.replace(' ', '_'))}"
+    url = build_wiki_url(title)
 
     parse_params = {
         "action": "parse",
@@ -295,6 +443,7 @@ def scrape_hero(slug):
         "url": url,
         "intro": parse_intro(soup),
         "infobox": parse_infobox(soup),
+        "hero_stats": parse_hero_stats(soup),
         "abilities": parse_abilities(soup),
     }
 

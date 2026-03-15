@@ -1,118 +1,111 @@
-# Molebuild Scraper API (Cloudflare Worker)
+# MLBB Stats API
 
-Project ini mengubah output scraper JSON menjadi API yang bisa di-host di Cloudflare Worker.
+README ini fokus ke cara pakai API.
 
-Landing page docs/test ada di root URL (`/`) dengan UI interaktif untuk ngetes endpoint.
+Base URL contoh:
+https://example.workers.dev
 
-## Endpoint API
+## Endpoint Yang Dipakai
 
-- `GET /api`
-- `GET /api/schema`
-- `GET /api/health`
-- `GET /api/heroes?q=<keyword>&limit=<n>`
-- `GET /api/heroes/:slug`
-- `GET /api/items?q=<keyword>&limit=<n>`
-- `GET /api/items/:slug`
+- GET /api
+- GET /api/schema
+- GET /api/health
+- GET /api/heroes
+- GET /api/heroes?q=miya
+- GET /api/hero-details/:slug
+- GET /api/hero-details/:slug/abilities
+- GET /api/items
+- GET /api/items?q=oracle
 
-Contoh:
+Catatan:
+- Endpoint items detail per slug sudah tidak ada.
+- Detail dan abilities hero diakses lewat hero-details.
 
-- `GET /api/heroes?q=miya`
-- `GET /api/heroes/miya`
-- `GET /api/items?q=oracle`
-- `GET /api/items/oracle`
+## Bentuk Response Singkat
 
-## Landing Page
+GET /api/heroes atau /api/items:
 
-- `GET /` untuk docs + API tester
-- Klik endpoint atau isi path endpoint, lalu `Run Request`
-- Bisa copy hasil JSON langsung dari UI
+```json
+{
+  "count": 132,
+  "data": ["Miya", "Balmond"]
+}
+```
 
-## Struktur Data yang Dipakai
+GET /api/hero-details/miya:
 
-Worker membaca file data dari folder `public`:
+```json
+{
+  "slug": "Miya",
+  "name": "Miya",
+  "hero_stats": {},
+  "abilities": []
+}
+```
 
-- `public/hero.json`
-- `public/items_data.json`
-- `public/hero_by_slug/*.json`
+GET /api/hero-details/miya/abilities:
 
-Folder `public` tidak di-edit manual. Folder ini di-generate dari root project oleh script sync.
+```json
+{
+  "slug": "Miya",
+  "name": "Miya",
+  "abilities": []
+}
+```
 
-Urutan sumber data saat sync:
+## Cara Pakai di Frontend
 
-1. Data utama dari root project (hasil scraper)
-2. Fallback dari folder `data` jika file utama tidak ada
-3. Asset landing page dari folder `web`
+```html
+<script>
+  async function getHeroes() {
+    const res = await fetch("https://example.workers.dev/api/heroes");
+    const json = await res.json();
+    return json.data;
+  }
 
-## Cara Menjalankan Lokal
+  async function getHeroDetail(slug) {
+    const res = await fetch(`https://example.workers.dev/api/hero-details/${slug}`);
+    if (!res.ok) throw new Error("Hero tidak ditemukan");
+    return res.json();
+  }
 
-1. Install dependency:
-   - `npm install`
-2. Sinkronkan data JSON ke assets:
-   - `npm run sync:data`
-3. Jalankan lokal:
-   - `npm run dev`
+  async function getHeroAbilities(slug) {
+    const res = await fetch(`https://example.workers.dev/api/hero-details/${slug}/abilities`);
+    if (!res.ok) throw new Error("Abilities tidak ditemukan");
+    return res.json();
+  }
+</script>
+```
 
-Jika file JSON scraper belum ada, endpoint tetap hidup tapi data akan kosong / not found.
-Secara default, project menyediakan sample data fallback supaya API langsung bisa dites.
+## Cara Pakai di Backend (Node.js)
 
-## Deploy ke Cloudflare
+```js
+const baseUrl = "https://example.workers.dev";
 
-1. Login Wrangler:
-   - `npx wrangler login`
-2. Deploy:
-   - `npm run deploy`
+async function getItems(keyword = "") {
+  const url = keyword
+    ? `${baseUrl}/api/items?q=${encodeURIComponent(keyword)}`
+    : `${baseUrl}/api/items`;
 
-Setelah deploy, API bisa diakses lewat domain Worker Cloudflare.
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+  return response.json();
+}
+```
 
-## Setup GitHub Actions
+## Cara Tes Cepat (curl)
 
-Workflow file yang dipakai (3 workflow):
+```bash
+curl https://example.workers.dev/api/heroes
+curl https://example.workers.dev/api/hero-details/miya
+curl https://example.workers.dev/api/hero-details/miya/abilities
+curl "https://example.workers.dev/api/items?q=oracle"
+```
 
-- `.github/workflows/scrape-items.yml`
-   - Jalan terjadwal untuk update `items_data.json`.
-   - Menjalankan `scraper.py`.
-   - Commit otomatis bila ada perubahan item.
+## Integrasi Cepat
 
-- `.github/workflows/scrape-heroes.yml`
-   - Jalan terjadwal untuk update `hero_details.json` dan folder `hero_by_slug`.
-   - Menjalankan `scraper2.py`.
-   - Commit otomatis bila ada perubahan hero.
-
-- `.github/workflows/deploy-worker.yml`
-   - Jalan saat ada push ke branch `main`/`master` pada file relevan API/data.
-   - Menjalankan `npm run sync:data` lalu `wrangler deploy`.
-
-Secrets yang wajib di GitHub Repository Settings -> Secrets and variables -> Actions:
-
-- `CLOUDFLARE_ACCOUNT_ID`
-- `CLOUDFLARE_API_TOKEN`
-
-Minimal permission token Cloudflare:
-
-- `Account` -> `Cloudflare Workers:Edit`
-- `Zone` tidak wajib kalau hanya deploy Worker tanpa custom route.
-
-Langkah aktifkan:
-
-1. Push file workflow ke branch utama.
-2. Tambahkan 2 secrets di atas.
-3. Jalankan manual `Scrape Items Data` lalu `Scrape Heroes Data` sekali dari tab Actions untuk test awal.
-4. Cek apakah commit data muncul otomatis.
-5. Pastikan `Deploy Worker` sukses setelah commit data tersebut.
-
-## Tentang request `/api/wp-login-config`
-
-Request ini biasanya dari bot scanner internet yang nyari endpoint WordPress, bukan dari aplikasi kamu.
-Karena API kamu publik, path acak seperti ini normal terlihat di log dan akan dibalas `404`.
-
-Jika ingin mengurangi noise:
-
-- Tambah WAF rule di Cloudflare untuk challenge/block path yang mengandung `wp-login`.
-- Batasi akses berdasarkan negara/ASN bila target user kamu spesifik.
-- Simpan/monitor hanya path penting (`/api/heroes`, `/api/items`, dll.) di observability tooling.
-
-## Catatan Penting
-
-- Setiap ada update file JSON hasil scraping, jalankan lagi:
-  - `npm run sync:data`
-- Saat deploy, script `deploy` otomatis menjalankan sync sebelum upload.
+- List page hero: pakai GET /api/heroes
+- Hero detail page: pakai GET /api/hero-details/:slug
+- Hero skills tab: pakai GET /api/hero-details/:slug/abilities
+- List page items: pakai GET /api/items
+- Search: tambah query q

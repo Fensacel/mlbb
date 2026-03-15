@@ -36,15 +36,7 @@ function notFoundResponse(path) {
 
 function getQueryContext(url) {
   const q = (url.searchParams.get("q") || "").trim().toLowerCase();
-  const limitRaw = Number.parseInt(url.searchParams.get("limit") || "0", 10);
-  return { q, limitRaw };
-}
-
-function applyLimit(values, limitRaw) {
-  if (Number.isFinite(limitRaw) && limitRaw > 0) {
-    return values.slice(0, limitRaw);
-  }
-  return values;
+  return { q };
 }
 
 function containsNoisePath(path) {
@@ -97,13 +89,12 @@ function buildOpenApiSchema(baseUrl) {
         get: {
           summary: "List heroes",
           parameters: [
-            { name: "q", in: "query", schema: { type: "string" } },
-            { name: "limit", in: "query", schema: { type: "integer", minimum: 1 } }
+            { name: "q", in: "query", schema: { type: "string" } }
           ],
           responses: { "200": { description: "Hero list" } }
         }
       },
-      "/api/heroes/{slug}": {
+      "/api/hero-details/{slug}": {
         get: {
           summary: "Get hero by slug",
           parameters: [
@@ -115,30 +106,47 @@ function buildOpenApiSchema(baseUrl) {
           }
         }
       },
-      "/api/items": {
+      "/api/hero-details/{slug}/abilities": {
         get: {
-          summary: "List items",
-          parameters: [
-            { name: "q", in: "query", schema: { type: "string" } },
-            { name: "limit", in: "query", schema: { type: "integer", minimum: 1 } }
-          ],
-          responses: { "200": { description: "Item list" } }
-        }
-      },
-      "/api/items/{slug}": {
-        get: {
-          summary: "Get item by slug",
+          summary: "Get hero abilities by slug",
           parameters: [
             { name: "slug", in: "path", required: true, schema: { type: "string" } }
           ],
           responses: {
-            "200": { description: "Item detail" },
-            "404": { description: "Item not found" }
+            "200": { description: "Hero abilities" },
+            "404": { description: "Hero not found" }
           }
+        }
+      },
+      "/api/items": {
+        get: {
+          summary: "List items",
+          parameters: [
+            { name: "q", in: "query", schema: { type: "string" } }
+          ],
+          responses: { "200": { description: "Item list" } }
         }
       }
     }
   };
+}
+
+async function getHeroDetailsBySlug(request, env, slugRaw) {
+  const slug = decodeURIComponent(slugRaw || "").trim();
+  if (!slug) {
+    return { error: "Hero slug is required", status: 400 };
+  }
+
+  const heroes = await getHeroesList(request, env);
+  const lookup = normalizeKey(slug);
+  const canonicalName = heroes.find((name) => normalizeKey(name) === lookup) || slug;
+  const details = await fetchAssetJson(request, env, `/hero_by_slug/${canonicalName}.json`);
+
+  if (!details) {
+    return { error: `Hero '${slug}' not found`, status: 404 };
+  }
+
+  return { details, slug };
 }
 
 async function handleApiRoutes(request, env) {
@@ -167,9 +175,9 @@ async function handleApiRoutes(request, env) {
         "GET /api/schema",
         "GET /api/health",
         "GET /api/heroes",
-        "GET /api/heroes/:slug",
-        "GET /api/items",
-        "GET /api/items/:slug"
+        "GET /api/hero-details/:slug",
+        "GET /api/hero-details/:slug/abilities",
+        "GET /api/items"
       ]
     });
   }
@@ -185,40 +193,46 @@ async function handleApiRoutes(request, env) {
 
   if (path === "/api/heroes") {
     const heroes = await getHeroesList(request, env);
-    const { q, limitRaw } = getQueryContext(url);
+    const { q } = getQueryContext(url);
 
     let filtered = heroes;
     if (q) {
       filtered = heroes.filter((name) => String(name).toLowerCase().includes(q));
     }
 
-    filtered = applyLimit(filtered, limitRaw);
-
     return jsonResponse({ count: filtered.length, data: filtered });
   }
 
-  if (path.startsWith("/api/heroes/")) {
-    const slug = decodeURIComponent(path.replace("/api/heroes/", "")).trim();
-    if (!slug) {
-      return jsonResponse({ error: "Hero slug is required" }, 400);
+  if (path.startsWith("/api/hero-details/") && path.endsWith("/abilities")) {
+    const slugPart = path.slice("/api/hero-details/".length, -"/abilities".length);
+    const heroLookup = await getHeroDetailsBySlug(request, env, slugPart);
+
+    if (heroLookup.error) {
+      return jsonResponse({ error: heroLookup.error }, heroLookup.status || 400);
     }
 
-    const heroes = await getHeroesList(request, env);
-    const lookup = normalizeKey(slug);
-    const canonicalName = heroes.find((name) => normalizeKey(name) === lookup) || slug;
-    const details = await fetchAssetJson(request, env, `/hero_by_slug/${canonicalName}.json`);
+    return jsonResponse({
+      slug: heroLookup.details.slug,
+      name: heroLookup.details.name,
+      abilities: Array.isArray(heroLookup.details.abilities) ? heroLookup.details.abilities : []
+    });
+  }
 
-    if (!details) {
-      return jsonResponse({ error: `Hero '${slug}' not found` }, 404);
+  if (path.startsWith("/api/hero-details/")) {
+    const slugPart = path.slice("/api/hero-details/".length);
+    const heroLookup = await getHeroDetailsBySlug(request, env, slugPart);
+
+    if (heroLookup.error) {
+      return jsonResponse({ error: heroLookup.error }, heroLookup.status || 400);
     }
 
-    return jsonResponse(details);
+    return jsonResponse(heroLookup.details);
   }
 
   if (path === "/api/items") {
     const items = await fetchAssetJson(request, env, "/items_data.json");
     const normalizedItems = Array.isArray(items) ? items : [];
-    const { q, limitRaw } = getQueryContext(url);
+    const { q } = getQueryContext(url);
 
     let filtered = normalizedItems;
     if (q) {
@@ -229,28 +243,7 @@ async function handleApiRoutes(request, env) {
       });
     }
 
-    filtered = applyLimit(filtered, limitRaw);
-
     return jsonResponse({ count: filtered.length, data: filtered });
-  }
-
-  if (path.startsWith("/api/items/")) {
-    const slug = decodeURIComponent(path.replace("/api/items/", "")).trim().toLowerCase();
-    if (!slug) {
-      return jsonResponse({ error: "Item slug is required" }, 400);
-    }
-
-    const items = await fetchAssetJson(request, env, "/items_data.json");
-    if (!Array.isArray(items)) {
-      return jsonResponse({ error: "Item dataset is not available" }, 404);
-    }
-
-    const item = items.find((entry) => String(entry?.slug || "").toLowerCase() === slug);
-    if (!item) {
-      return jsonResponse({ error: `Item '${slug}' not found` }, 404);
-    }
-
-    return jsonResponse(item);
   }
 
   return null;
