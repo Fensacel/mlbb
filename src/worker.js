@@ -94,28 +94,10 @@ function buildOpenApiSchema(baseUrl) {
           responses: { "200": { description: "Hero list" } }
         }
       },
-      "/api/hero-details/{slug}": {
+      "/api/heroes-full": {
         get: {
-          summary: "Get hero by slug",
-          parameters: [
-            { name: "slug", in: "path", required: true, schema: { type: "string" } }
-          ],
-          responses: {
-            "200": { description: "Hero detail" },
-            "404": { description: "Hero not found" }
-          }
-        }
-      },
-      "/api/hero-details/{slug}/abilities": {
-        get: {
-          summary: "Get hero abilities by slug",
-          parameters: [
-            { name: "slug", in: "path", required: true, schema: { type: "string" } }
-          ],
-          responses: {
-            "200": { description: "Hero abilities" },
-            "404": { description: "Hero not found" }
-          }
+          summary: "List full hero details",
+          responses: { "200": { description: "Full hero dataset" } }
         }
       },
       "/api/items": {
@@ -129,24 +111,6 @@ function buildOpenApiSchema(baseUrl) {
       }
     }
   };
-}
-
-async function getHeroDetailsBySlug(request, env, slugRaw) {
-  const slug = decodeURIComponent(slugRaw || "").trim();
-  if (!slug) {
-    return { error: "Hero slug is required", status: 400 };
-  }
-
-  const heroes = await getHeroesList(request, env);
-  const lookup = normalizeKey(slug);
-  const canonicalName = heroes.find((name) => normalizeKey(name) === lookup) || slug;
-  const details = await fetchAssetJson(request, env, `/hero_by_slug/${canonicalName}.json`);
-
-  if (!details) {
-    return { error: `Hero '${slug}' not found`, status: 404 };
-  }
-
-  return { details, slug };
 }
 
 async function handleApiRoutes(request, env) {
@@ -175,8 +139,7 @@ async function handleApiRoutes(request, env) {
         "GET /api/schema",
         "GET /api/health",
         "GET /api/heroes",
-        "GET /api/hero-details/:slug",
-        "GET /api/hero-details/:slug/abilities",
+        "GET /api/heroes-full",
         "GET /api/items"
       ]
     });
@@ -203,30 +166,10 @@ async function handleApiRoutes(request, env) {
     return jsonResponse({ count: filtered.length, data: filtered });
   }
 
-  if (path.startsWith("/api/hero-details/") && path.endsWith("/abilities")) {
-    const slugPart = path.slice("/api/hero-details/".length, -"/abilities".length);
-    const heroLookup = await getHeroDetailsBySlug(request, env, slugPart);
-
-    if (heroLookup.error) {
-      return jsonResponse({ error: heroLookup.error }, heroLookup.status || 400);
-    }
-
-    return jsonResponse({
-      slug: heroLookup.details.slug,
-      name: heroLookup.details.name,
-      abilities: Array.isArray(heroLookup.details.abilities) ? heroLookup.details.abilities : []
-    });
-  }
-
-  if (path.startsWith("/api/hero-details/")) {
-    const slugPart = path.slice("/api/hero-details/".length);
-    const heroLookup = await getHeroDetailsBySlug(request, env, slugPart);
-
-    if (heroLookup.error) {
-      return jsonResponse({ error: heroLookup.error }, heroLookup.status || 400);
-    }
-
-    return jsonResponse(heroLookup.details);
+  if (path === "/api/heroes-full") {
+    const heroesFull = await fetchAssetJson(request, env, "/heroes_full.json");
+    const normalized = Array.isArray(heroesFull) ? heroesFull : [];
+    return jsonResponse({ count: normalized.length, data: normalized });
   }
 
   if (path === "/api/items") {

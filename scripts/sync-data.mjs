@@ -1,4 +1,4 @@
-import { cp, mkdir, readdir, rm, stat } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -63,6 +63,55 @@ async function copyFirstExistingDir(candidates, destinationDir) {
   return false;
 }
 
+async function buildHeroesFullJson(destinationDir) {
+  const heroListPath = path.join(destinationDir, "hero.json");
+  const heroBySlugDir = path.join(destinationDir, "hero_by_slug");
+  const outputPath = path.join(destinationDir, "heroes_full.json");
+
+  if (!(await exists(heroListPath)) || !(await exists(heroBySlugDir))) {
+    return;
+  }
+
+  let heroList = [];
+  try {
+    const raw = await readFile(heroListPath, "utf8");
+    const parsed = JSON.parse(raw);
+    if (Array.isArray(parsed)) {
+      heroList = parsed;
+    }
+  } catch {
+    heroList = [];
+  }
+
+  const merged = [];
+  for (const heroName of heroList) {
+    const slug = String(heroName || "").trim();
+    if (!slug) {
+      continue;
+    }
+
+    const detailPath = path.join(heroBySlugDir, `${slug}.json`);
+    if (await exists(detailPath)) {
+      try {
+        const detailRaw = await readFile(detailPath, "utf8");
+        const detailJson = JSON.parse(detailRaw);
+        merged.push(detailJson);
+        continue;
+      } catch {
+        // fall through to placeholder
+      }
+    }
+
+    merged.push({
+      slug,
+      name: slug,
+      error: `Missing hero detail file for '${slug}'`
+    });
+  }
+
+  await writeFile(outputPath, `${JSON.stringify(merged, null, 2)}\n`, "utf8");
+}
+
 async function syncJsonFiles() {
   await mkdir(outputDir, { recursive: true });
 
@@ -81,6 +130,8 @@ async function syncJsonFiles() {
   if (await exists(webDir)) {
     await cp(webDir, outputDir, { recursive: true });
   }
+
+  await buildHeroesFullJson(outputDir);
 }
 
 async function main() {

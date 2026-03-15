@@ -12,14 +12,12 @@ https://example.workers.dev
 - GET /api/health
 - GET /api/heroes
 - GET /api/heroes?q=miya
-- GET /api/hero-details/:slug
-- GET /api/hero-details/:slug/abilities
+- GET /api/heroes-full
 - GET /api/items
 - GET /api/items?q=oracle
 
 Catatan:
 - Endpoint items detail per slug sudah tidak ada.
-- Detail dan abilities hero diakses lewat hero-details.
 
 ## Bentuk Response Singkat
 
@@ -32,24 +30,18 @@ GET /api/heroes atau /api/items:
 }
 ```
 
-GET /api/hero-details/miya:
+GET /api/heroes-full:
 
 ```json
 {
-  "slug": "Miya",
-  "name": "Miya",
-  "hero_stats": {},
-  "abilities": []
-}
-```
-
-GET /api/hero-details/miya/abilities:
-
-```json
-{
-  "slug": "Miya",
-  "name": "Miya",
-  "abilities": []
+  "count": 132,
+  "data": [
+    {
+      "slug": "Miya",
+      "name": "Miya",
+      "abilities": []
+    }
+  ]
 }
 ```
 
@@ -63,16 +55,10 @@ GET /api/hero-details/miya/abilities:
     return json.data;
   }
 
-  async function getHeroDetail(slug) {
-    const res = await fetch(`https://example.workers.dev/api/hero-details/${slug}`);
-    if (!res.ok) throw new Error("Hero tidak ditemukan");
-    return res.json();
-  }
-
-  async function getHeroAbilities(slug) {
-    const res = await fetch(`https://example.workers.dev/api/hero-details/${slug}/abilities`);
-    if (!res.ok) throw new Error("Abilities tidak ditemukan");
-    return res.json();
+  async function getHeroesFull() {
+    const res = await fetch("https://example.workers.dev/api/heroes-full");
+    const json = await res.json();
+    return json.data;
   }
 </script>
 ```
@@ -97,15 +83,13 @@ async function getItems(keyword = "") {
 
 ```bash
 curl https://example.workers.dev/api/heroes
-curl https://example.workers.dev/api/hero-details/miya
-curl https://example.workers.dev/api/hero-details/miya/abilities
+curl https://example.workers.dev/api/heroes-full
 curl "https://example.workers.dev/api/items?q=oracle"
 ```
 
 ## Integrasi Cepat
 
 - List page hero: pakai GET /api/heroes
-- Hero detail page: pakai GET /api/hero-details/:slug
-- Hero skills tab: pakai GET /api/hero-details/:slug/abilities
+- Semua detail 132 hero dalam 1 call: pakai GET /api/heroes-full
 - List page items: pakai GET /api/items
 - Search: tambah query q
