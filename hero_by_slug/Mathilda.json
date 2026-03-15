@@ -1,0 +1,121 @@
+{
+  "slug": "Mathilda",
+  "name": "Mathilda",
+  "url": "https://mobile-legends.fandom.com/wiki/Mathilda",
+  "intro": "Mathilda, the Swift Plume, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Ancestral Guidance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Ancestral_Guidance.png/revision/latest?cb=20210809085552",
+      "tags": [
+        "Damage",
+        "Speed Up"
+      ],
+      "description": "Damage Speed Up Mathilda gains stack while moving. When it is fully charged, her next Basic Attack will be enhanced, dealing 200 (+100% Total Physical Attack) (+100% Total Magic Power) Magic Damage to the target and granting her 80 Movement Speed that will decays over 2.5 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Soul Bloom",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Soul_Bloom.png/revision/latest?cb=20210809085520",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Mathilda resonates with the power of her ancestors for 4 seconds, attracting wisps that as her movement distance increases (up to 6 wisps). At the end of the skill's duration, or when Mathilda cast this skill again, the wisps will seek the attack nearby enemies, each dealing 275–500 (+80% Total Magic Power) Magic Damage and revealing the enemies' positions briefly. [ duration needed ] Subsequent damage dealt by wisps to the same target decays to 40%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "7.5"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "275",
+          "2": "320",
+          "3": "365",
+          "4": "410",
+          "5": "455",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Guiding Wind",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Guiding_Wind.png/revision/latest?cb=20210809085631",
+      "tags": [
+        "Mobility",
+        "Shield"
+      ],
+      "description": "Mobility Shield Mathilda leaps in the target direction and creates a field around her, gaining a 500–1000 (+180% Total Magic Power) shield and a 25% extra Movement Speed for 3 seconds. Allied heroes who come in contact with the field will receive 60% shield and Guiding Wind . The first allied hero that triggers Guiding Wind will be guided to Mathilda, and both of them will gain the same Movement Speed boost. When casting this skill during Circling Eagle , Mathilda will not change her position. Guiding Wind expires 2 seconds after the hero leaves Mathilda's field. Skill terms Blink Movement ability that can pass through obstacles. Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.8",
+          "3": "11.6",
+          "4": "11.4",
+          "5": "11.2",
+          "6": "11.0"
+        },
+        "Mana Cost": {
+          "1": "75",
+          "2": "80",
+          "3": "85",
+          "4": "90",
+          "5": "95",
+          "6": "100"
+        },
+        "Base Shield": {
+          "1": "500",
+          "2": "600",
+          "3": "700",
+          "4": "800",
+          "5": "900",
+          "6": "1000"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Circling Eagle",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Circling_Eagle.png/revision/latest?cb=20210809085702",
+      "tags": [
+        "Mobility",
+        "Shield"
+      ],
+      "description": "Mobility Shield Mathilda applies a Soul Mark to the target enemy hero and circles around the them for up to 3.5 seconds, during which her wisps will fly toward nearby enemy heroes, each dealing 40 (+15% Total Magic Power) Magic Damage . Soul Bloom will prioritize the target with Soul Mark. Within the duration, Mathilda can select an area to dash to. At the end of the duration, she'll dash at the target with Soul Mark , dealing 320–400 (+120% Total Magic Power) Magic Damage while knocking enemies in her path airborne for 0.6 seconds and transferring the Soul Mark to the first enemy hero that she knocks airborne. Mathilda gains control immunity and 400–600 (+160% Total Magic Power) shield for the skill duration. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "40.0"
+        ],
+        "Mana Cost": {
+          "1": "150",
+          "2": "180",
+          "3": "210"
+        },
+        "Wisp Damage": [
+          "40"
+        ],
+        "Knock Damage": {
+          "1": "320",
+          "2": "360",
+          "3": "400"
+        },
+        "Shield": {
+          "1": "400",
+          "2": "500",
+          "3": "600"
+        }
+      }
+    }
+  ]
+}

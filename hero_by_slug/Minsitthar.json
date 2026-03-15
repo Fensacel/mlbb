@@ -1,0 +1,138 @@
+{
+  "slug": "Minsitthar",
+  "name": "Minsitthar",
+  "url": "https://mobile-legends.fandom.com/wiki/Minsitthar",
+  "intro": "Minsitthar, the Courageous Warrior, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Mark of the King",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Mark_of_the_King.png/revision/latest?cb=20230315070651",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Minsitthar's Basic Attacks and skills apply a stack of Mark of the King , up to 5 stacks. Upon reaching max stacks, the next attack detonates all Mark of the King stacks, dealing 400 (+6% Total HP) Physical Damage and stunning the target for 0.8 seconds while healing Minsitthar for 400 (+6% Total HP) HP . Can only trigger once every 6 seconds on the same target. Skill terms Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Spear of Glory",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Spear_of_Glory.png/revision/latest?cb=20230315070700",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Minsitthar thrusts forward with the Spear of Glory, dealing 175–300 (+40% Total Physical Attack) Physical Damage and slowing enemies hit by 30%. Enemy heroes hit by the tip of the spear will be stunned for 0.6 seconds. After a short delay, Minsitthar pulls back the spear, dealing 175–300 (+40% Total Physical Attack) Physical Damage to all enemies along the way and dragging enemy heroes hit to him. Skill terms Physical Attack Total current Physical Attack Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.2",
+          "3": "11.4",
+          "4": "10.6",
+          "5": "9.8",
+          "6": "9.0"
+        },
+        "Mana Cost": {
+          "1": "95",
+          "2": "105",
+          "3": "115",
+          "4": "125",
+          "5": "135",
+          "6": "145"
+        },
+        "Base Damage": {
+          "1": "175",
+          "2": "200",
+          "3": "225",
+          "4": "250",
+          "5": "275",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Shield Assault",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Shield_Assault.png/revision/latest?cb=20230315070653",
+      "tags": [
+        "Reduce DMG",
+        "Buff"
+      ],
+      "description": "Reduce DMG Buff Minsitthar awakens the power in his shield and releases it, dealing 100–200 (+45% Total Physical Attack) Physical Damage to all enemies in a rectangular area and slowing them by 80% (decaying rapidly over 2 seconds). Meanwhile, he enters Phalanx state for 3 seconds, reducing damage taken from the front by 25%–50% and enhancing his Basic Attack to swiftly strike an area in front of him for 100–200 (+45% Total Physical Attack) Physical Damage per hit. Skill terms Physical Attack Total current Physical Attack Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Phalanx Basic Attack Range": [
+          "5.0"
+        ],
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        },
+        "Damage Reduction": {
+          "1": "25%",
+          "2": "30%",
+          "3": "35%",
+          "4": "40%",
+          "5": "45%",
+          "6": "50%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "King's Calling",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/King%27s_Calling.png/revision/latest?cb=20230315070647",
+      "tags": [
+        "Summon",
+        "CC"
+      ],
+      "description": "Summon CC Where will I be? Minsitthar charges forward and calls 4 Royal Guards to form a field around him. The Royal Guards cannot move but will attack enemies in the field for (+40% Total Physical Attack) Physical Damage . Enemies in the field are slowed by 20% and cannot use movement skills . Skill terms Root Low level Crowd Control: Prevents a target from using Blink/Charge skills (excluding targeted Enhanced Basic Attacks with such effects). Cannot interrupt skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        },
+        "Duration": [
+          "5.0"
+        ],
+        "Attack Effects": [
+          "40%"
+        ],
+        "Attack Rate": {
+          "1": "1 Basic ATK per 28",
+          "2": "30 second",
+          "3": ""
+        }
+      }
+    }
+  ]
+}

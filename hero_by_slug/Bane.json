@@ -1,0 +1,168 @@
+{
+  "slug": "Bane",
+  "name": "Bane",
+  "url": "https://mobile-legends.fandom.com/wiki/Bane",
+  "intro": "Bane, the Frozen King, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Shark Bite",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Shark_Bite.png/revision/latest?cb=20210519073932",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Bane infuses his weapon with a stack of Tidal Energy each time he uses a skill (up to 2 stacks). Each of his subsequent Basic Attacks consumes a stack to deal Physical Damage equal to (+95% Total Physical Attack) plus 4 (+0.4 × Hero Level) of the target's Max HP to nearby enemies. (Percent damage dealt based on Max HP Damage Cap against Creeps: 200 (+20 × Hero Level) . (see Patch Notes 1.7.82 Balance Adjustment)) Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {
+        "Cast Range": [
+          "3"
+        ],
+        "Damage dealt based on enemys Max HP": {
+          "1": "3.8%",
+          "2": "4.1%",
+          "3": "4.4%",
+          "4": "4.7%",
+          "5": "5.0%",
+          "6": "5.3%",
+          "7": "5.6%",
+          "8": "5.9%",
+          "9": "6.2%",
+          "10": "6.5%",
+          "11": "6.8%",
+          "12": "7.1%",
+          "13": "7.4%",
+          "14": "7.7%",
+          "15": "8.0%"
+        },
+        "Enemys Max HP Damage Cap against Creeps": {
+          "1": "220",
+          "2": "240",
+          "3": "260",
+          "4": "280",
+          "5": "300",
+          "6": "320",
+          "7": "340",
+          "8": "360",
+          "9": "380",
+          "10": "400",
+          "11": "420",
+          "12": "440",
+          "13": "460",
+          "14": "480",
+          "15": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Crab Claw Cannon",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e5/Crab_Claw_Cannon.png/revision/latest?cb=20210519073958",
+      "tags": [
+        "Damage"
+      ],
+      "description": "Damage Bane fires his Crab Claw Cannon in the target direction, dealing 150–350 (+160% Total Physical Attack) Physical Damage to the first enemy hit and then 150%–200% damage to a random enemy behind them (prioritizes enemy heroes). Enemies hit are slowed by 10 (+10% Total Magic Power) % for 1 second. Every 100 Physical Attack that Bane possesses reduces this skill's cooldown by an additional 8%. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Mana Cost": [
+          "30"
+        ],
+        "Base Damage": {
+          "1": "150",
+          "2": "190",
+          "3": "230",
+          "4": "270",
+          "5": "310",
+          "6": "350"
+        },
+        "Extra Damage": {
+          "1": "150%",
+          "2": "160%",
+          "3": "170%",
+          "4": "180%",
+          "5": "190%",
+          "6": "200%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ale",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Ale.png/revision/latest?cb=20210519074017",
+      "tags": [
+        "Heal",
+        "AOE"
+      ],
+      "description": "Heal AOE Bane chugs his ale, recovering 200 (+150% Total Magic Power) plus 5–10 (+1.5% Total Magic Power) % of his lost HP and gaining 50% extra Movement Speed that decays over 2.5 seconds. Use Again : Bane spits venom in the target direction, dealing 140–340 (+130% Total Magic Power) Magic Damage (scales up to 200% with charging time) to enemies in a fan-shaped area. Every 100 Magic Power Bane possesses additionally reduces this skill's cooldown by 7%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ... Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "7.5",
+          "2": "6.9",
+          "3": "6.3",
+          "4": "5.7",
+          "5": "5.1",
+          "6": "4.5"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "HP Regen": {
+          "1": "5%",
+          "2": "6%",
+          "3": "7%",
+          "4": "8%",
+          "5": "9%",
+          "6": "10%"
+        },
+        "Venom Damage": {
+          "1": "140",
+          "2": "180",
+          "3": "220",
+          "4": "260",
+          "5": "300",
+          "6": "340"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Deadly Catch",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/85/Deadly_Catch.png/revision/latest?cb=20210519074033",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC Bane summons a school of sharks to charge in a target direction, dealing 700–1100 (+80% Total Physical Attack) (+150% Total Magic Power) Magic Damage , knocking them airborne for 0.6 seconds, and slowing them by 75% (decays over 3 seconds). This skill deals 40% of damage to turrets . Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "140",
+          "3": "160"
+        },
+        "Base Damage": {
+          "1": "700",
+          "2": "900",
+          "3": "1100"
+        }
+      }
+    }
+  ]
+}

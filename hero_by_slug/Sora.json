@@ -1,0 +1,21 @@
+{
+  "slug": "Sora",
+  "name": "Sora",
+  "url": "https://mobile-legends.fandom.com/wiki/Sora",
+  "intro": "Sora, the Shifting Cloud, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Mystic Surge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Mystic_Surge.png/revision/latest?cb=20251218013740",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Sora can ascend to Thunder or Torrent by using his Ultimate . After ascending, dealing damage to heroes or summoned units grants 1 stack of Cloudstep . At 5 stacks, he unlocks his True Art. Thunder : Converts 30% Max HP into Physical Attack at 10% ratio, adopting an assassin style. Torrent : Converts each point of Physical Attack into 10 Max HP , adopting a tank style.",
+      "properties": {}
+    }
+  ]
+}

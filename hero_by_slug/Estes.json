@@ -1,0 +1,155 @@
+{
+  "slug": "Estes",
+  "name": "Estes",
+  "url": "https://mobile-legends.fandom.com/wiki/Estes",
+  "intro": "Estes, the Moon Elf King, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Scripture of the Moon Elf",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b7/Scripture_of_the_Moon_Elf.png/revision/latest?cb=20220404063820",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Scripture of Moon Elf slowly charges Estes with energy. When the energy reaches 100 stacks, Estes' nest Basic Attack will become enhanced, dealing 250 (+100% Total Physical Attack) (+150% Total Magic Power) Magic Damage to the target and 125 (+50% Total Physical Attack) (+75% Total Magic Power) Magic Damage to nearby enemies, and slowing them by 60% for 1.5 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Moonlight Immersion",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Moonlight_Immersion.png/revision/latest?cb=20220404063857",
+      "tags": [
+        "Heal",
+        "Buff"
+      ],
+      "description": "Heal Buff Estes restores 250–325 (+110% Total Magic Power) HP for the target hero immediately and links himself with them for 3 seconds, slowly restoring 325–400 (+60% Total Magic Power) HP to the target. Linking with an allied hero will also increase Estes' Hybrid Defense by 20–45 and Movement Speed by 15%, as well as the energy charging speed of the Scripture of the of Moon Elf. Being too far from the target will break the link. ( Enhanced: Estes restores 500–700 (+220% Total Magic Power) HP for the target hero immediately, and links himself with them for 3 seconds, slowly restoring 1170–1470 (+210% Total Magic Power) HP to the target for 15 times…) Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.2",
+          "3": "9.4",
+          "4": "8.6",
+          "5": "7.8",
+          "6": "7.0"
+        },
+        "Mana Cost": {
+          "1": "110",
+          "2": "130",
+          "3": "150",
+          "4": "170",
+          "5": "190",
+          "6": "210"
+        },
+        "Cooldown (Enhanced)": {
+          "1": "8.80",
+          "2": "8.20",
+          "3": "7.52",
+          "4": "6.88",
+          "5": "6.24",
+          "6": "5.60"
+        },
+        "Mana Cost (Enhanced)": [
+          "0"
+        ],
+        "Basic Healing": {
+          "1": "250",
+          "2": "265",
+          "3": "280",
+          "4": "295",
+          "5": "310",
+          "6": "325"
+        },
+        "Sustained Healing": {
+          "1": "325",
+          "2": "340",
+          "3": "365",
+          "4": "370",
+          "5": "385",
+          "6": "400"
+        },
+        "Basic Healing (Enhanced)": {
+          "1": "500",
+          "2": "550",
+          "3": "600",
+          "4": "650",
+          "5": "700",
+          "6": ""
+        },
+        "Sustained Healing (Enhanced)": {
+          "1": "1170",
+          "2": "1230",
+          "3": "1290",
+          "4": "1350",
+          "5": "1410",
+          "6": "1470"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Domain of Moon Goddess",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Domain_of_Moon_Goddess.png/revision/latest?cb=20220404064002",
+      "tags": [
+        "Slow",
+        "AOE"
+      ],
+      "description": "Slow AOE Estes drops a flood of moonlight on the target area, dealing 350–600 (+70% Total Magic Power) Magic Damage to enemy units within it. Afterwards, it turns to a domain of Moon Goddess and reveals enemies inside it [for 1.5 seconds]. Enemies will be slowed by 90% for 1.5 seconds when they touch the edge of the domain area. (The slow effect will decay over time.) [ duration needed ] Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.5",
+          "3": "11.0",
+          "4": "10.5",
+          "5": "10.0",
+          "6": "9.5"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "400",
+          "3": "450",
+          "4": "500",
+          "5": "550",
+          "6": "600"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Blessing of Moon Goddess",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Blessing_of_Moon_Goddess.png/revision/latest?cb=20220404064022",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal Estes casts an enhanced Moonlight Immersion on all nearby allied heroes. Within the next 8 seconds, \"Moonlight Immersion\" will be enhanced and Estes will continuously recover 1230–1470 (+210% Total Magic Power) HP . Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "250",
+          "3": "350"
+        },
+        "HP Regen": {
+          "1": "1230",
+          "2": "1350",
+          "3": "1470"
+        }
+      }
+    }
+  ]
+}

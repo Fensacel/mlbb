@@ -1,0 +1,131 @@
+{
+  "slug": "Yu_Zhong",
+  "name": "Yu Zhong",
+  "url": "https://mobile-legends.fandom.com/wiki/Yu_Zhong",
+  "intro": "Yu Zhong, the Black Dragon, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Cursing Touch",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/00/Cursing_Touch.png/revision/latest?cb=20240819053114",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Yu Zhong applies Sha Residue to enemy heroes every time he deals Physical damage to them. Sha Residue erupts reaching 5 stacks a and begins consuming 1 stack every 0.5 seconds. Each stack consumed deals 20 (+20% Extra Physical Attack) (+target's 2% Lost HP) Physical Damage , restores 6% of Yu Zhong's lost HP and increased his Movement Speed by 30% for 2 seconds. Skill terms Lost HP Lost HP = Max HP - Current HP.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Dragon Tail",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Dragon_Tail.png/revision/latest?cb=20240819053214",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Yu Zhong infuses his power into his cloak and turns it into a weapon, which starts to attack nearby enemies after a short delay. The inner area of the cloak deals 220–400 (+100% Extra Physical Attack) Physical Damage , whereas the sharpened edge deals 275% damage and applies 2 stacks of Sha Residue . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up).",
+      "properties": {
+        "Cooldown": {
+          "1": "6.0",
+          "2": "5.5",
+          "3": "5.0",
+          "4": "4.5"
+        },
+        "Base Damage": {
+          "1": "220",
+          "2": "280",
+          "3": "340",
+          "4": "400"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Soul Grip",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Soul_Grip.png/revision/latest?cb=20240819053317",
+      "tags": [
+        "Slow",
+        "Mobility"
+      ],
+      "description": "Slow Mobility Yu Zhong unleashes the Dragon Soul, dealing 150–300 (+120% Extra Physical Attack) Physical Damage to all enemies in front and slowing them by 60% for 1 second. Upon target hit, Yu Zhong's next Basic Attack will be enhanced [for 5 seconds], dealing 108–216 (+100% Total Physical Attack) Physical Damage [and (+100% Total Physical Attack) Physical Damage behind the target]. (Upon multiple target hit, Yu Zhong applies Sha Residue multiple times with the enhanced Basic Attack, dealing up to 200% damage.) Skill terms Physical Attack Total current Physical Attack Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.0",
+          "3": "12.0",
+          "4": "11.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "200",
+          "3": "250",
+          "4": "300"
+        },
+        "Additional Damage": {
+          "1": "108",
+          "2": "144",
+          "3": "180",
+          "4": "216"
+        }
+      }
+    },
+    {
+      "section": "Skill 3",
+      "name": "Furious Dive",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Furious_Dive.png/revision/latest?cb=20240819053607",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC I once passed on this technique to a girl. Yu Zhong leaps towards the designated area with his full strength, dealing 180–270 (+90% Extra Physical Attack) Physical Damage . He is able to dash one more time in the movement direction. After a short delay, enemies within the area of effect will be knocked airborne for 0.8 seconds and take 180–270 (+90% Extra Physical Attack) additional Physical Damage . Skill terms Blink Movement ability that can pass through obstacles. Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.0",
+          "3": "12.0",
+          "4": "11.0"
+        },
+        "Base Damage": {
+          "1": "180",
+          "2": "210",
+          "3": "240",
+          "4": "270"
+        },
+        "Additional Damage": {
+          "1": "180",
+          "2": "210",
+          "3": "240",
+          "4": "270"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Black Dragon Form",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5c/Black_Dragon_Form.png/revision/latest?cb=20240819054031",
+      "tags": [
+        "Morph",
+        "Buff"
+      ],
+      "description": "Morph Buff After channeling for 0.7 seconds, Yu Zhong transforms into the Black Dragon Form. For up to 7 seconds, he cannot use skills but can move freely and will knock back enemy heroes in this path while dealing gains 180–310 (+80% Total Physical Attack) Physical Damage . He also gains 600–1000 (+200% Extra Physical Attack) Max HP , becomes immune to control effects , and ignores obstacles in this form. Upon exiting the Black Dragon form, Yu Zhong enters Dragonoid Form , gaining increased range on all of his skills for 10 seconds. Skill terms Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Block Immunity Your movement can’t be blocked within the duration. Max HP The maximum HP currently can have.",
+      "properties": {
+        "Cooldown": {
+          "1": "85.0",
+          "2": "75.0",
+          "3": "65.0"
+        },
+        "HP Increase": {
+          "1": "600",
+          "2": "800",
+          "3": "1000"
+        },
+        "Base Damage": {
+          "1": "180",
+          "2": "245",
+          "3": "310"
+        }
+      }
+    }
+  ]
+}

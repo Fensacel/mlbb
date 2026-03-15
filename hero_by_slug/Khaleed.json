@@ -1,0 +1,128 @@
+{
+  "slug": "Khaleed",
+  "name": "Khaleed",
+  "url": "https://mobile-legends.fandom.com/wiki/Khaleed",
+  "intro": "Khaleed, the Desert Scimitar, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Sand Walk",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fe/Sand_Walk.png/revision/latest?cb=20200719044846",
+      "tags": [
+        "Speed Up",
+        "Damage"
+      ],
+      "description": "Speed Up Damage Khaleed accumulates Desert Power while moving. After Desert Power is fully charged, he will glide on sand, increasing Movement Speed by 35%, making his next Basic Attack deal 50 (+140% Total Physical Attack) Physical Damage to the target (cannot critically strike ), and reducing the target's Movement Speed by 40% for 1.5 seconds.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Desert Tornado",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Desert_Tornado.png/revision/latest?cb=20210604062116",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Khaleed whirls his scimitar, dealing 200–525 (+140% Total Physical Attack) Physical Damage to enemies in the area and pulling them toward him. This skill can be used up to 3 time(s) in a row. This skill deals 50%-75% damage to Minions and Creeps. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Blink Movement ability that can pass through obstacles. Pull Target Displacement: Cannot interrupt skills or Blink.",
+      "properties": {
+        "Cooldown": {
+          "1": "6.5",
+          "2": "6.0",
+          "3": "5.5",
+          "4": "5.0",
+          "5": "4.5",
+          "6": "4.0"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "265",
+          "3": "330",
+          "4": "395",
+          "5": "460",
+          "6": "525"
+        },
+        "Minion Damage Ratio": {
+          "1": "50%",
+          "2": "55%",
+          "3": "60%",
+          "4": "65%",
+          "5": "70%",
+          "6": "75%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Quicksand Guard",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Quicksand_Guard.png/revision/latest?cb=20210604062039",
+      "tags": [
+        "Reduce DMG",
+        "Heal"
+      ],
+      "description": "Reduce DMG Heal Khaleed protects himself with the power of the quicksand, restoring 60-135 plus 5%-10% of his lost HP and 10 Desert Power every 0.5 seconds, reducing damage taken by 35%-50% for up to 4 seconds. While channeling, quicksand appears under his feet, slowing the enemy by 60%. This skill is a Focused Cast. Any other controls will interrupt this skill. Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ... Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "22.0",
+          "2": "21.0",
+          "3": "20.0",
+          "4": "19.0",
+          "5": "18.0",
+          "6": "17.0"
+        },
+        "Basic Regen": {
+          "1": "60",
+          "2": "75",
+          "3": "90",
+          "4": "105",
+          "5": "120",
+          "6": "135"
+        },
+        "HP Regen Ratio": {
+          "1": "5%",
+          "2": "6%",
+          "3": "7%",
+          "4": "8%",
+          "5": "9%",
+          "6": "10%"
+        },
+        "Damage Reduction": {
+          "1": "35%",
+          "2": "38%",
+          "3": "41%",
+          "4": "44%",
+          "5": "47%",
+          "6": "50%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Raging Sandstorm",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c2/Raging_Sandstorm.png/revision/latest?cb=20200719044626",
+      "tags": [
+        "CC",
+        "Mobility"
+      ],
+      "description": "CC Mobility Khaleed rides the sandstorm and charges toward a designated location, dealing 100–250 (+50% Total Physical Attack) Physical Damage to enemies along the way and knocking them toward his destination. Khaleed is immune to control effects during this process. Upon reaching the destination, Khaleed will smash the ground, dealing 450–750 (+160% Total Physical Attack) Physical Damage to enemies in the area and stunning them for 1 second, and fully charge his Desert Power. Skill terms Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "46.0",
+          "2": "42.0",
+          "3": "38.0"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "175",
+          "3": "250"
+        },
+        "Extra Damage": {
+          "1": "450",
+          "2": "600",
+          "3": "750"
+        }
+      }
+    }
+  ]
+}

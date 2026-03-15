@@ -1,0 +1,134 @@
+{
+  "slug": "Belerick",
+  "name": "Belerick",
+  "url": "https://mobile-legends.fandom.com/wiki/Belerick",
+  "intro": "Belerick, the Guard of Nature, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Deadly Thorns",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b2/Deadly_Thorns.png/revision/latest?cb=20200529095331",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff For every 50 damage inflicted upon Belerick, he has a 25% chance to shoot the nearest enemy unit, dealing Magic Damage equal to 55 (+5 × Hero Level) plus 1.8% of his Max HP (scales with level). In each 0.4 seconds, this attack can be triggered once only. His HP obtained from Equipment and Emblems is increased by 30%. Skill terms Max HP The maximum HP currently can have.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Ancient Seed",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Ancient_Seed.png/revision/latest?cb=20200529095427",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Belerick releases vines in a designated direction, dealing 200 (+50% Total Magic Power) Magic Damage to enemies on the path and slow them down by 25%. Meanwhile, he leaves Ancient Seed on the path, and after 1 second, these seeds will deal 200 (+50% Total Magic Power) Magic Damage to enemies on the path and taunt them for 1.2 seconds. To minions, 80% extra damage will be dealt. Skill terms Taunted Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "66",
+          "3": "72",
+          "4": "78",
+          "5": "84",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Extra Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Nature's Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Nature%27s_Strike.png/revision/latest?cb=20200529095248",
+      "tags": [
+        "Speed Up",
+        "Heal"
+      ],
+      "description": "Speed Up Heal Belerick increases his Movement Speed by 80% and strengthens his next Basic Attack . (The Movement Speed gain will decay in 2 seconds.) This enhanced Basic Attack deals 300 (+60% Total Magic Power) Magic Damage and slows the target by 60% for 1.4 seconds. Belerick also regenerates HP equal to 240 plus 10% of his lost HP. Each time Deadly Thorns is triggered, reduce the cooldown of this skill by 1s. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%). Lost HP Lost HP = Max HP - Current HP.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.4",
+          "3": "10.8",
+          "4": "10.2",
+          "5": "9.6",
+          "6": "9.0"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "102",
+          "3": "114",
+          "4": "126",
+          "5": "138",
+          "6": "150"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "330",
+          "3": "360",
+          "4": "390",
+          "5": "420",
+          "6": "450"
+        },
+        "HP Regen": {
+          "1": "240",
+          "2": "288",
+          "3": "336",
+          "4": "384",
+          "5": "432",
+          "6": "480"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Wrath of Dryad",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/Wrath_of_Dryad.png/revision/latest?cb=20200529095206",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Belerick conjures spreading vines around him, dealing 100 (+30% Total Magic Power) Magic Damage to enemies in the area 4 times and taunting them for 1.5 seconds. Skill terms Taunted Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "46.0",
+          "3": "42.0"
+        },
+        "Mana Cost": [
+          "150"
+        ],
+        "Base Damage": {
+          "1": "100",
+          "2": "150",
+          "3": "200"
+        }
+      }
+    }
+  ]
+}

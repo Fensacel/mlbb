@@ -1,0 +1,131 @@
+{
+  "slug": "Claude",
+  "name": "Claude",
+  "url": "https://mobile-legends.fandom.com/wiki/Claude",
+  "intro": "Claude, the Master Thief, is a hero in Mobile Legends: Bang Bang , and is accompanied by Dexter.",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Battle Side-by-side",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Battle_Side-by-side.png/revision/latest?cb=20211205134824",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Dexter launches an extra attack each time Claude's Basic Attack lands, dealing 20 (+35% Total Physical Attack) Physical Damage to the same target. Dexter's Basic Attack can also trigger Claude's attack effects with 30% effectiveness. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. ATK Effect",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Art of Thievery",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Art_of_Thievery.png/revision/latest?cb=20211205134839",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Claude attacks enemies in a fan-shaped area ahead, dealing 160–285 (+40% Total Physical Attack) Physical Damage and reducing their Movement Speed by 20% and Attack Speed by 10%. For each target hit, Claude gains 3% extra Movement and Attack Speed (doubled if the target is an enemy hero, up to 5 stacks) for 6 seconds. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient.",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Mana Cost": {
+          "1": "65",
+          "2": "70",
+          "3": "75",
+          "4": "80",
+          "5": "85",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "160",
+          "2": "185",
+          "3": "210",
+          "4": "235",
+          "5": "260",
+          "6": "285"
+        },
+        "Movement Speed Reduction": {
+          "1": "20%",
+          "2": "20%",
+          "3": "25%",
+          "4": "25%",
+          "5": "30%",
+          "6": "30%"
+        },
+        "Attack Speed Reduction": {
+          "1": "10%",
+          "2": "12%",
+          "3": "14%",
+          "4": "16%",
+          "5": "18%",
+          "6": "20%"
+        },
+        "Movement & Attack Speed Bonus": {
+          "1": "4%",
+          "2": "4.6%",
+          "3": "5.2%",
+          "4": "5.8%",
+          "5": "6.4%",
+          "6": "7%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Battle Mirror Image",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Battle_Mirror_Image.png/revision/latest?cb=20211205134848",
+      "tags": [
+        "Summon",
+        "Mobility"
+      ],
+      "description": "Summon Mobility Claude leaves a mirror image of Dexter at a designated location. Dexter’s mirror image automatically attacks enemies. Lasts 5.5 seconds. Claude can activate this skill again to switch places with the mirror image. Dexter's Basic Attack deals 20 (+35% Total Physical Attack) Physical Damage and can trigger Claude's attack effects. Skill terms Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.5",
+          "3": "10.0",
+          "4": "9.5",
+          "5": "9.0",
+          "6": "8.5"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Blazing Duet",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Blazing_Duet.png/revision/latest?cb=20211205134856",
+      "tags": [
+        "Burst",
+        "Shield"
+      ],
+      "description": "Burst Shield Claude and Dexter rapidly fire at the enemies nearby over 3 seconds, dealing 100–130 (+10% Total Physical Attack) Physical Damage to up to two targets each time they shoot. This skill benefits from Claude's Basic Attack effects and grants him a shield that can absorb 20 (+3% Total Physical Attack) damage. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. ATK Effect Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "115",
+          "3": "130"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "Fredrinn",
+  "name": "Fredrinn",
+  "url": "https://mobile-legends.fandom.com/wiki/Fredrinn",
+  "intro": "Fredrinn, the Rogue Appraiser, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Crystalline Armor",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Crystalline_Armor.png/revision/latest?cb=20220807030146",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal Fredrinn gains 1 Combo Point that lasts 5 seconds each time his skill hits a non-minion enemy, up to 4 Combo Points. His Ultimate costs different numbers of Combo Points at different skill levels. Fredrinn stores 100% of the damage he receives as Crystal Energy , which decays after 5 seconds at a rate of 10% Max HP per second. Fredrinn can convert the stored Crystal Energy into HP by 20% of his damage dealt (10% for damage dealt to minions). Gaining a Combo Point resets the decaying timer.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Piercing Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Piercing_Strike.png/revision/latest?cb=20220807030157",
+      "tags": [
+        "Damage"
+      ],
+      "description": "Damage Fredrinn thrusts his sword in the target direction, dealing 125 (+7% Total HP) (+100% Total Physical Attack) Physical Damage to enemies hit and slowing them by 30% for 2 seconds. His next Basic Attack gains extra attack range and deals 85 (+100% Total Physical Attack) Physical Damage . [ skill duration needed ] This skill deals 200% damage to non-hero enemies.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.5",
+          "2": "7.3",
+          "3": "7.1",
+          "4": "6.9",
+          "5": "6.7",
+          "6": "6.5"
+        },
+        "Base Damage": {
+          "1": "125",
+          "2": "150",
+          "3": "175",
+          "4": "200",
+          "5": "225",
+          "6": "250"
+        },
+        "Basic Attack Damage": {
+          "1": "85",
+          "2": "95",
+          "3": "105",
+          "4": "115",
+          "5": "125",
+          "6": "135"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Brave Assault",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Brave_Assault.png/revision/latest?cb=20220807030045",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Fredrinn dashes in the target direction, dealing 140 (+80% Extra Physical Attack) Physical Damage to the first non-minion enemy hit. His next Basic Attack knocks the target airborne for 0.3 seconds. [ skill duration needed ]",
+      "properties": {
+        "Cooldown": {
+          "1": "7.5",
+          "2": "7.3",
+          "3": "7.1",
+          "4": "6.9",
+          "5": "6.7",
+          "6": "6.5"
+        },
+        "Base Damage": {
+          "1": "140",
+          "2": "155",
+          "3": "170",
+          "4": "185",
+          "5": "200",
+          "6": "215"
+        },
+        "Basic Attack Damage": {
+          "1": "85",
+          "2": "95",
+          "3": "105",
+          "4": "115",
+          "5": "125",
+          "6": "135"
+        }
+      }
+    },
+    {
+      "section": "Ultimate 1",
+      "name": "Energy Eruption",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Energy_Eruption.png/revision/latest?cb=20220807030151",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Fredrinn deals 210 (+100% Extra Physical Attack) Physical Damage to nearby enemies and taunts them for 1 second. Hitting a non-minion enemy grants Fredrinn 25 Physical and Magic Defense for 3 seconds and reduces the cooldowns of Piercing Strike and Brave Assault by 75%. This skill costs 1 Combo Point .",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "6.5",
+          "3": "5.0"
+        },
+        "Base Damage": {
+          "1": "210",
+          "2": "270",
+          "3": "330"
+        },
+        "Defense Boost": {
+          "1": "25",
+          "2": "35",
+          "3": "45"
+        }
+      }
+    },
+    {
+      "section": "Ultimate 2",
+      "name": "Appraiser's Wrath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Appraiser%27s_Wrath.png/revision/latest?cb=20220807030039",
+      "tags": [
+        "Burst",
+        "AOE"
+      ],
+      "description": "Burst AOE Fredrinn slams his sword in the target direction (this skill can only be interrupted by Suppression), dealing 600 plus 21%-35% of his Crystal Energy as Physical Damage to enemies in fan-shaped area after a short delay. [ duration needed ] Enemies in the center of the area take 175% [critical] damage. This skill costs 3 Combo Points .",
+      "properties": {
+        "Cooldown": {
+          "1": "30.0",
+          "2": "27.0",
+          "3": "24.0"
+        },
+        "Base Damage": {
+          "1": "600",
+          "2": "800",
+          "3": "1000"
+        },
+        "Crystal Energy Ratio": {
+          "1": "21%",
+          "2": "28%",
+          "3": "35%"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "Hanzo",
+  "name": "Hanzo",
+  "url": "https://mobile-legends.fandom.com/wiki/Hanzo",
+  "intro": "Hanzo, the Akuma Ninja, is a hero in Mobile Legends: Bang Bang , and is accompanied by Hanekage.",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Ame No Habakiri",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d0/Ame_no_Habakiri.png/revision/latest?cb=20250213043646",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Damage dealt by Hanzo's Basic Attacks and skills inflicts a stack of Dark Ninjutsu on the target, up to 5 stacks. Ninjutsu: Demon Feast can only be cast on targets with full stacks of Dark Ninjutsu .",
+      "properties": {}
+    }
+  ]
+}

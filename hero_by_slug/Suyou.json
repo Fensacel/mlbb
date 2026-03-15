@@ -1,0 +1,136 @@
+{
+  "slug": "Suyou",
+  "name": "Suyou",
+  "url": "https://mobile-legends.fandom.com/wiki/Suyou",
+  "intro": "Suyou, the Mask of the Immortal, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Transient Immortal",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Transient_Immortal.png/revision/latest?cb=20240921145922",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Tap-casting any skill will put Suyou in his Mortal form, grant him 40 Movement Speed and decreasing the interval between Basic Attacks . Hold-casting any skill will put Suyou in his Immortal form, increasing the damage of Basic Attacks to 125% and granting him 20% Physical Damage Reduction. In this form, for every 20 extra Physical Attack Suyou has, he gains 1% Physical Damage Reduction (up to 40%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Blade Surge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/ca/Blade_Surge.png/revision/latest?cb=20240921145922",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Tap: Suyou throws his weapon in the target direction, dealing 250–330 (+100% Extra Physical Attack) Physical Damage to enemies in its path. Suyou then blinks to the weapon's location, catches it, and performs a slash in the opposite direction, dealing 375–495 (+150% Extra Physical Attack) Physical Damage . Hold: Suyou channels the Immortal's power and charges in the target direction, dealing 250–330 (+100% Extra Physical Attack) Physical Damage to enemies along the path. When hitting an enemy hero, he stops and stuns enemies in a rectangular area in front for 0.6 seconds. The charge increase distance increases with the hold time. Suyou can be controlled while charging, but the skill cannot be interrupted.",
+      "properties": {
+        "Cooldown": [
+          "8.5"
+        ],
+        "Damage by Tap": {
+          "1": "250",
+          "2": "270",
+          "3": "290",
+          "4": "310",
+          "5": "330"
+        },
+        "Slash Damage": {
+          "1": "375",
+          "2": "405",
+          "3": "435",
+          "4": "465",
+          "5": "495"
+        },
+        "Damage by Hold": {
+          "1": "250",
+          "2": "270",
+          "3": "290",
+          "4": "310",
+          "5": "330"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Soul Sever",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/01/Soul_Sever.png/revision/latest?cb=20240921145921",
+      "tags": [
+        "AOE",
+        "Burst"
+      ],
+      "description": "AOE Burst Tap: Suyou performs a sweeping attack with his weapon, dealing [300–492 (+200% Extra Physical Attack) (+target's 20% Lost HP) Physical Damage ] to enemies in a fan-shaped area. Hold: Suyou channels the Immortal's power to perform 3 cleaves in a fan-shaped area. The first two strikes deal 250–410 (+80% Extra Physical Attack) Physical Damage each, while the final strike deals 400–656 (+128% Extra Physical Attack) Physical Damage and recovers 150–230 (+50% Extra Physical Attack) HP for himself.",
+      "properties": {
+        "Cooldown": [
+          "8.5"
+        ],
+        "Damage by Tap": {
+          "1": "300",
+          "2": "348",
+          "3": "396",
+          "4": "444",
+          "5": "492"
+        },
+        "Damage by Hold": {
+          "1": "250",
+          "2": "290",
+          "3": "330",
+          "4": "370",
+          "5": "410"
+        },
+        "Enhanced Damage": {
+          "1": "400",
+          "2": "464",
+          "3": "528",
+          "4": "592",
+          "5": "656"
+        },
+        "HP Regen": {
+          "1": "150",
+          "2": "170",
+          "3": "190",
+          "4": "210",
+          "5": "230"
+        },
+        "Minion Damage Ratio": {
+          "1": "60%",
+          "2": "70%",
+          "3": "80%",
+          "4": "90%",
+          "5": "100%"
+        }
+      }
+    },
+    {
+      "section": "Skill 3",
+      "name": "Evil Queller",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Evil_Queller.png/revision/latest?cb=20240921145920",
+      "tags": [
+        "Damage",
+        "Debuff"
+      ],
+      "description": "Damage Debuff Tap: Suyou glides backward and swings his weapon in the target direction, dealing 420–580 (+120% Extra Physical Attack) Physical Damage to enemies in a rectangular area and on his path back ward, and reducing their Movement Speed by 30% for 1.5 seconds. Hold: Suyou uses the Immortal's power to shoot a deadly arrow in the target direction, dealing 580–800 (+165% Extra Physical Attack) Physical Damage to the target hit. The range increases with the hold time. Suyou can be controlled while charging, but the skill cannot be interrupted.",
+      "properties": {
+        "Cooldown": [
+          "8.5"
+        ],
+        "Damage by Tap": {
+          "1": "420",
+          "2": "460",
+          "3": "500",
+          "4": "540",
+          "5": "580"
+        },
+        "Damage by Hold": {
+          "1": "580",
+          "2": "635",
+          "3": "690",
+          "4": "745",
+          "5": "800"
+        }
+      }
+    }
+  ]
+}

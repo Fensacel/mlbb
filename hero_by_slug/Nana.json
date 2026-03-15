@@ -1,0 +1,133 @@
+{
+  "slug": "Nana",
+  "name": "Nana",
+  "url": "https://mobile-legends.fandom.com/wiki/Nana",
+  "intro": "Nana, the Sweet Leonin, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Molina's Gift",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Molina%27s_Gift.png/revision/latest?cb=20210924002747",
+      "tags": [
+        "Death Immune"
+      ],
+      "description": "Death Immune Upon taking fatal damage, Nana removes all debuffs on her and transforms , becoming untargetable and invincible , and gains 30% Movement Speed for 2 seconds. She also recovers 10% Max HP over the duration. Nana can only transform once every 150 seconds and cannot cast skills in the transformed form.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Magic Boomerang",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Magic_Boomerang.png/revision/latest?cb=20210924003015",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Nana hurls her Magical Boomerang in the target direction, dealing damage to enemies hit on its way out and back. The boomerang deals 320–440 (+100% Total Magic Power) Magic Damage to the first enemy For every additional enemy hit, the damage is reduced by 20% (max reduction of 60%). Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "5.5",
+          "2": "5.2",
+          "3": "4.9",
+          "4": "4.6",
+          "5": "4.3",
+          "6": "4.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "320",
+          "2": "344",
+          "3": "368",
+          "4": "392",
+          "5": "416",
+          "6": "440"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Molina Smooch",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Molina_Smooch.png/revision/latest?cb=20210924002930",
+      "tags": [
+        "CC",
+        "Debuff"
+      ],
+      "description": "CC Debuff Nana summons Molina at the target location. After a short delay. Molina will chase the nearest enemy hero in range for 2.5 seconds. Molina Will deal 250–375 (+50% Total Magic Power) Magic Damage to the first enemy hero it collides with and transform them for 1.5 seconds, and also slow them by 50% and reduce their Magic Defense by 25% for the duration. If there are no enemy heroes in range, Molina will disappear after 12 seconds. Skill terms Transform Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.5",
+          "2": "14.0",
+          "3": "13.5",
+          "4": "13.0",
+          "5": "12.5",
+          "6": "12.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "85",
+          "3": "90",
+          "4": "95",
+          "5": "100",
+          "6": "105"
+        },
+        "Morph Damage": {
+          "1": "250",
+          "2": "275",
+          "3": "300",
+          "4": "325",
+          "5": "350",
+          "6": "375"
+        },
+        "Slowing Effect": {
+          "1": "50%",
+          "2": "54%",
+          "3": "58%",
+          "4": "62%",
+          "5": "66%",
+          "6": "70%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Molina Blitz",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d1/Molina_Blitz.png/revision/latest?cb=20210924002855",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Nana summons Molina to strike the target area 3 times, each time dealing 440–660 (+160% Total Magic Power) Magic Damage to enemies within the area and slowing them by 50% for 1 second. Enemies hit consecutively will be stunned for 1 second. Skill terms Stunn Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "32.0",
+          "3": "28.0"
+        },
+        "Mana Cost": {
+          "1": "135",
+          "2": "150",
+          "3": "165"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "440",
+          "2": "550",
+          "3": "660"
+        }
+      }
+    }
+  ]
+}

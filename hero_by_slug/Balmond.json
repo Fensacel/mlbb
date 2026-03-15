@@ -1,0 +1,107 @@
+{
+  "slug": "Balmond",
+  "name": "Balmond",
+  "url": "https://mobile-legends.fandom.com/wiki/Balmond",
+  "intro": "Balmond, the Bloody Beast, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Bloodthirst",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/34/Bloodthirst.png/revision/latest?cb=20220624121727",
+      "tags": [
+        "Heal"
+      ],
+      "description": "Heal Balmond recovers 5% Max HP after killing a Minion or Creep, and 20% Max HP after killing a hero. Skill terms Max HP The maximum HP currently can have.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Soul Lock",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Soul_Lock.png/revision/latest?cb=20220624121809",
+      "tags": [
+        "Mobility",
+        "Slow"
+      ],
+      "description": "Mobility Slow Balmond charges to the target direction for a set distance or until he hits an enemy hero, dealing 150–275 (+60% Total Physical Attack) Physical Damage to enemies along the way. The enemy hero hit will be knocked back slightly, and will have their Movement Speed reduced by 40% and Physical Defense reduced by 40% for 3 seconds. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.4",
+          "3": "6.8",
+          "4": "6.2",
+          "5": "5.6",
+          "6": "5.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "175",
+          "3": "200",
+          "4": "225",
+          "5": "250",
+          "6": "275"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Cyclone Sweep",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Cyclone_Sweep.png/revision/latest?cb=20220624121821",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Balmond gains 15% Movement Speed that decays over time and spins his axe for 3 seconds, dealing 25–100 (+25% Total Physical Attack) (+2% Extra HP) Physical Damage per hit to nearby enemies up to 14 times. Each subsequent hit on the same enemy will deal 8.5% increased damage (up to 68%). The Physical Attack bonus portion of the damage can Crit . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "6.0"
+        ],
+        "Base Damage": {
+          "1": "25",
+          "2": "40",
+          "3": "55",
+          "4": "70",
+          "5": "85",
+          "6": "100"
+        },
+        "Max Damage": {
+          "1": "350",
+          "2": "560",
+          "3": "770",
+          "4": "980",
+          "5": "1190",
+          "6": "1400"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Lethal Counter",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Lethal_Counter.png/revision/latest?cb=20220624121847",
+      "tags": [
+        "Burst",
+        "Slow"
+      ],
+      "description": "Burst Slow Balmond unleashes a huge strike in the target direction (this skill can only be interrupted by Suppression ), dealing 150 (+70% Total Physical Attack) (+target's 30%–45% Lost HP) True Damage . This skill only deals up to 1000–2000 damage to non-hero units. Skill terms True Damage Skill Deal True Damage to enemies. Triggers Spell Vamp. Lost HP Lost HP = Max HP - Current HP. True Damage If there is no way to reduce damage taken, you can try increasing Max HP.",
+      "properties": {
+        "Cooldown": {
+          "1": "34.0",
+          "2": "29.0",
+          "3": "24.0"
+        },
+        "Extra Damage": {
+          "1": "30%",
+          "2": "37.5%",
+          "3": "45%"
+        },
+        "Non-Hero Unit Damage Cap": {
+          "1": "1000",
+          "2": "1500",
+          "3": "2000"
+        }
+      }
+    }
+  ]
+}

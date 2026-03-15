@@ -1,0 +1,136 @@
+{
+  "slug": "Clint",
+  "name": "Clint",
+  "url": "https://mobile-legends.fandom.com/wiki/Clint",
+  "intro": "Clint, the West Justice, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Double Shot",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Double_Shot.png/revision/latest?cb=20201129052303",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst After each skill cast, Clint's next Basic Attack within 4 seconds penetrates a line of enemies, dealing 150 (+100% Total Physical Attack) Physical Damage . This damage can trigger attack effects, and the part affected by Physical Attack can Crit . Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Quick Draw",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/39/Quick_Draw.png/revision/latest?cb=20201129052343",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Clint fires 5 bullets in quick succession in the target direction, each dealing 250–400 (+85% Total Physical Attack) Physical Damage to the enemy hit. The bullets will spread evenly across enemies in a fan-shaped area. Enemies hit by multiple bullet will take [11%–16%] damage after the first bullet. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.4",
+          "3": "6.8",
+          "4": "6.2",
+          "5": "5.6",
+          "6": "5.0"
+        },
+        "Mana Cost": [
+          "50"
+        ],
+        "Base Damage": {
+          "1": "250",
+          "2": "280",
+          "3": "310",
+          "4": "340",
+          "5": "370",
+          "6": "400"
+        },
+        "Decay Ratio": {
+          "1": "11%",
+          "2": "12%",
+          "3": "13%",
+          "4": "14%",
+          "5": "15%",
+          "6": "16%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Trapping Recoil",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/57/Trapping_Recoil.png/revision/latest?cb=20201129052314",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Clint shoots a trap net in the target direction, slightly jumping back while dealing 140–240 (+30% Total Physical Attack) (+150% Total Magic Power) Physical Damage to the first enemy hit and immobilizing them for 1.2 seconds. Succesfuly hitting and enemy reduces the cooldown of this skill by 40%. Skill terms Blink Movement ability that can pass through obstacles. Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "65",
+          "2": "75",
+          "3": "85",
+          "4": "95",
+          "5": "105",
+          "6": "115"
+        },
+        "Skill Range (Patch Notes 1.9.32)": [
+          "3.8"
+        ],
+        "Dash Distance (Patch Notes 1.9.32)": [
+          "3"
+        ],
+        "Base Damage": {
+          "1": "140",
+          "2": "160",
+          "3": "180",
+          "4": "200",
+          "5": "220",
+          "6": "240"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Grenade Bombardment",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/be/Grenade_Bombardment.png/revision/latest?cb=20201129052326",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Clint launches a grenade in the target direction that explodes in the first enemy hit, dealing 280–400 (+100% Total Physical Attack) Physical Damage and slowing them by 50% for 0.5 seconds. Clint gains a grenade recharge every 10–5 seconds (up to 3). Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Skill Charging Time As for Stored Skill, the interval between restoring each stack is called Recharge Time, which is affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "1.5",
+          "2": "1.0",
+          "3": "0.5"
+        },
+        "Recharging Time": {
+          "1": "10.0",
+          "2": "7.5",
+          "3": "5.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60"
+        },
+        "Skill Range (Patch Notes 1.9.32)": [
+          "7"
+        ],
+        "Base Damage": {
+          "1": "280",
+          "2": "340",
+          "3": "400"
+        }
+      }
+    }
+  ]
+}

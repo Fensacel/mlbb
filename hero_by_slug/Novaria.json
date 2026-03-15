@@ -1,0 +1,125 @@
+{
+  "slug": "Novaria",
+  "name": "Novaria",
+  "url": "https://mobile-legends.fandom.com/wiki/Novaria",
+  "intro": "Novaria, the Star Rebel, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Star Trail",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/ff/Star_Trail.png/revision/latest?cb=20230420164248",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Astral Spheres summoned by Novaria will continuously slow nearby enemies by 20% and grant vision of them [for 2 seconds].",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Astral Meteor",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Astral_Meteor.png/revision/latest?cb=20230420164231",
+      "tags": [
+        "Slow",
+        "AOE"
+      ],
+      "description": "Slow AOE Novaria summons an Astral Sphere at the target location. continuously dealing 75–150 (+25% Total Magic Power) Magic Damage to nearby enemies [six times]. After 2 seconds, the sphere will explode, dealing 260–385 (+50% Total Magic Power) (+enemy's 4%–6% Total HP) Magic Damage to nearby enemies, and increasing Astral Sphere's slow effect to 2.5 times the original slow effect (50% slow).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "260",
+          "2": "285",
+          "3": "310",
+          "4": "335",
+          "5": "360",
+          "6": "385"
+        },
+        "Extra Percentage Damage": {
+          "1": "4%",
+          "2": "4.4%",
+          "3": "4.8%",
+          "4": "5.2%",
+          "5": "5.6%",
+          "6": "6%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Astral Recall",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/09/Astral_Recall.png/revision/latest?cb=20230420164237",
+      "tags": [
+        "Burst",
+        "Buff"
+      ],
+      "description": "Burst Buff Novaria summons an Astral Sphere at a distance and draws it towards her. At the same time, Novaria gains 20% Movement Speed and can pass through terrain. Passing through a wall will increase the Movement bonus to 60%. When the Astral Sphere reaches Novaria, she can launch it in a target direction within 5 seconds. The sphere will explode when hitting an enemy hero, dealing 260–385 (+50% Total Magic Power) (+enemy's 4%–6% Total HP) Magic Damage . The damage will increase based on the Astral Sphere's travel distance (starting from when the sphere is summoned) up to 2.5 times the original. Skill terms Ignore Obstacles Buff: Can pass through obstacles.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Mana Cost": {
+          "1": "120",
+          "2": "150",
+          "3": "180",
+          "4": "210",
+          "5": "240",
+          "6": "270"
+        },
+        "Base Damage": {
+          "1": "260",
+          "2": "285",
+          "3": "310",
+          "4": "335",
+          "5": "360",
+          "6": "385"
+        },
+        "Extra Percentage Damage": {
+          "1": "4%",
+          "2": "4.4%",
+          "3": "4.8%",
+          "4": "5.2%",
+          "5": "5.6%",
+          "6": "6%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Astral Echo",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/03/Astral_Echo.png/revision/latest?cb=20230420164226",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Novaria scatters Astral Echo in the target direction, briefly slowing enemy heroes hit by 50% (for approximately 0.8 seconds) while applying Astral Ring on them, increasing their hitbox by 2.5 times and revealing their surrounding area. This effect lasts 5 seconds. Skill terms Hitbox The contact area of a unit that can be hit by non-lock-on attacks.",
+      "properties": {
+        "Cooldown": {
+          "1": "45.0",
+          "2": "40.0",
+          "3": "35.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "75",
+          "3": "0"
+        }
+      }
+    }
+  ]
+}

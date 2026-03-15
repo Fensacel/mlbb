@@ -1,0 +1,148 @@
+{
+  "slug": "Zhask",
+  "name": "Zhask",
+  "url": "https://mobile-legends.fandom.com/wiki/Zhask",
+  "intro": "Zhask, the King of Swarms, is a hero in Mobile Legends: Bang Bang , and is accompanied by Nightmaric Spawn.",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Decimation",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bf/Decimation_%28Zhask%29.png/revision/latest?cb=20220203075416",
+      "tags": [
+        "Summon"
+      ],
+      "description": "Summon | Attack Effects: 20% Upon death, Zhask summons a frenzied Nightmaric Spawn on the spot, which gradually loses HP over time until death.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Nightmaric Spawn",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Nightmaric_Spawn.png/revision/latest?cb=20220203075736",
+      "tags": [
+        "Summon"
+      ],
+      "description": "Summon | Attack Effects: 20% Zhask summons a Nightmaric Spawn that Inherits 55%–100% of his Attributes ( HP , Hybrid Defense , Magic Power ). Nightmaric Spawn will automatically attack nearby enemies by firing a Death Ray at the target, dealing 55 (+20% × Extra Attack Speed) (+20% Total Magic Power) Magic Damage and slowing them by up to 30% for 0.6 seconds. If Zhask is too far away from Nightmaric Spawn, it will disappear. Death Ray is considered as a Basic Attack but cannot Crit . Fusion Enhanced: The damage of Nightmaric Spawn is increased to 180%, and it can be repositioned. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.0",
+          "3": "11.0",
+          "4": "10.0"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90"
+        },
+        "Attributes Inherited": {
+          "1": "55%",
+          "2": "70%",
+          "3": "85%",
+          "4": "100%"
+        },
+        "Attack Speed Inherited by Nightmaric Spawn": [
+          "100%"
+        ]
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Mind Eater",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Mind_Eater.png/revision/latest?cb=20220203075810",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 50% Zhask fires a penetrating mental missile in the designated direction, dealing 300–540 (+100% Total Magic Power) Magic Damage . Afterward, Nightmaric Spawn will attack enemies by Mind Eater for 120 (+80% Total Magic Power) Magic Damage and stun for 0.5 seconds. Fusion Enhanced: Increases the damage dealt by Mind eater by 540–975 (+180% Total Magic Power) Magic Damage . Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "65",
+          "3": "80",
+          "4": "95"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "380",
+          "3": "460",
+          "4": "540"
+        },
+        "Complete Damage": {
+          "1": "540",
+          "2": "685",
+          "3": "830",
+          "4": "975"
+        }
+      }
+    },
+    {
+      "section": "Skill 3",
+      "name": "Hive Clones",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Hive_Clones.png/revision/latest?cb=20220203075941",
+      "tags": [
+        "Slow",
+        "Damage"
+      ],
+      "description": "Slow Damage | Spell Vamp Ratio: 50% Zhask releases a swarm (6) of Hive Clones in the targeted direction. The clones will explode and deal 55–100 (+18% Total Magic Power) Magic Damage to enemies on contact, reducing their Movement Speed by 80% for 1 second. If Hive Clones find no target, they will burrow into the ground and ambush enemies passing by. Fusion Enhanced : Zhask releases several (15) swarms of Hive Clones. Subsequent damage dealt to the same target decays to 20%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "80",
+          "3": "100",
+          "4": "120"
+        },
+        "Base Damage": {
+          "1": "55",
+          "2": "70",
+          "3": "85",
+          "4": "100"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Dominator's Descent",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Dominator%27s_Descent.png/revision/latest?cb=20220203080019",
+      "tags": [
+        "Morph",
+        "Buff"
+      ],
+      "description": "Morph Buff | Attack Effects: 36% Zhask selects a designated position to summon Nightmaric Spawn and fuses with it. Nightmaric Spawn can inherit 100% of his attributes and get extra of them. His skills are enhanced during the fusion period. Use Again: Zhask immediately gets off the Nightmaric Spawn and loses enhancement.",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "150",
+          "3": "200"
+        },
+        "Extra HP": {
+          "1": "750",
+          "2": "1625",
+          "3": "2500"
+        },
+        "Extra Hybrid Defense": {
+          "1": "20",
+          "2": "30",
+          "3": "40"
+        },
+        "Lifesteal": [
+          "50%"
+        ]
+      }
+    }
+  ]
+}

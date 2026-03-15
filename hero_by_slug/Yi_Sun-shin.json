@@ -1,0 +1,125 @@
+{
+  "slug": "Yi_Sun-shin",
+  "name": "Yi Sun-shin",
+  "url": "https://mobile-legends.fandom.com/wiki/Yi_Sun-shin",
+  "intro": "Yi Sun-shin, the Paenlong Legend, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Heavenly Vow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Heavenly_Vow.png/revision/latest?cb=20200604105441",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Yi Sun-shin attacks with his longbow and glaive according to his distance from the target. Weapon Mastery : After each weapon switch, the next two Basic Attacks will gain extra Attack Speed , dealing 70% and 55% Crit Damage respectively, and gain 15% Movement Speed for 1 second.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Traceless",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Traceless.png/revision/latest?cb=20200604105633",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Yi Sun-shin dashes forward and slashes with his glaive, dealing 150–300 (+40% Total Physical Attack) Physical Damage and becoming immune to control effects for 1 second. Each Weapon Mastery triggered reduces the cooldown of Traceless by 1 second. Skill terms Blink Movement ability that can pass through obstacles. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.0",
+          "3": "10.0",
+          "4": "9.0",
+          "5": "8.0",
+          "6": "7.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Blood Floods",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Blood_Floods.png/revision/latest?cb=20200604105329",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Tap : Yi Sun-shin slashes swiftly with his glaive, dealing 240–340 (+80% Total Physical Attack) Physical Damage . Hold : Yi Sun-shin shoots a powerful arrow, dealing 240–340 (+80% Total Physical Attack) Physical Damage to the target. The arrow's damage scales with the hold time, up to 200%. Yi Sun-shin gains Weapon Mastery immediately when this skill is used.",
+      "properties": {
+        "Cooldown": [
+          "11.0"
+        ],
+        "Mana Cost": {
+          "1": "60",
+          "2": "65",
+          "3": "70",
+          "4": "75",
+          "5": "80",
+          "6": "85"
+        },
+        "Slash Damage": {
+          "1": "240",
+          "2": "260",
+          "3": "280",
+          "4": "300",
+          "5": "320",
+          "6": "340"
+        },
+        "Arrow Damage": {
+          "1": "240",
+          "2": "260",
+          "3": "280",
+          "4": "300",
+          "5": "320",
+          "6": "340"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Mountain Shocker",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Mountain_Shocker.png/revision/latest?cb=20240120113952",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Yi Sun-shin summons a turtle ship and gains sight of the whole map for 5 seconds. The turtle ship lasts for up to 15 seconds, during which Yi Sun-shin gains 70% burst Movement Speed (decay to 20% over 2 seconds). When cast again, Yi Sun-shin commands the turtle ship to ram towards the target area, dealing 160–320 (+65% Total Physical Attack) Physical Damage and stunning enemy units in the central area for 0.8 seconds. Then Yi Sun-shin commands the naval fleet to launch 3 waves of cannon shots on a larger area, each dealing 160–320 (+65% Total Physical Attack) Physical Damage and slowing the enemies by 30%. Yi Sun-shin gains Weapon Mastery effect immediately when this skill is used. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {
+        "Cooldown": [
+          "60.0"
+        ],
+        "Mana Cost": {
+          "1": "150",
+          "2": "180",
+          "3": "210"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "225",
+          "3": "300"
+        },
+        "Cannon Damage": {
+          "1": "150",
+          "2": "225",
+          "3": "300"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "Irithel",
+  "name": "Irithel",
+  "url": "https://mobile-legends.fandom.com/wiki/Irithel",
+  "intro": "Irithel, the Jungle Heart, is a hero in Mobile Legends: Bang Bang , and is accompanied by Leo.",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Jungle Heart",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Jungle_Heart.png/revision/latest?cb=20171013131711",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Irithel and Leo's immaculate teamwork allows her to shoot while moving. Each Basic Attack will shoot 2 crossbow bolt(s) (but takes longer to refill) that deal (+55% Total Physical Attack) Physical Damage per bolt (inherits a portion [55%] of Attack Effects ). Moving will build up Jungle Heart, up to a maximum of 10 units, and cause the next Basic Attack to unleash 1 additional bolt(s). Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {
+        "Energy Cost": [
+          "100"
+        ],
+        "Attack Effects": [
+          "55%"
+        ],
+        "Energy Gain": {
+          "1": "5 energy",
+          "2": "0.5 units"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Strafe",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Strafe.png/revision/latest?cb=20171013131743",
+      "tags": [
+        "AOE",
+        "Debuff"
+      ],
+      "description": "AOE Debuff Irithel launches a volley of arrows on the target area, dealing 330–530 (+60% Total Physical Attack) Physical Damage to enemies within and reducing their Physical Defense by 15–40 for 3 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Energy Cost": [
+          "0"
+        ],
+        "Base Damage": {
+          "1": "330",
+          "2": "370",
+          "3": "410",
+          "4": "450",
+          "5": "490",
+          "6": "530"
+        },
+        "Physical Defense Reduction": {
+          "1": "15",
+          "2": "20",
+          "3": "25",
+          "4": "30",
+          "5": "35",
+          "6": "40"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Force of the Queen",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Force_of_the_Queen.png/revision/latest?cb=20171013131826",
+      "tags": [
+        "Slow",
+        "AOE"
+      ],
+      "description": "Slow AOE Leo lets out a piercing roar, dealing 200–350 (+60% Total Physical Attack) Physical Damage to nearby enemies and slowing them by 40% for 2 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.4",
+          "3": "8.8",
+          "4": "8.2",
+          "5": "7.6",
+          "6": "7.0"
+        },
+        "Energy Cost": [
+          "0"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "230",
+          "3": "260",
+          "4": "260",
+          "5": "320",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Heavy Crossbow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Heavy_Crossbow.png/revision/latest?cb=20171013131857",
+      "tags": [
+        "Buff",
+        "Mobility"
+      ],
+      "description": "Buff Mobility No arrow is shot in vain. Irithel order Leo to leap in the target direction and empowers her crossbow for 10 seconds. For the duration, she gains 30 extra Movement Speed and her Basic Attacks shoot enhanced crossbow bolts, dealing 120 (+60–80% Total Physical Attack) Physical Damage to the target and nearby units. Jungle Heart also accumulates faster for the duration. [ amount unknown ] Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {}
+    }
+  ]
+}

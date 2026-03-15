@@ -1,0 +1,155 @@
+{
+  "slug": "Eudora",
+  "name": "Eudora",
+  "url": "https://mobile-legends.fandom.com/wiki/Eudora",
+  "intro": "Eudora, the Lightning Weaver, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Superconductor",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Superconductor.png/revision/latest?cb=20260129103510",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Eudora's skills inflict Superconductor for 3 seconds on non-minion units hit and can trigger additional effects against enemies affected by Superconductor .",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Forked Lightning",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e6/Forked_Lightning.png/revision/latest?cb=20260129103509",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Eudora casts Forked Lightning in a fan-shaped area, dealing 275–500 (+100% Total Magic Power) Magic Damage (increased to 200% against minions ) to enemies within. When hitting targets affected by Superconductor . Eudora forms a lightning chain with the target. gaining 40% Movement Speed during the chain for up to 1 second. The lightning chain deals 10–20 (+4% Total Magic Power) Magic Damage over time and an additional 275–500 (+100% Total Magic Power) Magic Damage when it ends. If this hit lands, it reduces the skill's cooldown by 1.5 seconds. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "54",
+          "3": "58",
+          "4": "62",
+          "5": "66",
+          "6": "70"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "275",
+          "2": "320",
+          "3": "365",
+          "4": "410",
+          "5": "455",
+          "6": "500"
+        },
+        "Trigger Damage": {
+          "1": "10",
+          "2": "12",
+          "3": "14",
+          "4": "16",
+          "5": "18",
+          "6": "20"
+        },
+        "Delayed Damage": {
+          "1": "275",
+          "2": "320",
+          "3": "365",
+          "4": "410",
+          "5": "455",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ball Lightning",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d7/Ball_Lightning.png/revision/latest?cb=20260129103506",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Eudora hurls an orb of lightning at the target enemy, reducing their Magic Defense by 10-25 for 1.8 seconds, dealing 300–400 (+50% Total Magic Power) Magic Damage , and stunning them for 1 second. If the target is affected by Superconductor , the lightning orb reduces the Magic Defense of nearby enemies, deals AOE damage centered on the target, and stuns all nearby enemies. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.5",
+          "3": "10.0",
+          "4": "9.5",
+          "5": "9.0",
+          "6": "8.5"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "75",
+          "3": "80",
+          "4": "85",
+          "5": "90",
+          "6": "95"
+        },
+        "Magic Defense Reduction": {
+          "1": "10",
+          "2": "13",
+          "3": "16",
+          "4": "19",
+          "5": "22",
+          "6": "25"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "320",
+          "3": "340",
+          "4": "360",
+          "5": "380",
+          "6": "400"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Thunder's Wrath",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f9/Thunder%27s_Wrath.png/revision/latest?cb=20260129103512",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Eudora calls down a blast of lightning on the target area, dealing 600–1000 (+160% Total Magic Power) Magic Damage to targets at the center. Then it strikes targets outside the center, dealing 300–500 (+100% Total Magic Power) Magic Damage . Every time Thunder's Wrath hits a target affected by Superconductor , it triggers a Thunderburst centered on the Superconductor target after a short delay, dealing 300–550 (+110% Total Magic Power) Magic Damage . Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "32.0",
+          "2": "29.0",
+          "3": "26.0"
+        },
+        "Mana Cost": {
+          "1": "130",
+          "2": "160",
+          "3": "190"
+        },
+        "Base Damage": {
+          "1": "600",
+          "2": "800",
+          "3": "1000"
+        },
+        "Delayed Damage": {
+          "1": "300",
+          "2": "400",
+          "3": "500"
+        },
+        "Diffusion Damage": {
+          "1": "300",
+          "2": "425",
+          "3": "550"
+        }
+      }
+    }
+  ]
+}

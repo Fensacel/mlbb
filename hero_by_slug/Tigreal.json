@@ -1,0 +1,97 @@
+{
+  "slug": "Tigreal",
+  "name": "Tigreal",
+  "url": "https://mobile-legends.fandom.com/wiki/Tigreal",
+  "intro": "Tigreal, the Warrior of Dawn, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Fearless",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/02/Fearless.png/revision/latest?cb=20250918045822",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Tigreal gains a stack of Fearless each time he casts a skills or is hit by Basic Attack. After getting 4 stacks, Tigreal will consume all Fearless stacks to block the next incoming Basic Attack (including attacks from turrets). Attacks from Minions do not grant Fearless atacks nor trigger this effect. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Attack Wave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/96/Attack_Wave.png/revision/latest?cb=20250918045844",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Tigreal smashes the ground with his hammer and sends a shockwave forward that erupts 3 times, each time dealing 270–520 (+70% Total Physical Attack) Physical Damage to enemies along the fan-shaped area and slowing them by 20%/40%/60% for 1.5 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.4",
+          "3": "5.8",
+          "4": "5.2",
+          "5": "4.6",
+          "6": "4.0"
+        },
+        "Mana Cost": [
+          "45"
+        ],
+        "Base Damage": {
+          "1": "270",
+          "2": "300",
+          "3": "330",
+          "4": "360",
+          "5": "390",
+          "6": "420"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Sacred Hammer",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3b/Sacred_Hammer.png/revision/latest?cb=20250918045909",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Tigreal charges in a target direction, dealing (+100% Total Physical Attack) Physical Damage to enemies along the way and pushing them to the end of the charge. Used Again: Tigreal can cast this skill again within 4 seconds, dealing 280–380 (+60% Total Physical Attack) Physical Damage to enemies in front of him and knocking them airborne for 1 second. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Charge Movement ability that cannot pass through obstacles. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.5",
+          "2": "12.0",
+          "3": "11.5",
+          "4": "11.0",
+          "5": "10.5",
+          "6": "10.0"
+        },
+        "Mana Cost": [
+          "70"
+        ]
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Implosion",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Implosion.png/revision/latest?cb=20250918045911",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Tigreal unleashes the power of his hammer, stunning and pulling nearby enemies to him for 2 seconds while dealing 270–430 (+130% Total Physical Attack) Physical Damage . The first half of the channeling can be interrupted by control effects . The second part of the channeling cannot be interrupted except by Suppression . Skill terms Pull Target Displacement: Cannot interrupt skills or Blink. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "45.0",
+          "2": "41.0",
+          "3": "37.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "140",
+          "3": "160"
+        }
+      }
+    }
+  ]
+}

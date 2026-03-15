@@ -1,0 +1,21 @@
+{
+  "slug": "Lukas",
+  "name": "Lukas",
+  "url": "https://mobile-legends.fandom.com/wiki/Lukas",
+  "intro": "Lukas, the Beast of Light, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Hero's Resolve",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b2/Hero%27s_Resolve.png/revision/latest?cb=20241221054549",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Lukas gains 1 Resolve per second and an additional 2 Resolve when dealing damage to heroes. Lukas consumes 10 Resolve per second while in Sacred Beast form.",
+      "properties": {}
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "Aurora",
+  "name": "Aurora",
+  "url": "https://mobile-legends.fandom.com/wiki/Aurora",
+  "intro": "Aurora, the Maiden of the Glacier, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Pride of Ice",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/62/Pride_of_Ice.png/revision/latest?cb=20240207104508",
+      "tags": [
+        "Death Immune"
+      ],
+      "description": "Death Immune Eternal Standing of the Glacier. Upon taking fatal damage, Aurora freezes herself for 1.5 seconds, becoming invincible during this time and greadually recovering 30% Max HP. This effect has a 150 seconds cooldown. Aurora's freeze effects can also affect Turrets . Skill terms Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills. Death Immune",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Hailstone Blast",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/25/Hailstone_Blast.png/revision/latest?cb=20240207104504",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Howling Blizzard of the North. Aurora summons an icy meteorite to strike at the taraget location, dealing 350–550 (+90% Total Magic Power) Magic Damage and slowing targets hit by 40% for 1 second. Afterward, 5 hailstones fall, each dealing 40–60 (+10% Total Magic Power) Magic Damage . Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "6.0",
+          "2": "5.6",
+          "3": "5.2",
+          "4": "4.8",
+          "5": "4.4",
+          "6": "4.0"
+        },
+        "Mana Cost": {
+          "1": "55",
+          "2": "65",
+          "3": "75",
+          "4": "85",
+          "5": "95",
+          "6": "105"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "390",
+          "3": "430",
+          "4": "470",
+          "5": "510",
+          "6": "550"
+        },
+        "Combo Damage": {
+          "1": "40",
+          "2": "44",
+          "3": "48",
+          "4": "52",
+          "5": "56",
+          "6": "60"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Frosty Breeze",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e9/Frosty_Breeze.png/revision/latest?cb=20240207104501",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC Frigid Frost in the Mountains. Aurora blows Frosty Breeze in a fan-shaped area in the target direction, dealing 225–375 (+75% Total Magic Power) Magic Damage to enemies hit, freezing them for 1 second, and creating a frozen area at the far-end of the attack that deals a total of 225–375 (+75% Total Magic Power) Magic Damage to enemies in the area. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+      "properties": {
+        "Cooldown": [
+          "13.0"
+        ],
+        "Mana Cost": {
+          "1": "110",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        },
+        "Base Damage": {
+          "1": "225",
+          "2": "255",
+          "3": "285",
+          "4": "315",
+          "5": "345",
+          "6": "375"
+        },
+        "Sustained Damage": {
+          "1": "225",
+          "2": "255",
+          "3": "285",
+          "4": "315",
+          "5": "345",
+          "6": "375"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Frigid Glacier",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6e/Frigid_Glacier.png/revision/latest?cb=20240207104457",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Underflow of the Frozen River. Aurora creates a frost path in the target direction, dealing 100–200 (+40% Total Magic Power) Magic Damage to enemies in the path and reducing their Movement Speed by 80% for 1.2 seconds. The frost path gradually becomes glaciers that spread until reaching their maximum size and shattering, dealing 600–1200 (+150% Total Magic Power) Magic Damage to all enemies in the area and freezing targets for 1 second. Every 100 Magic Power that Aurora has will increase the freeze duration by 0.2 seconds. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "150",
+          "3": "200"
+        },
+        "AOE Damage": {
+          "1": "600",
+          "2": "900",
+          "3": "1200"
+        }
+      }
+    }
+  ]
+}

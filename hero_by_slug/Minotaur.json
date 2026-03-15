@@ -1,0 +1,103 @@
+{
+  "slug": "Minotaur",
+  "name": "Minotaur",
+  "url": "https://mobile-legends.fandom.com/wiki/Minotaur",
+  "intro": "Minotaur, the Son of Minos, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Rage Incarnate",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7b/Rage_Incarnate.png/revision/latest?cb=20210616060409",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff When Minotaur uses a skill, he will gain Motivation for 3 seconds and heal himself for 5 (+1 × Hero Level) % of damage dealt by enemy heroes. These effects are doubled in Enraged state.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Despair Stomp",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Despair_Stomp.png/revision/latest?cb=20210616060356",
+      "tags": [
+        "CC",
+        "Slow"
+      ],
+      "description": "CC Slow Minotaur jumps to the target location , dealing 280–355 (+60% Total Physical Attack) Physical Damage to enemies in the area and briefly knocking them airborne . Enemies hit will be slowed by 40% while enhancing his Minotaur enhances his Basic Attacks to deal (+3% Total HP) extra Physical Damage for 2 seconds. Enraged: Increases the AOE range and the damage dealt by (+3% Total HP) Physical Damage . Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Max HP The maximum HP currently can have.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.5",
+          "3": "11.0",
+          "4": "10.5",
+          "5": "10.0",
+          "6": "9.5"
+        },
+        "Base Damage": {
+          "1": "280",
+          "2": "295",
+          "3": "310",
+          "4": "325",
+          "5": "340",
+          "6": "355"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Motivation Roar",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3e/Motivation_Rage.png/revision/latest?cb=20210616060342",
+      "tags": [
+        "Heal",
+        "Buff"
+      ],
+      "description": "Heal Buff Minotaur motivates himself and nearby most wounded hero, restoring 220–320 (+60% Total Magic Power) HP for them and healing himself based on his [8%] [ verification needed ] lost HP . Enraged: Minotaur heals himself and nearby allies. Skill terms Lost HP Lost HP = Max HP - Current HP. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.5",
+          "3": "9.0",
+          "4": "8.5",
+          "5": "8.0",
+          "6": "7.5"
+        },
+        "HP Regen": {
+          "1": "220",
+          "2": "240",
+          "3": "260",
+          "4": "280",
+          "5": "300",
+          "6": "320"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Minoan Fury",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/27/Minoan_Fury.png/revision/latest?cb=20210616060308",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Rage grants me the power of destruction! Minotaur enters Enraged State and smashes the ground 3 times. The first 2 hits deal 180–300 (+85% Total Physical Attack) Physical Damage to nearby enemies and slow them by 60% while the final hit deals 200–300 (+85% Total Physical Attack) True Damage , while knocks targets airborne for 0.8 seconds. Minotaur is immune to control effects during this attack. The Enraged state lasts 12 seconds and enhances Minotaur's skills for the duration. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. True Damage Skill Deal True Damage to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0"
+        },
+        "Base Damage": {
+          "1": "180",
+          "2": "240",
+          "3": "300"
+        },
+        "True Damage": {
+          "1": "200",
+          "2": "250",
+          "3": "300"
+        }
+      }
+    }
+  ]
+}

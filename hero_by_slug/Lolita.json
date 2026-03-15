@@ -1,0 +1,117 @@
+{
+  "slug": "Lolita",
+  "name": "Lolita",
+  "url": "https://mobile-legends.fandom.com/wiki/Lolita",
+  "intro": "Lolita, the Steel Elf, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Noumenon Energy Core",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7b/Noumenon_Energy_Core.png/revision/latest?cb=20250917083627",
+      "tags": [
+        "Shield"
+      ],
+      "description": "Shield Every 2.5 seconds, the Noumenon Energy Core grants a 50 (+10 × Hero Level) shield to Lolita and nearby allies. This shield can stack up to 6 times and lasts 30 seconds. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Power Charge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Power_Charge.png/revision/latest?cb=20250917083732",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Lolita dashes in the target direction. Her next Basic Attack within 4 seconds will perform a short dash to the target, dealing 300–550 (+100% Total Physical Attack) Physical Damage and stunning them for 0.5 seconds. This damage is doubled against Minions . Skill terms Blink Movement ability that can pass through obstacles. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {
+        "Cooldown": [
+          "10.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120",
+          "7": ""
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "350",
+          "3": "400",
+          "4": "450",
+          "5": "500",
+          "6": "550",
+          "7": "600"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Guardian's Reflection",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/da/Guardian%27s_Reflection.png/revision/latest?cb=20250917083743",
+      "tags": [
+        "Shield",
+        "Damage"
+      ],
+      "description": "Shield Damage Right back at you! Lolita raises her shield and reflects all incoming ranged Basic Attacks and Projectiles in the direction of the shield for 3 seconds. The shield will break after taking 1500–3000 (+15% Total HP) damage. The damage and effects from the Unique Passives of an attacker's equipment will not apply to the shield and will not be reflected.",
+      "properties": {
+        "Cooldown": {
+          "1": "17.5",
+          "2": "17.0",
+          "3": "16.5",
+          "4": "16.0",
+          "5": "15.5",
+          "6": "15.0"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "95",
+          "3": "100",
+          "4": "105",
+          "5": "110",
+          "6": "115"
+        },
+        "Damage Taken": {
+          "1": "1500",
+          "2": "1800",
+          "3": "2100",
+          "4": "2400",
+          "5": "2700",
+          "6": "3000"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Noumenon Blast",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Noumenon_Blast.png/revision/latest?cb=20250917083754",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Lolita begins charging for 2 seconds while slowing enemies in a fan-shaped area by 50%. When the charging is complete or is stopped, Lolita slams her hammer on the ground, dealing up to 500–900 (+100% Total Physical Attack) Physical Damage to enemies in the area and stunning them for up to 2 seconds (the damage and stun duration are based on the charge time). Use Again: Lolita immediately stops charging and slams her hammer on the ground. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "55.0",
+          "2": "50.0",
+          "3": "45.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "140",
+          "3": "160"
+        },
+        "Base Damage": {
+          "1": "500",
+          "2": "700",
+          "3": "900"
+        }
+      }
+    }
+  ]
+}

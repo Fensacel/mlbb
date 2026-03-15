@@ -1,0 +1,153 @@
+{
+  "slug": "Saber",
+  "name": "Saber",
+  "url": "https://mobile-legends.fandom.com/wiki/Saber",
+  "intro": "Saber, the Wandering Sword, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Enemy's Bane",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Enemy%27s_Bane.png/revision/latest?cb=20200718155708",
+      "tags": [
+        "Debuff"
+      ],
+      "description": "Debuff Saber's attacks reduce enemies' Physical Defense by 3–8 for 5 seconds on hit. This effect stacks up to 5 times. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+      "properties": {
+        "Physical Defense Reduction (level 1)": {
+          "1": "3",
+          "2": "6",
+          "3": "9",
+          "4": "12",
+          "5": "15"
+        },
+        "Physical Defense Reduction (level 8)": {
+          "1": "5",
+          "2": "10",
+          "3": "15",
+          "4": "20",
+          "5": "25"
+        },
+        "Physical Defense Reduction (level 15)": {
+          "1": "8",
+          "2": "16",
+          "3": "24",
+          "4": "32",
+          "5": "40"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Orbiting Swords",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Orbiting_Swords.png/revision/latest?cb=20201214101424",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Saber shoots out 5 swords that orbit around him, dealing 80–105 (+30% Extra Physical Attack) Physical Damage to enemies on contact. After orbiting around Saber for roughly 5 seconds, the swords will fly back to Saber. Within the duration of this skill, when Saber deals damage with his Basic Attacks or skills , he will send an orbiting sword towards the target, dealing 210–260 (+60% Extra Physical Attack) Physical Damage to the main target and 50% of the damage to other targets it passes through and reducing the cooldown of Charge by 1 second. It deals only 50% damage to all non-hero enemies such as minions and creeps . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "9.0"
+        ],
+        "Mana Cost": {
+          "1": "75",
+          "2": "85",
+          "3": "95",
+          "4": "105",
+          "5": "115",
+          "6": "125"
+        },
+        "Base Damage": {
+          "1": "80",
+          "2": "85",
+          "3": "90",
+          "4": "95",
+          "5": "100",
+          "6": "105"
+        },
+        "Extra Damage": {
+          "1": "210",
+          "2": "220",
+          "3": "230",
+          "4": "240",
+          "5": "250",
+          "6": "260"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Charge",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Charge.png/revision/latest?cb=20200718155500",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Saber dashes in the target direction, dealing 75–150 (+50% Extra Physical Attack) Physical Damage to enemies along the way while enhancing his next Basic Attack . Saber can dash to the target, and his enhanced Basic Attack deals 75–150 (+120% Total Physical Attack) Physical Damage and slows the target by 60% for 1 second. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "65",
+          "3": "60",
+          "4": "55",
+          "5": "50",
+          "6": "45"
+        },
+        "Base Damage": {
+          "1": "75",
+          "2": "90",
+          "3": "105",
+          "4": "120",
+          "5": "135",
+          "6": "150"
+        },
+        "Enhanced Damage": {
+          "1": "75",
+          "2": "90",
+          "3": "105",
+          "4": "120",
+          "5": "135",
+          "6": "150"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Triple Sweep",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Triple_Sweep.png/revision/latest?cb=20200718160427",
+      "tags": [
+        "Burst",
+        "CC"
+      ],
+      "description": "Burst CC Saber charges at the target enemy hero, knocking them airborne for 1.2 seconds and striking them 3 times over the duration. The first two strikes deal 120–180 (+100% Extra Physical Attack) Physical Damage each, while the third strike deals 240–360 (+200% Extra Physical Attack) Physical Damage . Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": {
+          "1": "44.0",
+          "2": "40.0",
+          "3": "36.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "120",
+          "3": "140"
+        },
+        "Base Damage": {
+          "1": "120",
+          "2": "150",
+          "3": "180"
+        },
+        "Extra Damage": {
+          "1": "240",
+          "2": "300",
+          "3": "360"
+        }
+      }
+    }
+  ]
+}

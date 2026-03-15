@@ -1,0 +1,145 @@
+{
+  "slug": "Zetian",
+  "name": "Zetian",
+  "url": "https://mobile-legends.fandom.com/wiki/Zetian",
+  "intro": "Zetian, the Celestial Empress, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Celestial Armament",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7e/Celestial_Armament.png/revision/latest?cb=20250118135549",
+      "tags": [
+        "Shield",
+        "CC"
+      ],
+      "description": "Shield CC Phoenix Crown : When Zetian hits enemy heroes with Phoenix Strike or Phoenix Descent , she gains 0.5% Spell Vamp for 5s, stacking up to 10 times. Celestial Robe : The power of the Phoenix periodically protects Zetian, knocking back and stunning any enemy hero who dares approach her while dealing 90 (+10*Hero Level) (+50% Total Magic Power) Magic Damage to them. She also gains a 300 (+20*Hero Level) (+50% Total Magic Power) Shield that lasts 3s. This effect has a 120s cooldown.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Phoenix Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Phoenix_Strike.png/revision/latest?cb=20250118135551",
+      "tags": [
+        "Damage",
+        "Speed Up"
+      ],
+      "description": "Damage Speed Up | Spell Vamp Ratio: 100% Zetian unleashes a Phoenix Wave in the target direction. If it hits an enemy, she automatically casts another wave, up to 3 times. While casting, Zetian can move with 10% increased Movement Speed and can use other skills. The three Phoenix Waves deal 185 (+30% Total Magic Power) Magic Damage /185 (+50% Total Magic Power) Magic Damage /330 (+70% Total Magic Power) Magic Damage , respectively. The third wave hits a larger area and includes a small pull effect (not considered a control effect). This skill only has 80% Spell Vamp efficiency against Minions.",
+      "properties": {
+        "Cooldown": {
+          "1": "7.0",
+          "2": "6.6",
+          "3": "6.2",
+          "4": "5.8",
+          "5": "5.4",
+          "6": "5.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "185",
+          "2": "200",
+          "3": "215",
+          "4": "230",
+          "5": "245",
+          "6": "260"
+        },
+        "Extra Base Damage": {
+          "1": "330",
+          "2": "390",
+          "3": "450",
+          "4": "510",
+          "5": "570",
+          "6": "630"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Phoenix Descent",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Phoenix_Descent.png/revision/latest?cb=20250118135552",
+      "tags": [
+        "Slow",
+        "Debuff"
+      ],
+      "description": "Slow Debuff | Spell Vamp Ratio: 50% Zetian summons a Phoenix Spirit at the target location, dealing 150 (+30% Total Magic Power) Magic Damage and applying a 50% Slow Effect to enemies in the area. The Phoenix Spirit hovers at the location for 3s, dealing 20 (+10% Total Magic Power) Magic Damage every 0.5s and reducing enemies' Magic Defense by 10%. While the Phoenix Spirit is active, Zetian can use this skill again to command it to charge toward a designated location, dealing 150 (+30% Total Magic Power) Magic Damage and applying a <%Num8> Slow Effect upon arrival.",
+      "properties": {
+        "Cooldown": [
+          "15.0"
+        ],
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "165",
+          "3": "180",
+          "4": "195",
+          "5": "210",
+          "6": "225"
+        },
+        "Extra Base Damage": {
+          "1": "20",
+          "2": "24",
+          "3": "28",
+          "4": "32",
+          "5": "36",
+          "6": "40"
+        },
+        "Magic Defense Reduction": {
+          "1": "10%",
+          "2": "12%",
+          "3": "14%",
+          "4": "16%",
+          "5": "18%",
+          "6": "20%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Fury of the Phoenix",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Fury_of_the_Phoenix.png/revision/latest?cb=20250118135550",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage | Spell Vamp Ratio: 50% Zetian calls upon her divine mandate and the hearts of her people, granting all allied heroes 60% Movement Speed that gradually decays over 3s, while bringing divine retribution upon all enemy heroes, dealing 400 (+100% Total Magic Power) Magic Damage and stunning them for 1s. Zetian gains vision of all enemy heroes during this time. Zetian can cast other skills while channeling this skill.",
+      "properties": {
+        "Cooldown": {
+          "1": "90.0",
+          "2": "80.0",
+          "3": "70.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "180",
+          "3": "210"
+        },
+        "Base Damage": {
+          "1": "400",
+          "2": "550",
+          "3": "700"
+        },
+        "Movement Speed Bonus": {
+          "1": "40%",
+          "2": "50%",
+          "3": "60%"
+        }
+      }
+    }
+  ]
+}

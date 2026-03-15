@@ -1,0 +1,99 @@
+{
+  "slug": "Lylia",
+  "name": "Lylia",
+  "url": "https://mobile-legends.fandom.com/wiki/Lylia",
+  "intro": "Lylia, the Little Witch, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Angry Gloom",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9c/Angry_Gloom.png/revision/latest?cb=20210809093713",
+      "tags": [
+        "Buff",
+        "Speed Up"
+      ],
+      "description": "Buff Speed Up Lylia gets power from Gloom , increasing her movement speed by 15% whenever she is within the area of Gloom . Additionally, every time Gloom is upgraded, her movement speed is increased by 5% , stacking up to 4 times or 20% for a maximum of 35% movement speed increase . Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Magic Shockwave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b5/Magic_Shockwave.png/revision/latest?cb=20210809093754",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Lylia sends out Gloom in a line, dealing 250 / 300 / 350 / 400 / 450 / 500 (+100%Magic Power) Magic Damage to enemies along the path and slowing them by 40% for 1.5 seconds . If Gloom touches Shadow Energy , he will devour and detonate it. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "300",
+          "3": "350",
+          "4": "400",
+          "5": "450",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Shadow Energy",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0c/Shadow_Energy.png/revision/latest?cb=20210809093832",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Lylia condenses Shadow Energy at a location, dealing 100 / 112 / 124 / 136 / 148 / 160 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 80% for 0.5 seconds . If Shadow Energy is detonated by Gloom or Magic Shockwave , it will detonate to deal an additional 250 / 280 / 310 / 340 / 370 / 400 (+100% Magic Power) Magic Damage and turn the Shadow Energy to Gloom for 8 seconds . During this time, Gloom can then detonate additional Shadow Energies within his range, resetting his timer and moving to the Shadow Energy 's location in each instance. Additionally, whenever Gloom detonates a Shadow Energy within 8 seconds , the detonation damage is increased by 30% , stacking up to 4 times or 120% . If Gloom detonates 5 Shadow Energies consecutively, this skill can deal a maximum of 550 / 605 / 660 / 715 / 770 / 825 (+220% Magic Power) Magic Damage . Stores a charge of Shadow Energy every 9 seconds , up to 5 charges . Recharge time is affected by cooldown reduction . Skill terms Energy Charging Time Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "1.0"
+        ],
+        "Mana Cost": {
+          "1": "40",
+          "2": "50",
+          "3": "60",
+          "4": "70",
+          "5": "80",
+          "6": "90",
+          "7": "100"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Black Shoes",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Black_Shoes.png/revision/latest?cb=20210809093908",
+      "tags": [
+        "Buff",
+        "Mobility"
+      ],
+      "description": "Buff Mobility Lylia returns to the Black Shoes' location 4 seconds ago and restoring all 5 Shadow Energy charges , 100% of her HP and Mana to the previous state, and get an extra 10% / 15% / 20% Max HP . She also gains 20% extra Movement Speed by 20% for 2 / 3 / 4 seconds . Lylia will untargetable while teleporting. Skill terms Max HP The maximum HP currently can have. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {
+        "Cooldown": {
+          "1": "45.0",
+          "2": "40.0",
+          "3": "35.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "60",
+          "3": "0"
+        }
+      }
+    }
+  ]
+}

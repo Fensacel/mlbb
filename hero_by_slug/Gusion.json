@@ -1,0 +1,146 @@
+{
+  "slug": "Gusion",
+  "name": "Gusion",
+  "url": "https://mobile-legends.fandom.com/wiki/Gusion",
+  "intro": "Gusion, the Holy Blade, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Dagger Specialist",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Dagger_Specialist.png/revision/latest?cb=20220908163637",
+      "tags": [
+        "Buff",
+        "Heal"
+      ],
+      "description": "Buff Heal Each skill cast adds a rune to Gusion's dagger (stacks up to 4 times). Each stack enhances Gusion's next Basic Attack to deal additional damage equal to 3% of the target's max HP and restore 50 (+25% Total Magic Power) HP to himself. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Max HP The maximum HP currently can have. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+      "properties": {
+        "Targets Lost HP": {
+          "1": "3%",
+          "2": "6%",
+          "3": "9%",
+          "4": "12%"
+        },
+        "Base HP Regen": {
+          "1": "50",
+          "2": "100",
+          "3": "150",
+          "4": "200"
+        },
+        "Magic Scaling": {
+          "1": "25%",
+          "2": "50%",
+          "3": "75%",
+          "4": "100%"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Sword Spike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest?cb=20220908163717",
+      "tags": [
+        "Damage",
+        "Mobility"
+      ],
+      "description": "Damage Mobility Gusion throws a dagger in the target direction, dealing 200–300 (+50% Total Magic Power) Magic Damage to the first enemy hit and marking them. Use Again }: Gusion moves behind the marked enemy, dealing 200–300 (+100% Total Magic Power) Magic Damage to them. This skill cannot be interrupted while Gusion is moving behind the marked enemy. Skill terms Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "9.0",
+          "2": "8.4",
+          "3": "7.8",
+          "4": "7.2",
+          "5": "6.6",
+          "6": "6.0"
+        },
+        "Mana Cost": [
+          "70"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Extra Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Shadowblade Slaughter",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Shadowblade_Slaughter.png/revision/latest?cb=20220908163704",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Gusion throws a volley of [five] daggers in the target direction, each dealing 110–210 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 6% for 2 seconds (when hit by multiple daggers, the slow effect can stack up to 30%). Use Again: Gusion recalls the daggers, each dealing 65–115 (+40% Total Magic Power) Magic Damage to enemies in its path. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.6",
+          "3": "10.2",
+          "4": "9.8",
+          "5": "9.4",
+          "6": "9.0"
+        },
+        "Mana Cost": {
+          "1": "65",
+          "2": "75",
+          "3": "85",
+          "4": "95",
+          "5": "105",
+          "6": "115"
+        },
+        "Base Damage": {
+          "1": "110",
+          "2": "130",
+          "3": "150",
+          "4": "170",
+          "5": "190",
+          "6": "210"
+        },
+        "Extra Damage": {
+          "1": "65",
+          "2": "75",
+          "3": "85",
+          "4": "95",
+          "5": "105",
+          "6": "115"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Incandescence",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Incandescence.png/revision/latest?cb=20220908163651",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Gusion dashes to the target location, resetting the cooldown of Sword Spike and Shadowblade Slaughter . If Shadowblade Slaugther was cast once before the reset, Gusion can throw another five daggers on his next Shadowblade Slaughter, and recall a total of ten daggers afterward. Use Again: Gusion dashes a short distance in the target location.",
+      "properties": {
+        "Cooldown": {
+          "1": "28.0",
+          "2": "24.0",
+          "3": "20.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "50",
+          "3": "0"
+        }
+      }
+    }
+  ]
+}

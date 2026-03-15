@@ -1,0 +1,112 @@
+{
+  "slug": "Kimmy",
+  "name": "Kimmy",
+  "url": "https://mobile-legends.fandom.com/wiki/Kimmy",
+  "intro": "Kimmy, the Hoverjet Outrider, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Aerial Dominance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/85/Aerial_Dominance.png/revision/latest?cb=20250423105751",
+      "tags": [
+        "Damage"
+      ],
+      "description": "Damage Kimmy can move and aim in different directions when using her Spray Gun, but cannot lock on to a specific enemy. Kimmy's Spray Gun attack deals (+22%% Total Physical Attack) (+27%% Total Magic Power) Magic Damage . Hitting enemy heroes/non-hero units restores 6/3 Starlium. At max Starlium, Kimmy's Basic Attacks are enhanced to deal (+27%% Total Physical Attack) (+32%% Total Magic Power) damage and pierce through targets. Kimmy doesn't stop moving while shooting and no longer benefits from Attack Speed Bonus. Every 1% Attack Speed she gains is converted to 1 Magic Power.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Anti-Grav Thruster",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a1/Anti-Grav_Thruster.png/revision/latest?cb=20250423105752",
+      "tags": [
+        "Speed Up",
+        "Buff"
+      ],
+      "description": "Speed Up Buff | Spell Vamp Ratio: 50% Kimmy uses her jetpack to take flight, removing and becoming immune to Slow Effects. She can pass through terrain and gains 90% Movement Speed for 1 second. During the flight, she fires 4 Chemical Bolts at nearby enemies, each dealing 20 (+25%% Total Physical Attack) (+30%% Total Magic Power) Magic Damage and slowing them by 50% for 0.5 seconds.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.0",
+          "3": "12.0",
+          "4": "11.0",
+          "5": "10.0",
+          "6": "9.0"
+        },
+        "Base Damage": {
+          "1": "20",
+          "2": "25",
+          "3": "30",
+          "4": "35",
+          "5": "40",
+          "6": "45"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Starlium Beam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Starlium_Beam.png/revision/latest?cb=20250423105753",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage | Spell Vamp Ratio: 50% Kimmy fires a Starlium Beam in the target direction that immobilizes enemies in its path and deals 300 (+50%% Total Physical Attack) (+60%% Total Magic Power) Magic Damage for 2 seconds. Gain 20 Starlium for each enemy hero hit. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "360",
+          "3": "420",
+          "4": "480",
+          "5": "540",
+          "6": "600"
+        },
+        "Energy Regen": {
+          "1": "20",
+          "2": "24",
+          "3": "28",
+          "4": "32",
+          "5": "36",
+          "6": "40"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Traction Pulse",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Traction_Pulse.png/revision/latest?cb=20250423105754",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC | Spell Vamp Ratio: 50% Kimmy charges and fires a Traction Pulse in a target direction. Upon hitting an enemy or reaching its max range, it explodes to deal 200 (+60%% Total Physical Attack) (+72%% Total Magic Power) Magic Damage to nearby enemies and creates a force field that slows enemies within by 75%. After 1 second, the field contracts, pulling all enemy heroes to its center and dealing 15% of their current HP as Magic Damage. Gain 40 Starlium for each enemy hero hit. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "300",
+          "3": "400"
+        },
+        "Current HP Percentage": {
+          "1": "15%",
+          "2": "22.5%",
+          "3": "30%"
+        }
+      }
+    }
+  ]
+}

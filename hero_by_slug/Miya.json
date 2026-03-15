@@ -1,0 +1,121 @@
+{
+  "slug": "Miya",
+  "name": "Miya",
+  "url": "https://mobile-legends.fandom.com/wiki/Miya",
+  "intro": "Miya, the Moonlight Archer, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Moon Blessing",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Moon_Blessing.png/revision/latest?cb=20220302071911",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff | Attack Effects: 25% | Lifesteal Ratio: 0% Each time Miya hits a target with her Basic Attack , she gains 5% Attack Speed for 4 seconds. Stacks up to 5 times. After reaching full stacks, Miya summons a Moonlight Shadow with each Basic Attack that deals 30 (+25% Total Physical Attack) Physical Damage and inherits a portion of Attack Effects . Skill terms Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second). Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Moon Arrow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Moon_Arrow.png/revision/latest?cb=20220302071842",
+      "tags": [
+        "Buff",
+        "AOE"
+      ],
+      "description": "Buff AOE | Attack Effects: 20% | Lifesteal Ratio: 0% Miya shoots two extra arrows with each Basic Attack , dealing 10–35 (+100% Total Physical Attack) Physical Damage to the target enemy and 30% damage to nearby targets. This effect lasts 4 seconds. Each extra arrow inherits a portion of Attack Effects . Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+      "properties": {
+        "Cooldown": [
+          "11.0"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "10",
+          "2": "15",
+          "3": "20",
+          "4": "25",
+          "5": "30",
+          "6": "35"
+        },
+        "Duration": {
+          "1": "4",
+          "2": "5",
+          "3": "6",
+          "4": "7",
+          "5": "8",
+          "6": "9"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Arrow of Eclipse",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Arrow_of_Eclipse.png/revision/latest?cb=20220302071714",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Miya launches an empowered arrow on the target area, dealing 270–420 (+45% Total Physical Attack) Physical Damage to enemies within and immobilizing them for 1.2 seconds. The arrow then splits into 6 scattering minor arrows, each dealing 40–105 (+20% Total Physical Attack) Physical Damage to the first enemy hit and slowing them by 30% for 2 seconds. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "270",
+          "2": "300",
+          "3": "330",
+          "4": "360",
+          "5": "390",
+          "6": "420"
+        },
+        "Arrow Damage": {
+          "1": "40",
+          "2": "53",
+          "3": "66",
+          "4": "79",
+          "5": "92",
+          "6": "105"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Hidden Moonlight",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ec/Hidden_Moonlight.png/revision/latest?cb=20220302071615",
+      "tags": [
+        "Conceal",
+        "Remove CC"
+      ],
+      "description": "Conceal Remove CC Miya removes all debuffs on her and conceals herself, gaining 65% extra Movement Speed . This state lasts 2 seconds or until she launches an attack. Miya gains full stacks of Moon Blessing upon leaving the state. Skill terms Exceptional Status Debuff applied to the enemy. Conceal Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "30.0",
+          "2": "25.0",
+          "3": "20.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "145",
+          "3": "170"
+        }
+      }
+    }
+  ]
+}

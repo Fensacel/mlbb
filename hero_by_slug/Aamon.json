@@ -1,0 +1,132 @@
+{
+  "slug": "Aamon",
+  "name": "Aamon",
+  "url": "https://mobile-legends.fandom.com/wiki/Aamon",
+  "intro": "Aamon, the Duke of Shards, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Invisible Armor",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Invisible_Armor.png/revision/latest?cb=20211203045614",
+      "tags": [
+        "Conceal",
+        "Buff"
+      ],
+      "description": "Conceal Buff For generations, the Invisible Armor has been used as the symbol of the greatest power in House Paxley. Aamon enters the Camouflage state each time he hits an enemy with a skill, during which he cannot be targeted , restores 25 (+15% Total Magic Power) (+Aamon's 3% Lost HP) HP every 0.6 seconds, and gains 60% extra Movement Speed that rapidly decays over 3.5 seconds. Upon leaving the Camouflage state, Aamon immediately resets his Basic Attack 's cooldown and enhances his Basic Attacks within the next 2.5 seconds. Each enhanced Basic Attack deals 100 (+100% Total Physical Attack) (+65% Total Magic Power) Magic Damage and reduces Aamon's skill cooldowns by 0.5 second. The first enhanced Basic Attack's damage is increased to 120% if Aamon leaves the Camouflage state actively. Skill terms Stealth Enter Stealth State within the duration, won't be easily spotted visually by the enemy, can't be targeted by skills. Blink Movement ability that can pass through obstacles. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Soul Shards",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Soul_Shards.png/revision/latest?cb=20211203045706",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Passive: Aamon charges his armor each time he casts a skill or hits an enemy with a skill or enhanced Basic Attack . At 5 charges, Aamon throws [6] shards at the target on his next attack, each shard dealing 40–100 (+15% Total Magic Power) Magic Damage . The shards will then scatter around the target. Active: Aamon throws a shard at a nearby enemy, dealing 150–300 (+60% Total Magic Power) Magic Damage . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "9.0",
+          "2": "8.5",
+          "3": "8.0",
+          "4": "7.5",
+          "5": "7.0",
+          "6": "6.5"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "66",
+          "3": "72",
+          "4": "78",
+          "5": "84",
+          "6": "90"
+        },
+        "Base Damage (Passive)": {
+          "1": "40",
+          "2": "52",
+          "3": "64",
+          "4": "76",
+          "5": "88",
+          "6": "100"
+        },
+        "Base Damage (Active)": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Slayer Shards",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Slayer_Shards.png/revision/latest?cb=20211203045819",
+      "tags": [
+        "Conceal",
+        "Damage"
+      ],
+      "description": "Conceal Damage Aamon throws a shard forward, dealing 120-220 (+50% Total Magic Power) Magic Damage to the first non-minion enemy hit and slowing them by 50% for 2 seconds. The shard will then return to Aamon immediately. If the shard fails to hit an enemy, it will return to Aamon after a short delay and allow him to enter the Camouflage state . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.5",
+          "3": "14.0",
+          "4": "13.5",
+          "5": "13.0",
+          "6": "12.5"
+        },
+        "Mana Cost": {
+          "1": "110",
+          "2": "104",
+          "3": "98",
+          "4": "92",
+          "5": "86",
+          "6": "80"
+        },
+        "Base Damage": {
+          "1": "120",
+          "2": "140",
+          "3": "160",
+          "4": "180",
+          "5": "200",
+          "6": "220"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Endless Shards",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Endless_Shards.png/revision/latest?cb=20211203045950",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Aamon throws all shards at a designated enemy and slows them by 30% for 1.5 seconds. After a short delay, the shards will fly to the enemy's location again, each dealing 90–110 (+24% Total Magic Power) –150–180 (+40% Total Magic Power) Magic Damage . The number of shards increases with Aamon's armor charges and the shards on the ground (8-25). The damage dealt increases with the target's lost HP , to the maximum when the target's HP is below 30%. The same target takes [50%] less damage from subsequent attacks. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Lost HP Lost HP = Max HP - Current HP.",
+      "properties": {
+        "Cooldown": {
+          "1": "46.0",
+          "2": "42.0",
+          "3": "38.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "170",
+          "3": "190"
+        },
+        "Minimum Damage": {
+          "1": "90",
+          "2": "100",
+          "3": "110"
+        },
+        "Maximum Damage": {
+          "1": "150",
+          "2": "165",
+          "3": "180"
+        }
+      }
+    }
+  ]
+}

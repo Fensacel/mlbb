@@ -1,0 +1,21 @@
+{
+  "slug": "Roger",
+  "name": "Roger",
+  "url": "https://mobile-legends.fandom.com/wiki/Roger",
+  "intro": "Roger, the Dire Wolf Hunter, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Full Moon Curse",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f9/Full_Moon_Curse.png/revision/latest?cb=20210905105058",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Roger can freely switch between human and wolf forms. In human form, Roger's Basic Attacks and skills deal additional damage equal to [ (+target's 4% Current HP) .] In wolf form, Roger's Basic Attack and skills deal additional damage equal to [ (+target's 4% Lost HP) .] This effect can only deal up to 60 additional damage against Creeps . Skill terms Current HP Death happens when current HP is or below 0. When there is Death Immune Effect, the current HP will not be below 1. Lost HP Lost HP = Max HP - Current HP. Lost HP Lost HP = Max HP - Current HP.",
+      "properties": {}
+    }
+  ]
+}

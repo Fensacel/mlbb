@@ -1,0 +1,118 @@
+{
+  "slug": "Natalia",
+  "name": "Natalia",
+  "url": "https://mobile-legends.fandom.com/wiki/Natalia",
+  "intro": "Natalia, the Bright Claw, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Assassin Instinct",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Assassin_Instinct.png/revision/latest?cb=20210816210625",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff If Natalia stays in a bush without taking damage for 1 second, she will enter Camouflage state and gain 15% Movement Speed . In this state, Natalia's next Basic Attack will teleport her behind her target and deal 200 (+110%% Total Physical Attack) Physical Damage while silencing the target for 0.25 seconds. Dealing damage, taking damage or using skills will immediately end the Camouflage state, but her next Basic Attack will remain enhanced for another 1 second. Natalia's base Crit Damage is reduced to 150%, but her damage to Creeps is increased to 150%. Skill terms Blink Movement ability that can pass through obstacles. Silence",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Claw Dash",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Claw_Dash.png/revision/latest?cb=20210816210737",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Natalia dashes in the target direction, dealing 250–350 (+50% Total Physical Attack) Physical Damage to enemies in her path. After hitting an enemy, she can cast this skill again within 5 seconds. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "55",
+          "3": "60",
+          "4": "65",
+          "5": "70",
+          "6": "75"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "270",
+          "3": "290",
+          "4": "310",
+          "5": "330",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Smoke Bomb",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Smoke_Bomb.png/revision/latest?cb=20210816210831",
+      "tags": [
+        "Buff",
+        "Slow"
+      ],
+      "description": "Buff Slow No one beats me in my own game. Natalia releases a Smoke Bomb at her location, slowing enemies within by 25%–75% while Natalia becomes immune to enemy Basic Attacks for 4 seconds. Skill terms Dodge You are immune to enemy Basic Attack damage and effects within the duration. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "12.0"
+        ],
+        "Mana Cost": {
+          "1": "80",
+          "2": "85",
+          "3": "90",
+          "4": "95",
+          "5": "100",
+          "6": "105"
+        },
+        "Slow Effect": {
+          "1": "25%",
+          "2": "35%",
+          "3": "45%",
+          "4": "55%",
+          "5": "65%",
+          "6": "75%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "The Hunt",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/The_Hunt.png/revision/latest?cb=20210816210938",
+      "tags": [
+        "Conceal",
+        "Buff"
+      ],
+      "description": "Conceal Buff Passive : Natalia gains 15%–45% extra Crit Chance . Active : Natalia immediately enters Assassin Instinct state. Natalia can store up to 2 charges of her Ultimate and each charge has a recharge time of 30 seconds. Creep kills will reduce the current remaining recharge time 50% of the full recharge time. Skill terms Blink Movement ability that can pass through obstacles. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker.",
+      "properties": {
+        "Cooldown": [
+          "3.0"
+        ],
+        "Recharging Time": {
+          "1": "30.0",
+          "2": "27.0",
+          "3": "24.0"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "110",
+          "3": "130"
+        },
+        "Crit Chance": {
+          "1": "15%",
+          "2": "30%",
+          "3": "45%"
+        }
+      }
+    }
+  ]
+}

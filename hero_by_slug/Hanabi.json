@@ -1,0 +1,132 @@
+{
+  "slug": "Hanabi",
+  "name": "Hanabi",
+  "url": "https://mobile-legends.fandom.com/wiki/Hanabi",
+  "intro": "Hanabi, the Scarlet Flower, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Ninjutsu: Petal Barrage",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/88/Ninjutsu_Petal_Barrage.png/revision/latest?cb=20221217033136",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Hanabi's Basic Attacks and Skills will launch Petal Blades after hitting a target, bouncing up to 4 times to nearby enemies (the first bounce deals 40% of the damage, and subsequent bounces deal 85% of the previous). Bounces from her Basic Attacks inherit a portion of Attack Effects .",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Ninjutsu: Equinox",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Ninjutsu_Equinox.png/revision/latest?cb=20221217033128",
+      "tags": [
+        "Shield",
+        "Buff"
+      ],
+      "description": "Shield Buff Passive: The secret Ninjutsu of the Scarlet Shadow makes Hanabi immune to control effects when she has a shield from any source. Active: Hanabi gains a 300–600 (+40% Total Physical Attack) shield for 5 seconds. When the shield is active, Hanabi gains 20% Movement Speed , 25% Attack Speed , and 20% of damage dealt will also be added to this shield (only 10% of the damage dealt to non-hero units). The shield cannot exceed 50% of Hanabi's max HP . Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.6",
+          "3": "13.2",
+          "4": "12.8",
+          "5": "12.4",
+          "6": "12.0"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        },
+        "Shield": {
+          "1": "300",
+          "2": "360",
+          "3": "420",
+          "4": "480",
+          "5": "540",
+          "6": "600"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ninjutsu: Soul Scroll",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Ninjutsu_Soul_Scroll.png/revision/latest?cb=20221217033141",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Hanabi fires the energy Kunai in the targeted direction, dealing 450–600 (+80% Total Physical Attack) Physical Damage to enemies along the way and reducing their Movement Speed by 60% for 1 second. Enemy units hit will also be marked, allowing Hanabi's next Bounce Damage from Basic Attacks to deal 30–180 (+100% Total Physical Attack) Physical Damage on them with no damage decay. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        },
+        "Base Damage": {
+          "1": "450",
+          "2": "480",
+          "3": "510",
+          "4": "540",
+          "5": "570",
+          "6": "600"
+        },
+        "Extra Damage": {
+          "1": "30",
+          "2": "60",
+          "3": "90",
+          "4": "120",
+          "5": "150",
+          "6": "180"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Forbidden Jutsu: Higanbana",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bc/Forbidden_Jutsu_Higanbana.png/revision/latest?cb=20221217033119",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE A sprout without flowers. A blossom without leaves. Hanabi throws Higanbana in the targeted direction, dealing 300–500 (+50% Total Physical Attack) Physical Damage to the first enemy hero hit and immobilizing them for 0.8 seconds. After 1 second, Higanbana will bloom at the location of the first hit, dealing 300–500 (+50% Total Physical Attack) Physical Damage to nearby enemies. Subsequent hits on the same target decays 20% damage. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "160",
+          "3": "200"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "400",
+          "3": "500"
+        },
+        "Bloom Damage": {
+          "1": "300",
+          "2": "400",
+          "3": "500"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "Cici",
+  "name": "Cici",
+  "url": "https://mobile-legends.fandom.com/wiki/Cici",
+  "intro": "Cici, the Buoyant Performer, is a hero in Mobile Legends: Bang Bang , and is accompanied by Yoyo.",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Performer's Delight",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Performer%27s_Delight.png/revision/latest?cb=20231223051030",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Cici generates a stack of Delight after dealing damage, increasing her Movement Speed by 0.75% and Spell Vamp by 0.75% per stack up to 10 times, doubling the effects at full stacks.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Yo-Yo Blitz",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/59/Yo-Yo_Blitz.png/revision/latest?cb=20231223050624",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Cici uses Yoyo to continuously attack the nearest enemy within range (prioritizing heroes) for 3.5 seconds, hitting them up to 10 times and dealing Physical Damage equal to 60–85 plus 3–4.5 (+1.2% Extra Physical Attack) % of the target's Max HP per hit. Cici can move and use other skills during this attack. If there's no enemy hero within the range, Yoyo will attack Turrets or the Base instead. The skill deals 20% extra damage to Minions .",
+      "properties": {
+        "Cooldown": [
+          "6.5"
+        ],
+        "Duration": [
+          "3.5"
+        ],
+        "Base Damage": {
+          "1": "60",
+          "2": "65",
+          "3": "70",
+          "4": "75",
+          "5": "80",
+          "6": "85"
+        },
+        "Targets HP Percentage": {
+          "1": "3%",
+          "2": "3.3%",
+          "3": "3.6%",
+          "4": "3.9%",
+          "5": "4.2%",
+          "6": "4.5%"
+        },
+        "Max Damage to Creeps": {
+          "1": "75",
+          "2": "130",
+          "3": "185",
+          "4": "240",
+          "5": "295",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Buoyant Bounce",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2e/Buoyant_Bounce.png/revision/latest?cb=20231223050621",
+      "tags": [
+        "Mobility"
+      ],
+      "description": "Mobility Cici leaps to a target location. If she lands on any unit (not including Turrets and Base ), she can leap again in the Joystick's direction. If she lands on an enemy with the first leap, she deals 200–300 (+40% Total Physical Attack) Physical Damage to them.",
+      "properties": {
+        "Cooldown": {
+          "1": "9.5",
+          "2": "9.1",
+          "3": "8.7",
+          "4": "8.3",
+          "5": "7.9",
+          "6": "7.5"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Curtain Call",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Curtain_Call.png/revision/latest?cb=20231223050623",
+      "tags": [
+        "CC",
+        "Slow"
+      ],
+      "description": "CC Slow Cici throws Yoyo at the target enemy hero and links them with another nearby enemy hero, dealing 100 (+10% Total Physical Attack) Physical Damage , slowing them by 30%, and pulling them together. During this time, Cici can use Yo-Yo Blitz to attack both linked targets at the same time. If only one is within the range of Yo-Yo Blitz, Cici will attack the target twice, but the damage of the second attack will be reduced to 25%~45%.",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "36.0",
+          "3": "32.0"
+        },
+        "Decay Ratio": {
+          "1": "25%",
+          "2": "35%",
+          "3": "45%"
+        }
+      }
+    }
+  ]
+}

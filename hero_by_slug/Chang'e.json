@@ -1,0 +1,114 @@
+{
+  "slug": "Chang'e",
+  "name": "Chang'e",
+  "url": "https://mobile-legends.fandom.com/wiki/Chang%27e",
+  "intro": "Chang'e, the Moon Palace Immortal, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Trouble Maker",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Trouble_Maker.png/revision/latest?cb=20210816222133",
+      "tags": [
+        "Debuff"
+      ],
+      "description": "Debuff Each time Chang'e deals damage to an enemy, she leaves a mark on them. Each mark reduces the target's Movement Speed by 1%, stacking up to 20%.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Starmoon Shockwave",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Starmoon_Shockwave.png/revision/latest?cb=20210816222224",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Chang'e sends an energy sphere in the target direction, dealing 350–500 (+130% Total Magic Power) Magic Damage to enemies in its path and slowing them by 10% for 1.5 seconds. Crescent Moon : The Crescent Moon will send 4 extra energy spheres along with Chang'e's, each dealing 20% damage. The slow effect can stack (up to 20%). Skill terms Magic damage Skill Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "75",
+          "3": "80",
+          "4": "85",
+          "5": "90",
+          "6": "95"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "380",
+          "3": "410",
+          "4": "440",
+          "5": "470",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Crescent Moon",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e7/Crescent_Moon.png/revision/latest?cb=20210816222319",
+      "tags": [
+        "Buff",
+        "Shield"
+      ],
+      "description": "Buff Shield | Attack Effects: 35% Chang'e summons the Crescent Moon , gaining a permanent 300–500 (+150% Total Magic Power) shield and 10% Movement Speed (that lasts until the shield is destroyed). Each time Chang'e casts a skill, she also gains 50% Movement Speed that decays over 2.5 seconds. Crescent Moon also allows Chang'e's Basic Attacks to deal 20 (+35% Total Physical Attack) (+35% Total Magic Power) additional Magic Damage 2 times. Each time Chang'e deals Magic Damage with her Basic Attack and skills, the cooldown of this skill is reduced by 0.2 seconds. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.5",
+          "3": "11.0",
+          "4": "10.5",
+          "5": "10.0",
+          "6": "9.5"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "70",
+          "3": "80",
+          "4": "90",
+          "5": "100",
+          "6": "110"
+        },
+        "Base Shield": {
+          "1": "300",
+          "2": "340",
+          "3": "380",
+          "4": "420",
+          "5": "460",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Meteor Shower",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cf/Meteor_Shower.png/revision/latest?cb=20210816222411",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Chang'e fires 30 meteors in the target direction over 4 seconds, each dealing 60 (+33% Total Magic Power) Magic Damage to the first enemy hit. This skill deals 100% extra damage to Minions and Creeps. Chang'e also gains 10% Movement Speed for the duration. Crescent Moon: The Crescent Moon also fires meteors along with Chang'e, each dealing 33% damage. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "33.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        },
+        "Base Damage": {
+          "1": "60",
+          "2": "75",
+          "3": "90"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "slug": "Valir",
+  "name": "Valir",
+  "url": "https://mobile-legends.fandom.com/wiki/Valir",
+  "intro": "Valir, the Son of Flames, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "2"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Ashing",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Ashing.png/revision/latest?cb=20210903173840",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Valir's skills apply a stack of Ablaze to enemies hit, dealing them Magic Damage equal to 0.6% of their Max HP per second for 4s. At 3 stacks, the fire detonates, dealing Magic Damage euqal to 6% of the target's Max HP to the enemy and stunning them for 1s (the same target can only be stunned by Valir's skills once every 7s.) Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Max HP The maximum HP currently can have.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Burst Fireball",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Burst_Fireball.png/revision/latest?cb=20210903173909",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Valir launches a fireball that explodes upon hitting the first target, dealing 235–410 (+80% Total Magic Power) Magic Damage and slowing them by 30% for 1s. The lingering flame on the ground will explode after 1s, dealing 118–205 (+40% Total Magic Power) Magic Damage Valir recharges 1 fireball every 9s and can hold up to 2 fireball charges. Hitting an enemy hero or Legend Creep with this skill wil immediately restore a fireball charge, while hitting a Minion will restore 50% of the recharge time. Skill terms Energy Charging Time Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "1.5"
+        ],
+        "Mana Cost": {
+          "1": "50",
+          "2": "58",
+          "3": "66",
+          "4": "74",
+          "5": "82",
+          "6": "90"
+        },
+        "Base Damage": {
+          "1": "235",
+          "2": "270",
+          "3": "305",
+          "4": "340",
+          "5": "375",
+          "6": "410"
+        },
+        "Explosion Damage": {
+          "1": "118",
+          "2": "135",
+          "3": "153",
+          "4": "170",
+          "5": "188",
+          "6": "205"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Searing Torrent",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Searing_Torrent.png/revision/latest?cb=20210903173933",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Valir unleashes a torrent of flames in the target direction, dealing 200–300 (+60% Total Magic Power) Magic Damage to enemies hit and knocking them to the end of its path. Vengeance Flame: The torrent forms a fire wall at the end of its path that lasts 4s and deals 80–120 (+24% Total Magic Power) Magic Damage to nearby enemies per second. Enemies hit by the torrent or the firewall are slowed by 25% for 1s. Skill terms Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "13",
+          "2": "12.4",
+          "3": "11.8",
+          "4": "11.2",
+          "5": "10.6",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "86",
+          "3": "92",
+          "4": "98",
+          "5": "104",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        },
+        "Firewall Damage": {
+          "1": "80",
+          "2": "88",
+          "3": "96",
+          "4": "104",
+          "5": "112",
+          "6": "120"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Vengeance Flame",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Vengeance_Flame.png/revision/latest?cb=20210903173958",
+      "tags": [
+        "Remove CC",
+        "Buff"
+      ],
+      "description": "Remove CC Buff Valir removes all debuffs on himself and conjures 4 Vengeance Flames that last 9s. Each of his subsequent skillls consumes 1 Vengeance Flam to deal 30% extra base damage. The effects of both Burst Fireball and Searing Torrent can be enhanced. Meanwhile, Valir gains 40% extra Movement Speed that decays over 3s.",
+      "properties": {
+        "Cooldown": {
+          "1": "36.0",
+          "2": "33.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "125",
+          "3": "150"
+        },
+        "Damage Increase": {
+          "1": "30%",
+          "2": "35%",
+          "3": "40%"
+        }
+      }
+    }
+  ]
+}

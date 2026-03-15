@@ -1,0 +1,152 @@
+{
+  "slug": "Silvanna",
+  "name": "Silvanna",
+  "url": "https://mobile-legends.fandom.com/wiki/Silvanna",
+  "intro": "Silvanna, the Imperial Knightess, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Knightess' Resolve",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Knightess%27_Resolve.png/revision/latest?cb=20210802142628",
+      "tags": [
+        "Buff",
+        "Debuff"
+      ],
+      "description": "Buff Debuff Silvanna's Basic Attacks deal 25 (+45% Total Physical Attack) (+75% Total Magic Power) Magic Damage . Silvanna's attacks apply a mark on enemy heroes for 5 seconds on hit, each mark reducing their Physical & Magic Defense by 3–6 (up to 5 stacks). Silvanna deals 30% extra damage to enemy heroes with the max number of marks. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+      "properties": {
+        "Hybrid Defense Reduction (lv. 1)": {
+          "1": "3",
+          "2": "6",
+          "3": "9",
+          "4": "12",
+          "5": "15"
+        },
+        "Hybrid Defense Reduction (lv. 15)": {
+          "1": "6",
+          "2": "12",
+          "3": "18",
+          "4": "24",
+          "5": "30"
+        }
+      }
+    },
+    {
+      "section": "Skill 1",
+      "name": "Cometic Lance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/13/Cometic_Lance_2.png/revision/latest?cb=20220220064643",
+      "tags": [
+        "Mobility",
+        "CC"
+      ],
+      "description": "Mobility CC Silvanna dashes forward. Upon reaching the max range or hitting a non-minion enemy, she swings her lance, dealing 250 (+100% Total Magic Power) Magic Damage to nearby enemies and stunning them for 1 second. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "11.0",
+          "2": "10.6",
+          "3": "10.2",
+          "4": "9.8",
+          "5": "9.4",
+          "6": "9.0"
+        },
+        "Mana Cost": {
+          "1": "70",
+          "2": "78",
+          "3": "86",
+          "4": "94",
+          "5": "102",
+          "6": "110"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "280",
+          "3": "310",
+          "4": "340",
+          "5": "370",
+          "6": "400"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Spiral Strangling",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Spiral_Strangling.png/revision/latest?cb=20210802142752",
+      "tags": [
+        "AOE",
+        "Shield"
+      ],
+      "description": "AOE Shield Silvanna thrusts her lance in the target direction and spins it 6 times while gaining a 350 (+150% Total Magic Power) shield . Each spin deals 165 (+45% Total Magic Power) Magic Damage and slightly pulls targets toward the center. Silvanna spins 1 additional time for every 50% of extra Attack Speed she possesses. The skill deals only 50% damage against Minions . Spiral Strangling counts as a Basic Attack but cannot Crit . Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+      "properties": {
+        "Cooldown": {
+          "1": "5.5",
+          "2": "5.3",
+          "3": "5.1",
+          "4": "4.9",
+          "5": "4.7",
+          "6": "4.5"
+        },
+        "Mana Cost": {
+          "1": "35",
+          "2": "40",
+          "3": "45",
+          "4": "50",
+          "5": "55",
+          "6": "60"
+        },
+        "Base Damage": {
+          "1": "165",
+          "2": "183",
+          "3": "201",
+          "4": "219",
+          "5": "237",
+          "6": "255"
+        },
+        "Shield Bonus": {
+          "1": "350",
+          "2": "380",
+          "3": "410",
+          "4": "440",
+          "5": "470",
+          "6": "500"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Imperial Justice",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8a/Imperial_Justice.png/revision/latest?cb=20210802142931",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Silvanna leaps to the target location and creates a Circle of Light upon landing, dealing 350 (+110% Total Magic Power) Magic Damage to enemies in the area, slowing them by 40% for 1.5 seconds, and restraining the closest enemy hero to the area for 3.5 seconds. (This skill cannot be interrupted) Silvanna gains 100% [extra] Attack Speed and 40% [extra] Lifesteal when in the Circle. Skill terms Restrain A state that prevents a target from moving out of a specific area. ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient. Lifesteal Percentage of HP recovered from dealing Basic Attack Damage to an enemy. HP recovered = Basic Attack Damage × Lifesteal × Lifesteal Ratio. Usually the Lifesteal Ratio is 30%–120%, depending on the skill's damage, range and duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "52.0",
+          "2": "48.0",
+          "3": "44.0"
+        },
+        "Mana Cost": {
+          "1": "130",
+          "2": "140",
+          "3": "150"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "500",
+          "3": "650"
+        }
+      }
+    },
+    {
+      "section": "BUFF",
+      "name": "Silvanna BUFF",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0d/Dyrroth-Silvanna_BUFF.png/revision/latest?cb=20211210070349",
+      "tags": [],
+      "description": "If Dyrroth is in the enemy's team, increases self's attack speed by 1%.",
+      "properties": {}
+    }
+  ]
+}

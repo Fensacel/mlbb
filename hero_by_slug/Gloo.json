@@ -1,0 +1,138 @@
+{
+  "slug": "Gloo",
+  "name": "Gloo",
+  "url": "https://mobile-legends.fandom.com/wiki/Gloo",
+  "intro": "Gloo, the Swamp Spirits, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Stick, Stick",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6a/Stick%2C_Stick.png/revision/latest?cb=20250827131608",
+      "tags": [
+        "Slow",
+        "Buff"
+      ],
+      "description": "Slow Buff Enemies gain a stack of Sticky each time they're hit by Gloo's skills, decreasing their Movement Speed by 4% for 6 seconds. Stacks up to 5. Each stack of Sticky on an enemy reduces their damage dealt to Gloo by 4%. Skill terms Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Slam, Slam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Slam%2C_Slam.png/revision/latest?cb=20250827131633",
+      "tags": [
+        "AOE",
+        "CC"
+      ],
+      "description": "AOE CC | Spell Vamp Ratio: 50% Gloo reaches out and slams the ground, dealing 80 (+80% Total Magic Power) Magic Damage to the enemy. At the final, a Goo is left behind that explodes after 3 seconds to deal 300–450 (+12% Extra HP) Magic Damage to nearby enemies and immobilize them for 1 second. If Gloo touches the Goo , it will explode immediately, reset the skill's cooldown, and heal Gloo for 2.5%-5% of Max HP if the explosion hits an enemy (doubled if hits an enemy hero).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.2",
+          "3": "8.4",
+          "4": "7.6",
+          "5": "6.8",
+          "6": "6.0"
+        },
+        "Mana Cost": {
+          "1": "25",
+          "2": "30",
+          "3": "35",
+          "4": "40",
+          "5": "45",
+          "6": "50"
+        },
+        "Base Damage": {
+          "1": "80",
+          "2": "80",
+          "3": "80",
+          "4": "80",
+          "5": "80",
+          "6": "80"
+        },
+        "Extra Base Damage": {
+          "1": "300",
+          "2": "330",
+          "3": "360",
+          "4": "390",
+          "5": "420",
+          "6": "450"
+        },
+        "HP Regen": {
+          "1": "2.5%",
+          "2": "3%",
+          "3": "3.5%",
+          "4": "4%",
+          "5": "4.5%",
+          "6": "5%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Spread, Spread",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/53/Spread%2C_Spread.png/revision/latest?cb=20250827132038",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 50% Gloo splits into Goos, dealing 100–200 (+80% Total Magic Power) Magic Damage to enemies in a fan-shaped area and immobilizing them for 0.5 seconds. While split, Gloo gains 10% Movement Speed and deals 80 (+15% Total Magic Power) Magic Damage every 0.25 seconds to enemies it touches, lasting 4 seconds. If this skill hits a Goo, Gloo will charge over to merge with it, dragging enemies in its path in the same direction for a distance.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.6",
+          "3": "11.2",
+          "4": "10.8",
+          "5": "10.4",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "88",
+          "3": "96",
+          "4": "104",
+          "5": "112",
+          "6": "120"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Grab, Grab",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8f/Grab%2C_Grab.png/revision/latest?cb=20250827132205",
+      "tags": [
+        "Attach",
+        "Heal"
+      ],
+      "description": "Attach Heal | Spell Vamp Ratio: 50% One is all. (All is one.) Unlocked when any enemy hero has full Sticky stacks. Gloo attaches itself to the target enemy hero for up to 9 seconds, recovering 25%-30% of its Max HP . For the duration, its Basic Attacks are converted to deal 30–90 (+50% Total Magic Power) (+6% Extra HP) Magic Damage , and it transfers 80% of the damage it receives (excluding damage from turrets ) to its host. If the target dies while attached, this skill's cooldown is reduced to 5 seconds.",
+      "properties": {
+        "Cooldown": [
+          "50.0"
+        ],
+        "Mana Cost": [
+          "150"
+        ],
+        "Attached Regen": {
+          "1": "25%",
+          "2": "27.5%",
+          "3": "30%"
+        },
+        "Base Attack Damage": {
+          "1": "30",
+          "2": "60",
+          "3": "90"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "slug": "Lancelot",
+  "name": "Lancelot",
+  "url": "https://mobile-legends.fandom.com/wiki/Lancelot",
+  "intro": "Lancelot, the Blade of Roses, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "4"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Soul Cutter",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/42/Soul_Cutter.png/revision/latest?cb=20210930072659",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Each time Lancelot [ blinks or ] charges, his damage is increased by 7.5% for 4 seconds, up to 30%. Skill terms Blink Movement ability that can pass through obstacles.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Puncture",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Puncture.png/revision/latest?cb=20210930072740",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Lancelot charges in a designated direction , dealing 100–250 (+50% Total Physical Attack) Physical Damage to enemies along the way and applying a Sword Mark to the first unmarked enemy hit. The Sword Mark lasts 3 seconds. If Lancelot successfully applies a Sword Mark to an enemy, the cooldown of this will reset. Skill terms Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.6",
+          "3": "13.2",
+          "4": "12.8",
+          "5": "12.4",
+          "6": "12.0"
+        },
+        "Mana Cost": {
+          "1": "50",
+          "2": "48",
+          "3": "46",
+          "4": "44",
+          "5": "42",
+          "6": "40"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "130",
+          "3": "160",
+          "4": "190",
+          "5": "220",
+          "6": "250"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Thorned Rose",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Thorned_Rose.png/revision/latest?cb=20210930072752",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Lancelot strikes in the target direction 3 times, each time dealing 225–400 (+100% Extra Physical Attack) Physical Damage to enemies hit (damage reduced [to 30% ] when multiple enemies are hit). He's untargetable and invincible during this process. [ how long? ] Enemies in the center of the area will take all 3 hits and are slowed by 20% for 0.5 seconds. The slow effect can stack. This skill only benefits from 50% of Lancelot's Spell Vamp . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Spell Vamp Percentage of HP recovered from dealing Skill Damage to an enemy. HP recovered = Skill Damage × Spell Vamp × Spell Vamp Ratio. Usually the Spell Vamp Ratio is 30%–120%, depending on the skill's damage, range and duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "10",
+          "2": "9.4",
+          "3": "8.8",
+          "4": "8.2",
+          "5": "7.6",
+          "6": "7.0"
+        },
+        "Mana Cost": {
+          "1": "120",
+          "2": "112",
+          "3": "104",
+          "4": "96",
+          "5": "88",
+          "6": "80"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Phantom Execution",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Phantom_Execution.png/revision/latest?cb=20210930072804",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility I become one with the sword. After a short period [ how long? ] of charging, Lancelot performs an executioner's strike in the target direction , dealing 350 (+170% Total Physical Attack) Physical Damage . He is invincible throughout the process. [ how long? ] Skill terms Invincible You are immune to enemy CC and damage effects within the duration. Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "27.0",
+          "2": "24.0",
+          "3": "21.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "125",
+          "3": "150"
+        }
+      }
+    }
+  ]
+}

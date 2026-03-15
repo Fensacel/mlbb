@@ -1,0 +1,143 @@
+{
+  "slug": "Chip",
+  "name": "Chip",
+  "url": "https://mobile-legends.fandom.com/wiki/Chip",
+  "intro": "Chip, the Phase Technician, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "8"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Snack Time!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a2/Snack_Time%21.png/revision/latest?cb=20240605110012",
+      "tags": [
+        "Heal"
+      ],
+      "description": "Heal Yummy...yummy... Chips starts eating potato chips when out of combat, regenerating HP equal to 150 plus 45% after finishing a whole bag (requires 5 bites). After eating a bag of chips, Chip cannot eat again for 5 seconds.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Crash Course",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Crash_Course.png/revision/latest?cb=20240605110128",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Chip rams his hovercraft into the ground, dealing Magic Damage equal to 220–370 plus target's Max HP and applying Chip's Mark on enemy heroes hit. Chip gains a 300–800 (+60% Total Magic Power) shield upon hitting an enemy hero, which increases by 20% for each additional energy hero hit. Chip's next Basic Attack will become ranged and also hit all nearby enemies with Chip's Mark , detonating the mark to deal 200–350 (+40% Total Magic Power) Magic Damage and stun each target for 0.6 seconds.",
+      "properties": {
+        "Cooldown": {
+          "1": "5.5",
+          "2": "5.2",
+          "3": "4.9",
+          "4": "4.6",
+          "5": "4.3",
+          "6": "4.0"
+        },
+        "Mana Cost": {
+          "1": "40",
+          "2": "45",
+          "3": "50",
+          "4": "55",
+          "5": "60",
+          "6": "65"
+        },
+        "Base Damage": {
+          "1": "220",
+          "2": "250",
+          "3": "280",
+          "4": "310",
+          "5": "340",
+          "6": "370"
+        },
+        "Base Shield": {
+          "1": "300",
+          "2": "400",
+          "3": "500",
+          "4": "600",
+          "5": "700",
+          "6": "800"
+        },
+        "Extra Damage": {
+          "1": "200",
+          "2": "230",
+          "3": "260",
+          "4": "290",
+          "5": "320",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Overtime",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Overtime.png/revision/latest?cb=20240605110146",
+      "tags": [
+        "Speed Up"
+      ],
+      "description": "Speed Up Sunshine and beach, I'm here! Chip rushes forward for 2 seconds, gaining speed until he reaches 65% extra Movement Speed , after which he maintains the max speed for 2 seconds. Chip's next Basic Attack will cause him to charge at the enemy, dealing 200–300 (+30% Total Magic Power) Magic Damage and knocking them back slightly.",
+      "properties": {
+        "Cooldown": {
+          "1": "15.0",
+          "2": "14.0",
+          "3": "13.0",
+          "4": "12.0",
+          "5": "11.0",
+          "6": "10.0"
+        },
+        "Mana Cost": [
+          "20"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Shortcut",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Shortcut.png/revision/latest?cb=20240605110203",
+      "tags": [
+        "Teleport",
+        "CC"
+      ],
+      "description": "Teleport CC Get it done so we can get off work. Chip drops the Main Portal on an enemy hero, dealing 200–300 (+60% Total Magic Power) Magic Damage and slowing them by 30% for 2.5 seconds. Meanwhile, he creates Connecting Portals near allied heroes (excluding allies within 8 units of Chip) and behind the allied Base. The Main Portal and Connecting Portals last up to 10 seconds. Connecting Portal : Heroes can teleport from Connecting Portals to the Main Portal , or stand on the Main Portal for a period time to return to the Connecting Portal they came from. Main Portal : Deals 600–900 (+180% Total Magic Power) Magic Damage to nearby targets after a delay and knocks them airborne for 0.8 seconds. The Main Portal inherits 80% of Chip's HP.",
+      "properties": {
+        "Cooldown": {
+          "1": "70.0",
+          "2": "60.0",
+          "3": "50.0"
+        },
+        "Mana Cost": [
+          "110"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "250",
+          "3": "300"
+        },
+        "Extra Damage": {
+          "1": "600",
+          "2": "750",
+          "3": "900"
+        }
+      }
+    },
+    {
+      "section": "Special",
+      "name": "Why Walk?",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/53/Why_Walk%3F_%28grayscale%29.png/revision/latest?cb=20240610165502",
+      "tags": [
+        "Teleport"
+      ],
+      "description": "Teleport Chip has 4 Beacons on the map. Chip eleport to any other Beacon .",
+      "properties": {}
+    }
+  ]
+}

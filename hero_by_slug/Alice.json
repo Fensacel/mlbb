@@ -1,0 +1,101 @@
+{
+  "slug": "Alice",
+  "name": "Alice",
+  "url": "https://mobile-legends.fandom.com/wiki/Alice",
+  "intro": "Alice, the Queen of Blood, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Crimson Blood Banquet",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Crimson_Blood_Banquet.png/revision/latest?cb=20250917073508",
+      "tags": [
+        "AOE",
+        "Heal"
+      ],
+      "description": "AOE Heal When Alice's skills hit, she gains 1 stack(s) of Crimson , lasting 4 seconds. Once Crimson reaches 2 stacks, Blood Banquet activates, dealing 25 (+30% Total Magic Power) plus 0.5%~2.5% of the target's Max HP (scales with level) as Magic Damage to nearby units (hitting heroes with skills refreshes the duration) and recovering 10 (+3% Extra HP) for Alice every 0.5 seconds. While Blood Banquet is active, Alice gains 8% Movement Speed . Blood Banquet can deal up to 70(+10*Hero Level) Magic Damage to creeps.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Crimson Gleam",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Crimson_Gleam.png/revision/latest?cb=20250917073509",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE | Spell Vamp Ratio: 50% Alice fires blood energy forward, dealing 100–200 (+50% Total Magic Power) Magic Damage . Before the blood energy dissipates, this skill can be cast again to activate Scarlet Shadow , allowing Alice to blink to the blood energy's location. Skill terms Blink Movement ability that can pass through obstacles. Magic Damage Magic Damage taken can be reduced by increasing Magic Defense.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.2",
+          "3": "10.4",
+          "4": "9.6",
+          "5": "8.8",
+          "6": "8.0"
+        },
+        "Base Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Doom Waltz",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Doom_Waltz.png/revision/latest?cb=20250917073510",
+      "tags": [
+        "Slow",
+        "AOE"
+      ],
+      "description": "Slow AOE | Spell Vamp Ratio: 50% Alice performs a deadly dance, dealing 350–550 (+130% Total Magic Power) Magic Damage to nearby enemies and slowing them by 70% for 1 second. If Blood Banquet is active at this time, it also scorches enemies, dealing 300% of Blood Banquet 's damage and healing Alice for the same amount.",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Base Damage": {
+          "1": "350",
+          "2": "390",
+          "3": "430",
+          "4": "470",
+          "5": "510",
+          "6": "550"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Throne of Ruin",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Throne_of_Ruin.png/revision/latest?cb=20250917073511",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE | Spell Vamp Ratio: 50% Alice surrounds herself with blood, gaining Control Immunity and 50% Damage Reduction while slowing herself by 50%. After 1.5 seconds, she descends with force, dealing 500–700 (+150% Total Magic Power) (+20% Extra HP) Magic Damage to all enemies in range and immobilizing them for 1 second. While charging her Ultimate, Alice can only use Scarlet Shadow",
+      "properties": {
+        "Cooldown": {
+          "1": "60.0",
+          "2": "55.0",
+          "3": "50.0",
+          "4": "",
+          "5": "",
+          "6": ""
+        },
+        "Base Damage": {
+          "1": "500",
+          "2": "540",
+          "3": "580",
+          "4": "620",
+          "5": "660",
+          "6": "700"
+        }
+      }
+    }
+  ]
+}

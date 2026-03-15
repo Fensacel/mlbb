@@ -1,0 +1,134 @@
+{
+  "slug": "Paquito",
+  "name": "Paquito",
+  "url": "https://mobile-legends.fandom.com/wiki/Paquito",
+  "intro": "Paquito, the Heavenly Fist, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Champ Stance",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Champ_Stance.png/revision/latest?cb=20210315233746",
+      "tags": [
+        "Buff",
+        "Damage"
+      ],
+      "description": "Buff Damage I had no one to depend on except myself. After every 3 skill casts, Paquito enters Champ Stance , gaining an enhanced skill ignoring his current cooldowns . He gains 60% extra Movement Speed that decays over 2.5 seconds after casting the enhanced skill. Paquito's Basic Attacks only deal (+85% Total Physical Attack) Physical Damage . Skill terms CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Heavy Left Punch",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2a/Heavy_Left_Punch.png/revision/latest?cb=20210315233622",
+      "tags": [
+        "AOE",
+        "Shield"
+      ],
+      "description": "AOE Shield Paquito throws a punch in the target direction, dealing 210–360 (+50% Total Physical Attack) Physical Damage to enemies hit. He gains 150–500 (+110% Total Physical Attack) shield for 2.5 seconds if an enenmy hero is hit. Champ Stance: The damage is increased to 350–600 (+100% Total Physical Attack) Physical Damage , while the shield value is increased to 120% . The regular and enhanced shields can stack. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Base Damage": {
+          "1": "210",
+          "2": "240",
+          "3": "270",
+          "4": "300",
+          "5": "330",
+          "6": "360"
+        },
+        "Base Shield": {
+          "1": "150",
+          "2": "220",
+          "3": "290",
+          "4": "360",
+          "5": "430",
+          "6": "500"
+        },
+        "Enhanced Damage": {
+          "1": "350",
+          "2": "400",
+          "3": "450",
+          "4": "500",
+          "5": "550",
+          "6": "600"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Jab",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cd/Jab.png/revision/latest?cb=20210315233645",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility Paquito dashes in the target direction and throws a jab, dealing 150–450 (+150% Total Physical Attack) Physical Damage to enemies hit. Paquito deals no damage to enemies in his path but will stop and throw the jab early upon colliding within an enemy hero or creep. Champ Stance: The damage is increased to 240–720 (+240% Total Physical Attack) Physical Damage . Skill terms Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.5",
+          "3": "7.0",
+          "4": "6.5",
+          "5": "6.0",
+          "6": "5.5"
+        },
+        "Jab Damage": {
+          "1": "150",
+          "2": "210",
+          "3": "270",
+          "4": "330",
+          "5": "390",
+          "6": "450"
+        },
+        "Enhanced Jab Damage": {
+          "1": "240",
+          "2": "336",
+          "3": "432",
+          "4": "528",
+          "5": "624",
+          "6": "720"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Knockout Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Knockout_Strike.png/revision/latest?cb=20210315233719",
+      "tags": [
+        "CC",
+        "Burst"
+      ],
+      "description": "CC Burst Paquito launches an elbow strike in the target direction, dealing 250–350 (+50% Total Physical Attack) Physical Damage to enemies hit and knocking them back . He then throws a haymaker, dealing 350–600 (+100% Total Physical Attack) Physical Damage to enemies hit and slowing them by 75% for 1 second, as he darts backward . Champ Stance: Instead of a haymaker, Paquito launches an uppercut after the elbow strike, 400–750 (+120% Total Physical Attack) Physical Damage to enemies hit and knocking them airborne for 0.5 seconds. Skill terms Charge Movement ability that cannot pass through obstacles. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+      "properties": {
+        "Cooldown": {
+          "1": "18.0",
+          "2": "16.5",
+          "3": "15.0"
+        },
+        "Elbow Damage": {
+          "1": "250",
+          "2": "300",
+          "3": "350"
+        },
+        "Haymaker Damage": {
+          "1": "350",
+          "2": "475",
+          "3": "600"
+        },
+        "Hook Damage": {
+          "1": "400",
+          "2": "575",
+          "3": "750"
+        }
+      }
+    }
+  ]
+}

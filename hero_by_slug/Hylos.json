@@ -1,0 +1,143 @@
+{
+  "slug": "Hylos",
+  "name": "Hylos",
+  "url": "https://mobile-legends.fandom.com/wiki/Hylos",
+  "intro": "Hylos, the Grand Warden, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "10"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Thickened Blood",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Thickened_Blood.png/revision/latest?cb=20171201071431",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Hylos gains 1.5 extra Max HP for every 1 extra Max Mana he possesses. When out of Mana, Hylos can use his HP for skill casts. Skill terms Max HP The maximum HP currently can have. Max Mana The maximum of mana can have currently.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Law and Order",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Law_and_Order.png/revision/latest?cb=20171201071413",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Hylos gains 50% Movement Speed and causes his next Basic Attack within 3 seconds to deal 300–550 (+80% Total Magic Power) Magic Damage to the target, knock back and stun them for 1 second. This damage counts as Skill Damage . The extra Movement Speed rapidly decays over the duration and ends after the next Basic Attack . Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "12.0",
+          "2": "11.2",
+          "3": "10.4",
+          "4": "9.6",
+          "5": "8.8",
+          "6": "8.0"
+        },
+        "Mana Cost": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "350",
+          "3": "400",
+          "4": "450",
+          "5": "500",
+          "6": "550"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Ring of Punishment",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Ring_of_Punishment.png/revision/latest?cb=20171201070705",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Hylos releases the Ring of Punishment , dealing 100–300 (+20% Total Magic Power) Magic Damage to nearby enemies per second while slowing them by 4%–6% and reducing their Attack Speed by 7.5%–15% for 2.5 seconds (up to 8 stacks). Each stack also increases the enemy's damage taken from the Ring of Punishment by 5–20%. The Ring of Punishment consumes 30–150 Mana per second when it's active. Use Again ; Hylos cancels the Ring of Punishment. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+      "properties": {
+        "Cooldown": [
+          "1.0"
+        ],
+        "Mana Cost": {
+          "1": "30",
+          "2": "40",
+          "3": "60",
+          "4": "90",
+          "5": "120",
+          "6": "150"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Magic Damage": {
+          "1": "100",
+          "2": "140",
+          "3": "180",
+          "4": "220",
+          "5": "260",
+          "6": "300"
+        },
+        "Movement Speed Reduction": {
+          "1": "4%",
+          "2": "4%",
+          "3": "5%",
+          "4": "5%",
+          "5": "6%",
+          "6": "6%"
+        },
+        "Damage Increase": {
+          "1": "5%",
+          "2": "8%",
+          "3": "11%",
+          "4": "14%",
+          "5": "17%",
+          "6": "20%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Glorious Pathway",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fa/Glorious_Pathway.png/revision/latest?cb=20171201071444",
+      "tags": [
+        "Speed Up",
+        "Heal"
+      ],
+      "description": "Speed Up Heal Hylos creates a huge pathway in the target direction, reducing enemies' Movement by 75% for 1 second. The pathway lasts 6 seconds. When on the pathway, Hylos gains Slow Immunity and recovers 3% of his Max HP } per second. Allied heroes moving along the pathway gain 60% extra Movement Speed , while enemy heroes on the pathway will be slowed by 25%. Skill terms Slow Immunity You are immune to enemy slow effects within the duration. Max HP The maximum HP currently can have. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "36.0",
+          "3": "32.0"
+        },
+        "Mana Cost": {
+          "1": "150",
+          "2": "300",
+          "3": "450"
+        },
+        "HP Regen": {
+          "1": "3%",
+          "2": "4%",
+          "3": "5%"
+        },
+        "Movement Seed Bonus": {
+          "1": "60%",
+          "2": "65%",
+          "3": "70%"
+        },
+        "Slowing Effect": {
+          "1": "25%",
+          "2": "45%",
+          "3": "45%"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "slug": "Terizla",
+  "name": "Terizla",
+  "url": "https://mobile-legends.fandom.com/wiki/Terizla",
+  "intro": "Terizla, the Executioner, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "9"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Body of Smith",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c3/Body_of_Smith.png/revision/latest?cb=20220204074740",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Terizla gains 1% Damage Reduction for every 2.5% HP lost (up to 20% + Hero Level). He cannot gain Attack Speed and will convert every 1% attack speed he's supposed to recieve into 1 Physical Attack . Skill terms Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Extra ATK Speed Extra ATK Speed gains from skills, items, and emblems.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Revenge Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3d/Revenge_Strike.png/revision/latest?cb=20220204074814",
+      "tags": [
+        "AOE",
+        "Speed Up"
+      ],
+      "description": "AOE Speed Up Terizla cracks the ground with his hammer and the fissure will spread out, dealing 300–450 (+80% Extra Physical Attack) Physical Damage . After the fissure hits the first target, it will drill into the target and slow them by 30%. At the same time, Terizla's Movement Speed will be increased by 25% for 3 seconds. The fissure on target will then explode, dealing 300–450 (+80% Extra Physical Attack) (+enemy's 20% Lost HP) Physical Damage . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Lost HP Lost HP = Max HP - Current HP.",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "75",
+          "2": "80",
+          "3": "85",
+          "4": "90",
+          "5": "95",
+          "6": "100"
+        },
+        "Fissure Damage": {
+          "1": "300",
+          "2": "330",
+          "3": "360",
+          "4": "390",
+          "5": "420",
+          "6": "450"
+        },
+        "Movement Speed Bonus": {
+          "1": "25%",
+          "2": "28%",
+          "3": "31%",
+          "4": "34%",
+          "5": "37%",
+          "6": "40%"
+        },
+        "Explosive Damage": {
+          "1": "300",
+          "2": "330",
+          "3": "360",
+          "4": "390",
+          "5": "420",
+          "6": "450"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Execution Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/93/Execution_Strike.png/revision/latest?cb=20220204074847",
+      "tags": [
+        "Burst",
+        "Slow"
+      ],
+      "description": "Burst Slow Terizla waves his hammer in a fan-shaped area ahead. This skill can be cast up to 3 times. The first two attacks deal 135–310 (+160–185% Total Physical Attack) Physical Damage each, while the third deals 225–450 (+220–320% Total Physical Attack) Physical Damage . Enemies hit will also be slowed by 15% for 1.5 seconds (the slow effect can stack). Deals only 60%-100% damage to minions. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Mana Cost": [
+          "25"
+        ],
+        "1st/2nd Wave Damage": {
+          "1": "135",
+          "2": "170",
+          "3": "205",
+          "4": "240",
+          "5": "275",
+          "6": "310"
+        },
+        "3rd Wave Damage": {
+          "1": "225",
+          "2": "270",
+          "3": "315",
+          "4": "360",
+          "5": "405",
+          "6": "450"
+        },
+        "Damage to Minions": {
+          "1": "60%",
+          "2": "68%",
+          "3": "76%",
+          "4": "84%",
+          "5": "92%",
+          "6": "100%"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Penalty Zone",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/49/Penalty_Zone.png/revision/latest?cb=20220204074917",
+      "tags": [
+        "CC",
+        "AOE"
+      ],
+      "description": "CC AOE Terizla jumps to the designated area to smash down, causing 300–500 (+100% Total Physical Attack) Physical Damage [, knocking enemy heroes up for approximately 0.7 seconds] and slowing [them] by 45%-50%. Meanwhile, he summons Scaffold , which will reach out a hook to the [enemy heroes] and pull the target for [3] times, causing 150–250 (+30% Total Physical Attack) Physical Damage each time. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "40.0",
+          "2": "35.0",
+          "3": "30.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "120",
+          "3": "140"
+        },
+        "Smash Damage": {
+          "1": "300",
+          "2": "400",
+          "3": "500"
+        },
+        "Slow Effect": {
+          "1": "40%",
+          "2": "45%",
+          "3": "50%"
+        },
+        "Pulling Damage": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        }
+      }
+    }
+  ]
+}

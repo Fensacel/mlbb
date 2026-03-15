@@ -1,0 +1,130 @@
+{
+  "slug": "Karina",
+  "name": "Karina",
+  "url": "https://mobile-legends.fandom.com/wiki/Karina",
+  "intro": "Karina, the Shadow Blade, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "5"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Shadow Combo",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Shadow_Combo.png/revision/latest?cb=20220220014127",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Karina's third consecutive attack on the same enemy deals extra True Damage equal to 50 plus 5 (+2.5% Total Magic Power) % of their lost HP (up to 2000 True Damage against creeps). If the target is an enemy hero, the cooldowns Karina's non-Ultimate skills are reduced by 1.5 seconds. Skill terms Lost HP Lost HP = Max HP - Current HP. True Damage Skill Deal True Damage to enemies. Triggers Spell Vamp. True Damage If there is no way to reduce damage taken, you can try increasing Max HP.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Dance of Blades",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Dance_of_Blades.png/revision/latest?cb=20220220014511",
+      "tags": [
+        "Buff",
+        "Speed Up"
+      ],
+      "description": "Buff Speed Up Karina enters the Dance of Blades state for 3.5 seconds, during which she gains 45% extra Movement Speed , blocks all incoming Basic Attacks, and reflects 100–200 (+30% Total Magic Power) Magic Damage back to the attacker (the damage reflection effect has a cooldown of 0.4 seconds). Karina's Basic Attack within the duration deals 150–255 (+55% Total Magic Power) Magic Damage , slows the target by 45% for 1 second, and is guaranteed critical strike . Casting the enhanced Basic Attack or Shadow Assault ends the Dance of Blades state early. Skill terms Dodge You are immune to enemy Basic Attack damage and effects within the duration. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": [
+          "7.0"
+        ],
+        "Mana Cost": {
+          "1": "70",
+          "2": "80",
+          "3": "90",
+          "4": "100",
+          "5": "110",
+          "6": "120"
+        },
+        "Enhanced Basic Attack Range": [
+          "2.9"
+        ],
+        "Reflect Damage": {
+          "1": "100",
+          "2": "120",
+          "3": "140",
+          "4": "160",
+          "5": "180",
+          "6": "200"
+        },
+        "Enhanced Damage": {
+          "1": "120",
+          "2": "165",
+          "3": "180",
+          "4": "195",
+          "5": "210",
+          "6": "225"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Dance of Death",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6e/Dance_of_Death.png/revision/latest?cb=20210808074021",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Karina launces a spinning slash, dealing 375–600 (+125% Total Magic Power) Magic Damage to nearby enemies. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "6.0",
+          "2": "5.7",
+          "3": "5.4",
+          "4": "5.1",
+          "5": "4.8",
+          "6": "4.5"
+        },
+        "Mana Cost": {
+          "1": "60",
+          "2": "68",
+          "3": "76",
+          "4": "84",
+          "5": "92",
+          "6": "100"
+        },
+        "Base Damage": {
+          "1": "375",
+          "2": "420",
+          "3": "465",
+          "4": "510",
+          "5": "555",
+          "6": "600"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Shadow Assault",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Shadow_Assault.png/revision/latest?cb=20210808074105",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility Karina dashes to the target enemy hero, dealing 350–750 (+160% Total Magic Power) Magic Damage , applying a Shadow Mark to them, and leaving a Shadowform behind them. The Shadow Mark and Shadowform both last 5 seconds. If the enemy dies within the duration, the cooldown of this skill is reset. Use Again: Karina dashes back to the Shadowform 's location, dealing 150–250 (+50% Total Magic Power) Magic Damage to enemies along the way. Skill terms Blink Movement ability that can pass through obstacles. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "34.0",
+          "2": "30.0",
+          "3": "26.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "120",
+          "3": "140"
+        },
+        "Base Damage": {
+          "1": "350",
+          "2": "550",
+          "3": "750"
+        },
+        "Path Damage": {
+          "1": "150",
+          "2": "200",
+          "3": "250"
+        }
+      }
+    }
+  ]
+}

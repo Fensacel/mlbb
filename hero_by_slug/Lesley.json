@@ -1,0 +1,118 @@
+{
+  "slug": "Lesley",
+  "name": "Lesley",
+  "url": "https://mobile-legends.fandom.com/wiki/Lesley",
+  "intro": "Lesley, the Deadly Sniper, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "1"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Lethal Shot",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Lethal_Shot.png/revision/latest?cb=20220908163801",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff If Lesley doesn't take damage for 5 seconds, her next Basic Attack gains extra range and 50% Critical Chance and deals 50 (+100% Total Physical Attack) True Damage (20% extra damage against minions). Each point of fixed Physical Penetration Lesley acquires is converted into 0.5% Critical Damage , but her base Critical Damage is reduced to 140%. Lesley's Basic Attack restores 5 points of energy and her Lethal Shot doubles the amount of energy restored. The cooldown of Lethal Shot resets each time Lesley casts a skill. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Physical PEN Deduct enemy’s Physical Defense by a fixed point or by percent. Enemy’s actual Physical Defense = Enemy’s Physical Defense × (100% - Percent of Physical PEN) - - Fixed points of Physical PEN. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Master of Camouflage",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Master_of_Camouflage.png/revision/latest?cb=20220908163809",
+      "tags": [
+        "Conceal",
+        "Buff"
+      ],
+      "description": "Conceal Buff Lesley enters the Camouflage state, gaining double Energy Regen , 40% extra Movement Speed , and 85–135 extra Physical Attack . The state lasts 3 seconds or until Lesley takes or deals damage. Enemies can detect Lesley's position through distortions of their surroundings. Skill terms Camouflage Enter Stealth State within the duration, won't be easily spotted by the enemy, can't be targeted by skills. Physical ATK Total current Physical ATK. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "5.0",
+          "2": "4.4",
+          "3": "3.8",
+          "4": "3.2",
+          "5": "2.6",
+          "6": "2.0"
+        },
+        "Energy Cost": [
+          "30"
+        ],
+        "Attack Bonus": {
+          "1": "85",
+          "2": "95",
+          "3": "105",
+          "4": "115",
+          "5": "125",
+          "6": "135"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Tactical Grenade",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Tactical_Grenade.png/revision/latest?cb=20220908163815",
+      "tags": [
+        "CC",
+        "Mobility"
+      ],
+      "description": "CC Mobility Lesley throws a tactical grenade in the target direction while slightly jumping back , dealing 150–300 to enemies in a cone and knocking them back . Lesley can cast this skill during the Ultimate Snipe to cancel the state and immediately fire a Fatal Bullet at the target. The attack is only triggered when there are unfired Fatal Bullets left. Skill terms Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration. Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.4",
+          "3": "8.8",
+          "4": "8.2",
+          "5": "7.6",
+          "6": "7.0"
+        },
+        "Energy Cost": [
+          "40"
+        ],
+        "Base Damage": {
+          "1": "150",
+          "2": "180",
+          "3": "210",
+          "4": "240",
+          "5": "270",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Ultimate Snipe",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Ultimate_Snipe.png/revision/latest?cb=20220908163825",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Lesley [gains vision to nearby enemies and can lock] onto the target enemy hero and fires 4 Lethal Bullets in succession, each dealing 250–350 (+80% Extra Physical Attack) (+enemy's 5% Lost HP) Physical Damage and restoring 10 energy on hit. The Bullets can be blocked by other enemy heroes. If this skill is interrupted, each remaining Bullet reduces the skill cooldown by 10%. Passive: Lesley's Crit Chance is increased by 5%–15%. Skill terms Lost HP Lost HP = Max HP - Current HP. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "40.0"
+        ],
+        "Energy Cost": [
+          "0"
+        ],
+        "Crit Chance": {
+          "1": "5%",
+          "2": "10%",
+          "3": "15%"
+        },
+        "Base Damage": {
+          "1": "250",
+          "2": "300",
+          "3": "350"
+        }
+      }
+    },
+    {
+      "section": "Buff",
+      "name": "Lesley buff",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Harley-Lesley_buff.png/revision/latest?cb=20241130132920",
+      "tags": [],
+      "description": "Increases both HP by 10 when battling with Harley [.]",
+      "properties": {}
+    }
+  ]
+}

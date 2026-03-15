@@ -1,0 +1,91 @@
+{
+  "slug": "Argus",
+  "name": "Argus",
+  "url": "https://mobile-legends.fandom.com/wiki/Argus",
+  "intro": "Argus, the Dark Angel, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "7"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Warmonger",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Warmonger.png/revision/latest?cb=20210313153523",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff When Argus' blade reaches 100 Malice Energy [ amount unknown ] . He will launch a Demonic Slash with his next Basic Attack, dealing 180 (+80% Total Physical Attack) Physical Damage and recovering 150 (+10% Total Physical Attack) HP . This attack ignores 40% of the target's Physical Defense Argus' Demonic Blade gains 5 Malice Energy per second, and each of his Basic Attacks grants 10 Malice Energy. ( critical strikes grant an additional 10 energy) Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Demonic Grip",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e6/Demonic_Grip.png/revision/latest?cb=20210313153103",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Argus streches out a demonic hand in the target direction, dealing 125–250 (+60% Total Physical Attack) Physical Damage to the first enemy hero or creep hit, stunning them for 0.7 seconds and pulling him and the target towards the other. If no enemy is hit, Argus pulls himself towards the destination instead. Use Again: Argus dashes and strikes in the target direction, dealing 175–300 (+100% Total Physical Attack) Physical Damage to enemies along the path. Skill terms Stunned A state that prevents a target from moving, attacking, or using skills. Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": [
+          "12.0"
+        ],
+        "Base Damage": {
+          "1": "125",
+          "2": "150",
+          "3": "175",
+          "4": "200",
+          "5": "225",
+          "6": "250"
+        },
+        "Extra Damage": {
+          "1": "175",
+          "2": "200",
+          "3": "225",
+          "4": "250",
+          "5": "275",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Meteoric Sword",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Meteoric_Sword.png/revision/latest?cb=20210313153044",
+      "tags": [
+        "Damage",
+        "Debuff"
+      ],
+      "description": "Damage Debuff After a short delay, Argus thrusts his Demonic Blade in the target direction, dealing 120–240 (+100% Total Physical Attack) Physical Damage to enemies hit (deals 200% damage to minions ) and slowing them by 80% for 0.8 seconds, the delay time will decrease as Argus' Attack Speed increases. Enemy heroes hit are Cursed for 4 seconds, during which they will leave a Cursed Trail behind. Argus gains 20% Movement Speed while on a Cursed Trail. Metoric Sword counts as Basic Attack damage and can trigger Attack Effects. Hitting heroes restores 100 Malice Energy (excess is preserved). Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "10.0",
+          "2": "9.6",
+          "3": "9.2",
+          "4": "8.8",
+          "5": "8.4",
+          "6": "8.0"
+        },
+        "Base Damage": {
+          "1": "120",
+          "2": "144",
+          "3": "168",
+          "4": "192",
+          "5": "216",
+          "6": "240"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Eternal Evil",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/62/Eternal_Evil.png/revision/latest?cb=20210313152940",
+      "tags": [
+        "Death Immune",
+        "Buff"
+      ],
+      "description": "Death Immune Buff Battlefield is my playground and I think nothing of life and death. Argus draws his Meteoric Sword and removes all debuffs (excluding Suppression ) on himself, dealing 150–300 (+50% Total Physical Attack) Physical Damage and becoming the Fallen Angel for 4 seconds (hitting heroes enhances Warmonger). Fallen Angel: Gain 40% Movement Speed that decays over 1 second; When the transformation ends, he converts all his damage dealt in the Fallen Angel state into HP. If he takes fatal damage, the duration of the Movement Speed boost will be reset, and he will gain Death Immunity for 4 seconds. Enhanced Warmonger: grants 50-60 Malice Energy (50-40) (extra Malice Energy with critical hits). If Death Immunity isn't triggered during his transformation, the cooldown will be reduced by 50% when the skill ends. Skill terms Physical Damage Physical Damage taken can be reduced by increasing Physical Defense.",
+      "properties": {}
+    }
+  ]
+}

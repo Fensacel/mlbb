@@ -1,0 +1,99 @@
+{
+  "slug": "Joy",
+  "name": "Joy",
+  "url": "https://mobile-legends.fandom.com/wiki/Joy",
+  "intro": "Joy, the Flash of Miracle, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Humph, Joy's Angry!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Humph%2C_Joy%27s_Angry%21.png/revision/latest?cb=20221111121050",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Joy becomes Angry! each time her skill hits a non-Minion enemy, dealing 100 (+80% Total Magic Power) Magic Damage . Magic Damage and increasing her Movement Speed by 60% that decays over 4s (hitting the Leonin Crystal will also grant the Movement Speed effect). This effect has a cooldown of 4s for each target. Joy's Basic Attack will deal 65 (+65% Total Physical Attack) (+65% Total Magic Power) Magic Damage .",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Look, Leonin Crystal!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c0/Look%2C_Leonin_Crystal%21.png/revision/latest?cb=20221111121055",
+      "tags": [
+        "Summon"
+      ],
+      "description": "Summon Joy summons a Leonin Crystal at the target location, dealing 200 (+40% Total Magic Power) Magic Damage to nearby enemies and slowing them by 30% for 1s. The Leonin Crystal lasts 2 seconds and can be used as a springboard for her second skill, Meow, Rhythm of Joy! .",
+      "properties": {
+        "Cooldown": [
+          "4.0"
+        ],
+        "Base Damage": {
+          "1": "200",
+          "2": "220",
+          "3": "240",
+          "4": "260",
+          "5": "280",
+          "6": "300"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Meow, Rhythm of Joy!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c4/Meow%2C_Rhythm_of_Joy%21.png/revision/latest?cb=20221111121101",
+      "tags": [
+        "Mobility",
+        "Damage"
+      ],
+      "description": "Mobility Damage Joy dashes in the target direction, dealing 120 (+40% Total Magic Power) Magic Damage to enemies in her path. Hitting an enemy or the Leonin Crystal allows Joy to cast this skill again within 0.8 seconds and gain 1 Beat Energy . Casting this skill on the beat increases the skill damage by 100% and grants a 80 (+60% Total Magic Power) Magic Damage shield that lasts 3s. This skill can be cast up to 4 times in succession.",
+      "properties": {
+        "Cooldown": [
+          "8.0"
+        ],
+        "Base Damage": {
+          "1": "120",
+          "2": "138",
+          "3": "156",
+          "4": "174",
+          "5": "192",
+          "6": "210"
+        },
+        "Shield": {
+          "1": "80",
+          "2": "90",
+          "3": "100",
+          "4": "110",
+          "5": "120",
+          "6": "130"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Ha, Electrifying Beats!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d2/Ha%2C_Electrifying_Beats%21.png/revision/latest?cb=20221111121040",
+      "tags": [
+        "AOE",
+        "Speed Up"
+      ],
+      "description": "AOE Speed Up Joy increases her Physical & Magic Defense by 15 (+10% Total Magic Power) Magic Damage and gains 30% Movement Speed. Over the next 4s, she pulses 8 times, dealing 120 (+40% Total Magic Power) Magic Damage each time to nearby enemies. Each Meow, Rhythm of Joy! cast on the beat increases this skill's damage by 40%. If perfect rhythm is achieved by hitting every beat with Meow, Rhythm of Joy! , Joy also gains 40% Spell Vamp while this skill is active. This skill unlocks when Joy acquires Beat Energy . Casting this skill with 3 Beat Energy will remove all debuffs on Joy and make her immune to slow effects while this skill is active.",
+      "properties": {
+        "Cooldown": [
+          "28.0"
+        ],
+        "Base Damage": {
+          "1": "120",
+          "2": "160",
+          "3": "200"
+        },
+        "Both Defense Increase": {
+          "1": "15",
+          "2": "20",
+          "3": "25"
+        }
+      }
+    }
+  ]
+}
