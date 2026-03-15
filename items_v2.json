@@ -1,0 +1,327 @@
+[
+    {
+        "name": "Dominance Ice",
+        "slug": "dominance-ice",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png"
+    },
+    {
+        "name": "Oracle",
+        "slug": "oracle",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png"
+    },
+    {
+        "name": "Holy Crystal",
+        "slug": "holy-crystal",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png"
+    },
+    {
+        "name": "Immortality",
+        "slug": "immortality",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png"
+    },
+    {
+        "name": "Magic Boots",
+        "slug": "magic-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png"
+    },
+    {
+        "name": "Antique Cuirass",
+        "slug": "antique-cuirass",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png"
+    },
+    {
+        "name": "Endless Battle",
+        "slug": "endless-battle",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Endless_Battle.png"
+    },
+    {
+        "name": "Tought Boots",
+        "slug": "tought-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png"
+    },
+    {
+        "name": "Guardian Helmet",
+        "slug": "guardian-helmet",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png"
+    },
+    {
+        "name": "Rapid Boots",
+        "slug": "rapid-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png"
+    },
+    {
+        "name": "Athena's Shield",
+        "slug": "athenas-shield",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Athena%27s_Shield.png"
+    },
+    {
+        "name": "War Axe",
+        "slug": "war-axe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png"
+    },
+    {
+        "name": "Berserker Fury",
+        "slug": "berserker-fury",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png"
+    },
+    {
+        "name": "Blade of Despair",
+        "slug": "blade-of-despair",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png"
+    },
+    {
+        "name": "Concentrated Energy",
+        "slug": "concentrated-energy",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png"
+    },
+    {
+        "name": "Corrosion Scythe",
+        "slug": "corrosion-scythe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png"
+    },
+    {
+        "name": "Divine Glaive",
+        "slug": "divine-glaive",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png"
+    },
+    {
+        "name": "Hunter Strike",
+        "slug": "hunter-strike",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png"
+    },
+    {
+        "name": "Malefic Roar",
+        "slug": "malefic-roar",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png"
+    },
+    {
+        "name": "Queen's Wings",
+        "slug": "queens-wings",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png"
+    },
+    {
+        "name": "Rose Gold Meteor",
+        "slug": "rose-gold-meteor",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png"
+    },
+    {
+        "name": "Sea Halberd",
+        "slug": "sea-halberd",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png"
+    },
+    {
+        "name": "Sky Piercer",
+        "slug": "sky-piercer",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png"
+    },
+    {
+        "name": "Windtalker",
+        "slug": "windtalker",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png"
+    },
+    {
+        "name": "Arcane Boots",
+        "slug": "arcane-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Arcane_Boots.png"
+    },
+    {
+        "name": "Brute Force Breastplate",
+        "slug": "brute-force-breastplate",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Brute_Force_Breastplate.png"
+    },
+    {
+        "name": "Swift Boots",
+        "slug": "swift-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Swift_Boots.png"
+    },
+    {
+        "name": "Thunder Belt",
+        "slug": "thunder-belt",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png"
+    },
+    {
+        "name": "Warrior Boots",
+        "slug": "warrior-boots",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png"
+    },
+    {
+        "name": "Blade of the Heptaseas",
+        "slug": "blade-of-the-heptaseas",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Blade_of_the_Heptaseas.png"
+    },
+    {
+        "name": "Blood Wings",
+        "slug": "blood-wings",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png"
+    },
+    {
+        "name": "Chastise Pauldron",
+        "slug": "chastise-pauldron",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png"
+    },
+    {
+        "name": "Fleeting Time",
+        "slug": "fleeting-time",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png"
+    },
+    {
+        "name": "Genius Wand",
+        "slug": "genius-wand",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png"
+    },
+    {
+        "name": "Glowing Wand",
+        "slug": "glowing-wand",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png"
+    },
+    {
+        "name": "Haas Claws",
+        "slug": "haas-claws",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png"
+    },
+    {
+        "name": "Clock of Destiny",
+        "slug": "clock-of-destiny",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png"
+    },
+    {
+        "name": "Demon Hunter Sword",
+        "slug": "demon-hunter-sword",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Demon_Hunter_Sword.png"
+    },
+    {
+        "name": "Golden Staff",
+        "slug": "golden-staff",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png"
+    },
+    {
+        "name": "Great Dragon Spear",
+        "slug": "great-dragon-spear",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Great_Dragon_Spear.png"
+    },
+    {
+        "name": "Ice Queen Wand",
+        "slug": "ice-queen-wand",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/da/Ice_Queen_Wand.png"
+    },
+    {
+        "name": "Lightning Truncheon",
+        "slug": "lightning-truncheon",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Lightning_Truncheon.png"
+    },
+    {
+        "name": "Malefic Gun",
+        "slug": "malefic-gun",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png"
+    },
+    {
+        "name": "Radiant Armor",
+        "slug": "radiant-armor",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Radiant_Armor.png"
+    },
+    {
+        "name": "Cursed Helmet",
+        "slug": "cursed-helmet",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Cursed_Helmet.png"
+    },
+    {
+        "name": "Demon Shoes",
+        "slug": "demon-shoes",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png"
+    },
+    {
+        "name": "Feather of Heaven",
+        "slug": "feather-of-heaven",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Feather_of_Heaven.png"
+    },
+    {
+        "name": "Flask of the Oasis",
+        "slug": "flask-of-the-oasis",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Flask_of_the_Oasis.png"
+    },
+    {
+        "name": "Starlium Scythe",
+        "slug": "starlium-scythe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/26/Starlium_Scythe.png"
+    },
+    {
+        "name": "Wind of Nature",
+        "slug": "wind-of-nature",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png"
+    },
+    {
+        "name": "Wishing Lantern",
+        "slug": "wishing-lantern",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png"
+    },
+    {
+        "name": "Azure Blade",
+        "slug": "azure-blade",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Azure_Blade.png"
+    },
+    {
+        "name": "Black Ice Shield",
+        "slug": "black-ice-shield",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png"
+    },
+    {
+        "name": "Blade Armor",
+        "slug": "blade-armor",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png"
+    },
+    {
+        "name": "Dreadnaught Armor",
+        "slug": "dreadnaught-armor",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png"
+    },
+    {
+        "name": "Elegant Gem",
+        "slug": "elegant-gem",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png"
+    },
+    {
+        "name": "Enchanted Talisman",
+        "slug": "enchanted-talisman",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png"
+    },
+    {
+        "name": "Fury Hammer",
+        "slug": "fury-hammer",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Fury_Hammer.png"
+    },
+    {
+        "name": "Legion Sword",
+        "slug": "legion-sword",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png"
+    },
+    {
+        "name": "Magic Blade",
+        "slug": "magic-blade",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png"
+    },
+    {
+        "name": "Molten Essence",
+        "slug": "molten-essence",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png"
+    },
+    {
+        "name": "Silence Robe",
+        "slug": "silence-robe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png"
+    },
+    {
+        "name": "Steel Legplates",
+        "slug": "steel-legplates",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Steel_Legplates.png"
+    },
+    {
+        "name": "Wind of Nature",
+        "slug": "wind-of-nature",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png"
+    },
+    {
+        "name": "Winter Crown",
+        "slug": "winter-crown",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Winter_Crown.png"
+    }
+]
