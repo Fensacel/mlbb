@@ -4,11 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 3.5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 3.5 units to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
