@@ -1,4 +1,202 @@
 {
   "slug": "Thamuz",
-  "error": "503 Server Error: Service Unavailable for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Thamuz&srlimit=5"
+  "name": "Thamuz",
+  "url": "https://mobile-legends.fandom.com/wiki/Thamuz",
+  "intro": "Thamuz, the Lord Lava, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "7"
+  },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2758",
+      "level_15": "5740",
+      "growth": "213"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "7.4",
+      "level_15": "13.0",
+      "growth": "0.4"
+    },
+    "mana": {
+      "label": "Mana",
+      "values": [
+        "0"
+      ]
+    },
+    "mana_regen": {
+      "label": "Mana Regen",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "107",
+      "level_15": "222",
+      "growth": "8.21"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "17 (12.4%)",
+      "level_15": "80 (40%)",
+      "growth": "4.5"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "50 (29.4%)",
+      "growth": "2.5"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "1.05",
+      "level_15": "1.26",
+      "growth": "0.015"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "100%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "250"
+      ]
+    },
+    "basic_attack_range": {
+      "label": "Basic Attack range",
+      "values": [
+        "1.8"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Grand Lord Lava",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Grand_Lord_Lava.png/revision/latest?cb=20250917080548",
+      "tags": [
+        "Debuff"
+      ],
+      "description": "Debuff Thamuz's Basic Attacks have a 10%-60% chance (based on Lava's Rage ) to conjure Lava Energy beneath the target that erupts after a brief delay, dealing 55 (+8 × Hero Level) (+60% Total Physical Attack) True Damage . Basic Attacks that don't trigger Lava Energy will increase Thamuz's Lava Rage. When without Scythes , Thamuz gains 25% Movement Speed . After retrieving his Scythes , his next Basic Attack slows the target by 30% and is guaranteed to trigger Lava Energy Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Molten Scythes",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Molten_Scythes.png/revision/latest?cb=20250917080550",
+      "tags": [
+        "AOE",
+        "Slow"
+      ],
+      "description": "AOE Slow Thamuz tosses Scythes in the target direction. After travelling for a certain distance or hitting the first enemy hero, they deal 120–270 (+60% Total Physical Attack) Physical Damage . The Scythes will then slow nearby enemies by 30% and deal 45–80 (+20% Extra Physical Attack) Physical Damage every 0.5 seconds. After leaving Thamuz for [≈5 seconds] or a certain distance, the Scythes will return to Thamuz and drag enemies in their path to him. Thamuz can approach the Scythes or cast the skill again to retrieve them. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
+      "properties": {
+        "Cooldown": [
+          "3.0"
+        ],
+        "Base Damage": {
+          "1": "120",
+          "2": "150",
+          "3": "180",
+          "4": "210",
+          "5": "240",
+          "6": "270"
+        },
+        "Sustained Damage": {
+          "1": "45",
+          "2": "52",
+          "3": "59",
+          "4": "66",
+          "5": "73",
+          "6": "80"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Chasm Trample",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Chasm_Trample.png/revision/latest?cb=20250917080546",
+      "tags": [
+        "Mobility",
+        "Buff"
+      ],
+      "description": "Mobility Buff Thamuz jumps to a designated area to deal 230–355 (+60% Extra Physical Attack) Physical Damage and slow the enemy units by 25% for 2 seconds upon landing. If the scythes are still travelling, they will return to Thamuz and Molten Scythes will reset its CD instantly. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+      "properties": {
+        "Cooldown": {
+          "1": "8.0",
+          "2": "7.6",
+          "3": "7.2",
+          "4": "6.8",
+          "5": "6.4",
+          "6": "6.0"
+        },
+        "Base Damage": {
+          "1": "230",
+          "2": "255",
+          "3": "280",
+          "4": "305",
+          "5": "330",
+          "6": "355"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Cauterant Inferno",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Cauterant_Inferno.png/revision/latest?cb=20250917080545",
+      "tags": [
+        "AOE",
+        "Buff"
+      ],
+      "description": "AOE Buff Thamuz spouts the lava stored in his body, dealing 300–480 (+80% Total Physical Attack) Physical Damage to nearby enemies and creating a Cauterant Inferno around him. The Cauterant Inferno lasts 9 seconds and deals 30–60 (+10% Extra Physical Attack) Physical Damage every 0.5 seconds to enemies in the area. Meanwhile, Thamuz gains 600 (+30–50% Extra HP) extra Max HP, heals himself by the same amount, and increases his Attack Speed by 60%-100%. He also recovers 1.5%-2.5% Max HP each time he deals damage with Basic Attacks or his Scythes . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%). ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient.",
+      "properties": {
+        "Cooldown": {
+          "1": "38.0",
+          "2": "34.0",
+          "3": "30.0"
+        },
+        "Base Damage": {
+          "1": "300",
+          "2": "390",
+          "3": "480"
+        },
+        "Sustained Damage": {
+          "1": "30",
+          "2": "45",
+          "3": "60"
+        },
+        "HP Regen": {
+          "1": "1.5%",
+          "2": "2%",
+          "3": "2.5%"
+        },
+        "Attack Speed": {
+          "1": "60%",
+          "2": "80%",
+          "3": "100%"
+        },
+        "Max HP": {
+          "1": "30%",
+          "2": "40%",
+          "3": "50%"
+        }
+      }
+    }
+  ]
 }

@@ -1,4 +1,185 @@
 {
   "slug": "Fanny",
-  "error": "503 Server Error: Service Unavailable for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Fanny&srlimit=5"
+  "name": "Fanny",
+  "url": "https://mobile-legends.fandom.com/wiki/Fanny",
+  "intro": "Fanny, the Blade Dancer, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2426",
+      "level_15": "4400",
+      "growth": "141"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "6.6",
+      "level_15": "12.4",
+      "growth": "0.4143"
+    },
+    "energy": {
+      "label": "Energy",
+      "values": [
+        "100",
+        "0"
+      ]
+    },
+    "energy_regen": {
+      "label": "Energy Regen",
+      "values": [
+        "3",
+        "0"
+      ]
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "126",
+      "level_15": "269",
+      "growth": "10.21"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "16 (11.8%)",
+      "level_15": "68 (36.2%)",
+      "growth": "3.7143"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "50 (29.4%)",
+      "growth": "2.5"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "1.12",
+      "level_15": "1.44",
+      "growth": "0.0229"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "100%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "265"
+      ]
+    },
+    "basic_attack_range": {
+      "label": "Basic Attack range",
+      "values": [
+        "1.8"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Air Superiority",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Air_Superiority.png/revision/latest?cb=20211205125003",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff During fight, Fanny deals 10%–20% extra damage to enemies hit (scales with flying speed [ speed unknown ] ) and applies a stack of Prey Mark to them (up to 2 stacks) on each attack. Her subsequent skill hits on marked enemy heroes restore 7 energy per stack for her. The energy restoration is reduced [ amount unknown ] if she hits multiple enemy heroes within a short period of time. [ duration unknown ]",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Tornado Strike",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Tornado_Strike.png/revision/latest?cb=20211205125011",
+      "tags": [
+        "AOE"
+      ],
+      "description": "AOE Fanny whirls her blades, dealing 300–540 (+80% Total Physical Attack) Physical Damage to nearby enemies. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "3.5",
+          "2": "3.3",
+          "3": "3.1",
+          "4": "2.9",
+          "5": "2.7",
+          "6": "2.5"
+        },
+        "Energy Cost": [
+          "15"
+        ],
+        "Base Damage": {
+          "1": "300",
+          "2": "348",
+          "3": "396",
+          "4": "444",
+          "5": "492",
+          "6": "540"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Steel Cable",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Steel_Cable.png/revision/latest?cb=20211205125019",
+      "tags": [
+        "Mobility"
+      ],
+      "description": "Mobility No way I'm going on foot! Fanny shoots a cable in the target direction that pulls her to the first obstacle hit. She can cast this skill again within 2 seconds until her energy runs out. Each successive cast reduces the skill's energy cost by 2. Fanny automatically casts Tornado Strike upon hitting an enemy mid-flight, as long as her energy is sufficient. Skill terms Charge Movement ability that cannot pass through obstacles.",
+      "properties": {
+        "Cooldown": [
+          "0.0"
+        ],
+        "Energy Cost": {
+          "1": "17",
+          "2": "16",
+          "3": "15",
+          "4": "14",
+          "5": "13",
+          "6": "12"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Cut Throat",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Cut_Throat.png/revision/latest?cb=20211205125029",
+      "tags": [
+        "Burst",
+        "Mobility"
+      ],
+      "description": "Burst Mobility Fanny leaps at the target enemy hero or Creep with her blades, dealing 500–860 (+240% Extra Physical Attack) Physical Damage . Each stack of Prey Mark of the target increases this damage by 20%. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+      "properties": {
+        "Cooldown": {
+          "1": "35.0",
+          "2": "30.0",
+          "3": "25.0"
+        },
+        "Energy Cost": [
+          "30"
+        ],
+        "Base Damage": {
+          "1": "500",
+          "2": "680",
+          "3": "860"
+        },
+        "Extra Damage Per Prey Mark Stack": {
+          "1": "20%",
+          "2": "40%",
+          "3": ""
+        }
+      }
+    }
+  ]
 }

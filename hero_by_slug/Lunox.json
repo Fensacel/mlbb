@@ -1,4 +1,4 @@
 {
   "slug": "Lunox",
-  "error": "503 Server Error: Service Unavailable for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Lunox&srlimit=5"
+  "error": "403 Client Error: Forbidden for url: https://mobile-legends.fandom.com/wiki/Lunox"
 }
