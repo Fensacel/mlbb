@@ -2751,7 +2751,7 @@
         "tags": [
           "Buff"
         ],
-        "description": "Buff At regular intervals, Rafaela can use a special skill to instantly resurrect a fallen allied hero after a brief channeling. The resurrected allied hero will respawn at the base and is granted increased Movement Speed. This skill's cooldown is determined by both its base cooldown and the remaining respawn time of the revived hero. It is not affected by Cooldown Reduction.",
+        "description": "Buff At regular intervals, Rafaela can use a special skill to instantly resurrect a fallen allied hero after a brief channeling. The resurrected allied hero will respawn at the base and is granted increased Movement Speed. This skill's cooldown is determined by both its base cooldown and the remaining respawn time of the revived hero. It is not affected by Cooldown Reduction .",
         "properties": {}
       },
       {
