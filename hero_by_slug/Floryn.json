@@ -1,4 +1,219 @@
 {
   "slug": "Floryn",
-  "error": "403 Client Error: Forbidden for url: https://mobile-legends.fandom.com/wiki/Floryn"
+  "name": "Floryn",
+  "url": "https://mobile-legends.fandom.com/wiki/Floryn",
+  "intro": "Floryn, the Budding Hope, is a hero in Mobile Legends: Bang Bang , and is accompanied by Dew.",
+  "infobox": {
+    "Durability": "6"
+  },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2401",
+      "level_15": "4256",
+      "growth": "132.5"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "7.6",
+      "level_15": "11.8",
+      "growth": "0.3"
+    },
+    "mana": {
+      "label": "Mana",
+      "level_1": "500",
+      "level_15": "1900",
+      "growth": "100"
+    },
+    "mana_regen": {
+      "label": "Mana Regen",
+      "level_1": "4",
+      "level_15": "6.8",
+      "growth": "0.2"
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "119",
+      "level_15": "222",
+      "growth": "7.36"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "12 (9.1%)",
+      "level_15": "68 (36.2%)",
+      "growth": "4"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "50 (29.4%)",
+      "growth": "2.5"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "0.97",
+      "level_15": "1.11",
+      "growth": "0.01"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "100%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "240"
+      ]
+    },
+    "basic_attack_range": {
+      "label": "Basic Attack range",
+      "values": [
+        "4.5"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Dew",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Dew.png/revision/latest?cb=20210930073514",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Dew's Lantern will permanently increase Floryn's attributes by a small amount. After leaving combat for 5 seconds, Floryn can share the Flower of Hope with an allied hero (30 seconds cooldown ), which will grant them a 100 (+70% Total Magic Power) shield each time they are healed by Floryn. Floryn will never sell the Lantern.",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Sow",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d6/Sow.png/revision/latest?cb=20210930073600",
+      "tags": [
+        "Damage",
+        "Heal"
+      ],
+      "description": "Damage Heal Floryn tosses an Energy Seed at a target enemy, dealing 180–330 (+100% Total Magic Power) Magic Damage . Healing Fruits will then spawn and bounce to nearby allied heroes, restoring their by 175–225 (+90% Total Magic Power) .",
+      "properties": {
+        "Cooldown": {
+          "1": "9.0",
+          "2": "8.7",
+          "3": "8.4",
+          "4": "8.1",
+          "5": "7.8",
+          "6": "7.5"
+        },
+        "Mana Cost": {
+          "1": "90",
+          "2": "100",
+          "3": "110",
+          "4": "120",
+          "5": "130",
+          "6": "140"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "180",
+          "2": "210",
+          "3": "240",
+          "4": "270",
+          "5": "300",
+          "6": "330"
+        },
+        "Base Healing": {
+          "1": "175",
+          "2": "185",
+          "3": "195",
+          "4": "205",
+          "5": "215",
+          "6": "225"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "Sprout",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/34/Sprout.png/revision/latest?cb=20210930073631",
+      "tags": [
+        "CC",
+        "Damage"
+      ],
+      "description": "CC Damage Floryn casts a blob of energy ahead that explodes upon hitting an enemy, dealing 175–350 (+90% Total Magic Power) Magic Damage to nearby enemies and stunning them for 0.5 seconds (and revealing their positions briefly). [ duration needed ] Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+      "properties": {
+        "Cooldown": {
+          "1": "13.0",
+          "2": "12.4",
+          "3": "11.8",
+          "4": "11.2",
+          "5": "10.6",
+          "6": "10.0"
+        },
+        "Mana Cost": {
+          "1": "100",
+          "2": "110",
+          "3": "120",
+          "4": "130",
+          "5": "140",
+          "6": "150"
+        },
+        "Spell Vamp Ratio": [
+          "50%"
+        ],
+        "Base Damage": {
+          "1": "175",
+          "2": "210",
+          "3": "245",
+          "4": "280",
+          "5": "315",
+          "6": "350"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Bloom",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/28/Bloom.png/revision/latest?cb=20210930073642",
+      "tags": [
+        "Heal"
+      ],
+      "description": "Heal Floryn resonates with Dew's power, recovering 250–450 (+100% Total Magic Power) HP to all allied heroes 2 times no matter where they are. This effect also increases their Shield and HP Regen effects by 12% for 2 seconds.",
+      "properties": {
+        "Cooldown": [
+          "70.0"
+        ],
+        "Mana Cost": {
+          "1": "150",
+          "2": "175",
+          "3": "200"
+        },
+        "Base Healing": {
+          "1": "250",
+          "2": "350",
+          "3": "450"
+        }
+      }
+    },
+    {
+      "section": "Other",
+      "name": "Share",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Shimmering_Lantern.png/revision/latest?cb=20210924145837",
+      "tags": [],
+      "description": "Floryn shares the Lantern 's power with an allied hero, slightly increasing their attributes.",
+      "properties": {}
+    }
+  ]
 }
