@@ -10,8 +10,8 @@
     "hp": {
       "label": "HP",
       "level_1": "2709",
-      "level_15": "7749",
-      "growth": "360"
+      "level_15": "6940",
+      "growth": "302.21"
     },
     "hp_regen": {
       "label": "HP Regen",
