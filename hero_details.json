@@ -7607,7 +7607,7 @@
   },
   {
     "slug": "Karrie",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Karrie&srlimit=5"
+    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Karrie%22&srlimit=5"
   },
   {
     "slug": "Gatotkaca",
