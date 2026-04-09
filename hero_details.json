@@ -7506,7 +7506,104 @@
   },
   {
     "slug": "Roger",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Roger&srlimit=5"
+    "name": "Roger",
+    "url": "https://mobile-legends.fandom.com/wiki/Roger",
+    "intro": "Roger, the Dire Wolf Hunter, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2530",
+        "level_15": "4889",
+        "growth": "168.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "10.2",
+        "growth": "0.2143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "128",
+        "level_15": "317",
+        "growth": "13.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "22 (15.5%)",
+        "level_15": "82 (40.6%)",
+        "growth": "4.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.05",
+        "level_15": "1.26",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.1 (Human Form) / 1.7 (Wolf Form)"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Full Moon Curse",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f9/Full_Moon_Curse.png/revision/latest?cb=20210905105058",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Roger can freely switch between human and wolf forms. In human form, Roger's Basic Attacks and skills deal additional damage equal to [ (+target's 4% Current HP) .] In wolf form, Roger's Basic Attack and skills deal additional damage equal to [ (+target's 4% Lost HP) .] This effect can only deal up to 60 additional damage against Creeps . Skill terms Current HP Death happens when current HP is or below 0. When there is Death Immune Effect, the current HP will not be below 1. Lost HP Lost HP = Max HP - Current HP. Lost HP Lost HP = Max HP - Current HP.",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Karrie",
