@@ -6803,11 +6803,404 @@
   },
   {
     "slug": "Hilda",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Hilda%22&srlimit=5"
+    "name": "Hilda",
+    "url": "https://mobile-legends.fandom.com/wiki/Hilda",
+    "intro": "Hilda, the Power of Megalith, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "9"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2680",
+        "level_15": "6250",
+        "growth": "255"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.4",
+        "level_15": "17.2",
+        "growth": "0.6286"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "123",
+        "level_15": "218",
+        "growth": "6.79"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "24 (16.7%)",
+        "level_15": "124 (50.8%)",
+        "growth": "7.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "71 (37.2%)",
+        "growth": "4"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.05",
+        "level_15": "1.33",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8 / 2.5 (Blessing of Wilderness)"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Blessing of Wilderness",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Blessing_of_Wilderness.png/revision/latest?cb=20210315234250",
+        "tags": [
+          "Buff",
+          "AOE"
+        ],
+        "description": "Buff AOE Hilda recovers 2% HP per second while in the bush. Entering a bush enhances her next Basic Attack , which deals 110 (+12 × Hero Level) (+130% Total Physical Attack) Physical Damage to the target, reduces the target's Movement Speed by 40%, and deals 40 (+10 × Hero Level) (+100%% Total Physical Attack) Physical Damage to enemies behind the target. After using the enhanced Basic Attack, this effect enters a 6 second cooldown. Hilda's Basic Attack and skills apply a Wilderness Mark on hit, which lasts up to 4 seconds and stacks up to 6. Each stack reduces the enemy hero's Physical Defense and Magic Defense by 3%. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. HP Regen HP regens every 1 second. Max HP The maximum HP currently can have.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Combat Ritual",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Combat_Ritual.png/revision/latest?cb=20210315234429",
+        "tags": [
+          "Speed Up",
+          "Buff"
+        ],
+        "description": "Speed Up Buff Hilda gains 60% Movement Speed for 3 seconds and receives a shield that absorbs damage equal to 10% Max HP , lasting 3 seconds. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.5",
+            "3": "9.0",
+            "4": "8.5",
+            "5": "8.0",
+            "6": "7.5"
+          },
+          "Shield Bonus": {
+            "1": "10%",
+            "2": "12%",
+            "3": "14%",
+            "4": "16%",
+            "5": "18%",
+            "6": "20%"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Art of Hunting",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Art_of_Hunting.png/revision/latest?cb=20210315234319",
+        "tags": [
+          "Damage",
+          "CC"
+        ],
+        "description": "Damage CC Hilda locks onto an enemy target, each time dealing 220–420 (+100% Total Physical Attack) Physical Damage . Skill can be released 3 times at most. The 2nd attack will deal damage to target's surroundings, and the 3rd attack will knock back the target and surrounding enemies temporarily. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.6",
+            "3": "7.2",
+            "4": "6.8",
+            "5": "6.4",
+            "6": "6.0"
+          },
+          "Base Damage": {
+            "1": "220",
+            "2": "260",
+            "3": "320",
+            "4": "360",
+            "5": "400",
+            "6": "420"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Power of Wildness",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Power_of_Wildness.png/revision/latest?cb=20210315234351",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Hilda [leaps forward and] launches a powerful slash on the target enemy, dealing 600–1000 (+250% Extra Physical Attack) Physical Damage and stunning them for 0.2 seconds. Nearby enemies also take 60% damage. Each stack of Wilderness Mark makes Power of Wildness deal 2.5% of the target's Max HP as extra damage. At max stacks, Power of Wildness deal 20% of the target's Max HP as extra damage. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Physical Penetration",
+        "properties": {
+          "Cooldown": {
+            "1": "32.0",
+            "2": "28.0",
+            "3": "24.0"
+          },
+          "Base Damage": {
+            "1": "600",
+            "2": "800",
+            "3": "1000"
+          },
+          "Extra Percentage Damage": {
+            "1": "20%",
+            "2": "28%",
+            "3": "36%"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Aurora",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Aurora&srlimit=5"
+    "name": "Aurora",
+    "url": "https://mobile-legends.fandom.com/wiki/Aurora",
+    "intro": "Aurora, the Maiden of the Glacier, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2380",
+        "level_15": "4496",
+        "growth": "151.14"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "11.0",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "110",
+        "level_15": "225",
+        "growth": "8.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "73 (37.8%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.21",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.7"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Pride of Ice",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/62/Pride_of_Ice.png/revision/latest?cb=20240207104508",
+        "tags": [
+          "Death Immune"
+        ],
+        "description": "Death Immune Eternal Standing of the Glacier. Upon taking fatal damage, Aurora freezes herself for 1.5 seconds, becoming invincible during this time and greadually recovering 30% Max HP. This effect has a 150 seconds cooldown. Aurora's freeze effects can also affect Turrets . Skill terms Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills. Death Immune",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Hailstone Blast",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/25/Hailstone_Blast.png/revision/latest?cb=20240207104504",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Howling Blizzard of the North. Aurora summons an icy meteorite to strike at the taraget location, dealing 350–550 (+90% Total Magic Power) Magic Damage and slowing targets hit by 40% for 1 second. Afterward, 5 hailstones fall, each dealing 40–60 (+10% Total Magic Power) Magic Damage . Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.6",
+            "3": "5.2",
+            "4": "4.8",
+            "5": "4.4",
+            "6": "4.0"
+          },
+          "Mana Cost": {
+            "1": "55",
+            "2": "65",
+            "3": "75",
+            "4": "85",
+            "5": "95",
+            "6": "105"
+          },
+          "Base Damage": {
+            "1": "350",
+            "2": "390",
+            "3": "430",
+            "4": "470",
+            "5": "510",
+            "6": "550"
+          },
+          "Combo Damage": {
+            "1": "40",
+            "2": "44",
+            "3": "48",
+            "4": "52",
+            "5": "56",
+            "6": "60"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Frosty Breeze",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e9/Frosty_Breeze.png/revision/latest?cb=20240207104501",
+        "tags": [
+          "AOE",
+          "CC"
+        ],
+        "description": "AOE CC Frigid Frost in the Mountains. Aurora blows Frosty Breeze in a fan-shaped area in the target direction, dealing 225–375 (+75% Total Magic Power) Magic Damage to enemies hit, freezing them for 1 second, and creating a frozen area at the far-end of the attack that deals a total of 225–375 (+75% Total Magic Power) Magic Damage to enemies in the area. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+        "properties": {
+          "Cooldown": [
+            "13.0"
+          ],
+          "Mana Cost": {
+            "1": "110",
+            "2": "110",
+            "3": "120",
+            "4": "130",
+            "5": "140",
+            "6": "150"
+          },
+          "Base Damage": {
+            "1": "225",
+            "2": "255",
+            "3": "285",
+            "4": "315",
+            "5": "345",
+            "6": "375"
+          },
+          "Sustained Damage": {
+            "1": "225",
+            "2": "255",
+            "3": "285",
+            "4": "315",
+            "5": "345",
+            "6": "375"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Frigid Glacier",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6e/Frigid_Glacier.png/revision/latest?cb=20240207104457",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Underflow of the Frozen River. Aurora creates a frost path in the target direction, dealing 100–200 (+40% Total Magic Power) Magic Damage to enemies in the path and reducing their Movement Speed by 80% for 1.2 seconds. The frost path gradually becomes glaciers that spread until reaching their maximum size and shattering, dealing 600–1200 (+150% Total Magic Power) Magic Damage to all enemies in the area and freezing targets for 1 second. Every 100 Magic Power that Aurora has will increase the freeze duration by 0.2 seconds. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+        "properties": {
+          "Cooldown": {
+            "1": "50.0",
+            "2": "45.0",
+            "3": "40.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "175",
+            "3": "200"
+          },
+          "Base Damage": {
+            "1": "100",
+            "2": "150",
+            "3": "200"
+          },
+          "AOE Damage": {
+            "1": "600",
+            "2": "900",
+            "3": "1200"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Lapu-Lapu",
