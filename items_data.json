@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -278,6 +278,8 @@
         "stats": [
             "1500",
             "Attack",
+            "+15 movement speed",
+            "+60 adaptive attack",
             "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
@@ -424,10 +426,10 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2150",
+            "2050",
             "Magic",
-            "+400 hp",
-            "+75 magic power",
+            "+300 hp",
+            "+60 magic power",
             "+5% movement speed",
             "Pasif: Unique Passive - Scorch: Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second. Unique Passive - Lifebane: Dealing damage to the target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds."
         ]
@@ -519,7 +521,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
@@ -579,7 +581,7 @@
             "2030",
             "Magic",
             "+10% lifesteal",
-            "+55 magic power",
+            "+60 magic power",
             "+20% attack speed",
             "+5% cooldown reduction",
             "Pasif: Unique Passive - Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
@@ -606,7 +608,7 @@
             "2120",
             "Magic",
             "+6 mana regen",
-            "+70 magic power",
+            "+75 magic power",
             "+8% hybrid lifesteal",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Crisis: After casting a skill, the next Basic Attack within 3 seconds deals 100 (+100% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 40% for 1.5 seconds (5 seconds cooldown)."
@@ -635,7 +637,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Butterfly Goddess: For every 800 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
+            "Pasif: Unique Passive - Butterfly Goddess: For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
         ]
     },
     {
@@ -701,11 +703,11 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "1870",
+            "2070",
             "Magic",
-            "+250 hp",
-            "+50 magic power",
-            "+20% cooldown reduction",
+            "+300 hp",
+            "+75 magic power",
+            "+15% cooldown reduction",
             "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
         ]
     },
