@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -763,8 +763,6 @@
         "stats": [
             "1020",
             "Defense",
-            "540 hp",
-            "23 magic defense",
             "Pasif: -"
         ]
     },
