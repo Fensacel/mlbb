@@ -1,4 +1,4 @@
 {
   "slug": "Lapu-Lapu",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Lapu+Lapu&srlimit=5"
+  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Lapu+Lapu%22&srlimit=5"
 }
