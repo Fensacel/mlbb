@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -256,7 +251,12 @@
         "slug": "rose-gold-meteor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png",
         "stats": [
-            "Attack"
+            "2030",
+            "Attack",
+            "+10% lifesteal",
+            "+20% attack speed",
+            "+30 physical attack",
+            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -353,10 +353,7 @@
         "slug": "warrior-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png",
         "stats": [
-            "720",
             "Movement",
-            "+40 movement speed",
-            "+18 physical defense",
             "Pasif: Unique Passive - Valor: Gains 4 extra Physical Defense for 3 seconds when taking Physical Damage, up to 20."
         ]
     },
