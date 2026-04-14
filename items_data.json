@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -214,11 +219,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010",
-            "Attack",
-            "+80 physical attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Attribute: +15 Physical Penetration Unique Passive - Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3 seconds (8 seconds cooldown)."
+            "Attack"
         ]
     },
     {
@@ -353,7 +354,10 @@
         "slug": "warrior-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png",
         "stats": [
+            "720",
             "Movement",
+            "+40 movement speed",
+            "+18 physical defense",
             "Pasif: Unique Passive - Valor: Gains 4 extra Physical Defense for 3 seconds when taking Physical Damage, up to 20."
         ]
     },
