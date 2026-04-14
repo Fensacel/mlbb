@@ -1,4 +1,95 @@
 {
   "slug": "Selena",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Selena&srlimit=5"
+  "name": "Selena",
+  "url": "https://mobile-legends.fandom.com/wiki/Selena",
+  "intro": "Selena, the Abyssal Witch, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "3"
+  },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2401",
+      "level_15": "4984",
+      "growth": "184.5"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "6.8",
+      "level_15": "11.0",
+      "growth": "0.3"
+    },
+    "mana": {
+      "label": "Mana",
+      "level_1": "500",
+      "level_15": "1900",
+      "growth": "100"
+    },
+    "mana_regen": {
+      "label": "Mana Regen",
+      "level_1": "4",
+      "level_15": "6.8",
+      "growth": "0.2"
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "110",
+      "level_15": "204",
+      "growth": "6.71"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "59 (33%)",
+      "growth": "3.1429"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "38 (24.1%)",
+      "growth": "1.6429"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "1.00",
+      "level_15": "1.21",
+      "growth": "0.015"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "100%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "240"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Symbiosis",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Symbiosis.png/revision/latest?cb=20211108070339",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff Selena can switch freely between her two forms. Elven Form : Selena applies \"Abyssal Mark\" with her skills. The mark can stack up to 2 times. When \"Abyssal Trap\" hits an enemy, it immediately adds an \"Abyssal Mark\". Abyssal Form : All damage will consume 1 stack of \"Abyssal Mark\" to deal 225 (+15 × Hero Level) (+40% Total Magic Power) extra Magic Damage . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "properties": {}
+    }
+  ]
 }
