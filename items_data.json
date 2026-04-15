@@ -12,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -412,7 +418,7 @@
             "Magic",
             "+75 magic power",
             "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 3+(0.3*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
         ]
     },
     {
