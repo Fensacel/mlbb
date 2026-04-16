@@ -106,7 +106,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
+            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
         ]
     },
     {
