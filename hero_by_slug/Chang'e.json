@@ -1,4 +1,4 @@
 {
   "slug": "Chang'e",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Chang%27E&srlimit=5"
+  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Chang%27e&srlimit=5"
 }
