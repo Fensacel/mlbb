@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -26,10 +31,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+165 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Magic"
         ]
     },
     {
@@ -75,7 +77,14 @@
         "slug": "endless-battle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Endless_Battle.png",
         "stats": [
-            "Attack"
+            "2330",
+            "Attack",
+            "+250 hp",
+            "+5 mana regen",
+            "+5% movement speed",
+            "+60 physical attack",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Divine Justice: After casting a skill, the next Basic Attack within 3 seconds deals (60% Total Physical Attack) extra True Damage and recovers 80 (+40% of Total Physical Attack) HP (1.5 seconds cooldown)."
         ]
     },
     {
