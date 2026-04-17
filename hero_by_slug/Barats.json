@@ -1,4 +1,4 @@
 {
   "slug": "Barats",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Barats&srlimit=5"
+  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Barats%22&srlimit=5"
 }
