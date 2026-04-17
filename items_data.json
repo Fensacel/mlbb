@@ -75,14 +75,7 @@
         "slug": "endless-battle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Endless_Battle.png",
         "stats": [
-            "2330",
-            "Attack",
-            "+250 hp",
-            "+5 mana regen",
-            "+5% movement speed",
-            "+60 physical attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Divine Justice: After casting a skill, the next Basic Attack within 3 seconds deals (60% Total Physical Attack) extra True Damage and recovers 80 (+40% of Total Physical Attack) HP (1.5 seconds cooldown)."
+            "Attack"
         ]
     },
     {
