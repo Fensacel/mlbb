@@ -743,7 +743,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050 goldSoftware",
+            "1050",
             "Attack",
             "+10% lifesteal",
             "+35 physical attack",
