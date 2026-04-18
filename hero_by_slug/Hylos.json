@@ -1,4 +1,4 @@
 {
   "slug": "Hylos",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Hylos&srlimit=5"
+  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Hylos%22&srlimit=5"
 }
