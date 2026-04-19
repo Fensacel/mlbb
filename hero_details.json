@@ -6568,51 +6568,2199 @@
   },
   {
     "slug": "Estes",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=%22Estes%22&srlimit=5"
+    "name": "Estes",
+    "url": "https://mobile-legends.fandom.com/wiki/Estes",
+    "intro": "Estes, the Moon Elf King, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "7"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2221",
+        "level_15": "3950",
+        "growth": "123.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "11.4",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "120",
+        "level_15": "221",
+        "growth": "7.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "13 (9.8%)",
+        "level_15": "65 (35.1%)",
+        "growth": "3.7143"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.14",
+        "growth": "0.01"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.7"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Scripture of the Moon Elf",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b7/Scripture_of_the_Moon_Elf.png/revision/latest?cb=20220404063820",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Scripture of Moon Elf slowly charges Estes with energy. When the energy reaches 100 stacks, Estes' nest Basic Attack will become enhanced, dealing 250 (+100% Total Physical Attack) (+150% Total Magic Power) Magic Damage to the target and 125 (+50% Total Physical Attack) (+75% Total Magic Power) Magic Damage to nearby enemies, and slowing them by 60% for 1.5 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Moonlight Immersion",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Moonlight_Immersion.png/revision/latest?cb=20220404063857",
+        "tags": [
+          "Heal",
+          "Buff"
+        ],
+        "description": "Heal Buff Estes restores 250–325 (+110% Total Magic Power) HP for the target hero immediately and links himself with them for 3 seconds, slowly restoring 325–400 (+60% Total Magic Power) HP to the target. Linking with an allied hero will also increase Estes' Hybrid Defense by 20–45 and Movement Speed by 15%, as well as the energy charging speed of the Scripture of the of Moon Elf. Being too far from the target will break the link. ( Enhanced: Estes restores 500–700 (+220% Total Magic Power) HP for the target hero immediately, and links himself with them for 3 seconds, slowly restoring 1170–1470 (+210% Total Magic Power) HP to the target for 15 times…) Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+        "properties": {
+          "Cooldown": {
+            "1": "11.0",
+            "2": "10.2",
+            "3": "9.4",
+            "4": "8.6",
+            "5": "7.8",
+            "6": "7.0"
+          },
+          "Mana Cost": {
+            "1": "110",
+            "2": "130",
+            "3": "150",
+            "4": "170",
+            "5": "190",
+            "6": "210"
+          },
+          "Cooldown (Enhanced)": {
+            "1": "8.80",
+            "2": "8.20",
+            "3": "7.52",
+            "4": "6.88",
+            "5": "6.24",
+            "6": "5.60"
+          },
+          "Mana Cost (Enhanced)": [
+            "0"
+          ],
+          "Basic Healing": {
+            "1": "250",
+            "2": "265",
+            "3": "280",
+            "4": "295",
+            "5": "310",
+            "6": "325"
+          },
+          "Sustained Healing": {
+            "1": "325",
+            "2": "340",
+            "3": "365",
+            "4": "370",
+            "5": "385",
+            "6": "400"
+          },
+          "Basic Healing (Enhanced)": {
+            "1": "500",
+            "2": "550",
+            "3": "600",
+            "4": "650",
+            "5": "700",
+            "6": ""
+          },
+          "Sustained Healing (Enhanced)": {
+            "1": "1170",
+            "2": "1230",
+            "3": "1290",
+            "4": "1350",
+            "5": "1410",
+            "6": "1470"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Domain of Moon Goddess",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Domain_of_Moon_Goddess.png/revision/latest?cb=20220404064002",
+        "tags": [
+          "Slow",
+          "AOE"
+        ],
+        "description": "Slow AOE Estes drops a flood of moonlight on the target area, dealing 350–600 (+70% Total Magic Power) Magic Damage to enemy units within it. Afterwards, it turns to a domain of Moon Goddess and reveals enemies inside it [for 1.5 seconds]. Enemies will be slowed by 90% for 1.5 seconds when they touch the edge of the domain area. (The slow effect will decay over time.) [ duration needed ] Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "12.0",
+            "2": "11.5",
+            "3": "11.0",
+            "4": "10.5",
+            "5": "10.0",
+            "6": "9.5"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "90",
+            "3": "100",
+            "4": "110",
+            "5": "120",
+            "6": "130"
+          },
+          "Base Damage": {
+            "1": "350",
+            "2": "400",
+            "3": "450",
+            "4": "500",
+            "5": "550",
+            "6": "600"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Blessing of Moon Goddess",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Blessing_of_Moon_Goddess.png/revision/latest?cb=20220404064022",
+        "tags": [
+          "Buff",
+          "Heal"
+        ],
+        "description": "Buff Heal Estes casts an enhanced Moonlight Immersion on all nearby allied heroes. Within the next 8 seconds, \"Moonlight Immersion\" will be enhanced and Estes will continuously recover 1230–1470 (+210% Total Magic Power) HP . Skill terms Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+        "properties": {
+          "Cooldown": {
+            "1": "55.0",
+            "2": "50.0",
+            "3": "45.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "250",
+            "3": "350"
+          },
+          "HP Regen": {
+            "1": "1230",
+            "2": "1350",
+            "3": "1470"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Hilda",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Hilda&srlimit=5"
+    "name": "Hilda",
+    "url": "https://mobile-legends.fandom.com/wiki/Hilda",
+    "intro": "Hilda, the Power of Megalith, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "9"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2680",
+        "level_15": "6250",
+        "growth": "255"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.4",
+        "level_15": "17.2",
+        "growth": "0.6286"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "123",
+        "level_15": "218",
+        "growth": "6.79"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "24 (16.7%)",
+        "level_15": "124 (50.8%)",
+        "growth": "7.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "71 (37.2%)",
+        "growth": "4"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.05",
+        "level_15": "1.33",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8 / 2.5 (Blessing of Wilderness)"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Blessing of Wilderness",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a5/Blessing_of_Wilderness.png/revision/latest?cb=20210315234250",
+        "tags": [
+          "Buff",
+          "AOE"
+        ],
+        "description": "Buff AOE Hilda recovers 2% HP per second while in the bush. Entering a bush enhances her next Basic Attack , which deals 110 (+12 × Hero Level) (+130% Total Physical Attack) Physical Damage to the target, reduces the target's Movement Speed by 40%, and deals 40 (+10 × Hero Level) (+100%% Total Physical Attack) Physical Damage to enemies behind the target. After using the enhanced Basic Attack, this effect enters a 6 second cooldown. Hilda's Basic Attack and skills apply a Wilderness Mark on hit, which lasts up to 4 seconds and stacks up to 6. Each stack reduces the enemy hero's Physical Defense and Magic Defense by 3%. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. HP Regen HP regens every 1 second. Max HP The maximum HP currently can have.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Combat Ritual",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Combat_Ritual.png/revision/latest?cb=20210315234429",
+        "tags": [
+          "Speed Up",
+          "Buff"
+        ],
+        "description": "Speed Up Buff Hilda gains 60% Movement Speed for 3 seconds and receives a shield that absorbs damage equal to 10% Max HP , lasting 3 seconds. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.5",
+            "3": "9.0",
+            "4": "8.5",
+            "5": "8.0",
+            "6": "7.5"
+          },
+          "Shield Bonus": {
+            "1": "10%",
+            "2": "12%",
+            "3": "14%",
+            "4": "16%",
+            "5": "18%",
+            "6": "20%"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Art of Hunting",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Art_of_Hunting.png/revision/latest?cb=20210315234319",
+        "tags": [
+          "Damage",
+          "CC"
+        ],
+        "description": "Damage CC Hilda locks onto an enemy target, each time dealing 220–420 (+100% Total Physical Attack) Physical Damage . Skill can be released 3 times at most. The 2nd attack will deal damage to target's surroundings, and the 3rd attack will knock back the target and surrounding enemies temporarily. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.6",
+            "3": "7.2",
+            "4": "6.8",
+            "5": "6.4",
+            "6": "6.0"
+          },
+          "Base Damage": {
+            "1": "220",
+            "2": "260",
+            "3": "320",
+            "4": "360",
+            "5": "400",
+            "6": "420"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Power of Wildness",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Power_of_Wildness.png/revision/latest?cb=20210315234351",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Hilda [leaps forward and] launches a powerful slash on the target enemy, dealing 600–1000 (+250% Extra Physical Attack) Physical Damage and stunning them for 0.2 seconds. Nearby enemies also take 60% damage. Each stack of Wilderness Mark makes Power of Wildness deal 2.5% of the target's Max HP as extra damage. At max stacks, Power of Wildness deal 20% of the target's Max HP as extra damage. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Physical Penetration",
+        "properties": {
+          "Cooldown": {
+            "1": "32.0",
+            "2": "28.0",
+            "3": "24.0"
+          },
+          "Base Damage": {
+            "1": "600",
+            "2": "800",
+            "3": "1000"
+          },
+          "Extra Percentage Damage": {
+            "1": "20%",
+            "2": "28%",
+            "3": "36%"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Aurora",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Aurora&srlimit=5"
+    "name": "Aurora",
+    "url": "https://mobile-legends.fandom.com/wiki/Aurora",
+    "intro": "Aurora, the Maiden of the Glacier, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2380",
+        "level_15": "4496",
+        "growth": "151.14"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "11.0",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "110",
+        "level_15": "225",
+        "growth": "8.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "73 (37.8%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.21",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.7"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Pride of Ice",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/62/Pride_of_Ice.png/revision/latest?cb=20240207104508",
+        "tags": [
+          "Death Immune"
+        ],
+        "description": "Death Immune Eternal Standing of the Glacier. Upon taking fatal damage, Aurora freezes herself for 1.5 seconds, becoming invincible during this time and greadually recovering 30% Max HP. This effect has a 150 seconds cooldown. Aurora's freeze effects can also affect Turrets . Skill terms Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills. Death Immune",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Hailstone Blast",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/25/Hailstone_Blast.png/revision/latest?cb=20240207104504",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Howling Blizzard of the North. Aurora summons an icy meteorite to strike at the taraget location, dealing 350–550 (+90% Total Magic Power) Magic Damage and slowing targets hit by 40% for 1 second. Afterward, 5 hailstones fall, each dealing 40–60 (+10% Total Magic Power) Magic Damage . Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.6",
+            "3": "5.2",
+            "4": "4.8",
+            "5": "4.4",
+            "6": "4.0"
+          },
+          "Mana Cost": {
+            "1": "55",
+            "2": "65",
+            "3": "75",
+            "4": "85",
+            "5": "95",
+            "6": "105"
+          },
+          "Base Damage": {
+            "1": "350",
+            "2": "390",
+            "3": "430",
+            "4": "470",
+            "5": "510",
+            "6": "550"
+          },
+          "Combo Damage": {
+            "1": "40",
+            "2": "44",
+            "3": "48",
+            "4": "52",
+            "5": "56",
+            "6": "60"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Frosty Breeze",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e9/Frosty_Breeze.png/revision/latest?cb=20240207104501",
+        "tags": [
+          "AOE",
+          "CC"
+        ],
+        "description": "AOE CC Frigid Frost in the Mountains. Aurora blows Frosty Breeze in a fan-shaped area in the target direction, dealing 225–375 (+75% Total Magic Power) Magic Damage to enemies hit, freezing them for 1 second, and creating a frozen area at the far-end of the attack that deals a total of 225–375 (+75% Total Magic Power) Magic Damage to enemies in the area. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+        "properties": {
+          "Cooldown": [
+            "13.0"
+          ],
+          "Mana Cost": {
+            "1": "110",
+            "2": "110",
+            "3": "120",
+            "4": "130",
+            "5": "140",
+            "6": "150"
+          },
+          "Base Damage": {
+            "1": "225",
+            "2": "255",
+            "3": "285",
+            "4": "315",
+            "5": "345",
+            "6": "375"
+          },
+          "Sustained Damage": {
+            "1": "225",
+            "2": "255",
+            "3": "285",
+            "4": "315",
+            "5": "345",
+            "6": "375"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Frigid Glacier",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6e/Frigid_Glacier.png/revision/latest?cb=20240207104457",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Underflow of the Frozen River. Aurora creates a frost path in the target direction, dealing 100–200 (+40% Total Magic Power) Magic Damage to enemies in the path and reducing their Movement Speed by 80% for 1.2 seconds. The frost path gradually becomes glaciers that spread until reaching their maximum size and shattering, dealing 600–1200 (+150% Total Magic Power) Magic Damage to all enemies in the area and freezing targets for 1 second. Every 100 Magic Power that Aurora has will increase the freeze duration by 0.2 seconds. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Freeze High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills.",
+        "properties": {
+          "Cooldown": {
+            "1": "50.0",
+            "2": "45.0",
+            "3": "40.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "175",
+            "3": "200"
+          },
+          "Base Damage": {
+            "1": "100",
+            "2": "150",
+            "3": "200"
+          },
+          "AOE Damage": {
+            "1": "600",
+            "2": "900",
+            "3": "1200"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Lapu-Lapu",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Lapu+Lapu&srlimit=5"
+    "name": "Lapu-Lapu",
+    "url": "https://mobile-legends.fandom.com/wiki/Lapu-Lapu",
+    "intro": "Lapu-Lapu, the Courageous Blade, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "8"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2628",
+        "level_15": "5614",
+        "growth": "213.29"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7",
+        "level_15": "12.6",
+        "growth": "0.4"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "119",
+        "level_15": "234",
+        "growth": "8.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "71 (37.2%)",
+        "growth": "3.5714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.12",
+        "level_15": "1.4",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Homeland Defender",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/99/Homeland_Defender.png/revision/latest?cb=20210930071154",
+        "tags": [
+          "Buff",
+          "Shield"
+        ],
+        "description": "Buff Shield Each time Lapu-Lapu deals damage, he gains 10 Bravery Blessing (halved from non-hero units). When his Bravery Blessing is full, his next Basic Attack or Justice Blades will be enhanced, granting Lapu-Lapu a shield that can absorb 250 (+65 × Hero Level) damage for 2.5 seconds. The enhanced Basic Attack) will cause him to dash toward the target, dealing (+150% Total Physical Attack) Physical Damage . This Basic Attack cannot be a critical hit . The enhanced Justice Blades will slow the target by 60% for 1 second. Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Vexana",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Vexana&srlimit=5"
+    "name": "Vexana",
+    "url": "https://mobile-legends.fandom.com/wiki/Vexana",
+    "intro": "Vexana, the Shimmer of Hope, is a hero in Mobile Legends: Bang Bang , and is accompanied by Eternal Guard.",
+    "infobox": {
+      "Durability": "2"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2481",
+        "level_15": "4406",
+        "growth": "137.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.6",
+        "level_15": "11.8",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "112",
+        "level_15": "193",
+        "growth": "5.79"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "63 (34.4%)",
+        "growth": "3.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.14",
+        "growth": "0.01"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "245"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Nether Touch",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ec/Nether_Touch.png/revision/latest?cb=20241018163634",
+        "tags": [
+          "Damage"
+        ],
+        "description": "Damage Vexana and the Eternal Guard inflict Nether Curse on enemies hit. The Curse lasts 5 seconds and will cause the affected enemy to explode upon death, dealing [108 (+38 × Hero Level) (+60% Total Magic Power) Magic Damage ] to nearby enemies.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Deathly Grasp",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Deathly_Grasp.png/revision/latest?cb=20241018163631",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE | Spell Vamp Ratio: 50% Vexana unleashes a Deathly Grasp in the target direction, dealing 200–300 (+60% Total Magic Power) Magic Damage to enemies in its path. The projectile stops upon hitting an enemy hero, terrifying them and knocking them back , then it explodes, dealing 200–300 (+60% Total Magic Power) Magic Damage to nearby enemies and terrifying them for 1 second. Skill terms Terrify Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "14.0",
+            "2": "13.4",
+            "3": "12.88",
+            "4": "12.2",
+            "5": "11.6",
+            "6": "11.0"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "90",
+            "3": "100",
+            "4": "110",
+            "5": "120",
+            "6": "130"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          },
+          "Explosion Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Cursed Blast",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Cursed_Blast.png/revision/latest?cb=20241018163628",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE | Spell Vamp Ratio: 50% Vexana marks the target area with the power of the undead, striking it after 0.8 seconds delay and dealing 580–850 (+160% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "7.0",
+            "2": "6.7",
+            "3": "6.4",
+            "4": "6.1",
+            "5": "5.8",
+            "6": "5.5"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "90",
+            "3": "100",
+            "4": "110",
+            "5": "120",
+            "6": "130"
+          },
+          "Base Damage": {
+            "1": "580",
+            "2": "634",
+            "3": "689",
+            "4": "743",
+            "5": "797",
+            "6": "850"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Eternal Guard",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Eternal_Guard.png/revision/latest?cb=20241018163624",
+        "tags": [
+          "Summon",
+          "Damage"
+        ],
+        "description": "Summon Damage | Spell Vamp Ratio: 50% Vexana summons an Eternal Guard at the target location, dealing 500–700 (+60% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 0.8 seconds. The Eternal Guard then joins Vexana in battle for 15 seconds. Each of Eternal Guard's attacks deals [225–275 (+40% Total Magic Power) (+enemy's 5% Total HP) Magic Damage ] to enemies in a large area.",
+        "properties": {
+          "Cooldown": {
+            "1": "60.0",
+            "2": "35.0",
+            "3": "46.0"
+          },
+          "Mana Cost": {
+            "1": "200",
+            "2": "300",
+            "3": "400"
+          },
+          "Base Damage": {
+            "1": "500",
+            "2": "600",
+            "3": "700"
+          },
+          "Slash Damage": {
+            "1": "225",
+            "2": "250",
+            "3": "275"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Roger",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Roger&srlimit=5"
+    "name": "Roger",
+    "url": "https://mobile-legends.fandom.com/wiki/Roger",
+    "intro": "Roger, the Dire Wolf Hunter, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2530",
+        "level_15": "4889",
+        "growth": "168.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "10.2",
+        "growth": "0.2143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "128",
+        "level_15": "317",
+        "growth": "13.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "22 (15.5%)",
+        "level_15": "82 (40.6%)",
+        "growth": "4.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.05",
+        "level_15": "1.26",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.1 (Human Form) / 1.7 (Wolf Form)"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Full Moon Curse",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f9/Full_Moon_Curse.png/revision/latest?cb=20210905105058",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Roger can freely switch between human and wolf forms. In human form, Roger's Basic Attacks and skills deal additional damage equal to [ (+target's 4% Current HP) .] In wolf form, Roger's Basic Attack and skills deal additional damage equal to [ (+target's 4% Lost HP) .] This effect can only deal up to 60 additional damage against Creeps . Skill terms Current HP Death happens when current HP is or below 0. When there is Death Immune Effect, the current HP will not be below 1. Lost HP Lost HP = Max HP - Current HP. Lost HP Lost HP = Max HP - Current HP.",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Karrie",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Karrie&srlimit=5"
+    "name": "Karrie",
+    "url": "https://mobile-legends.fandom.com/wiki/Karrie",
+    "intro": "Karrie, the Lost Star, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2278",
+        "level_15": "4588",
+        "growth": "165"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8",
+        "level_15": "11",
+        "growth": "0.2143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "120",
+        "level_15": "295",
+        "growth": "12.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "77 (39.1%)",
+        "growth": "4.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.04",
+        "level_15": "1.32",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.4"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Lightwheel Mark",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/73/Lightwheel_Mark.png/revision/latest?cb=20180524145209",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Karrie's Basic Attacks and skills apply a stack of Lightwheel Mark on hit. Once a target has 5 stacks of Lightwheel Marks, the marks will turn into a lightwheel, dealing True Damage equal to 6%-8% of the target's Max HP to them (only up to 300 damage against Creeps). Skill terms True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Max HP The maximum HP currently can have.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Spinning Lightwheel",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/be/Spinning_Lightwheel.png/revision/latest?cb=20180524145319",
+        "tags": [],
+        "description": "Karrie releases a sphere of surging energy in the target direction, dealing 250–375 (+90% Extra Physical Attack) Physical Damage to enemies in its path. The sphere will stop upon hitting an enemy hero or reaching its max travel distance, continuously dealing 150–200 (+20% Extra Physical Attack) Physical Damage to nearby enemies and slowing them by 80% for 1s. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": [
+            "8.0"
+          ],
+          "Mana Cost": {
+            "1": "40",
+            "2": "45",
+            "3": "50",
+            "4": "55",
+            "5": "60",
+            "6": "65"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "275",
+            "3": "300",
+            "4": "325",
+            "5": "350",
+            "6": "375"
+          },
+          "Sustained Damage": {
+            "1": "150",
+            "2": "160",
+            "3": "170",
+            "4": "180",
+            "5": "190",
+            "6": "200"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Phantom Step",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Phantom_Step.png/revision/latest?cb=20180524151835",
+        "tags": [
+          "Mobility",
+          "Damage"
+        ],
+        "description": "Mobility Damage Karrie dashes in the target direction while throwing a lightwheel at the nearest enemy, dealing 150–275 (+70% Extra Physical Attack) Physical Damage and applying a stack of Lightwheel Mark on them. When in Dual Wield state, Karrie throws two lightwheels instead. Skill terms Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "4.5",
+            "2": "4.1",
+            "3": "3.7",
+            "4": "3.3",
+            "5": "2.9",
+            "6": "2.5"
+          },
+          "Mana Cost": {
+            "1": "35",
+            "2": "40",
+            "3": "45",
+            "4": "50",
+            "5": "55",
+            "6": "60"
+          },
+          "Base Damage": {
+            "1": "150",
+            "2": "175",
+            "3": "200",
+            "4": "225",
+            "5": "250",
+            "6": "275"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Speedy Lightwheel",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/da/Speedy_Lightwheel.png/revision/latest?cb=20180524151018",
+        "tags": [
+          "Buff",
+          "Burst"
+        ],
+        "description": "Buff Burst Karrie enters Dual Wield state for 6s, during which she gains 20% Movement Speed and throws two lightwheels with each Basic Attack, each dealing 50-70% Basic Attack damage annd inheriting a portion of Attack Effects. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+        "properties": {
+          "Cooldown": [
+            "35.0"
+          ],
+          "Mana Cost": {
+            "1": "70",
+            "2": "80",
+            "3": "90"
+          },
+          "Duration": {
+            "1": "6",
+            "2": "8",
+            "3": "10"
+          },
+          "Attack Damage": {
+            "1": "50%",
+            "2": "60%",
+            "3": "70%"
+          },
+          "Attack Effect": {
+            "1": "50%",
+            "2": "60%",
+            "3": "70%"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Gatotkaca",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Gatotkaca&srlimit=5"
+    "name": "Gatotkaca",
+    "url": "https://mobile-legends.fandom.com/wiki/Gatotkaca",
+    "intro": "Gatotkaca, the Mighty Legend, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "9"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2629",
+        "level_15": "5569",
+        "growth": "210"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.4",
+        "level_15": "16.8",
+        "growth": "0.6"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "128",
+        "level_15": "228",
+        "growth": "7.14"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "10 (7.7%)",
+        "level_15": "58 (32.6%)",
+        "growth": "3.4286"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.02",
+        "level_15": "1.25",
+        "growth": "0.0164"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.4"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Steel Bones",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f0/Steel_Bones.png/revision/latest?cb=20210627030035",
+        "tags": [
+          "Buff",
+          "Heal"
+        ],
+        "description": "Buff Heal Gatotkaca gains [1] Physical Defense equal to 2% of his lost HP (up to 100). For every 300 damage he takes (calculated before damage reduction), he gains 5 Rage (up to 100). Upon reaching over 25 Rage, Gatotkaca's next Basic Attack becomes enhanced, consuming all Rage to deal extra Magic Damage and recover. The extra damage scales with his Rage, level, and Magic Power . Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Lost HP Lost HP = Max HP - Current HP. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Blast Iron Fist",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Blast_Iron_Fist.png/revision/latest?cb=20210627025912",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Gatotkaca slams the ground, creating a shattered zone in the target direction while dealing 200–300 (+150% Total Magic Power) Magic Damage to enemies within. Enemies in the shattered zone will take 100–150 (+20% Total Magic Power) Magic Damage per second and be slowed by 30%. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.6",
+            "3": "7.2",
+            "4": "6.8",
+            "5": "6.4",
+            "6": "6.0"
+          },
+          "Duration": [
+            "approx. 3.5"
+          ],
+          "Spell Vamp Ratio": [
+            "50%"
+          ],
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          },
+          "Sustained Damage": {
+            "1": "100",
+            "2": "110",
+            "3": "120",
+            "4": "130",
+            "5": "140",
+            "6": "150"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Unbreakable",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Unbreakable.png/revision/latest?cb=20171010092652",
+        "tags": [
+          "CC",
+          "Mobility"
+        ],
+        "description": "CC Mobility Impregnable! Gatotkaca begins channeling, then sprints in the target direction with a battle cry, forcing enemies on the path to attack him and deal 200–300 (+100% Total Magic Power) Magic Damage for 1.5 seconds. The sprint distance scales with the channel time. Canceling the Skill reduces 50% of the remaining Cooldown . Skill terms Taunt Basic level Crowd Control: Forces a target to use Basic Attacks on the caster and chase them, and prevents them from using skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Max HP The maximum HP currently can have.",
+        "properties": {
+          "Cooldown": {
+            "1": "12.0",
+            "2": "11.6",
+            "3": "11.2",
+            "4": "10.8",
+            "5": "10.4",
+            "6": "10.0"
+          },
+          "Spell Vamp Ratio": [
+            "50%"
+          ],
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Avatar of the Guardian",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Avatar_of_the_Guardian.png/revision/latest?cb=20171010092756",
+        "tags": [
+          "CC",
+          "Mobility"
+        ],
+        "description": "CC Mobility A leap holds the world in awe. Gatotkaca jumps to the target location, dealing 500–1000 (+300% Total Magic Power) Magic Damage to nearby enemies and knocking them airborne for 1 second. Enemies near the center of the area will be knocked airborne for a longer duration, while enemies on the fringes will be pulled to the center. The camera will move with the skill indicator but won't grant extra sight.",
+        "properties": {
+          "Cooldown": {
+            "1": "54.0",
+            "2": "50.0",
+            "3": "46.0"
+          },
+          "Spell Vamp Ratio": [
+            "50%"
+          ],
+          "Base Damage": {
+            "1": "500",
+            "2": "750",
+            "3": "1000"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Harley",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Harley&srlimit=5"
+    "name": "Harley",
+    "url": "https://mobile-legends.fandom.com/wiki/Harley",
+    "intro": "Harley, the Mage Genius, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2501",
+        "level_15": "4356",
+        "growth": "132.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "11.4",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "114",
+        "level_15": "201",
+        "growth": "6.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "19 (13.7%)",
+        "level_15": "72 (37.5%)",
+        "growth": "3.7857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.06",
+        "level_15": "1.27",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.5"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Magic Master",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a7/Magic_Master.png/revision/latest?cb=20210802144608",
+        "tags": [
+          "Debuff"
+        ],
+        "description": "Debuff Harley's mastery of magic allows his Basic Attack to deal 60 (+50%Total Physical Attack) (+60%Total Magic Power) Magic Damage . His attacks reduce the enemy's Magic Defense by 2 for 3 seconds on hit (up to 10 stacks). Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Poker Trick",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3f/Poker_Trick.png/revision/latest?cb=20210802144324",
+        "tags": [
+          "AOE",
+          "Buff"
+        ],
+        "description": "AOE Buff Harley throws 3-5 waves of cards in the target direction, each dealing 130-210 (+25%Total Magic Power) Magic Damage to the first enemy hit and granting him 10% extra Attack Speed for 3 seconds on hit (up to 5-10 stacks). Enemies hit more than 3 times will take less damage from subsequent hits. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient.",
+        "properties": {
+          "Cooldown": [
+            "6.0"
+          ],
+          "Mana Cost": {
+            "1": "90",
+            "2": "95",
+            "3": "100",
+            "4": "105",
+            "5": "110",
+            "6": "115"
+          },
+          "Cards": {
+            "1": "3",
+            "2": "3",
+            "3": "4",
+            "4": "4",
+            "5": "5",
+            "6": "5"
+          },
+          "Base Damage": {
+            "1": "130",
+            "2": "150",
+            "3": "160",
+            "4": "180",
+            "5": "190",
+            "6": "210"
+          },
+          "Attack Speeds Stacks": {
+            "1": "5",
+            "2": "6",
+            "3": "7",
+            "4": "8",
+            "5": "9",
+            "6": "10"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Space Escape",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/36/Space_Escape.png/revision/latest?cb=20210802144227",
+        "tags": [
+          "Mobility",
+          "Speed Up"
+        ],
+        "description": "Mobility Speed Up Harley blinks in the designated direction, leaving a magic hat at his place, increasing his Movement Speed by 30% for 2 seconds. Use Again: Use again within 4 seconds to return where the hat is and lose the speed boost. Skill terms Blink Movement ability that can pass through obstacles. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "8.5",
+            "2": "8.1",
+            "3": "7.7",
+            "4": "7.3",
+            "5": "6.9",
+            "6": "6.5"
+          },
+          "Mana Cost": {
+            "1": "60",
+            "2": "70",
+            "3": "80",
+            "4": "90",
+            "5": "100",
+            "6": "110"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Deadly Magic",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Deadly_Magic.png/revision/latest?cb=20210802144459",
+        "tags": [
+          "Burst",
+          "Slow"
+        ],
+        "description": "Burst Slow A single spark can start a praine fire Harley casts a magic ring of fire at the target enemy hero (can be blocked by other heroes), dealing them 200-400 (+60%Total Magic Power) Magic Damage and slowing them by 40% for 1.5 seconds. The magic ring stays around the enemy for 4 seconds, during which Harley can hit the magic ring to damage the enemy with his skills. The magic ring will explode at the end of the duration, dealing 100-200 (+30%Total Magic Power) plus 50% of the enemy's damage taken within the duration as Magic Damage. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "36.0",
+            "2": "33.0",
+            "3": "30.0"
+          },
+          "Mana Cost": {
+            "1": "120",
+            "2": "160",
+            "3": "200"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "300",
+            "3": "400"
+          },
+          "Extra Damage": {
+            "1": "100",
+            "2": "150",
+            "3": "200"
+          }
+        }
+      },
+      {
+        "section": "Buff",
+        "name": "Harley buff",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Harley-Lesley_buff.png/revision/latest?cb=20241130132920",
+        "tags": [],
+        "description": "Increases both HP by 10 when battling with Lesley [.]",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Irithel",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Irithel&srlimit=5"
+    "name": "Irithel",
+    "url": "https://mobile-legends.fandom.com/wiki/Irithel",
+    "intro": "Irithel, the Jungle Heart, is a hero in Mobile Legends: Bang Bang , and is accompanied by Leo.",
+    "infobox": {
+      "Durability": "1"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2300",
+        "level_15": "4540",
+        "growth": "160"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.0",
+        "level_15": "10.2",
+        "growth": "0.2286"
+      },
+      "energy": {
+        "label": "Energy",
+        "values": [
+          "100",
+          "0"
+        ]
+      },
+      "energy_regen": {
+        "label": "Energy Regen",
+        "values": [
+          "5.0",
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "125",
+        "level_15": "244",
+        "growth": "8.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "77 (39.1%)",
+        "growth": "4.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.03",
+        "level_15": "1.24",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.9"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Jungle Heart",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Jungle_Heart.png/revision/latest?cb=20171013131711",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Irithel and Leo's immaculate teamwork allows her to shoot while moving. Each Basic Attack will shoot 2 crossbow bolt(s) (but takes longer to refill) that deal (+55% Total Physical Attack) Physical Damage per bolt (inherits a portion [55%] of Attack Effects ). Moving will build up Jungle Heart, up to a maximum of 10 units, and cause the next Basic Attack to unleash 1 additional bolt(s). Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+        "properties": {
+          "Energy Cost": [
+            "100"
+          ],
+          "Attack Effects": [
+            "55%"
+          ],
+          "Energy Gain": {
+            "1": "5 energy",
+            "2": "0.5 units"
+          }
+        }
+      },
+      {
+        "section": "Skill 1",
+        "name": "Strafe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Strafe.png/revision/latest?cb=20171013131743",
+        "tags": [
+          "AOE",
+          "Debuff"
+        ],
+        "description": "AOE Debuff Irithel launches a volley of arrows on the target area, dealing 330–530 (+60% Total Physical Attack) Physical Damage to enemies within and reducing their Physical Defense by 15–40 for 3 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+        "properties": {
+          "Cooldown": [
+            "10.0"
+          ],
+          "Energy Cost": [
+            "0"
+          ],
+          "Base Damage": {
+            "1": "330",
+            "2": "370",
+            "3": "410",
+            "4": "450",
+            "5": "490",
+            "6": "530"
+          },
+          "Physical Defense Reduction": {
+            "1": "15",
+            "2": "20",
+            "3": "25",
+            "4": "30",
+            "5": "35",
+            "6": "40"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Force of the Queen",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Force_of_the_Queen.png/revision/latest?cb=20171013131826",
+        "tags": [
+          "Slow",
+          "AOE"
+        ],
+        "description": "Slow AOE Leo lets out a piercing roar, dealing 200–350 (+60% Total Physical Attack) Physical Damage to nearby enemies and slowing them by 40% for 2 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.4",
+            "3": "8.8",
+            "4": "8.2",
+            "5": "7.6",
+            "6": "7.0"
+          },
+          "Energy Cost": [
+            "0"
+          ],
+          "Base Damage": {
+            "1": "200",
+            "2": "230",
+            "3": "260",
+            "4": "260",
+            "5": "320",
+            "6": "350"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Heavy Crossbow",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Heavy_Crossbow.png/revision/latest?cb=20171013131857",
+        "tags": [
+          "Buff",
+          "Mobility"
+        ],
+        "description": "Buff Mobility No arrow is shot in vain. Irithel order Leo to leap in the target direction and empowers her crossbow for 10 seconds. For the duration, she gains 30 extra Movement Speed and her Basic Attacks shoot enhanced crossbow bolts, dealing 120 (+60–80% Total Physical Attack) Physical Damage to the target and nearby units. Jungle Heart also accumulates faster for the duration. [ amount unknown ] Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Grock",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Grock&srlimit=5"
+    "name": "Grock",
+    "url": "https://mobile-legends.fandom.com/wiki/Grock",
+    "intro": "Grock, the Fortress Titan, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "9"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2819",
+        "level_15": "6179",
+        "growth": "240"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.4",
+        "level_15": "16.8",
+        "growth": "0.6"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "135",
+        "level_15": "250",
+        "growth": "8.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "68 (36.2%)",
+        "growth": "3.3571"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.01",
+        "level_15": "1.18",
+        "growth": "0.0121"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Bastion of Stone",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Bastion_of_Stone.png/revision/latest?cb=20250811073743",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Grock gains a Shield equal to 10% of his Max HP and empowers the next Basic Attack to deal Physical Damage equal to 4 (+2% Total Physical Defense) % of the target's Max HP (capped at 300 (+20 × Hero Level) against non-hero units). This effect has a 18-12 seconds cooldown (decreases with level), which reduces by 200% when near terrain. Grock gains Control Immunity while casting skills and 30 (+6 × Hero Level) % extra Physical Defense while the Shield is active. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Mighty Swing",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Mighty_Swing.png/revision/latest?cb=20250811073747",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Grock strikes forward with massive force, dealing 240–440 (+100% Extra Physical Attack) Physical Damage . Enemies with obstacle, launched airborne , and take extra Physical Damage equal to 4 (+2% Total Physical Defense) % of their Max HP (capped at 300 (+20 × Hero Level) against non-hero units). If there are no obstacles behind, enemies are only knocked back slightly. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.6",
+            "3": "7.2",
+            "4": "6.8",
+            "5": "6.4",
+            "6": "6.0"
+          },
+          "Base Damage": {
+            "1": "240",
+            "2": "280",
+            "3": "320",
+            "4": "360",
+            "5": "400",
+            "6": "440"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Earthen Rampart",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Earthen_Rampart.png/revision/latest?cb=20250811073745",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE After a brief delay, Grock summons a stone wall in the target area, dealing 100–200 (+60% Extra Physical Attack) Physical Damage and knocking enemies towards him. Use Again : Cancel the wall early.",
+        "properties": {
+          "Cooldown": {
+            "1": "14.0",
+            "2": "13.2",
+            "3": "12.4",
+            "4": "11.6",
+            "5": "10.8",
+            "6": "10.0"
+          },
+          "Base Damage": {
+            "1": "100",
+            "2": "120",
+            "3": "140",
+            "4": "160",
+            "5": "180",
+            "6": "200"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Tectonic Charge",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Tectonic_Charge.png/revision/latest?cb=20250811073748",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE The brave fear nothing. Grock charges forward, dealing 100 (+50% Total Physical Attack) Physical Damage to enemies in his path. Upon hitting terrain, he immediately stops and triggers a massive explosion that knocks nearby enemies airborne for 1 second and deals (+300% Total Physical Attack) . If this skill doesn't hit terrain, 50% of its cooldown is refunded. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Charge Movement ability that cannot pass through obstacles. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+        "properties": {
+          "Cooldown": {
+            "1": "55.0",
+            "2": "50.0",
+            "3": "45.0"
+          },
+          "Base Damage": {
+            "1": "100",
+            "2": "100",
+            "3": "100"
+          },
+          "Added Damage": {
+            "1": "650",
+            "2": "850",
+            "3": "1050"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Argus",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Argus&srlimit=5"
+    "name": "Argus",
+    "url": "https://mobile-legends.fandom.com/wiki/Argus",
+    "intro": "Argus, the Dark Angel, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "7"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2628",
+        "level_15": "5190",
+        "growth": "183"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.0",
+        "level_15": "13.6",
+        "growth": "0.4"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "111",
+        "level_15": "195",
+        "growth": "6"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "77 (39.1%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.09",
+        "level_15": "1.23",
+        "growth": "0.01"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Warmonger",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Warmonger.png/revision/latest?cb=20210313153523",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff When Argus' blade reaches 100 Malice Energy [ amount unknown ] . He will launch a Demonic Slash with his next Basic Attack, dealing 180 (+80% Total Physical Attack) Physical Damage and recovering 150 (+10% Total Physical Attack) HP . This attack ignores 40% of the target's Physical Defense Argus' Demonic Blade gains 5 Malice Energy per second, and each of his Basic Attacks grants 10 Malice Energy. ( critical strikes grant an additional 10 energy) Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Demonic Grip",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e6/Demonic_Grip.png/revision/latest?cb=20210313153103",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE Argus streches out a demonic hand in the target direction, dealing 125–250 (+60% Total Physical Attack) Physical Damage to the first enemy hero or creep hit, stunning them for 0.7 seconds and pulling him and the target towards the other. If no enemy is hit, Argus pulls himself towards the destination instead. Use Again: Argus dashes and strikes in the target direction, dealing 175–300 (+100% Total Physical Attack) Physical Damage to enemies along the path. Skill terms Stunned A state that prevents a target from moving, attacking, or using skills. Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": [
+            "12.0"
+          ],
+          "Base Damage": {
+            "1": "125",
+            "2": "150",
+            "3": "175",
+            "4": "200",
+            "5": "225",
+            "6": "250"
+          },
+          "Extra Damage": {
+            "1": "175",
+            "2": "200",
+            "3": "225",
+            "4": "250",
+            "5": "275",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Meteoric Sword",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Meteoric_Sword.png/revision/latest?cb=20210313153044",
+        "tags": [
+          "Damage",
+          "Debuff"
+        ],
+        "description": "Damage Debuff After a short delay, Argus thrusts his Demonic Blade in the target direction, dealing 120–240 (+100% Total Physical Attack) Physical Damage to enemies hit (deals 200% damage to minions ) and slowing them by 80% for 0.8 seconds, the delay time will decrease as Argus' Attack Speed increases. Enemy heroes hit are Cursed for 4 seconds, during which they will leave a Cursed Trail behind. Argus gains 20% Movement Speed while on a Cursed Trail. Metoric Sword counts as Basic Attack damage and can trigger Attack Effects. Hitting heroes restores 100 Malice Energy (excess is preserved). Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.6",
+            "3": "9.2",
+            "4": "8.8",
+            "5": "8.4",
+            "6": "8.0"
+          },
+          "Base Damage": {
+            "1": "120",
+            "2": "144",
+            "3": "168",
+            "4": "192",
+            "5": "216",
+            "6": "240"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Eternal Evil",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/62/Eternal_Evil.png/revision/latest?cb=20210313152940",
+        "tags": [
+          "Death Immune",
+          "Buff"
+        ],
+        "description": "Death Immune Buff Battlefield is my playground and I think nothing of life and death. Argus draws his Meteoric Sword and removes all debuffs (excluding Suppression ) on himself, dealing 150–300 (+50% Total Physical Attack) Physical Damage and becoming the Fallen Angel for 4 seconds (hitting heroes enhances Warmonger). Fallen Angel: Gain 40% Movement Speed that decays over 1 second; When the transformation ends, he converts all his damage dealt in the Fallen Angel state into HP. If he takes fatal damage, the duration of the Movement Speed boost will be reset, and he will gain Death Immunity for 4 seconds. Enhanced Warmonger: grants 50-60 Malice Energy (50-40) (extra Malice Energy with critical hits). If Death Immunity isn't triggered during his transformation, the cooldown will be reduced by 50% when the skill ends. Skill terms Physical Damage Physical Damage taken can be reduced by increasing Physical Defense.",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Odette",
@@ -6808,7 +8956,7 @@
   },
   {
     "slug": "Popol_and_Kupa",
-    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Popol+and+Kupa&srlimit=5"
+    "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Popol+And+Kupa&srlimit=5"
   },
   {
     "slug": "Yu_Zhong",
