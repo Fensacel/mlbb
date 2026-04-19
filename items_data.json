@@ -444,7 +444,12 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "Attack"
+            "2020",
+            "Attack",
+            "+20% crit chance",
+            "+15% attack speed",
+            "+40 physical attack",
+            "Pasif: Unique Attribute: +20% Lifesteal Unique Passive - Frenzy: Critical strikes grant 20% extra Attack Speed for 2 seconds."
         ]
     },
     {
