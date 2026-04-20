@@ -212,7 +212,7 @@
       "name": "Share",
       "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Shimmering_Lantern.png/revision/latest?cb=20210924145837",
       "tags": [],
-      "description": "Floryn shares the Lantern 's power with an allied hero, slightly increasing their attributes.",
+      "description": "Floryn shares the Lantern 's power with an allied hero, slightly increasing their attributes. The ally that have the Shimmering Lantern granted will deal 100 (+40% Total Physical Attack) (+30% Total Magic Power) Magic Damage extra on their next Basic Attack. Cooldown; 6s",
       "properties": {}
     }
   ]
