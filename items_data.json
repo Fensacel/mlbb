@@ -559,11 +559,7 @@
         "slug": "cursed-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Cursed_Helmet.png",
         "stats": [
-            "1910",
-            "Defense",
-            "+1200 hp",
-            "+20 magic defense",
-            "Pasif: Unique Passive - Burning Soul: Deals (1.2% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions. Unique Passive - Curse: Dealing damage with Burning Soul will reduce the target's Hybrid Defense by 3 for 3 seconds. Stacks up to 3 times."
+            "Defense"
         ]
     },
     {
