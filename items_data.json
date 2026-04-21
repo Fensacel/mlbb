@@ -4,7 +4,11 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
+            "2010",
             "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
             "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
@@ -103,7 +107,7 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "2500 goldAplikasi Tracker Patch MLBB",
+            "2500",
             "Defense",
             "+1800 hp",
             "+20 hp regen",
@@ -141,7 +145,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100 goldAplikasi Tracker Patch MLBB",
+            "2100",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
@@ -204,7 +208,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970 goldAplikasi Tracker Patch MLBB",
+            "1970",
             "Magic",
             "+65 magic power",
             "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
@@ -215,7 +219,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010 goldAplikasi Tracker Patch MLBB",
+            "2010",
             "Attack",
             "+80 physical attack",
             "+10% cooldown reduction",
@@ -238,7 +242,7 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "2250 goldAplikasi Tracker Patch MLBB",
+            "2250",
             "Defense",
             "+750 hp",
             "+10% spell vamp",
@@ -302,7 +306,7 @@
         "slug": "arcane-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Arcane_Boots.png",
         "stats": [
-            "720 goldAplikasi Tracker Patch MLBB",
+            "720",
             "Movement",
             "+15 magic power",
             "+40 movement speed",
@@ -402,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldAplikasi Tracker Patch MLBB",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -415,7 +419,7 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "2000 goldAplikasi Tracker Patch MLBB",
+            "2000",
             "Magic",
             "+75 magic power",
             "+5% movement speed",
@@ -491,7 +495,7 @@
         "slug": "great-dragon-spear",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Great_Dragon_Spear.png",
         "stats": [
-            "2140 goldAplikasi Tracker Patch MLBB",
+            "2140",
             "Attack",
             "+70 physiccal attack",
             "+10% cooldown reduction",
@@ -530,7 +534,7 @@
         "slug": "malefic-gun",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png",
         "stats": [
-            "2120 goldAplikasi Tracker Patch MLBB",
+            "2120",
             "Attack",
             "+20% attack speed",
             "+40 physical attack",
@@ -658,7 +662,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780 goldAplikasi Tracker Patch MLBB",
+            "780",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -681,7 +685,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730 goldAplikasi Tracker Patch MLBB",
+            "730",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
@@ -751,7 +755,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800 goldAplikasi Tracker Patch MLBB",
+            "800",
             "Defense",
             "+450 hp",
             "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
