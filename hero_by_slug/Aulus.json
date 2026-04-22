@@ -1,4 +1,183 @@
 {
   "slug": "Aulus",
-  "error": "429 Client Error: Too Many Requests for url: https://mobile-legends.fandom.com/api.php?action=query&list=search&format=json&srsearch=Aulus&srlimit=5"
+  "name": "Aulus",
+  "url": "https://mobile-legends.fandom.com/wiki/Aulus",
+  "intro": "Aulus, the Warrior of Ferocity, is a hero in Mobile Legends: Bang Bang .",
+  "infobox": {
+    "Durability": "6"
+  },
+  "hero_stats": {
+    "hp": {
+      "label": "HP",
+      "level_1": "2500",
+      "level_15": "5440",
+      "growth": "210"
+    },
+    "hp_regen": {
+      "label": "HP Regen",
+      "level_1": "10.2",
+      "level_15": "16.6",
+      "growth": "0.4571"
+    },
+    "mana": {
+      "label": "Mana",
+      "values": [
+        "0"
+      ]
+    },
+    "mana_regen": {
+      "label": "Mana Regen",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_attack": {
+      "label": "Physical Attack",
+      "level_1": "90",
+      "level_15": "258",
+      "growth": "12"
+    },
+    "magic_power": {
+      "label": "Magic Power",
+      "values": [
+        "0"
+      ]
+    },
+    "physical_defense": {
+      "label": "Physical Defense (Physical Damage Reduced)",
+      "level_1": "20 (14.3%)",
+      "level_15": "83 (40.9%)",
+      "growth": "4.5"
+    },
+    "magic_defense": {
+      "label": "Magic Defense (Magic Damage Reduced)",
+      "level_1": "15 (11.1%)",
+      "level_15": "50 (29.4%)",
+      "growth": "2.5"
+    },
+    "attack_speed": {
+      "label": "Attack Speed",
+      "level_1": "0.88",
+      "level_15": "1.23",
+      "growth": "0.025"
+    },
+    "attack_speed_ratio": {
+      "label": "Attack Speed Ratio",
+      "values": [
+        "70%"
+      ]
+    },
+    "critical_damage": {
+      "label": "Critical Damage",
+      "values": [
+        "200%"
+      ]
+    },
+    "movement_speed": {
+      "label": "Movement Speed",
+      "values": [
+        "250"
+      ]
+    },
+    "basic_attack_range": {
+      "label": "Basic Attack range",
+      "values": [
+        "1.9 (Default) / 2.4 (At max Fighting Spirit stacks)"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "section": "Passive",
+      "name": "Fighting Spirit",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/75/Fighting_Spirit.png/revision/latest?cb=20210903164549",
+      "tags": [
+        "Buff"
+      ],
+      "description": "Buff After dealing damage, Aulus adds a stack of Fighting Spirit to his axe per second for 4 seconds (up to 6 stacks). Each stack grants 7.5 (+0.5 × Hero Level) % Attack Speed . At max Fighting Spirit stacks, Aulus' Basic Attack is enhanced and gains Attack Range. Enhanced Basic Attack: Aulus slams his axe into the ground, dealing (+75% Total Physical Attack) +(4 (+0.4 × Hero Level) % target's Max HP Physical Damage ) to enemies in a line. Skill terms Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc. Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+      "properties": {}
+    },
+    {
+      "section": "Skill 1",
+      "name": "Aulus, Charge!",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Aulus%2C_Charge%21.png/revision/latest?cb=20210903164631",
+      "tags": [
+        "Speed Up",
+        "Buff"
+      ],
+      "description": "Speed Up Buff Aulus starts accumulating Fighting Spriit , removes all slow effects, and gains 30% extra Movement Speed for 5 seconds. If Aulus does not take high-level control effects within 2 seconds, he will enter the Enraged state and gain Control Immunity Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+      "properties": {
+        "Cooldown": {
+          "1": "14.0",
+          "2": "13.6",
+          "3": "13.2",
+          "4": "12.8",
+          "5": "12.4",
+          "6": "12.0"
+        },
+        "Movement Speed Bonus": {
+          "1": "30%",
+          "2": "34%",
+          "3": "38%",
+          "4": "42%",
+          "5": "46%",
+          "6": "50%"
+        }
+      }
+    },
+    {
+      "section": "Skill 2",
+      "name": "The Power of Axe",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/The_Power_of_Axe.png/revision/latest?cb=20210903164704",
+      "tags": [
+        "Mobility",
+        "AOE"
+      ],
+      "description": "Mobility AOE Aulus swings his axe, dealing 240–440 (+100% Total Physical Attack) Physical Damage to enemies in a fan-shaped area and slowing them by 30% for 2 seconds. Upon hitting an enemy, Aulus can cast this skill again to dash forward and smash the ground, dealing 240–440 (+100% Total Physical Attack) Physical Damage to nearby enemies. Skill terms Blink Movement ability that can pass through obstacles.",
+      "properties": {
+        "Cooldown": [
+          "5.0"
+        ],
+        "Base Damage": {
+          "1": "240",
+          "2": "280",
+          "3": "320",
+          "4": "360",
+          "5": "400",
+          "6": "440"
+        }
+      }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Cleaving Axe",
+      "image_url": "",
+      "tags": [
+        "Burst"
+      ],
+      "description": "Burst Aulus repeatedly swings his axe at nearby enemies, dealing 150–270 (+60% Total Physical Attack) Physical Damage each time. After 4 strikes, Aulus briefly charges before unleashing a wider slash, dealing 450–810 (+180% Total Physical Attack) Physical Damage to enemies a large area. During this skill, Aulus gains 20-40% Damage Reduction and a short burst of Movement Speed with each slash. Skill terms Physical Penetration Physical Damage Physical Damage taken can be reduced by increasing Physical Defense. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+      "properties": {
+        "Cooldown": {
+          "1": "50.0",
+          "2": "45.0",
+          "3": "40.0"
+        },
+        "Base Damage": {
+          "1": "150",
+          "2": "210",
+          "3": "270"
+        },
+        "Extra Damage": {
+          "1": "450",
+          "2": "630",
+          "3": "810"
+        },
+        "Damage Reduction": {
+          "1": "20%",
+          "2": "30%",
+          "3": "40%"
+        }
+      }
+    }
+  ]
 }
