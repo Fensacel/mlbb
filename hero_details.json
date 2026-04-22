@@ -15707,9 +15707,9 @@
     "hero_stats": {
       "hp": {
         "label": "HP",
-        "level_1": "2728",
-        "level_15": "5738",
-        "growth": "215"
+        "level_1": "2619",
+        "level_15": "5839",
+        "growth": "230"
       },
       "hp_regen": {
         "label": "HP Regen",
@@ -15719,15 +15719,15 @@
       },
       "mana": {
         "label": "Mana",
-        "level_1": "500",
-        "level_15": "1900",
-        "growth": "100"
+        "values": [
+          "0"
+        ]
       },
       "mana_regen": {
         "label": "Mana Regen",
-        "level_1": "4",
-        "level_15": "6.8",
-        "growth": "0.2"
+        "values": [
+          "0"
+        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -15744,14 +15744,14 @@
       "physical_defense": {
         "label": "Physical Defense (Physical Damage Reduced)",
         "level_1": "19 (13.7%)",
-        "level_15": "69 (36.5%)",
-        "growth": "3.5714"
+        "level_15": "122 (50.4%)",
+        "growth": "7.3571"
       },
       "magic_defense": {
         "label": "Magic Defense (Magic Damage Reduced)",
         "level_1": "15 (11.1%)",
-        "level_15": "38 (24.1%)",
-        "growth": "1.6429"
+        "level_15": "71 (37.2%)",
+        "growth": "4"
       },
       "attack_speed": {
         "label": "Attack Speed",
@@ -15792,7 +15792,7 @@
         "tags": [
           "Buff"
         ],
-        "description": "Buff Terizla gains 1% Damage Reduction for every 2.5% HP lost (up to 20% + Hero Level). He cannot gain Attack Speed and will convert every 1% attack speed he's supposed to recieve into 1 Physical Attack . Skill terms Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Extra ATK Speed Extra ATK Speed gains from skills, items, and emblems.",
+        "description": "Buff Terizla gains 1% extra Damage Reduction (up to 20 (+1 × Hero Level) %) for every 2.5% HP lost. He cannot gain extra Attack Speed and will convert every 1% extra Attack Speed he's supposed to recieve into 1 extra Physical Attack . Skill terms Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage. Extra ATK Speed Extra ATK Speed gains from skills, items, and emblems.",
         "properties": {}
       },
       {
@@ -15803,19 +15803,11 @@
           "AOE",
           "Speed Up"
         ],
-        "description": "AOE Speed Up Terizla cracks the ground with his hammer and the fissure will spread out, dealing 300–450 (+80% Extra Physical Attack) Physical Damage . After the fissure hits the first target, it will drill into the target and slow them by 30%. At the same time, Terizla's Movement Speed will be increased by 25% for 3 seconds. The fissure on target will then explode, dealing 300–450 (+80% Extra Physical Attack) (+enemy's 20% Lost HP) Physical Damage . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Lost HP Lost HP = Max HP - Current HP.",
+        "description": "AOE Speed Up Terizla cracks the ground with his hammer and the fissure will spread out, dealing 300–450 (+80% Extra Physical Attack) Physical Damage . After the fissure hits the first target, it will drill into the target and slow them by 30%. At the same time, Terizla's Movement Speed will be increased by 15-40% for 3.5 seconds. The fissure on target will then explode, dealing 300–450 (+80% Extra Physical Attack) (+enemy's 20% Lost HP) Physical Damage . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Lost HP Lost HP = Max HP - Current HP.",
         "properties": {
           "Cooldown": [
-            "7.0"
+            "8.5"
           ],
-          "Mana Cost": {
-            "1": "75",
-            "2": "80",
-            "3": "85",
-            "4": "90",
-            "5": "95",
-            "6": "100"
-          },
           "Fissure Damage": {
             "1": "300",
             "2": "330",
@@ -15825,11 +15817,11 @@
             "6": "450"
           },
           "Movement Speed Bonus": {
-            "1": "25%",
-            "2": "28%",
-            "3": "31%",
-            "4": "34%",
-            "5": "37%",
+            "1": "15%",
+            "2": "20%",
+            "3": "25%",
+            "4": "30%",
+            "5": "35%",
             "6": "40%"
           },
           "Explosive Damage": {
@@ -15850,23 +15842,25 @@
           "Burst",
           "Slow"
         ],
-        "description": "Burst Slow Terizla waves his hammer in a fan-shaped area ahead. This skill can be cast up to 3 times. The first two attacks deal 135–310 (+160–185% Total Physical Attack) Physical Damage each, while the third deals 225–450 (+220–320% Total Physical Attack) Physical Damage . Enemies hit will also be slowed by 15% for 1.5 seconds (the slow effect can stack). Deals only 60%-100% damage to minions. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "description": "Burst Slow Terizla swings his hammer in a fan-shaped area ahead. This skill can be cast up to 3 times. The first two attacks deal 90–315 (+135% Total Physical Attack) Physical Damage each, while the third deals 225–450 (+220% Total Physical Attack) Physical Damage . Enemies hit will also be slowed by 20% for 1.5 seconds (the Slowing Effect can stack). Deals only 80-100% damage to Minions . Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
         "properties": {
-          "Cooldown": [
-            "5.0"
-          ],
-          "Mana Cost": [
-            "25"
-          ],
-          "1st/2nd Wave Damage": {
-            "1": "135",
-            "2": "170",
-            "3": "205",
-            "4": "240",
-            "5": "275",
-            "6": "310"
+          "Cooldown": {
+            "1": "9.0",
+            "2": "8.0",
+            "3": "7.0",
+            "4": "6.0",
+            "5": "5.0",
+            "6": "4.0"
           },
-          "3rd Wave Damage": {
+          "Base Damage": {
+            "1": "90",
+            "2": "135",
+            "3": "180",
+            "4": "225",
+            "5": "270",
+            "6": "315"
+          },
+          "Massive Damage": {
             "1": "225",
             "2": "270",
             "3": "315",
@@ -15874,12 +15868,12 @@
             "5": "405",
             "6": "450"
           },
-          "Damage to Minions": {
-            "1": "60%",
-            "2": "68%",
-            "3": "76%",
-            "4": "84%",
-            "5": "92%",
+          "Minion Damage Ratio": {
+            "1": "80%",
+            "2": "84%",
+            "3": "88%",
+            "4": "92%",
+            "5": "96%",
             "6": "100%"
           }
         }
@@ -15892,27 +15886,22 @@
           "CC",
           "AOE"
         ],
-        "description": "CC AOE Terizla jumps to the designated area to smash down, causing 300–500 (+100% Total Physical Attack) Physical Damage [, knocking enemy heroes up for approximately 0.7 seconds] and slowing [them] by 45%-50%. Meanwhile, he summons Scaffold , which will reach out a hook to the [enemy heroes] and pull the target for [3] times, causing 150–250 (+30% Total Physical Attack) Physical Damage each time. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "description": "CC AOE Terizla jumps to the designated area, dealing 300–600 (+100% Total Physical Attack) Physical Damage and knocking enemies airborne by 0.6 seconds. He then summons Scaffold and slows enemies by 25-45%. Scaffold will send out a hook at enemy heroes in range and pull them several times while dealing 150–250 (+30% Total Physical Attack) Physical Damage each time. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
         "properties": {
           "Cooldown": {
-            "1": "40.0",
-            "2": "35.0",
-            "3": "30.0"
-          },
-          "Mana Cost": {
-            "1": "100",
-            "2": "120",
-            "3": "140"
+            "1": "50.0",
+            "2": "43.0",
+            "3": "36.0"
           },
           "Smash Damage": {
             "1": "300",
-            "2": "400",
-            "3": "500"
+            "2": "450",
+            "3": "600"
           },
           "Slow Effect": {
-            "1": "40%",
-            "2": "45%",
-            "3": "50%"
+            "1": "25%",
+            "2": "35%",
+            "3": "45%"
           },
           "Pulling Damage": {
             "1": "150",
