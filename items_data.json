@@ -616,7 +616,7 @@
             "+75 magic power",
             "+8% hybrid lifesteal",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Crisis: After casting a skill, the next Basic Attack within 3 seconds deals 100 (+100% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 40% for 1.5 seconds (5 seconds cooldown)."
+            "Pasif: Unique Passive - Crisis: After casting a skill, the next Basic Attack within 3 seconds deals 90 (+60% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 15% for 1.5 seconds (1.5 seconds cooldown)."
         ]
     },
     {
