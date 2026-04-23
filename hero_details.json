@@ -12454,15 +12454,15 @@
       },
       "mana": {
         "label": "Mana",
-        "values": [
-          "0"
-        ]
+        "level_1": "0",
+        "level_15": "0",
+        "growth": "0"
       },
       "mana_regen": {
         "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
+        "level_1": "0",
+        "level_15": "0",
+        "growth": "0"
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -21176,7 +21176,7 @@
       {
         "section": "Passive",
         "name": "Fighting Spirit",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/75/Fighting_Spirit.png/revision/latest?cb=20210903164549",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/75/Fighting_Spirit.png/revision/latest?cb=20260423100255",
         "tags": [
           "Buff"
         ],
@@ -21186,12 +21186,12 @@
       {
         "section": "Skill 1",
         "name": "Aulus, Charge!",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Aulus%2C_Charge%21.png/revision/latest?cb=20210903164631",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8e/Aulus%2C_Charge%21.png/revision/latest?cb=20260423100322",
         "tags": [
           "Speed Up",
           "Buff"
         ],
-        "description": "Speed Up Buff Aulus starts accumulating Fighting Spriit , removes all slow effects, and gains 30% extra Movement Speed for 5 seconds. If Aulus does not take high-level control effects within 2 seconds, he will enter the Enraged state and gain Control Immunity Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+        "description": "Speed Up Buff Aulus starts accumulating Fighting Spirit , removes all slow effects, and gains 30% extra Movement Speed for 5 seconds. If Aulus does not take high-level control effects within 2 seconds, he will enter the Enraged state and gain Control Immunity Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
         "properties": {
           "Cooldown": {
             "1": "14.0",
@@ -21214,7 +21214,7 @@
       {
         "section": "Skill 2",
         "name": "The Power of Axe",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/The_Power_of_Axe.png/revision/latest?cb=20210903164704",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/86/The_Power_of_Axe.png/revision/latest?cb=20260423100344",
         "tags": [
           "Mobility",
           "AOE"
@@ -21237,7 +21237,7 @@
       {
         "section": "Ultimate",
         "name": "Cleaving Axe",
-        "image_url": "",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Cleaving_Axe.png/revision/latest?cb=20260423100403",
         "tags": [
           "Burst"
         ],

@@ -21,15 +21,15 @@
     },
     "mana": {
       "label": "Mana",
-      "values": [
-        "0"
-      ]
+      "level_1": "0",
+      "level_15": "0",
+      "growth": "0"
     },
     "mana_regen": {
       "label": "Mana Regen",
-      "values": [
-        "0"
-      ]
+      "level_1": "0",
+      "level_15": "0",
+      "growth": "0"
     },
     "physical_attack": {
       "label": "Physical Attack",
