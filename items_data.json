@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+40 magic defense",
+            "+5% movement speed",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -18,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -468,9 +473,10 @@
         "stats": [
             "2180",
             "Attack",
+            "+8% lifesteal",
             "+20% attack speed",
             "+35 physical attack",
-            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Each Basic Attack recover (10+4*Hero Level) HP, and counts as an Attack Effect"
+            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Basic Attacks grant 2% Lifesteal for 3 seconds (stacks up to 5 times)."
         ]
     },
     {
