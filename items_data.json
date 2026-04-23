@@ -6,10 +6,10 @@
         "stats": [
             "2010",
             "Defense",
-            "+40 magic defense",
+            "+250 hp",
             "+5% movement speed",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -219,11 +219,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010",
-            "Attack",
-            "+80 physical attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Attribute: +15 Physical Penetration Unique Passive - Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3 seconds (8 seconds cooldown)."
+            "Attack"
         ]
     },
     {
@@ -473,10 +469,9 @@
         "stats": [
             "2180",
             "Attack",
-            "+8% lifesteal",
             "+20% attack speed",
             "+35 physical attack",
-            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Basic Attacks grant 2% Lifesteal for 3 seconds (stacks up to 5 times)."
+            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Each Basic Attack recover (10+4*Hero Level) HP, and counts as an Attack Effect"
         ]
     },
     {
