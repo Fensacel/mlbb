@@ -208,10 +208,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970",
-            "Magic",
-            "+65 magic power",
-            "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
+            "Umum"
         ]
     },
     {
@@ -219,11 +216,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010",
-            "Attack",
-            "+80 physical attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Attribute: +15 Physical Penetration Unique Passive - Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3 seconds (8 seconds cooldown)."
+            "Umum"
         ]
     },
     {
@@ -231,10 +224,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060",
-            "Attack",
-            "+60 physical attack",
-            "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
+            "Umum"
         ]
     },
     {
@@ -242,13 +232,7 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "2250",
-            "Defense",
-            "+750 hp",
-            "+10% spell vamp",
-            "+30 adaptive attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Demonize: When HP drops below 40%, gains 30% Damage Reduction for 3 seconds and reduces skill cooldowns by 2 seconds. This effect has a 60 seconds cooldown. Unique Passive - Defiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%."
+            "Umum"
         ]
     },
     {
@@ -256,12 +240,7 @@
         "slug": "rose-gold-meteor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png",
         "stats": [
-            "2030",
-            "Attack",
-            "+10% lifesteal",
-            "+20% attack speed",
-            "+30 physical attack",
-            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "Umum"
         ]
     },
     {
@@ -281,11 +260,7 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "1500",
-            "Attack",
-            "+15 movement speed",
-            "+60 adaptive attack",
-            "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
+            "Umum"
         ]
     },
     {
@@ -293,12 +268,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880",
-            "Attack",
-            "+20% crit chance",
-            "+35% attack speed",
-            "+20 movement speed",
-            "Pasif: Unique Passive - Typhoon: Every 5–2 seconds (reduced by 0.2 seconds for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150–362 Magic Damage. (This attack can Crit and the damage increases to 200% against Minions.)"
+            "Umum"
         ]
     },
     {
@@ -306,12 +276,7 @@
         "slug": "arcane-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Arcane_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+15 magic power",
-            "+40 movement speed",
-            "+10 magic penetration",
-            "Pasif: -"
+            "Umum"
         ]
     },
     {
@@ -319,12 +284,7 @@
         "slug": "brute-force-breastplate",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Brute_Force_Breastplate.png",
         "stats": [
-            "2070",
-            "Defense",
-            "+800 hp",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Brute Force: Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4 seconds, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks."
+            "Umum"
         ]
     },
     {
@@ -332,11 +292,7 @@
         "slug": "swift-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Swift_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+15% attack speed",
-            "+40 movement speed",
-            "Pasif: -"
+            "Umum"
         ]
     },
     {
@@ -344,13 +300,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820",
-            "Defense",
-            "+600 hp",
-            "+15 magic defense",
-            "+20 movement speed",
-            "+15 physical defense",
-            "Pasif: Unique Passive - Thunderbolt: Every 4 seconds, the next Basic Attack deals 50 (+100% Extra Physical Defense) (+100% Extra Magic Defense) extra True Damage to the target and enemies around them, and briefly slows them by 99%. Hybrid Defense permanently increases by 1 each time the attack hits an enemy hero. (This effect is reduced to 50% for Marksmen and Mages)"
+            "Umum"
         ]
     },
     {
@@ -358,11 +308,7 @@
         "slug": "warrior-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+40 movement speed",
-            "+18 physical defense",
-            "Pasif: Unique Passive - Valor: Gains 4 extra Physical Defense for 3 seconds when taking Physical Damage, up to 20."
+            "Umum"
         ]
     },
     {
@@ -370,12 +316,7 @@
         "slug": "blade-of-the-heptaseas",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Blade_of_the_Heptaseas.png",
         "stats": [
-            "1950",
-            "Attack",
-            "+250 hp",
-            "+70 physical attack",
-            "+15 physical penetration",
-            "Pasif: If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Physical Damage equal to 160 plus 40% Physical Attack, and inflict 40% slow effects upon the target for 1.5s."
+            "Umum"
         ]
     },
     {
@@ -383,10 +324,7 @@
         "slug": "blood-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png",
         "stats": [
-            "2100",
-            "Magic",
-            "+90 magic power",
-            "Pasif: Unique Passive - Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
+            "Umum"
         ]
     },
     {
@@ -394,11 +332,7 @@
         "slug": "chastise-pauldron",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png",
         "stats": [
-            "2100",
-            "Defense",
-            "+900 hp",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
+            "Defense"
         ]
     },
     {
@@ -406,12 +340,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050",
-            "Attack",
-            "+600 hp",
-            "+30 adaptive attack",
-            "+15% cooldown reduction",
-            "Pasif: -"
+            "Attack"
         ]
     },
     {
@@ -419,11 +348,7 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "2000",
-            "Magic",
-            "+75 magic power",
-            "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Umum"
         ]
     },
     {
@@ -583,7 +508,7 @@
         "slug": "feather-of-heaven",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Feather_of_Heaven.png",
         "stats": [
-            "2030",
+            "2030 goldSoftware",
             "Magic",
             "+10% lifesteal",
             "+60 magic power",
@@ -650,11 +575,7 @@
         "slug": "azure-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Azure_Blade.png",
         "stats": [
-            "599",
-            "Attack",
-            "+5 mana regen",
-            "+5% cooldown reduction",
-            "Pasif: Unique Passive - Judgement: After casting a skill, the next Basic Attack within 3 seconds deals 50 extra True Damage (1.5 seconds cooldown)."
+            "Attack"
         ]
     },
     {
@@ -662,11 +583,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780",
-            "Defense",
-            "+20 magic defense",
-            "+20 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20"
+            "Umum"
         ]
     },
     {
@@ -708,11 +625,11 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070",
+            "1870",
             "Magic",
-            "+300 hp",
-            "+75 magic power",
-            "+15% cooldown reduction",
+            "+250 hp",
+            "+50 magic power",
+            "+20% cooldown reduction",
             "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
         ]
     },
@@ -732,10 +649,7 @@
         "slug": "legion-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png",
         "stats": [
-            "910",
-            "Attack",
-            "+60 physical attack",
-            "Pasif: -"
+            "Umum"
         ]
     },
     {
@@ -743,11 +657,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050",
-            "Attack",
-            "+10% lifesteal",
-            "+35 physical attack",
-            "Pasif: Unique Passive - Lifeline: When taking damage that reduces HP below 30%, gains a (+60*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "Umum"
         ]
     },
     {
@@ -755,10 +665,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800",
-            "Defense",
-            "+450 hp",
-            "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
+            "Umum"
         ]
     },
     {
@@ -766,11 +673,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020",
-            "Defense",
-            "540 hp",
-            "23 magic defense",
-            "Pasif: -"
+            "Umum"
         ]
     },
     {
@@ -778,10 +681,7 @@
         "slug": "steel-legplates",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Steel_Legplates.png",
         "stats": [
-            "630",
-            "Defense",
-            "+35 physical defense",
-            "Pasif: -"
+            "Defense"
         ]
     },
     {
