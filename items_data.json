@@ -28,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -62,7 +62,12 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "Defense"
+            "2170",
+            "Defense",
+            "+920 hp",
+            "+4 hp regen",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times)."
         ]
     },
     {
@@ -722,7 +727,10 @@
         "slug": "legion-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png",
         "stats": [
-            "Attack"
+            "910",
+            "Attack",
+            "+60 physical attack",
+            "Pasif: -"
         ]
     },
     {
@@ -755,6 +763,8 @@
         "stats": [
             "1020",
             "Defense",
+            "540 hp",
+            "23 magic defense",
             "Pasif: -"
         ]
     },
