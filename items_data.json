@@ -414,7 +414,11 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "Magic"
+            "2000",
+            "Magic",
+            "+75 magic power",
+            "+5% movement speed",
+            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
         ]
     },
     {
@@ -699,12 +703,7 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070",
-            "Magic",
-            "+300 hp",
-            "+75 magic power",
-            "+15% cooldown reduction",
-            "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
+            "Magic"
         ]
     },
     {
