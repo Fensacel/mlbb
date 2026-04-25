@@ -88,7 +88,7 @@
       "tags": [
         "Buff"
       ],
-      "description": "Buff Selena can switch freely between her two forms. Elven Form : Selena applies \"Abyssal Mark\" with her skills. The mark can stack up to 2 times. When \"Abyssal Trap\" hits an enemy, it immediately adds an \"Abyssal Mark\". Abyssal Form : All damage will consume 1 stack of \"Abyssal Mark\" to deal 225 (+15 × Hero Level) (+40% Total Magic Power) extra Magic Damage . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "description": "Buff Selena can switch freely between her two forms. Elven Form : Selena applies \"Abyssal Mark\" with her skills. The mark can stack up to 2 times. When \"Abyssal Trap\" hits an enemy, it immediately adds an \"Abyssal Mark\". Abyssal Form : All damage will consume 1 stack of \"Abyssal Mark\" to deal 225 (+15 × Hero Level) (+40% Total Magic Power) extra Magic Damage . \"Abyssal Mark\" deals 250% extra damage to non-hero units. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
       "properties": {}
     }
   ]
