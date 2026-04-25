@@ -662,7 +662,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780",
+            "780 goldSoftware",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -802,7 +802,7 @@
         "slug": "winter-crown",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Winter_Crown.png",
         "stats": [
-            "1910",
+            "1910 goldSoftware",
             "Attack",
             "+400 hp",
             "+45 adaptive attack",
