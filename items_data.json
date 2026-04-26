@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -26,7 +31,10 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "Magic"
+            "3000",
+            "Magic",
+            "+165 magic power",
+            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
     {
@@ -449,7 +457,7 @@
         "slug": "clock-of-destiny",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Magic",
             "+400 hp",
             "+400 mana",
@@ -563,7 +571,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -688,7 +696,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700 Software",
+            "700",
             "Magic",
             "+300 hp",
             "+380 mana",
