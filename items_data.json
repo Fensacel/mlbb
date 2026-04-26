@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+40 magic defense",
-            "+5% movement speed",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -495,11 +490,7 @@
         "slug": "great-dragon-spear",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Great_Dragon_Spear.png",
         "stats": [
-            "2140",
-            "Attack",
-            "+70 physiccal attack",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Supreme Warrior: After casting an Ultimate, increase Movement Speed by 30% for 7.5 seconds. This effect has a 15 seconds cooldown."
+            "Attack"
         ]
     },
     {
@@ -674,7 +665,7 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "1910",
+            "1910 goldSoftware",
             "Defense",
             "+80 physical defense",
             "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
