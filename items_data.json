@@ -26,10 +26,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+165 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Magic"
         ]
     },
     {
@@ -102,7 +99,7 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "2500 goldSoftware",
+            "2500",
             "Defense",
             "+1800 hp",
             "+20 hp regen",
@@ -378,7 +375,7 @@
         "slug": "blood-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png",
         "stats": [
-            "2100 goldSoftware",
+            "2100",
             "Magic",
             "+90 magic power",
             "Pasif: Unique Passive - Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
@@ -389,7 +386,11 @@
         "slug": "chastise-pauldron",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png",
         "stats": [
-            "Defense"
+            "2100",
+            "Defense",
+            "+900 hp",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -448,7 +449,7 @@
         "slug": "clock-of-destiny",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png",
         "stats": [
-            "2030",
+            "2030 goldSoftware",
             "Magic",
             "+400 hp",
             "+400 mana",
@@ -562,7 +563,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -687,7 +688,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700",
+            "700 Software",
             "Magic",
             "+300 hp",
             "+380 mana",
