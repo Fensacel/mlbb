@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -601,7 +601,7 @@
         "slug": "starlium-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/26/Starlium_Scythe.png",
         "stats": [
-            "2120 goldSoftware",
+            "2120",
             "Magic",
             "+6 mana regen",
             "+75 magic power",
@@ -723,7 +723,10 @@
         "slug": "legion-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png",
         "stats": [
-            "Attack"
+            "910",
+            "Attack",
+            "+60 physical attack",
+            "Pasif: -"
         ]
     },
     {
