@@ -721,7 +721,7 @@
         "slug": "fury-hammer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Fury_Hammer.png",
         "stats": [
-            "830",
+            "830 goldSoftware",
             "Attack",
             "+35 physical attack",
             "Pasif: Unique Attribute: +12 Physical Penetration"
@@ -755,7 +755,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800",
+            "800 goldSoftware",
             "Defense",
             "+450 hp",
             "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
