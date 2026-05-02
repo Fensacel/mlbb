@@ -483,7 +483,11 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "Attack"
+            "2000",
+            "Attack",
+            "+15% attack speed",
+            "+55 physical attack",
+            "Pasif: Unique Passive - Swift: Every 1% extra Crit Chance gained is converted into 1% extra Attack Speed. Unique Passive - Endless Strike: After every 2 non-Crit Basic Attacks, the Attack Speed of the next Basic Attack is increased by 80% (and Attack Speed cap is increased to 500%) and triggers Attack Effects an additional 2 time(s)."
         ]
     },
     {
