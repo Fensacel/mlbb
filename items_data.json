@@ -406,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -755,7 +755,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800 goldSoftware",
+            "800",
             "Defense",
             "+450 hp",
             "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
