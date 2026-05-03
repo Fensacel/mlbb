@@ -148,7 +148,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+8% spell vamp",
+            "+12% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -406,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
