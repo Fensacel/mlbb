@@ -534,7 +534,11 @@
         "slug": "malefic-gun",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png",
         "stats": [
-            "Attack"
+            "2120",
+            "Attack",
+            "+20% attack speed",
+            "+40 physical attack",
+            "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Malefic Energy: Increases Basic Attack range by 12%. When hitting a target, gains 10% Movement Speed for 0.5 seconds."
         ]
     },
     {
@@ -692,7 +696,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700 goldSoftware",
+            "700",
             "Magic",
             "+300 hp",
             "+380 mana",
@@ -751,7 +755,10 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "Defense"
+            "800",
+            "Defense",
+            "+450 hp",
+            "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
         ]
     },
     {
