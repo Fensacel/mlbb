@@ -584,9 +584,9 @@
   },
   {
     "slug": "Tigreal",
-    "name": "Tigreal/Patch history",
-    "url": "https://mobile-legends.fandom.com/wiki/Tigreal/Patch_history",
-    "intro": "\"As a Tank, Tigreal's Skill 1 even had a longer area of effect than that of some Mages who use Mana, so we made some adjustments accordingly.\"",
+    "name": "Tigreal/Cosmetics",
+    "url": "https://mobile-legends.fandom.com/wiki/Tigreal/Cosmetics",
+    "intro": "",
     "infobox": {},
     "hero_stats": {},
     "abilities": []
@@ -2820,9 +2820,9 @@
   },
   {
     "slug": "Alpha",
-    "name": "Alpha/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Alpha/Guide",
-    "intro": "Valir - Of course, the anti-melee hero. Valir is often a nightmare for Alpha if his ult is on cooldown as he can just keep Alpha away all day.",
+    "name": "Alpha/Archives",
+    "url": "https://mobile-legends.fandom.com/wiki/Alpha/Archives",
+    "intro": "\"After the Emblem changes, Alpha is too powerful in the early game, so we're toning down his damage and HP Regen.\"",
     "infobox": {},
     "hero_stats": {},
     "abilities": []
@@ -8533,8 +8533,8 @@
   },
   {
     "slug": "Harith",
-    "name": "Harith/History",
-    "url": "https://mobile-legends.fandom.com/wiki/Harith/History",
+    "name": "Harith/Guide",
+    "url": "https://mobile-legends.fandom.com/wiki/Harith/Guide",
     "intro": "",
     "infobox": {},
     "hero_stats": {},
@@ -12669,9 +12669,9 @@
   },
   {
     "slug": "Melissa",
-    "name": "Melissa/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Melissa/Guide",
-    "intro": "",
+    "name": "Melissa/Patch history",
+    "url": "https://mobile-legends.fandom.com/wiki/Melissa/Patch_history",
+    "intro": "\"As the meta evolves, we decided to revert some of the nerf on Melissa to make her more compatible.\"",
     "infobox": {},
     "hero_stats": {},
     "abilities": []
