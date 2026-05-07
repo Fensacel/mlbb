@@ -6134,203 +6134,12 @@
   },
   {
     "slug": "Lesley",
-    "name": "Lesley",
-    "url": "https://mobile-legends.fandom.com/wiki/Lesley",
-    "intro": "Lesley, the Deadly Sniper, is a hero in Mobile Legends: Bang Bang .",
-    "infobox": {
-      "Durability": "1"
-    },
-    "hero_stats": {
-      "hp": {
-        "label": "HP",
-        "level_1": "2280",
-        "level_15": "4240",
-        "growth": "140"
-      },
-      "hp_regen": {
-        "label": "HP Regen",
-        "level_1": "7.2",
-        "level_15": "10.4",
-        "growth": "0.2286"
-      },
-      "energy": {
-        "label": "Energy",
-        "values": [
-          "100",
-          "0"
-        ]
-      },
-      "energy_regen": {
-        "label": "Energy Regen",
-        "values": [
-          "3",
-          "0"
-        ]
-      },
-      "physical_attack": {
-        "label": "Physical Attack",
-        "level_1": "145",
-        "level_15": "243",
-        "growth": "7"
-      },
-      "magic_power": {
-        "label": "Magic Power",
-        "values": [
-          "0"
-        ]
-      },
-      "physical_defense": {
-        "label": "Physical Defense (Physical Damage Reduced)",
-        "level_1": "14 (10.4%)",
-        "level_15": "72 (37.5%)",
-        "growth": "4.1429"
-      },
-      "magic_defense": {
-        "label": "Magic Defense (Magic Damage Reduced)",
-        "level_1": "15 (11.1%)",
-        "level_15": "50 (29.4%)",
-        "growth": "2.5"
-      },
-      "attack_speed": {
-        "label": "Attack Speed",
-        "level_1": "1.04",
-        "level_15": "1.25",
-        "growth": "0.015"
-      },
-      "attack_speed_ratio": {
-        "label": "Attack Speed Ratio",
-        "values": [
-          "100%"
-        ]
-      },
-      "critical_damage": {
-        "label": "Critical Damage",
-        "values": [
-          "140%"
-        ]
-      },
-      "movement_speed": {
-        "label": "Movement Speed",
-        "values": [
-          "240"
-        ]
-      },
-      "basic_attack_range": {
-        "label": "Basic Attack range",
-        "values": [
-          "4.9"
-        ]
-      }
-    },
-    "abilities": [
-      {
-        "section": "Passive",
-        "name": "Lethal Shot",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Lethal_Shot.png/revision/latest?cb=20220908163801",
-        "tags": [
-          "Buff"
-        ],
-        "description": "Buff If Lesley doesn't take damage for 5 seconds, her next Basic Attack gains extra range and 50% Crit Chance and deals 100 (+100% Total Physical Attack) True Damage (20% extra damage against minions). Each point of fixed Physical Penetration and each 1% Physical Penetration Lesley acquires is converted into 1% Crit Damage , but her base Crit Damage is reduced to 130%. Lesley's Basic Attack restores 5 points of energy and her Lethal Shot doubles the amount of energy restored. The cooldown of Lethal Shot will activate immediately after Lesley uses a skill. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Physical PEN Deduct enemy’s Physical Defense by a fixed point or by percent. Enemy’s actual Physical Defense = Enemy’s Physical Defense × (100% - Percent of Physical PEN) - - Fixed points of Physical PEN. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
-        "properties": {}
-      },
-      {
-        "section": "Skill 1",
-        "name": "Master of Camouflage",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Master_of_Camouflage.png/revision/latest?cb=20220908163809",
-        "tags": [
-          "Conceal",
-          "Buff"
-        ],
-        "description": "Conceal Buff Lesley enters the Camouflage state, gaining double Energy Regen , 40% extra Movement Speed , and 85–135 extra Physical Attack . The state lasts 3 seconds or until Lesley takes or deals damage. Enemies can detect Lesley's position through distortions of their surroundings. Skill terms Camouflage Enter Stealth State within the duration, won't be easily spotted by the enemy, can't be targeted by skills. Physical ATK Total current Physical ATK. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
-        "properties": {
-          "Cooldown": {
-            "1": "5.0",
-            "2": "4.4",
-            "3": "3.8",
-            "4": "3.2",
-            "5": "2.6",
-            "6": "2.0"
-          },
-          "Energy Cost": [
-            "30"
-          ],
-          "Attack Bonus": {
-            "1": "85",
-            "2": "95",
-            "3": "105",
-            "4": "115",
-            "5": "125",
-            "6": "135"
-          }
-        }
-      },
-      {
-        "section": "Skill 2",
-        "name": "Tactical Grenade",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Tactical_Grenade.png/revision/latest?cb=20220908163815",
-        "tags": [
-          "CC",
-          "Mobility"
-        ],
-        "description": "CC Mobility Lesley throws a tactical grenade in the target direction while slightly jumping back , dealing 150–300 to enemies in a cone and knocking them back . Lesley can cast this skill during the Ultimate Snipe to cancel the state and immediately fire a Fatal Bullet at the target. The attack is only triggered when there are unfired Fatal Bullets left. Skill terms Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration. Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
-        "properties": {
-          "Cooldown": {
-            "1": "10.0",
-            "2": "9.4",
-            "3": "8.8",
-            "4": "8.2",
-            "5": "7.6",
-            "6": "7.0"
-          },
-          "Energy Cost": [
-            "40"
-          ],
-          "Base Damage": {
-            "1": "150",
-            "2": "180",
-            "3": "210",
-            "4": "240",
-            "5": "270",
-            "6": "300"
-          }
-        }
-      },
-      {
-        "section": "Ultimate",
-        "name": "Ultimate Snipe",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Ultimate_Snipe.png/revision/latest?cb=20220908163825",
-        "tags": [
-          "Burst"
-        ],
-        "description": "Burst Lesley [gains vision to nearby enemies and can lock] onto the target enemy hero and fires 4 Lethal Bullets in succession, each dealing 250–350 (+80% Extra Physical Attack) (+enemy's 5% Lost HP) Physical Damage and restoring 10 energy on hit. The Bullets can be blocked by other enemy heroes. If this skill is interrupted, each remaining Bullet reduces the skill cooldown by 10%. Passive: Lesley's Crit Chance is increased by 5%–15%. Skill terms Lost HP Lost HP = Max HP - Current HP. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
-        "properties": {
-          "Cooldown": [
-            "40.0"
-          ],
-          "Energy Cost": [
-            "0"
-          ],
-          "Crit Chance": {
-            "1": "5%",
-            "2": "10%",
-            "3": "15%"
-          },
-          "Base Damage": {
-            "1": "250",
-            "2": "300",
-            "3": "350"
-          }
-        }
-      },
-      {
-        "section": "Buff",
-        "name": "Lesley buff",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Harley-Lesley_buff.png/revision/latest?cb=20241130132920",
-        "tags": [],
-        "description": "Increases both HP by 10 when battling with Harley [.]",
-        "properties": {}
-      }
-    ]
+    "name": "Lesley/Guide",
+    "url": "https://mobile-legends.fandom.com/wiki/Lesley/Guide",
+    "intro": "Karina - Her 1st skill will eat up Lesley's attacks (& even ultimate) as they also count as basic attacks.",
+    "infobox": {},
+    "hero_stats": {},
+    "abilities": []
   },
   {
     "slug": "Jawhead",
@@ -6756,126 +6565,32 @@
   },
   {
     "slug": "Gusion",
-    "name": "Gusion",
-    "url": "https://mobile-legends.fandom.com/wiki/Gusion",
-    "intro": "Gusion, the Holy Blade, is a hero in Mobile Legends: Bang Bang .",
-    "infobox": {
-      "Durability": "3"
-    },
-    "hero_stats": {
-      "hp": {
-        "label": "HP",
-        "level_1": "2578",
-        "level_15": "4888",
-        "growth": "165"
-      },
-      "hp_regen": {
-        "label": "HP Regen",
-        "level_1": "7.8",
-        "level_15": "14.0",
-        "growth": "0.4429"
-      },
-      "mana": {
-        "label": "Mana",
-        "level_1": "500",
-        "level_15": "1900",
-        "growth": "100"
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "level_1": "4",
-        "level_15": "6.8",
-        "growth": "0.2"
-      },
-      "physical_attack": {
-        "label": "Physical Attack",
-        "level_1": "119",
-        "level_15": "234",
-        "growth": "8.21"
-      },
-      "magic_power": {
-        "label": "Magic Power",
-        "values": [
-          "0"
-        ]
-      },
-      "physical_defense": {
-        "label": "Physical Defense (Physical Damage Reduced)",
-        "level_1": "18 (13%)",
-        "level_15": "67 (35.8%)",
-        "growth": "3.5"
-      },
-      "magic_defense": {
-        "label": "Magic Defense (Magic Damage Reduced)",
-        "level_1": "15 (11.1%)",
-        "level_15": "38 (24.1%)",
-        "growth": "1.6429"
-      },
-      "attack_speed": {
-        "label": "Attack Speed",
-        "level_1": "1.11",
-        "level_15": "1.46",
-        "growth": "0.025"
-      },
-      "attack_speed_ratio": {
-        "label": "Attack Speed Ratio",
-        "values": [
-          "100%"
-        ]
-      },
-      "critical_damage": {
-        "label": "Critical Damage",
-        "values": [
-          "200%"
-        ]
-      },
-      "movement_speed": {
-        "label": "Movement Speed",
-        "values": [
-          "260"
-        ]
-      }
-    },
+    "name": "Gusion/Archives",
+    "url": "https://mobile-legends.fandom.com/wiki/Gusion/Archives",
+    "intro": "The Paxley family is one of the most powerful, proud and prestigious magic families in the Land of Dawn , and each of it's member is raised to become a mage of the finest order. In their eyes, the path of the magician is the most sacred and noble vocation there is, and all those who brandish a sword in battle are merely considered as insubstantial weaklings and dim-witted fools. Gusion, however, was determined to break the mold. The patriarch's fourth son, Gusion, exhibited a high affinity towards light elements at a very early age, but rather than spend his days with his nose buried in a book studying spells, Gusion would use his control over light to imbue himself with the speed, to run laps of the family estate in mere minutes, and to enchant old ceremonial swords with powerful magical properties of the Holy light. He always believed that the family elders were incurably stubborn and rebelled against their wishes at every opportunity.",
+    "infobox": {},
+    "hero_stats": {},
     "abilities": [
       {
         "section": "Passive",
         "name": "Dagger Specialist",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Dagger_Specialist.png/revision/latest?cb=20220908163637",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20220203035642",
         "tags": [
           "Buff",
           "Heal"
         ],
-        "description": "Buff Heal Each skill cast adds a rune to Gusion's dagger (stacks up to 4 times). Each stack enhances Gusion's next Basic Attack to deal additional damage equal to 3% of the target's max HP and restore 50 (+25% Total Magic Power) HP to himself. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Max HP The maximum HP currently can have. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
-        "properties": {
-          "Targets Lost HP": {
-            "1": "3%",
-            "2": "6%",
-            "3": "9%",
-            "4": "12%"
-          },
-          "Base HP Regen": {
-            "1": "50",
-            "2": "100",
-            "3": "150",
-            "4": "200"
-          },
-          "Magic Scaling": {
-            "1": "25%",
-            "2": "50%",
-            "3": "75%",
-            "4": "100%"
-          }
-        }
+        "description": "Buff Heal Each time Gusion casts a skill, a rune will be added to Gusion's dagger. After stacking 3 runes, the next Basic Attack will deal (+100% Total Physical Attack) (+target's 15% Lost HP) Magic Damage , and restore HP equal to 80% of the damage dealt. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Lost HP Lost HP = Max HP - Current HP. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+        "properties": {}
       },
       {
         "section": "Skill 1",
         "name": "Sword Spike",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest?cb=20220908163717",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest/scale-to-width-down/20?cb=20220908163717",
         "tags": [
           "Damage",
           "Mobility"
         ],
-        "description": "Damage Mobility Gusion throws a dagger in the target direction, dealing 200–300 (+50% Total Magic Power) Magic Damage to the first enemy hit and marking them. Use Again }: Gusion moves behind the marked enemy, dealing 200–300 (+100% Total Magic Power) Magic Damage to them. This skill cannot be interrupted while Gusion is moving behind the marked enemy. Skill terms Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "description": "Damage Mobility Gusion throws a dagger in the targeted direction, dealing 200–300 (+50% Total Magic Power) Magic Damage to the first target hit. Use Again : Gusion moves behind the target and deals 200–300 (+100% Total Magic Power) Magic Damage to it. Skill terms Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
         "properties": {
           "Cooldown": {
             "1": "9.0",
@@ -6885,9 +6600,6 @@
             "5": "6.6",
             "6": "6.0"
           },
-          "Mana Cost": [
-            "70"
-          ],
           "Base Damage": {
             "1": "200",
             "2": "220",
@@ -6909,12 +6621,12 @@
       {
         "section": "Skill 2",
         "name": "Shadowblade Slaughter",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Shadowblade_Slaughter.png/revision/latest?cb=20220908163704",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Shadowblade_Slaughter.png/revision/latest/scale-to-width-down/20?cb=20220908163704",
         "tags": [
           "AOE",
           "Slow"
         ],
-        "description": "AOE Slow Gusion throws a volley of [five] daggers in the target direction, each dealing 110–210 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 6% for 2 seconds (when hit by multiple daggers, the slow effect can stack up to 30%). Use Again: Gusion recalls the daggers, each dealing 65–115 (+40% Total Magic Power) Magic Damage to enemies in its path. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "description": "AOE Slow Gusion throws daggers forward, each dealing 110–210 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 6% for 2 seconds (multiple daggers' slow effects can stack, up to 30%). Use Again : Gusion calls the daggers back, each dealing 65–115 (+40% Total Magic Power) Magic Damage to enemies along the way. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
         "properties": {
           "Cooldown": {
             "1": "11.0",
@@ -6953,12 +6665,12 @@
       {
         "section": "Ultimate",
         "name": "Incandescence",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Incandescence.png/revision/latest?cb=20220908163651",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest/scale-to-width-down/20?cb=20220908163717",
         "tags": [
           "Mobility",
           "Buff"
         ],
-        "description": "Mobility Buff Gusion dashes to the target location, resetting the cooldown of Sword Spike and Shadowblade Slaughter . If Shadowblade Slaugther was cast once before the reset, Gusion can throw another five daggers on his next Shadowblade Slaughter, and recall a total of ten daggers afterward. Use Again: Gusion dashes a short distance in the target location.",
+        "description": "Mobility Buff Gusion dashes to the targeted location, immediately reset the CD of Sword Spike and Shadowblade Slaughter . Use Again : Use again to dash a short distance in the targeted direction. After Shadowblade Slaughter being reset, Gusion will be able to immediately throw five daggers, and recall ten dagger if the skill is used again.",
         "properties": {
           "Cooldown": {
             "1": "28.0",
@@ -8331,205 +8043,12 @@
   },
   {
     "slug": "Thamuz",
-    "name": "Thamuz",
-    "url": "https://mobile-legends.fandom.com/wiki/Thamuz",
-    "intro": "Thamuz, the Lord Lava, is a hero in Mobile Legends: Bang Bang .",
-    "infobox": {
-      "Durability": "7"
-    },
-    "hero_stats": {
-      "hp": {
-        "label": "HP",
-        "level_1": "2758",
-        "level_15": "5740",
-        "growth": "213"
-      },
-      "hp_regen": {
-        "label": "HP Regen",
-        "level_1": "7.4",
-        "level_15": "13.0",
-        "growth": "0.4"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
-      "physical_attack": {
-        "label": "Physical Attack",
-        "level_1": "107",
-        "level_15": "222",
-        "growth": "8.21"
-      },
-      "magic_power": {
-        "label": "Magic Power",
-        "values": [
-          "0"
-        ]
-      },
-      "physical_defense": {
-        "label": "Physical Defense (Physical Damage Reduced)",
-        "level_1": "17 (12.4%)",
-        "level_15": "80 (40%)",
-        "growth": "4.5"
-      },
-      "magic_defense": {
-        "label": "Magic Defense (Magic Damage Reduced)",
-        "level_1": "15 (11.1%)",
-        "level_15": "50 (29.4%)",
-        "growth": "2.5"
-      },
-      "attack_speed": {
-        "label": "Attack Speed",
-        "level_1": "1.05",
-        "level_15": "1.26",
-        "growth": "0.015"
-      },
-      "attack_speed_ratio": {
-        "label": "Attack Speed Ratio",
-        "values": [
-          "100%"
-        ]
-      },
-      "critical_damage": {
-        "label": "Critical Damage",
-        "values": [
-          "200%"
-        ]
-      },
-      "movement_speed": {
-        "label": "Movement Speed",
-        "values": [
-          "250"
-        ]
-      },
-      "basic_attack_range": {
-        "label": "Basic Attack range",
-        "values": [
-          "1.8"
-        ]
-      }
-    },
-    "abilities": [
-      {
-        "section": "Passive",
-        "name": "Grand Lord Lava",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Grand_Lord_Lava.png/revision/latest?cb=20250917080548",
-        "tags": [
-          "Debuff"
-        ],
-        "description": "Debuff Thamuz's Basic Attacks have a 10%-60% chance (based on Lava's Rage ) to conjure Lava Energy beneath the target that erupts after a brief delay, dealing 55 (+8 × Hero Level) (+60% Total Physical Attack) True Damage . Basic Attacks that don't trigger Lava Energy will increase Thamuz's Lava Rage. When without Scythes , Thamuz gains 25% Movement Speed . After retrieving his Scythes , his next Basic Attack slows the target by 30% and is guaranteed to trigger Lava Energy Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
-        "properties": {}
-      },
-      {
-        "section": "Skill 1",
-        "name": "Molten Scythes",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Molten_Scythes.png/revision/latest?cb=20250917080550",
-        "tags": [
-          "AOE",
-          "Slow"
-        ],
-        "description": "AOE Slow Thamuz tosses Scythes in the target direction. After travelling for a certain distance or hitting the first enemy hero, they deal 120–270 (+60% Total Physical Attack) Physical Damage . The Scythes will then slow nearby enemies by 30% and deal 45–80 (+20% Extra Physical Attack) Physical Damage every 0.5 seconds. After leaving Thamuz for [≈5 seconds] or a certain distance, the Scythes will return to Thamuz and drag enemies in their path to him. Thamuz can approach the Scythes or cast the skill again to retrieve them. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together.",
-        "properties": {
-          "Cooldown": [
-            "3.0"
-          ],
-          "Base Damage": {
-            "1": "120",
-            "2": "150",
-            "3": "180",
-            "4": "210",
-            "5": "240",
-            "6": "270"
-          },
-          "Sustained Damage": {
-            "1": "45",
-            "2": "52",
-            "3": "59",
-            "4": "66",
-            "5": "73",
-            "6": "80"
-          }
-        }
-      },
-      {
-        "section": "Skill 2",
-        "name": "Chasm Trample",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Chasm_Trample.png/revision/latest?cb=20250917080546",
-        "tags": [
-          "Mobility",
-          "Buff"
-        ],
-        "description": "Mobility Buff Thamuz jumps to a designated area to deal 230–355 (+60% Extra Physical Attack) Physical Damage and slow the enemy units by 25% for 2 seconds upon landing. If the scythes are still travelling, they will return to Thamuz and Molten Scythes will reset its CD instantly. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
-        "properties": {
-          "Cooldown": {
-            "1": "8.0",
-            "2": "7.6",
-            "3": "7.2",
-            "4": "6.8",
-            "5": "6.4",
-            "6": "6.0"
-          },
-          "Base Damage": {
-            "1": "230",
-            "2": "255",
-            "3": "280",
-            "4": "305",
-            "5": "330",
-            "6": "355"
-          }
-        }
-      },
-      {
-        "section": "Ultimate",
-        "name": "Cauterant Inferno",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Cauterant_Inferno.png/revision/latest?cb=20250917080545",
-        "tags": [
-          "AOE",
-          "Buff"
-        ],
-        "description": "AOE Buff Thamuz spouts the lava stored in his body, dealing 300–480 (+80% Total Physical Attack) Physical Damage to nearby enemies and creating a Cauterant Inferno around him. The Cauterant Inferno lasts 9 seconds and deals 30–60 (+10% Extra Physical Attack) Physical Damage every 0.5 seconds to enemies in the area. Meanwhile, Thamuz gains 800–1200 (+50% Extra HP) extra Max HP, heals himself by the same amount, and increases his Attack Speed by 60%-100%. He also recovers 1.5%-2.5% Max HP each time he deals damage with Basic Attacks or his Scythes . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%). ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient.",
-        "properties": {
-          "Cooldown": {
-            "1": "38.0",
-            "2": "34.0",
-            "3": "30.0"
-          },
-          "Base Damage": {
-            "1": "300",
-            "2": "390",
-            "3": "480"
-          },
-          "Sustained Damage": {
-            "1": "30",
-            "2": "45",
-            "3": "60"
-          },
-          "HP Regen": {
-            "1": "1.5%",
-            "2": "2%",
-            "3": "2.5%"
-          },
-          "Attack Speed": {
-            "1": "60%",
-            "2": "80%",
-            "3": "100%"
-          },
-          "Max HP": {
-            "1": "800",
-            "2": "1000",
-            "3": "1200"
-          }
-        }
-      }
-    ]
+    "name": "Thamuz/Patch history",
+    "url": "https://mobile-legends.fandom.com/wiki/Thamuz/Patch_history",
+    "intro": "\"Thamuz currently takes too long to scale, making him unable to fulfill the Fighter/Tank role until he has three or more equipment items. To address this, we've increased his early game survivability.\"",
+    "infobox": {},
+    "hero_stats": {},
+    "abilities": []
   },
   {
     "slug": "Harith",
