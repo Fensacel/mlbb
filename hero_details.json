@@ -8557,12 +8557,188 @@
   },
   {
     "slug": "Ling",
-    "name": "Ling/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Ling/Audio",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Ling",
+    "url": "https://mobile-legends.fandom.com/wiki/Ling",
+    "intro": "Ling, the Cyan Finch, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2369",
+        "level_15": "4469",
+        "growth": "150"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.8",
+        "level_15": "14.0",
+        "growth": "0.4429"
+      },
+      "energy": {
+        "label": "Energy",
+        "values": [
+          "100",
+          "0"
+        ]
+      },
+      "energy_regen": {
+        "label": "Energy Regen",
+        "values": [
+          "4",
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "125",
+        "level_15": "209",
+        "growth": "6"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "74 (38.1%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.01",
+        "level_15": "1.26",
+        "growth": "0.0179"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "70%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "150%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Cloud Walker",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Cloud_Walker.png/revision/latest?cb=20240622134906",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Ling's superb Lightness Skill helps him leap among walls. When resting on the wall, He gains 4 Lightness Points per second when he's on a walland 5 extra Lightness Points each time he deals damage. Ling gains 1.6 times Crit Chance from all sources but only has 140% Critical Damage . Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Crit Damage The ratio of Crit Damage to Base Damage. The default is 200%. Crit Damage Dealt = Original Damage × (200% + All Crit Damage Increase% - All Crit Damage Decrease%).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Finch Poise",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Finch_Poise.png/revision/latest?cb=20240622134915",
+        "tags": [
+          "Mobility",
+          "Buff"
+        ],
+        "description": "Mobility Buff Passive: Ling’s Critical Chance is permanently increased by 2.5%–12.5%. Active: Ling casts his Lightness Skill, leaping onto the designated wall, entering half-stealth state, restoring Lightness Points more quickly and gaining 30% Movement Speed . If Ling receives damage, he will leave the half-stealth state. If he is controlled , he will fall onto the ground and be slowed by 30% for 2 seconds. When using this skill to jump from a wall to another, it will reset the Cooldown and refresh the half-stealth state. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Half-Stealth Enter Half-Stealth State within the duration, won't be easily spotted visually by the enemy but can be targeted by skills.",
+        "properties": {
+          "Cooldown": [
+            "20.0"
+          ],
+          "Energy Cost": [
+            "30"
+          ],
+          "Critical Chance": {
+            "1": "2.5%",
+            "2": "4.5%",
+            "3": "6.5%",
+            "4": "8.5%",
+            "5": "10.5%",
+            "6": "12.5%"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Defiant Sword",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Defiant_Sword.png/revision/latest?cb=20240622134923",
+        "tags": [
+          "Mobility",
+          "Damage"
+        ],
+        "description": "Mobility Damage Ling charges in a designated direction and stabs the nearby enemies at his destination, dealing 300–400 (+50% Total Physical Attack) Physical Damage . If Ling casts this skill when he is on the wall, he'll dash to the target location on the ground, dealing 300–400 (+50% Total Physical Attack) Physical Damage to enemies within a small area and slowing them down by 30% for 1.5 seconds. If this attack critically strikes , the enemies will be slowed by extra 45% for 0.75 seconds. Defiant Sword is regarded as Basic Attack , can trigger attack effects. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. ATK Effect",
+        "properties": {
+          "Cooldown": [
+            "2.5"
+          ],
+          "Energy Cost": [
+            "35"
+          ],
+          "Base Damage": {
+            "1": "300",
+            "2": "320",
+            "3": "340",
+            "4": "360",
+            "5": "380",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Tempest of Blades",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Tempest_of_Blades.png/revision/latest?cb=20240622134931",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Ling leaps into the air, becoming invincible and gaining 10% extra Movement Speed for 1.5 seconds. He can move freely when in the air. He then lands on the ground, dealing 250–450 (+100% Total Physical Attack) Physical Damage to enemies in the area, knocking those in the center airborne for 1 second, slowing the enemies by 40% for 1.5s afterwards and creating a Sword Field for 8 seconds. Four Tempest of Blades will also appear on the edge of the Sword Field. Ling can touch them to reduce the cooldown of Finch Poise by 4 seconds, reset the cooldown of Defiant Sword , and gain 25 Lightness points . Skill terms Invincible You are immune to enemy CC and damage effects within the duration. Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+        "properties": {
+          "Cooldown": {
+            "1": "52.0",
+            "2": "49.0",
+            "3": "46.0"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "350",
+            "3": "450"
+          }
+        }
+      },
+      {
+        "section": "BUFF",
+        "name": "The Oriental Fighters",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+        "tags": [],
+        "description": "[Ling] will gain [1] movement speed boost [for each allied] Oriental [Fighter] in the battlefield. (Original text: The Oriental Fighters: A team will gain higher movement speed boost with more Oriental Fighters in the battlefield. )",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Dyrroth",
@@ -9158,12 +9334,213 @@
   },
   {
     "slug": "Wanwan",
-    "name": "Wanwan/Archives",
-    "url": "https://mobile-legends.fandom.com/wiki/Wanwan/Archives",
-    "intro": "She was born into Tang Household in the land of Ba and Shu in the south of Cadia Riverlands . The Tang household had studied hidden weapons for generations, and Tang Wanwan's father taught her the way of these hidden weapons. After a successful cultivation, Tang Wanwan bid farewell to her father and set off on her travels.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Wanwan",
+    "url": "https://mobile-legends.fandom.com/wiki/Wanwan",
+    "intro": "Wanwan, the Agile Tiger, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "2"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2540",
+        "level_15": "4409",
+        "growth": "133.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "5.4",
+        "level_15": "8.2",
+        "growth": "0.2"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "95",
+        "level_15": "242",
+        "growth": "10.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "59 (33%)",
+        "growth": "3.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "0.98",
+        "level_15": "1.15",
+        "growth": "0.0121"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "245"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Tiger Pace",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/50/Tiger_Pace.png/revision/latest?cb=20210809084948",
+        "tags": [
+          "Buff",
+          "Mobility"
+        ],
+        "description": "Buff Mobility | Attack Effects: 110% Enemy heroes hit by Wanwan's attacks will have their weakness[es] exposed and position revealed for 5 seconds. When hitting an enemy's weakness, Wanwan deals 67 (+3 × Hero Level) Extra True Damage and increases their damage taken from her subsequent attacks by 10% for 5 seconds. Wanwan can dash a short distance after each arrow fired from her Basic Attack . The dash speed scales with her Attack Speed. Skill terms True Damage If there is no way to reduce damage taken, you can try increasing Max HP. Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Swallow's Path",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ef/Swallow%27s_Path.png/revision/latest?cb=20210809085051",
+        "tags": [
+          "AOE",
+          "CC"
+        ],
+        "description": "AOE CC Wanwan throws a Fire Swallow in the target direction, triggering Tiger Pace while dealing 120 (+40% Total Physical Attack) Physical Damage to enemies in its path. The Fire Swallow then turns into 3 rotating Swallow Daggers. After a short delay, these Swallow Daggers will fly back to Wanwan one after another, dealing 60 (+65% Total Physical Attack) Physical Damage to enemies on their way back and slowing them by 30% for 1.5 seconds. Enemies hit by the Swallow Dagger twice are immobilized for 0.5 seconds. Skill terms Immobilize Low level Crowd Control: Prevents a target from moving or using Blink/Charge skills. Cannot interrupt skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.6",
+            "3": "9.2",
+            "4": "8.8",
+            "5": "8.4",
+            "6": "8.0"
+          },
+          "Mana Cost": {
+            "1": "85",
+            "2": "90",
+            "3": "95",
+            "4": "100",
+            "5": "105",
+            "6": "110"
+          },
+          "Base Damage": {
+            "1": "120",
+            "2": "140",
+            "3": "160",
+            "4": "180",
+            "5": "200",
+            "6": "220"
+          },
+          "Swallow Dagger Damage": {
+            "1": "60",
+            "2": "72",
+            "3": "84",
+            "4": "96",
+            "5": "108",
+            "6": "120"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Needles in Flowers",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7e/Needles_in_Flowers.png/revision/latest?cb=20210809085122",
+        "tags": [
+          "Remove CC",
+          "AOE"
+        ],
+        "description": "Remove CC AOE Wanwan removes all control effects on herself and triggers Tiger Pace . Meanwhile, she shoots Deadly Needles in all directions, dealing 150 (+60% Total Physical Attack) Physical Damage to enemies hit. Skill terms Exceptional Status Debuff applied to the enemy. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "24.0",
+            "2": "23.2",
+            "3": "22.4",
+            "4": "21.6",
+            "5": "20.8",
+            "6": "20.0"
+          },
+          "Mana Cost": {
+            "1": "100",
+            "2": "95",
+            "3": "90",
+            "4": "85",
+            "5": "80",
+            "6": "75"
+          },
+          "Base Damage": {
+            "1": "150",
+            "2": "170",
+            "3": "190",
+            "4": "210",
+            "5": "230",
+            "6": "250"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Crossbow of Tang",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Crossbow_of_Tang.png/revision/latest?cb=20191128203850",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst | Attack Effects: 35% Wanwan leaps into the air and fires arrows at the target enemy hero for 2.5 seconds in rapid succession, dealing 60 (+35% Total Physical Attack) Physical Damage per arrow. If the target is killed during this attack, Wanwan will switch to another enemy hero in her attack range, gain 30% Attack Speed , and extend the skill duration by 1 second (this effect can trigger up to 3 times). Wanwan is untargetable and invincible for the duration and can trigger Tiger Pace upon killing an enemy and at the end of the duration. Crossbow of Tang can only be cast on enemy heroes with all their weaknesses hit and Wanwan gains 100% Movement Speed during the duration. This damage is regarded as Basic Attack damage, and the firing rate scales with Wanwan's Attack Speed. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+        "properties": {
+          "Cooldown": {
+            "1": "50.0",
+            "2": "46.0",
+            "3": "42.0"
+          },
+          "Mana Cost": {
+            "1": "130",
+            "2": "150",
+            "3": "170"
+          },
+          "Base Damage": {
+            "1": "60",
+            "2": "75",
+            "3": "90"
+          }
+        }
+      },
+      {
+        "section": "BUFF",
+        "name": "The Oriental Fighters",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/76/The_Oriental_Fighters_BUFF.png/revision/latest?cb=20220715090159",
+        "tags": [],
+        "description": "[Wanwan] will gain [1] movement speed boost [for each allied] Oriental [Fighter] in the battlefield. (Original text: The Oriental Fighters: A team will gain higher movement speed boost with more Oriental Fighters in the battlefield. )",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Silvanna",
@@ -11970,12 +12347,128 @@
   },
   {
     "slug": "Yin",
-    "name": "Yin/Cosmetics",
-    "url": "https://mobile-legends.fandom.com/wiki/Yin/Cosmetics",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Yin",
+    "url": "https://mobile-legends.fandom.com/wiki/Yin",
+    "intro": "Yin, the Martial Genius, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2578",
+        "level_15": "5238",
+        "growth": "190"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "9.8",
+        "level_15": "16.0",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "109",
+        "level_15": "210",
+        "growth": "7.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "71 (37.2%)",
+        "growth": "3.5714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.07",
+        "level_15": "1.45",
+        "growth": "0.0271"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "252"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Leave It to Me",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Leave_It_to_Me.png/revision/latest?cb=20220108155655",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff If there are no nearby allies within 4 units, Yin's damage is increased to 120% and gains 8% Spell Vamp .",
+        "properties": {}
+      },
+      {
+        "section": "Ultimate",
+        "name": "My Turn",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a8/My_Turn.png/revision/latest?cb=20220108155647",
+        "tags": [
+          "CC",
+          "Buff"
+        ],
+        "description": "CC Buff After a short delay Yin pulls an enemy (excluding pets and clones ) into his domain for up to 8 seconds and turns into Lieh . When in the domain, the two cannot be affected by other heroes' skills. Lieh has stronger skills and gains 50-80 Physical & Magic Defense that lasts for 8 seconds. The domain will end early if any of the two hero is killed. If Lieh successfully kills the enemy, he'll restore 20% Max HP , leave the domain with the cooldowns of Frenzy Strike and Instant Blast Instant Blast reset, and continue to fight as Lieh for 8 seconds. If Yin fails to pull his target into his domain, the skill will enter a 3 second cooldown. Skill terms Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "60.0",
+            "2": "55.0",
+            "3": "50.0"
+          },
+          "Extra Defense": {
+            "1": "50",
+            "2": "65",
+            "3": "80"
+          }
+        }
+      },
+      {
+        "section": "BUFF",
+        "name": "Forsaken Light",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+        "tags": [],
+        "description": "Since there are other Forsaken Light members on [Yin's] team, [his] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Melissa",
