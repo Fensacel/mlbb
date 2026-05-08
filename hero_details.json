@@ -2559,12 +2559,180 @@
   },
   {
     "slug": "Natalia",
-    "name": "Natalia/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Natalia/Audio",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Natalia",
+    "url": "https://mobile-legends.fandom.com/wiki/Natalia",
+    "intro": "Natalia, the Bright Claw, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "1"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2639",
+        "level_15": "4935",
+        "growth": "164"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.0",
+        "level_15": "13.2",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "121",
+        "level_15": "243",
+        "growth": "8.71"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "75 (38.5%)",
+        "growth": "4.0714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.11",
+        "level_15": "1.30",
+        "growth": "0.0136"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "60%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "150%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "2"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Assassin Instinct",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/10/Assassin_Instinct.png/revision/latest?cb=20210816210625",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff If Natalia stays in a bush without taking damage for 1 second, she will enter Camouflage state and gain 15% Movement Speed . In this state, Natalia's next Basic Attack will teleport her behind her target and deal 200 (+110% Total Physical Attack) Physical Damage while silencing the target for 0.25 seconds. Dealing damage, taking damage or using skills will immediately end the Camouflage state, but her next Basic Attack will remain enhanced for another 1 second. Natalia's base Crit Damage is reduced to 150%, but her damage to Creeps is increased to 150%. Skill terms Blink Movement ability that can pass through obstacles. Silence",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Claw Dash",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Claw_Dash.png/revision/latest?cb=20210816210737",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE Natalia dashes in the target direction, dealing 250–350 (+50% Total Physical Attack) Physical Damage to enemies in her path. After hitting an enemy, she can cast this skill again within 5 seconds. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.2",
+            "3": "8.4",
+            "4": "7.6",
+            "5": "6.8",
+            "6": "6.0"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "270",
+            "3": "290",
+            "4": "310",
+            "5": "330",
+            "6": "350"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Smoke Bomb",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/eb/Smoke_Bomb.png/revision/latest?cb=20210816210831",
+        "tags": [
+          "Buff",
+          "Slow"
+        ],
+        "description": "Buff Slow No one beats me in my own game. Natalia releases a Smoke Bomb at her location, slowing enemies within by 25%–75% while Natalia becomes immune to enemy Basic Attacks for 4 seconds. Skill terms Dodge You are immune to enemy Basic Attack damage and effects within the duration. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": [
+            "12.0"
+          ],
+          "Slow Effect": {
+            "1": "25%",
+            "2": "35%",
+            "3": "45%",
+            "4": "55%",
+            "5": "65%",
+            "6": "75%"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "The Hunt",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/The_Hunt.png/revision/latest?cb=20210816210938",
+        "tags": [
+          "Conceal",
+          "Buff"
+        ],
+        "description": "Conceal Buff Passive : Natalia gains 15%–45% extra Crit Chance . Active : Natalia immediately enters Assassin Instinct state. Natalia can store up to 2 charges of her Ultimate and each charge has a recharge time of 30 seconds. Creep kills will reduce the current remaining recharge time 50% of the full recharge time. Skill terms Blink Movement ability that can pass through obstacles. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker.",
+        "properties": {
+          "Cooldown": [
+            "3.0"
+          ],
+          "Recharging Time": {
+            "1": "30.0",
+            "2": "24.0",
+            "3": "18.0"
+          },
+          "Crit Chance": {
+            "1": "15%",
+            "2": "30%",
+            "3": "45%"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Kagura",
@@ -6134,12 +6302,203 @@
   },
   {
     "slug": "Lesley",
-    "name": "Lesley/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Lesley/Guide",
-    "intro": "Karina - Her 1st skill will eat up Lesley's attacks (& even ultimate) as they also count as basic attacks.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Lesley",
+    "url": "https://mobile-legends.fandom.com/wiki/Lesley",
+    "intro": "Lesley, the Deadly Sniper, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "1"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2280",
+        "level_15": "4240",
+        "growth": "140"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "10.4",
+        "growth": "0.2286"
+      },
+      "energy": {
+        "label": "Energy",
+        "values": [
+          "100",
+          "0"
+        ]
+      },
+      "energy_regen": {
+        "label": "Energy Regen",
+        "values": [
+          "3",
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "145",
+        "level_15": "243",
+        "growth": "7"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "14 (10.4%)",
+        "level_15": "72 (37.5%)",
+        "growth": "4.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.04",
+        "level_15": "1.25",
+        "growth": "0.015"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "140%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.9"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Lethal Shot",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f1/Lethal_Shot.png/revision/latest?cb=20220908163801",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff If Lesley doesn't take damage for 5 seconds, her next Basic Attack gains extra range and 50% Crit Chance and deals 100 (+100% Total Physical Attack) True Damage (20% extra damage against minions). Each point of fixed Physical Penetration and each 1% Physical Penetration Lesley acquires is converted into 1% Crit Damage , but her base Crit Damage is reduced to 130%. Lesley's Basic Attack restores 5 points of energy and her Lethal Shot doubles the amount of energy restored. The cooldown of Lethal Shot will activate immediately after Lesley uses a skill. Skill terms Crit Rate Chance to cause Crit Damage with Basic ATK (including Physical and Magic). The default is 0. A Crit Damage is guaranteed when it is over 100%. Some skills trigger this effect. For example: Layla's Malefic Bomb and the Typhoon effect of Windtalker. Physical PEN Deduct enemy’s Physical Defense by a fixed point or by percent. Enemy’s actual Physical Defense = Enemy’s Physical Defense × (100% - Percent of Physical PEN) - - Fixed points of Physical PEN. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Master of Camouflage",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/32/Master_of_Camouflage.png/revision/latest?cb=20220908163809",
+        "tags": [
+          "Conceal",
+          "Buff"
+        ],
+        "description": "Conceal Buff Lesley enters the Camouflage state, gaining double Energy Regen , 40% extra Movement Speed , and 85–135 extra Physical Attack . The state lasts 3 seconds or until Lesley takes or deals damage. Enemies can detect Lesley's position through distortions of their surroundings. Skill terms Camouflage Enter Stealth State within the duration, won't be easily spotted by the enemy, can't be targeted by skills. Physical ATK Total current Physical ATK. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "5.0",
+            "2": "4.4",
+            "3": "3.8",
+            "4": "3.2",
+            "5": "2.6",
+            "6": "2.0"
+          },
+          "Energy Cost": [
+            "30"
+          ],
+          "Attack Bonus": {
+            "1": "85",
+            "2": "95",
+            "3": "105",
+            "4": "115",
+            "5": "125",
+            "6": "135"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Tactical Grenade",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5f/Tactical_Grenade.png/revision/latest?cb=20220908163815",
+        "tags": [
+          "CC",
+          "Mobility"
+        ],
+        "description": "CC Mobility Lesley throws a tactical grenade in the target direction while slightly jumping back , dealing 150–300 to enemies in a cone and knocking them back . Lesley can cast this skill during the Ultimate Snipe to cancel the state and immediately fire a Fatal Bullet at the target. The attack is only triggered when there are unfired Fatal Bullets left. Skill terms Knocked Back A state that prevents a target from moving, attacking, or using skills. The target will move away from the caster within the duration. Blink Movement ability that can pass through obstacles. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.4",
+            "3": "8.8",
+            "4": "8.2",
+            "5": "7.6",
+            "6": "7.0"
+          },
+          "Energy Cost": [
+            "40"
+          ],
+          "Base Damage": {
+            "1": "150",
+            "2": "180",
+            "3": "210",
+            "4": "240",
+            "5": "270",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Ultimate Snipe",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/95/Ultimate_Snipe.png/revision/latest?cb=20220908163825",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst Lesley [gains vision to nearby enemies and can lock] onto the target enemy hero and fires 4 Lethal Bullets in succession, each dealing 250–350 (+80% Extra Physical Attack) (+enemy's 5% Lost HP) Physical Damage and restoring 10 energy on hit. The Bullets can be blocked by other enemy heroes. If this skill is interrupted, each remaining Bullet reduces the skill cooldown by 10%. Passive: Lesley's Crit Chance is increased by 5%–15%. Skill terms Lost HP Lost HP = Max HP - Current HP. Extra Physical ATK Apart from basic and level Physical ATK, also include the ATK provided by items, emblems, and skills. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": [
+            "40.0"
+          ],
+          "Energy Cost": [
+            "0"
+          ],
+          "Crit Chance": {
+            "1": "5%",
+            "2": "10%",
+            "3": "15%"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "300",
+            "3": "350"
+          }
+        }
+      },
+      {
+        "section": "Buff",
+        "name": "Lesley buff",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/51/Harley-Lesley_buff.png/revision/latest?cb=20241130132920",
+        "tags": [],
+        "description": "Increases both HP by 10 when battling with Harley [.]",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Jawhead",
@@ -9544,12 +9903,235 @@
   },
   {
     "slug": "Silvanna",
-    "name": "Silvanna/History",
-    "url": "https://mobile-legends.fandom.com/wiki/Silvanna/History",
-    "intro": "\"We're further nerfing Silvanna's Skill 2 but boosting her Basic Attack as compensation.\"",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Silvanna",
+    "url": "https://mobile-legends.fandom.com/wiki/Silvanna",
+    "intro": "Silvanna, the Imperial Knightess, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2650",
+        "level_15": "5618",
+        "growth": "212"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.8",
+        "level_15": "14.0",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4.0",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "126",
+        "level_15": "255",
+        "growth": "9.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "22 (15.5%)",
+        "level_15": "85 (41.5%)",
+        "growth": "4.5"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.14",
+        "level_15": "1.56",
+        "growth": "0.03"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "255"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Knightess' Resolve",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7f/Knightess%27_Resolve.png/revision/latest?cb=20210802142628",
+        "tags": [
+          "Buff",
+          "Debuff"
+        ],
+        "description": "Buff Debuff Silvanna's Basic Attacks deal 25 (+45% Total Physical Attack) (+75% Total Magic Power) Magic Damage . Silvanna's attacks apply a mark on enemy heroes for 5 seconds on hit, each mark reducing their Physical & Magic Defense by 3–6 (up to 5 stacks). Silvanna deals 30% extra damage to enemy heroes with the max number of marks. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+        "properties": {
+          "Hybrid Defense Reduction (lv. 1)": {
+            "1": "3",
+            "2": "6",
+            "3": "9",
+            "4": "12",
+            "5": "15"
+          },
+          "Hybrid Defense Reduction (lv. 15)": {
+            "1": "6",
+            "2": "12",
+            "3": "18",
+            "4": "24",
+            "5": "30"
+          }
+        }
+      },
+      {
+        "section": "Skill 1",
+        "name": "Cometic Lance",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/13/Cometic_Lance_2.png/revision/latest?cb=20220220064643",
+        "tags": [
+          "Mobility",
+          "CC"
+        ],
+        "description": "Mobility CC Silvanna dashes forward. Upon reaching the max range or hitting a non-minion enemy, she swings her lance, dealing 250 (+100% Total Magic Power) Magic Damage to nearby enemies and stunning them for 1 second. Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "11.0",
+            "2": "10.6",
+            "3": "10.2",
+            "4": "9.8",
+            "5": "9.4",
+            "6": "9.0"
+          },
+          "Mana Cost": {
+            "1": "70",
+            "2": "78",
+            "3": "86",
+            "4": "94",
+            "5": "102",
+            "6": "110"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Spiral Strangling",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8b/Spiral_Strangling.png/revision/latest?cb=20210802142752",
+        "tags": [
+          "AOE",
+          "Shield"
+        ],
+        "description": "AOE Shield Silvanna thrusts her lance in the target direction and spins it 6 times while gaining a 350 (+150% Total Magic Power) shield . Each spin deals 165 (+45% Total Magic Power) Magic Damage and slightly pulls targets toward the center. Silvanna spins 1 additional time for every 50% of extra Attack Speed she possesses. The skill deals only 50% damage against Minions . Spiral Strangling counts as a Basic Attack but cannot Crit . Skill terms Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+        "properties": {
+          "Cooldown": {
+            "1": "5.5",
+            "2": "5.3",
+            "3": "5.1",
+            "4": "4.9",
+            "5": "4.7",
+            "6": "4.5"
+          },
+          "Mana Cost": {
+            "1": "35",
+            "2": "40",
+            "3": "45",
+            "4": "50",
+            "5": "55",
+            "6": "60"
+          },
+          "Base Damage": {
+            "1": "165",
+            "2": "183",
+            "3": "201",
+            "4": "219",
+            "5": "237",
+            "6": "255"
+          },
+          "Shield Bonus": {
+            "1": "350",
+            "2": "380",
+            "3": "410",
+            "4": "440",
+            "5": "470",
+            "6": "500"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Imperial Justice",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8a/Imperial_Justice.png/revision/latest?cb=20210802142931",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Silvanna leaps to the target location and creates a Circle of Light upon landing, dealing 350 (+110% Total Magic Power) Magic Damage to enemies in the area, slowing them by 40% for 1.5 seconds, and restraining the closest enemy hero to the area for 3.5 seconds. (This skill cannot be interrupted) Silvanna gains 100% [extra] Attack Speed and 40% [extra] Lifesteal when in the Circle. Skill terms Restrain A state that prevents a target from moving out of a specific area. ATK Speed It determines the attacking times (capped at 3 times) per second. Total current ATK Speed = Basic ATK Speed + Extra ATK Speed × ATK Speed Coefficient. Lifesteal Percentage of HP recovered from dealing Basic Attack Damage to an enemy. HP recovered = Basic Attack Damage × Lifesteal × Lifesteal Ratio. Usually the Lifesteal Ratio is 30%–120%, depending on the skill's damage, range and duration.",
+        "properties": {
+          "Cooldown": {
+            "1": "52.0",
+            "2": "48.0",
+            "3": "44.0"
+          },
+          "Mana Cost": {
+            "1": "130",
+            "2": "140",
+            "3": "150"
+          },
+          "Base Damage": {
+            "1": "350",
+            "2": "500",
+            "3": "650"
+          }
+        }
+      },
+      {
+        "section": "BUFF",
+        "name": "Silvanna BUFF",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0d/Dyrroth-Silvanna_BUFF.png/revision/latest?cb=20211210070349",
+        "tags": [],
+        "description": "If Dyrroth is in the enemy's team, increases self's attack speed by 1%.",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Cecilion",
