@@ -6924,32 +6924,126 @@
   },
   {
     "slug": "Gusion",
-    "name": "Gusion/Archives",
-    "url": "https://mobile-legends.fandom.com/wiki/Gusion/Archives",
-    "intro": "The Paxley family is one of the most powerful, proud and prestigious magic families in the Land of Dawn , and each of it's member is raised to become a mage of the finest order. In their eyes, the path of the magician is the most sacred and noble vocation there is, and all those who brandish a sword in battle are merely considered as insubstantial weaklings and dim-witted fools. Gusion, however, was determined to break the mold. The patriarch's fourth son, Gusion, exhibited a high affinity towards light elements at a very early age, but rather than spend his days with his nose buried in a book studying spells, Gusion would use his control over light to imbue himself with the speed, to run laps of the family estate in mere minutes, and to enchant old ceremonial swords with powerful magical properties of the Holy light. He always believed that the family elders were incurably stubborn and rebelled against their wishes at every opportunity.",
-    "infobox": {},
-    "hero_stats": {},
+    "name": "Gusion",
+    "url": "https://mobile-legends.fandom.com/wiki/Gusion",
+    "intro": "Gusion, the Holy Blade, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2578",
+        "level_15": "4888",
+        "growth": "165"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.8",
+        "level_15": "14.0",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "119",
+        "level_15": "234",
+        "growth": "8.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "67 (35.8%)",
+        "growth": "3.5"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.11",
+        "level_15": "1.46",
+        "growth": "0.025"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      }
+    },
     "abilities": [
       {
         "section": "Passive",
         "name": "Dagger Specialist",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/cd/Basic_Attack.png/revision/latest/scale-to-width-down/20?cb=20220203035642",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Dagger_Specialist.png/revision/latest?cb=20220908163637",
         "tags": [
           "Buff",
           "Heal"
         ],
-        "description": "Buff Heal Each time Gusion casts a skill, a rune will be added to Gusion's dagger. After stacking 3 runes, the next Basic Attack will deal (+100% Total Physical Attack) (+target's 15% Lost HP) Magic Damage , and restore HP equal to 80% of the damage dealt. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Lost HP Lost HP = Max HP - Current HP. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
-        "properties": {}
+        "description": "Buff Heal Each skill cast adds a rune to Gusion's dagger (stacks up to 4 times). Each stack enhances Gusion's next Basic Attack to deal additional damage equal to 3% of the target's max HP and restore 50 (+25% Total Magic Power) HP to himself. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Max HP The maximum HP currently can have. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+        "properties": {
+          "Targets Lost HP": {
+            "1": "3%",
+            "2": "6%",
+            "3": "9%",
+            "4": "12%"
+          },
+          "Base HP Regen": {
+            "1": "50",
+            "2": "100",
+            "3": "150",
+            "4": "200"
+          },
+          "Magic Scaling": {
+            "1": "25%",
+            "2": "50%",
+            "3": "75%",
+            "4": "100%"
+          }
+        }
       },
       {
         "section": "Skill 1",
         "name": "Sword Spike",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest/scale-to-width-down/20?cb=20220908163717",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest?cb=20220908163717",
         "tags": [
           "Damage",
           "Mobility"
         ],
-        "description": "Damage Mobility Gusion throws a dagger in the targeted direction, dealing 200–300 (+50% Total Magic Power) Magic Damage to the first target hit. Use Again : Gusion moves behind the target and deals 200–300 (+100% Total Magic Power) Magic Damage to it. Skill terms Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "description": "Damage Mobility Gusion throws a dagger in the target direction, dealing 200–300 (+50% Total Magic Power) Magic Damage to the first enemy hit and marking them. Use Again }: Gusion moves behind the marked enemy, dealing 200–300 (+100% Total Magic Power) Magic Damage to them. This skill cannot be interrupted while Gusion is moving behind the marked enemy. Skill terms Blink Movement ability that can pass through obstacles. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
         "properties": {
           "Cooldown": {
             "1": "9.0",
@@ -6959,6 +7053,9 @@
             "5": "6.6",
             "6": "6.0"
           },
+          "Mana Cost": [
+            "70"
+          ],
           "Base Damage": {
             "1": "200",
             "2": "220",
@@ -6980,12 +7077,12 @@
       {
         "section": "Skill 2",
         "name": "Shadowblade Slaughter",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Shadowblade_Slaughter.png/revision/latest/scale-to-width-down/20?cb=20220908163704",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c8/Shadowblade_Slaughter.png/revision/latest?cb=20220908163704",
         "tags": [
           "AOE",
           "Slow"
         ],
-        "description": "AOE Slow Gusion throws daggers forward, each dealing 110–210 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 6% for 2 seconds (multiple daggers' slow effects can stack, up to 30%). Use Again : Gusion calls the daggers back, each dealing 65–115 (+40% Total Magic Power) Magic Damage to enemies along the way. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "description": "AOE Slow Gusion throws a volley of [five] daggers in the target direction, each dealing 110–210 (+50% Total Magic Power) Magic Damage to enemies hit and slowing them by 6% for 2 seconds (when hit by multiple daggers, the slow effect can stack up to 30%). Use Again: Gusion recalls the daggers, each dealing 65–115 (+40% Total Magic Power) Magic Damage to enemies in its path. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
         "properties": {
           "Cooldown": {
             "1": "11.0",
@@ -7024,12 +7121,12 @@
       {
         "section": "Ultimate",
         "name": "Incandescence",
-        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1c/Sword_Spike.png/revision/latest/scale-to-width-down/20?cb=20220908163717",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Incandescence.png/revision/latest?cb=20220908163651",
         "tags": [
           "Mobility",
           "Buff"
         ],
-        "description": "Mobility Buff Gusion dashes to the targeted location, immediately reset the CD of Sword Spike and Shadowblade Slaughter . Use Again : Use again to dash a short distance in the targeted direction. After Shadowblade Slaughter being reset, Gusion will be able to immediately throw five daggers, and recall ten dagger if the skill is used again.",
+        "description": "Mobility Buff Gusion dashes to the target location, resetting the cooldown of Sword Spike and Shadowblade Slaughter . If Shadowblade Slaugther was cast once before the reset, Gusion can throw another five daggers on his next Shadowblade Slaughter, and recall a total of ten daggers afterward. Use Again: Gusion dashes a short distance in the target location.",
         "properties": {
           "Cooldown": {
             "1": "28.0",
@@ -12893,21 +12990,424 @@
   },
   {
     "slug": "Aamon",
-    "name": "Aamon/Patch history",
-    "url": "https://mobile-legends.fandom.com/wiki/Aamon/Patch_history",
-    "intro": "\"The last adjustment has nerfed Aamon's Ultimate too much, so we are reverting part of the adjustment.\"",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Aamon",
+    "url": "https://mobile-legends.fandom.com/wiki/Aamon",
+    "intro": "Aamon, the Duke of Shards, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2614",
+        "level_15": "4742",
+        "growth": "152"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.0",
+        "level_15": "14.2",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "115",
+        "level_15": "255",
+        "growth": "10"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "19 (13.7%)",
+        "level_15": "66 (35.5%)",
+        "growth": "3.3571"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.10",
+        "level_15": "1.29",
+        "growth": "0.0136"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Invisible Armor",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0b/Invisible_Armor.png/revision/latest?cb=20211203045614",
+        "tags": [
+          "Conceal",
+          "Buff"
+        ],
+        "description": "Conceal Buff For generations, the Invisible Armor has been used as the symbol of the greatest power in House Paxley. Aamon enters the Camouflage state each time he hits an enemy with a skill, during which he cannot be targeted , restores 25 (+15% Total Magic Power) (+Aamon's 3% Lost HP) HP every 0.6 seconds, and gains 60% extra Movement Speed that rapidly decays over 3.5 seconds. Upon leaving the Camouflage state, Aamon immediately resets his Basic Attack 's cooldown and enhances his Basic Attacks within the next 2.5 seconds. Each enhanced Basic Attack deals 100 (+100% Total Physical Attack) (+65% Total Magic Power) Magic Damage and reduces Aamon's skill cooldowns by 0.5 second. The first enhanced Basic Attack's damage is increased to 120% if Aamon leaves the Camouflage state actively. Skill terms Stealth Enter Stealth State within the duration, won't be easily spotted visually by the enemy, can't be targeted by skills. Blink Movement ability that can pass through obstacles. Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Soul Shards",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Soul_Shards.png/revision/latest?cb=20211203045706",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst Passive: Aamon charges his armor each time he casts a skill or hits an enemy with a skill or enhanced Basic Attack . At 5 charges, Aamon throws [6] shards at the target on his next attack, each shard dealing 40–100 (+15% Total Magic Power) Magic Damage . The shards will then scatter around the target. Active: Aamon throws a shard at a nearby enemy, dealing 150–300 (+60% Total Magic Power) Magic Damage . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "9.0",
+            "2": "8.5",
+            "3": "8.0",
+            "4": "7.5",
+            "5": "7.0",
+            "6": "6.5"
+          },
+          "Mana Cost": {
+            "1": "60",
+            "2": "66",
+            "3": "72",
+            "4": "78",
+            "5": "84",
+            "6": "90"
+          },
+          "Base Damage (Passive)": {
+            "1": "40",
+            "2": "52",
+            "3": "64",
+            "4": "76",
+            "5": "88",
+            "6": "100"
+          },
+          "Base Damage (Active)": {
+            "1": "150",
+            "2": "180",
+            "3": "210",
+            "4": "240",
+            "5": "270",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Slayer Shards",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Slayer_Shards.png/revision/latest?cb=20211203045819",
+        "tags": [
+          "Conceal",
+          "Damage"
+        ],
+        "description": "Conceal Damage Aamon throws a shard forward, dealing 120-220 (+50% Total Magic Power) Magic Damage to the first non-minion enemy hit and slowing them by 50% for 2 seconds. The shard will then return to Aamon immediately. If the shard fails to hit an enemy, it will return to Aamon after a short delay and allow him to enter the Camouflage state . Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "15.0",
+            "2": "14.5",
+            "3": "14.0",
+            "4": "13.5",
+            "5": "13.0",
+            "6": "12.5"
+          },
+          "Mana Cost": {
+            "1": "110",
+            "2": "104",
+            "3": "98",
+            "4": "92",
+            "5": "86",
+            "6": "80"
+          },
+          "Base Damage": {
+            "1": "120",
+            "2": "140",
+            "3": "160",
+            "4": "180",
+            "5": "200",
+            "6": "220"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Endless Shards",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Endless_Shards.png/revision/latest?cb=20211203045950",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst Aamon throws all shards at a designated enemy and slows them by 30% for 1.5 seconds. After a short delay, the shards will fly to the enemy's location again, each dealing 90–110 (+24% Total Magic Power) –150–180 (+40% Total Magic Power) Magic Damage . The number of shards increases with Aamon's armor charges and the shards on the ground (8-25). The damage dealt increases with the target's lost HP , to the maximum when the target's HP is below 30%. The same target takes [50%] less damage from subsequent attacks. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Lost HP Lost HP = Max HP - Current HP.",
+        "properties": {
+          "Cooldown": {
+            "1": "46.0",
+            "2": "42.0",
+            "3": "38.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "170",
+            "3": "190"
+          },
+          "Minimum Damage": {
+            "1": "90",
+            "2": "100",
+            "3": "110"
+          },
+          "Maximum Damage": {
+            "1": "150",
+            "2": "165",
+            "3": "180"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Valentina",
-    "name": "Valentina/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Valentina/Audio",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Valentina",
+    "url": "https://mobile-legends.fandom.com/wiki/Valentina",
+    "intro": "Valentina, the Prophetess of the Night, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2701",
+        "level_15": "5326",
+        "growth": "187.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "11.4",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "115",
+        "level_15": "205",
+        "growth": "6.43"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "75 (38.5%)",
+        "growth": "3.8571"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "0.98",
+        "level_15": "1.11",
+        "growth": "0.0093"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Primal Force",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/68/Primal_Force.png/revision/latest?cb=20211202092807",
+        "tags": [
+          "Buff",
+          "Heal"
+        ],
+        "description": "Buff Heal Valentina gains 8–50 extra EXP each time she deals damage to an enemy hero. Cooldown: 2 seconds. If the enemy hero's level isn't higher than Valentina's, 30% of the damage dealt is converted into her HP . The EXP scales with Valentina's level.",
+        "properties": {
+          "Cooldown": [
+            "2.0"
+          ],
+          "EXP Increase": {
+            "1": "8",
+            "2": "11",
+            "3": "14",
+            "4": "17",
+            "5": "20",
+            "6": "23",
+            "7": "26",
+            "8": "29",
+            "9": "32",
+            "10": "35",
+            "11": "38",
+            "12": "41",
+            "13": "44",
+            "14": "47",
+            "15": "50"
+          }
+        }
+      },
+      {
+        "section": "Skill 1",
+        "name": "Shadow Strike",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Shadow_Strike.png/revision/latest?cb=20211202092839",
+        "tags": [
+          "Damage",
+          "CC"
+        ],
+        "description": "Damage CC Valentina casts Shadow Strike in the target direction, dealing 340–665 (+185% Total Magic Power) Magic Damage to enemies hit and slowing them by 40% for 1 second. Enemy heroes hit by Shadow Strike are marked with a Shadow Sigil for 4 seconds and will be terrified for 1s when hit by Shadow Strike again within the duration (a unit can only be terrified once within 4 seconds.",
+        "properties": {
+          "Cooldown": {
+            "1": "7.0",
+            "2": "6.6",
+            "3": "6.2",
+            "4": "5.8",
+            "5": "5.4",
+            "6": "5.0"
+          },
+          "Mana Cost": {
+            "1": "70",
+            "2": "75",
+            "3": "80",
+            "4": "85",
+            "5": "90",
+            "6": "95"
+          },
+          "Base Damage": {
+            "1": "340",
+            "2": "405",
+            "3": "470",
+            "4": "535",
+            "5": "600",
+            "6": "665"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Arcane Shade",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Arcane_Shade.png/revision/latest?cb=20211202092934",
+        "tags": [
+          "Mobility",
+          "Buff"
+        ],
+        "description": "Mobility Buff Valentina dashes in the target direction, firing 3 Shadow Bolts at nearby enemies that deal 125–225 (+30% Total Magic Power) Magic Damage each. Valentina can cast this skill again within 6s (costs Mana ). The cooldown of Shadow Strike is reduced by 1 second each time a Shadow Bolt hits an enemy.",
+        "properties": {
+          "Cooldown": [
+            "12.0"
+          ],
+          "Mana Cost": {
+            "1": "45",
+            "2": "50",
+            "3": "55",
+            "4": "60",
+            "5": "65",
+            "6": "70"
+          },
+          "Base Damage": {
+            "1": "125",
+            "2": "145",
+            "3": "165",
+            "4": "185",
+            "5": "205",
+            "6": "225"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "I Am You",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/I_Am_You.png/revision/latest?cb=20211202093159",
+        "tags": [
+          "Morph",
+          "Slow"
+        ],
+        "description": "Morph Slow Valentina slows the target enemy hero by 70% for 0.5 seconds and gains the ability to cast their Ultimate . Casting the enemy's Ultimate turns Valentina into the enemy hero's form and allows her to inherit their Basic Attack type for up to 12 seconds. Her regular skills remain unchanged, unless the enemy's Ultimate has a Morph effect. The stolen Ultimate's level will be equal to Valentina's level and the cooldown will be 120%–100% of the target's cooldown (but not lower than 10 seconds). Valentina gains (+100% Total Magic Power) Physical Attack for the duration if the enemy is a Physical Damage hero. This cannot be used on an enemy Valentina. Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Physical ATK Total current Physical ATK. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ...",
+        "properties": {
+          "Cooldown": [
+            "Varying (>= 10 seconds)"
+          ],
+          "Mana Cost": [
+            "Varying"
+          ],
+          "CD Rate": {
+            "1": "120%",
+            "2": "110%",
+            "3": "100%"
+          },
+          "Skill Level": {
+            "1": "1",
+            "2": "2",
+            "3": "3"
+          },
+          "Steal Range\"`UNIQ--ref-00000028-QINU`\"": [
+            "7"
+          ]
+        }
+      }
+    ]
   },
   {
     "slug": "Edith",
@@ -13275,12 +13775,205 @@
   },
   {
     "slug": "Xavier",
-    "name": "Xavier/Audio/ja",
-    "url": "https://mobile-legends.fandom.com/wiki/Xavier/Audio/ja",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Xavier",
+    "url": "https://mobile-legends.fandom.com/wiki/Xavier",
+    "intro": "Xavier, the Defier of Light, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2616",
+        "level_15": "4611",
+        "growth": "142.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "11.0",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "111",
+        "level_15": "198",
+        "growth": "6.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "59 (33%)",
+        "growth": "3.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1",
+        "level_15": "1.11",
+        "growth": "0.0079"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Transcendence",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/85/Transcendence.png/revision/latest?cb=20220317095446",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Xavier enhances his subsequent skills each time his skill hits an enemy hero. Stage I : Increases Movement Speed by 50% when subsequent skills hit, decaying over 1.2 seconds. Stage II : Width of subsequent skills will be greatly increased. Stage III : Skill Cooldown reduced by 4 seconds (36 seconds for the Ultimate ). At Stage III , Xavier enters the Transcendence state. Transcendence : All of Xavier's skills are enhanced to Stage III state for 5 seconds (this duration is extend by 1 second each time Xavier's skill hits an enemy). Skill terms CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Infinite Extension",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/98/Infinite_Extension.png/revision/latest?cb=20220317095424",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Xavier fires a Mystic Bullet that deals 480–650 (+100% Total Magic Power) Magic Damage to enemies it passes through. The Bullet's flying distance increases each time it hits an enemy or the Mystic Barrier (up to 5 times). Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "6.5",
+            "2": "6.4",
+            "3": "6.3",
+            "4": "6.2",
+            "5": "6.1",
+            "6": "6.0"
+          },
+          "Mana Cost": {
+            "1": "50",
+            "2": "55",
+            "3": "60",
+            "4": "65",
+            "5": "70",
+            "6": "75"
+          },
+          "Base Damage": {
+            "1": "480",
+            "2": "514",
+            "3": "548",
+            "4": "582",
+            "5": "616",
+            "6": "650"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Mystic Field",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ad/Mystic_Field.png/revision/latest?cb=20220317095438",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE Xavier conjures a Mystic Barrier that lasts 5 seconds. Enemies that come into contact with the Barrier will take 220–340 and be slowed by 50%, while allies will gain extra Movement Speed that decays over 1.2 seconds. When hit by Xavier's other skills, the Barrier expands into a forbidden field for 3 seconds, dealing 220–340 (+65% Total Magic Power) Magic Damage to enemies within and immobilizing them for 1.2 seconds. Skill terms Immobilized A state that prevents a target from moving. The target can't use Blink within the duration. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": [
+            "13.0"
+          ],
+          "Mana Cost": {
+            "1": "80",
+            "2": "88",
+            "3": "96",
+            "4": "104",
+            "5": "112",
+            "6": "120"
+          },
+          "Base Damage": {
+            "1": "220",
+            "2": "244",
+            "3": "268",
+            "4": "292",
+            "5": "316",
+            "6": "340"
+          },
+          "Extra Damage": {
+            "1": "220",
+            "2": "244",
+            "3": "268",
+            "4": "292",
+            "5": "316",
+            "6": "340"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Dawning Light",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Dawning_Light.png/revision/latest?cb=20220317095409",
+        "tags": [
+          "Burst",
+          "Buff"
+        ],
+        "description": "Burst Buff Xavier unleashes a beam of Mystic magic that deals 600–1100 (+180% Total Magic Power) Magic Damage to all enemies along its path. Once cast, he also directly enters the Transcendence state and resets the state's duration.",
+        "properties": {
+          "Cooldown": [
+            "56.0"
+          ],
+          "Mana Cost": {
+            "1": "120",
+            "2": "160",
+            "3": "200"
+          },
+          "Base Damage": {
+            "1": "600",
+            "2": "850",
+            "3": "1100"
+          }
+        }
+      },
+      {
+        "section": "BUFF",
+        "name": "Forsaken Light",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Forsaken_Light_BUFF.png/revision/latest?cb=20220525113914",
+        "tags": [],
+        "description": "Since there are other Forsaken Light members on [Xavier's] team, [his] Max HP , Max Mana , Movement Speed and Critical Damage are increased [by 1/1/1%/1%, respectively]. (Original text: Forsaken Light: Since all the Forsaken Light members are present, your Max HP, Max Mana, Movement Speed, and Crit Damage are increased. )",
+        "properties": {}
+      }
+    ]
   },
   {
     "slug": "Julian",
