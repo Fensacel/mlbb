@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+40 magic defense",
+            "+5% movement speed",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -401,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -657,11 +662,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780",
-            "Defense",
-            "+20 magic defense",
-            "+20 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Physical & Magic Defense is increased by 4, up to 20"
+            "Defense"
         ]
     },
     {
