@@ -732,7 +732,10 @@
         "slug": "legion-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png",
         "stats": [
-            "Attack"
+            "910",
+            "Attack",
+            "+60 physical attack",
+            "Pasif: -"
         ]
     },
     {
