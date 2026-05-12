@@ -242,7 +242,13 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "Defense"
+            "2250",
+            "Defense",
+            "+750 hp",
+            "+10% spell vamp",
+            "+30 adaptive attack",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Demonize: When HP drops below 40%, gains 30% Damage Reduction for 3 seconds and reduces skill cooldowns by 2 seconds. This effect has a 60 seconds cooldown. Unique Passive - Defiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%."
         ]
     },
     {
@@ -400,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050",
+            "2050 goldSoftware",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -438,12 +444,7 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "2020",
-            "Attack",
-            "+20% crit chance",
-            "+15% attack speed",
-            "+40 physical attack",
-            "Pasif: Unique Attribute: +20% Lifesteal Unique Passive - Frenzy: Critical strikes grant 20% extra Attack Speed for 2 seconds."
+            "Attack"
         ]
     },
     {
