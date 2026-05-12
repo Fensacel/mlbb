@@ -5336,12 +5336,216 @@
   },
   {
     "slug": "Odette",
-    "name": "Odette/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Odette/Audio",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Odette",
+    "url": "https://mobile-legends.fandom.com/wiki/Odette",
+    "intro": "Odette, the Swan Princess, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2440",
+        "level_15": "4890",
+        "growth": "175"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "11.0",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "105",
+        "level_15": "178",
+        "growth": "5.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "60 (33.3%)",
+        "growth": "3"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.24",
+        "growth": "0.0171"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "245"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.7"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Lakeshore Ambience",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Lakeshore_Ambience.png/revision/latest?cb=20210930072957",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff After each skill cast, Odette's next Basic Attack or skill will cast a sound wave that rebounds between her and enemies, each bounce dealing 140 (+4 × Hero Level) (+50% Total Magic Power) Magic Damage . Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Avian Authority",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Avian_Authority.png/revision/latest?cb=20210930073008",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Odette concentrates energy to summon a swan to attack enemies, dealing 300–550 (+150% Total Magic Power) Magic Damage and slowing them by 30%. Lasts 2 seconds. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.8",
+            "3": "5.6",
+            "4": "5.4",
+            "5": "5.2",
+            "6": "5.0"
+          },
+          "Mana Cost": {
+            "1": "90",
+            "2": "100",
+            "3": "110",
+            "4": "120",
+            "5": "130",
+            "6": "140"
+          },
+          "Base Damage": {
+            "1": "300",
+            "2": "350",
+            "3": "400",
+            "4": "450",
+            "5": "500",
+            "6": "550"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Blue Nova",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/37/Blue_Nova.png/revision/latest?cb=20210930073018",
+        "tags": [
+          "CC",
+          "Damage"
+        ],
+        "description": "CC Damage Odette releases a set of magic energy balls forward, dealing 250–400 (+50% Total Magic Power) Magic Damage to the enemy hit and immobilizing them for 1.5 seconds. Another energy ball will then spawn and attack a nearby enemy (prioritizes enemy heroes), dealing 250–400 (+50% Total Magic Power) Magic Damage and immobilizing them for 1.5 seconds.",
+        "properties": {
+          "Cooldown": {
+            "1": "12.0",
+            "2": "11.6",
+            "3": "11.2",
+            "4": "10.8",
+            "5": "10.4",
+            "6": "10.0"
+          },
+          "Mana Cost": {
+            "1": "90",
+            "2": "95",
+            "3": "100",
+            "4": "105",
+            "5": "100",
+            "6": "115"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          },
+          "Diffusion Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Swan Song",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e0/Swan_Song.png/revision/latest?cb=20210930073037",
+        "tags": [
+          "Mobility",
+          "Burst"
+        ],
+        "description": "Mobility Burst Odette gathers energy and began channeling, gaining a 1200–1800 (+150% Total Magic Power) shield , and dealing 2000–3000 (+750% Total Magic Power) Magic Damage in total to enemies within the area for 5 seconds. (She deals damage every 0.5s). The rebounding speed and count of Lakeshore Ambience 's sound wave in the area are also enhanced when the skill is active. Use Again : within 5s to leap in the designated direction without interrupting the channeling. This skill requires constant channeling and will be interrupted if Odette is controlled by high lvl CC such as Suppression , affected by airborne , is transformed or etc or when Odette performs other actions. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Shield Special HP is preferentially deducted when taking damage. The shield with shorter duration or lower points is usually preferentially deducted when multiple shields are stacked.",
+        "properties": {
+          "Cooldown": {
+            "1": "50.0",
+            "2": "45.0",
+            "3": "40.0"
+          },
+          "Mana Cost": {
+            "1": "200",
+            "2": "240",
+            "3": "280"
+          },
+          "Base Shield": {
+            "1": "1200",
+            "2": "1500",
+            "3": "1800"
+          },
+          "Base Damage": {
+            "1": "2000",
+            "2": "2500",
+            "3": "3000"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Lancelot",
@@ -8977,12 +9181,186 @@
   },
   {
     "slug": "Guinevere",
-    "name": "Guinevere/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Guinevere/Audio",
-    "intro": "",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Guinevere",
+    "url": "https://mobile-legends.fandom.com/wiki/Guinevere",
+    "intro": "Guinevere, the Ms. Violet, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2350",
+        "level_15": "5318",
+        "growth": "212"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.8",
+        "level_15": "14.0",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "126",
+        "level_15": "255",
+        "growth": "9.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "81 (40.3%)",
+        "growth": "4.5"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.14",
+        "level_15": "1.59",
+        "growth": "0.0321"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Super Magic",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Super_Magic.png/revision/latest?cb=20210808074341",
+        "tags": [
+          "Buff",
+          "Damage"
+        ],
+        "description": "Buff Damage Guinevere deals 25% extra damage to airborne enemies. Guinevere deals (+80% Total Physical Attack) (+60% Total Magic Power) Magic Damage with her Basic Attacks and accumulates Super Magic each time she deals damage. When she's fully charged, her next Basic Attack becomes guided , dealing 80 (+100% Total Physical Attack) (+90% Total Magic Power) Magic Damage on hit and restoring 80 (+Guinevere's 8% Lost HP) HP . Enemies hit by Guinevere's enhanced Basic Attack, Energy Wave , or Spatial Migration are marked for 5 seconds. Those with 3 marks will be knocked airborne when hit by her Violet Requiem . Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Energy Wave",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Energy_Wave.png/revision/latest?cb=20210808074449",
+        "tags": [
+          "Damage",
+          "Buff"
+        ],
+        "description": "Damage Buff Guinevere releases an energy orb in the target direction, dealing 300–525 (+125% Total Magic Power) Magic Damage to the first enemy hit and slowing them by 25% for 1.2 seconds. Successfully hitting an enemy reduces all her skill cooldowns by 1 second. Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). CD The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+        "properties": {
+          "Cooldown": [
+            "4.0"
+          ],
+          "Base Damage": {
+            "1": "300",
+            "2": "345",
+            "3": "390",
+            "4": "435",
+            "5": "480",
+            "6": "525"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Spatial Migration",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bd/Spatial_Migration.png/revision/latest?cb=20210808074631",
+        "tags": [
+          "Mobility",
+          "CC"
+        ],
+        "description": "Mobility CC Guinevere thumps at the target location for 250–400 (+80% Total Magic Power) Magic Damage [, stunning enemies within it for 1 second]. Enemy heroes and creeps hit will be knocked airborne for 1 second and take 125–200 (+50% Total Magic Power) additional Magic Damage . After cast, Guinevere can reactivate the skill in 5 seconds to blink toward the target direction [while invisible for 0.5 seconds] and leave an illusion behind. If the illusion takes damage, it restores Super Magic for Guinevere and will explode in 1.5 seconds, dealing 100 (+30% Total Magic Power) Magic Damage to nearby enemies. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Blink Movement ability that can pass through obstacles.",
+        "properties": {
+          "Cooldown": {
+            "1": "17.0",
+            "2": "16.4",
+            "3": "15.8",
+            "4": "15.2",
+            "5": "14.6",
+            "6": "14.0"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          },
+          "Extra Damage": {
+            "1": "125",
+            "2": "140",
+            "3": "155",
+            "4": "170",
+            "5": "185",
+            "6": "200"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Violet Requiem",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Violet_Requiem.png/revision/latest?cb=20210808074543",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Violet Requiem, where is my dear friend? Guinevere creates a force field around her [for 2 seconds], attacking nearby enemies 11 times within 2 seconds, dealing 880–1320 (+385% Total Magic Power) Magic Damage in total. If the enemy hit is already airborne , they will be knocked airborne again, up to 8 additional times. Guinevere is immune to crowd control while casting this skill. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "52.0",
+            "2": "46.0",
+            "3": "40.0"
+          },
+          "Base Damage": {
+            "1": "880",
+            "2": "1100",
+            "3": "1320"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Esmeralda",
