@@ -6,10 +6,10 @@
         "stats": [
             "2010",
             "Defense",
-            "+250 hp",
+            "+40 magic defense",
             "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -406,7 +406,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -444,7 +444,12 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "Attack"
+            "2020",
+            "Attack",
+            "+20% crit chance",
+            "+15% attack speed",
+            "+40 physical attack",
+            "Pasif: Unique Attribute: +20% Lifesteal Unique Passive - Frenzy: Critical strikes grant 20% extra Attack Speed for 2 seconds."
         ]
     },
     {
