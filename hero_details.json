@@ -2736,8 +2736,8 @@
   },
   {
     "slug": "Kagura",
-    "name": "Kagura/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Kagura/Audio",
+    "name": "Kagura/Guide",
+    "url": "https://mobile-legends.fandom.com/wiki/Kagura/Guide",
     "intro": "",
     "infobox": {},
     "hero_stats": {},
@@ -2988,9 +2988,9 @@
   },
   {
     "slug": "Alpha",
-    "name": "Alpha/Archives",
-    "url": "https://mobile-legends.fandom.com/wiki/Alpha/Archives",
-    "intro": "\"After the Emblem changes, Alpha is too powerful in the early game, so we're toning down his damage and HP Regen.\"",
+    "name": "Alpha/Audio",
+    "url": "https://mobile-legends.fandom.com/wiki/Alpha/Audio",
+    "intro": "",
     "infobox": {},
     "hero_stats": {},
     "abilities": []
@@ -4378,8 +4378,8 @@
   },
   {
     "slug": "Karrie",
-    "name": "Karrie/Audio/id",
-    "url": "https://mobile-legends.fandom.com/wiki/Karrie/Audio/id",
+    "name": "Karrie/Audio",
+    "url": "https://mobile-legends.fandom.com/wiki/Karrie/Audio",
     "intro": "",
     "infobox": {},
     "hero_stats": {},
@@ -8349,9 +8349,9 @@
   },
   {
     "slug": "Vale",
-    "name": "Vale/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Vale/Guide",
-    "intro": "Heroes with high mobility, Burst Damage, CC Immunity can countering Vale",
+    "name": "Vale/History",
+    "url": "https://mobile-legends.fandom.com/wiki/Vale/History",
+    "intro": "",
     "infobox": {},
     "hero_stats": {},
     "abilities": []
