@@ -389,14 +389,236 @@
   },
   {
     "slug": "Saber",
-    "name": "S.A.B.E.R.",
-    "url": "https://mobile-legends.fandom.com/wiki/S.A.B.E.R.",
-    "intro": "The S.A.B.E.R. are a cyber-themed squad based in Zlatan , an alternate universe's futuristic and sci-fi city. Their mission is to defend and bring justice against V.E.N.O.M. , who allegedly stole the Ever Cube. The members of this squad are available as skins for 899 diamonds each.",
+    "name": "Saber",
+    "url": "https://mobile-legends.fandom.com/wiki/Saber",
+    "intro": "Saber, the Wandering Sword, is a hero in Mobile Legends: Bang Bang .",
     "infobox": {
-      "Origin": "Zlatan"
+      "Durability": "2"
     },
-    "hero_stats": {},
-    "abilities": []
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2440",
+        "level_15": "4960",
+        "growth": "180"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7",
+        "level_15": "13.2",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "118",
+        "level_15": "254",
+        "growth": "9.71"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "20 (14.3%)",
+        "level_15": "77 (39.1%)",
+        "growth": "4.0714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.08",
+        "level_15": "1.36",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Enemy's Bane",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Enemy%27s_Bane.png/revision/latest?cb=20200718155708",
+        "tags": [
+          "Debuff"
+        ],
+        "description": "Debuff Saber's attacks reduce enemies' Physical Defense by 3–8 for 5 seconds on hit. This effect stacks up to 5 times. Skill terms Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60.",
+        "properties": {
+          "Physical Defense Reduction (level 1)": {
+            "1": "3",
+            "2": "6",
+            "3": "9",
+            "4": "12",
+            "5": "15"
+          },
+          "Physical Defense Reduction (level 8)": {
+            "1": "5",
+            "2": "10",
+            "3": "15",
+            "4": "20",
+            "5": "25"
+          },
+          "Physical Defense Reduction (level 15)": {
+            "1": "8",
+            "2": "16",
+            "3": "24",
+            "4": "32",
+            "5": "40"
+          }
+        }
+      },
+      {
+        "section": "Skill 1",
+        "name": "Orbiting Swords",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Orbiting_Swords.png/revision/latest?cb=20201214101424",
+        "tags": [
+          "AOE",
+          "Buff"
+        ],
+        "description": "AOE Buff Saber shoots out 5 swords that orbit around him, dealing 80–105 (+30% Extra Physical Attack) Physical Damage to enemies on contact. After orbiting around Saber for roughly 5 seconds, the swords will fly back to Saber. Within the duration of this skill, when Saber deals damage with his Basic Attacks or skills , he will send an orbiting sword towards the target, dealing 210–260 (+60% Extra Physical Attack) Physical Damage to the main target and 50% of the damage to other targets it passes through and reducing the cooldown of Charge by 1 second. It deals only 50% damage to all non-hero enemies such as minions and creeps . Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": [
+            "9.0"
+          ],
+          "Mana Cost": {
+            "1": "75",
+            "2": "85",
+            "3": "95",
+            "4": "105",
+            "5": "115",
+            "6": "125"
+          },
+          "Base Damage": {
+            "1": "80",
+            "2": "85",
+            "3": "90",
+            "4": "95",
+            "5": "100",
+            "6": "105"
+          },
+          "Extra Damage": {
+            "1": "210",
+            "2": "220",
+            "3": "230",
+            "4": "240",
+            "5": "250",
+            "6": "260"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Charge",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/db/Charge.png/revision/latest?cb=20200718155500",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE Saber dashes in the target direction, dealing 75–150 (+50% Extra Physical Attack) Physical Damage to enemies along the way while enhancing his next Basic Attack . Saber can dash to the target, and his enhanced Basic Attack deals 75–150 (+120% Total Physical Attack) Physical Damage and slows the target by 60% for 1 second. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+        "properties": {
+          "Cooldown": [
+            "7.0"
+          ],
+          "Mana Cost": {
+            "1": "70",
+            "2": "65",
+            "3": "60",
+            "4": "55",
+            "5": "50",
+            "6": "45"
+          },
+          "Base Damage": {
+            "1": "75",
+            "2": "90",
+            "3": "105",
+            "4": "120",
+            "5": "135",
+            "6": "150"
+          },
+          "Enhanced Damage": {
+            "1": "75",
+            "2": "90",
+            "3": "105",
+            "4": "120",
+            "5": "135",
+            "6": "150"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Triple Sweep",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Triple_Sweep.png/revision/latest?cb=20200718160427",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Saber charges at the target enemy hero, knocking them airborne for 1.2 seconds and striking them 3 times over the duration. The first two strikes deal 120–180 (+100% Extra Physical Attack) Physical Damage each, while the third strike deals 240–360 (+200% Extra Physical Attack) Physical Damage . Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Blink Movement ability that can pass through obstacles.",
+        "properties": {
+          "Cooldown": {
+            "1": "44.0",
+            "2": "40.0",
+            "3": "36.0"
+          },
+          "Mana Cost": {
+            "1": "100",
+            "2": "120",
+            "3": "140"
+          },
+          "Base Damage": {
+            "1": "120",
+            "2": "150",
+            "3": "180"
+          },
+          "Extra Damage": {
+            "1": "240",
+            "2": "300",
+            "3": "360"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Alice",
@@ -575,12 +797,210 @@
   },
   {
     "slug": "Nana",
-    "name": "Nana/History",
-    "url": "https://mobile-legends.fandom.com/wiki/Nana/History",
-    "intro": "The Moon Elves were not the only race to call the Enchanted Forest their home. A race of Cat-like Elves, the Leonins, also lived in these forests. Cute, friendly and uninvolved in the conflicts of the world, they are the loyal preservers of the Enchanted Forest who make the area the fairyland paradise that it is. As one of the the most ancient race of the Enchanted Forest, They possess a strong natural talent for all things magical.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Nana",
+    "url": "https://mobile-legends.fandom.com/wiki/Nana",
+    "intro": "Nana, the Sweet Leonin, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2501",
+        "level_15": "4321",
+        "growth": "130"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "11.0",
+        "growth": "0.3"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "115",
+        "level_15": "217",
+        "growth": "7.29"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "59 (33%)",
+        "growth": "3"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.08",
+        "level_15": "1.43",
+        "growth": "0.025"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Molina's Gift",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Molina%27s_Gift.png/revision/latest?cb=20210924002747",
+        "tags": [
+          "Death Immune"
+        ],
+        "description": "Death Immune Upon taking fatal damage, Nana removes all debuffs on her and transforms , becoming untargetable and invincible , and gains 30% Movement Speed for 2 seconds. She also recovers 10% Max HP over the duration. Nana can only transform once every 150 seconds and cannot cast skills in the transformed form.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Magic Boomerang",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ea/Magic_Boomerang.png/revision/latest?cb=20210924003015",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE Nana hurls her Magical Boomerang in the target direction, dealing damage to enemies hit on its way out and back. The boomerang deals 320–440 (+100% Total Magic Power) Magic Damage to the first enemy For every additional enemy hit, the damage is reduced by 20% (max reduction of 60%). Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "5.5",
+            "2": "5.2",
+            "3": "4.9",
+            "4": "4.6",
+            "5": "4.3",
+            "6": "4.0"
+          },
+          "Mana Cost": {
+            "1": "50",
+            "2": "55",
+            "3": "60",
+            "4": "65",
+            "5": "70",
+            "6": "75"
+          },
+          "Spell Vamp Ratio": [
+            "50%"
+          ],
+          "Base Damage": {
+            "1": "320",
+            "2": "344",
+            "3": "368",
+            "4": "392",
+            "5": "416",
+            "6": "440"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Molina Smooch",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0e/Molina_Smooch.png/revision/latest?cb=20210924002930",
+        "tags": [
+          "CC",
+          "Debuff"
+        ],
+        "description": "CC Debuff Nana summons Molina at the target location. After a short delay. Molina will chase the nearest enemy hero in range for 2.5 seconds. Molina Will deal 250–375 (+50% Total Magic Power) Magic Damage to the first enemy hero it collides with and transform them for 1.5 seconds, and also slow them by 50% and reduce their Magic Defense by 25% for the duration. If there are no enemy heroes in range, Molina will disappear after 12 seconds. Skill terms Transform Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+        "properties": {
+          "Cooldown": {
+            "1": "14.5",
+            "2": "14.0",
+            "3": "13.5",
+            "4": "13.0",
+            "5": "12.5",
+            "6": "12.0"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "85",
+            "3": "90",
+            "4": "95",
+            "5": "100",
+            "6": "105"
+          },
+          "Morph Damage": {
+            "1": "250",
+            "2": "275",
+            "3": "300",
+            "4": "325",
+            "5": "350",
+            "6": "375"
+          },
+          "Slowing Effect": {
+            "1": "50%",
+            "2": "54%",
+            "3": "58%",
+            "4": "62%",
+            "5": "66%",
+            "6": "70%"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Molina Blitz",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d1/Molina_Blitz.png/revision/latest?cb=20210924002855",
+        "tags": [
+          "Burst",
+          "CC"
+        ],
+        "description": "Burst CC Nana summons Molina to strike the target area 3 times, each time dealing 440–660 (+160% Total Magic Power) Magic Damage to enemies within the area and slowing them by 50% for 1 second. Enemies hit consecutively will be stunned for 1 second. Skill terms Stunn Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "36.0",
+            "2": "32.0",
+            "3": "28.0"
+          },
+          "Mana Cost": {
+            "1": "135",
+            "2": "150",
+            "3": "165"
+          },
+          "Spell Vamp Ratio": [
+            "50%"
+          ],
+          "Base Damage": {
+            "1": "440",
+            "2": "550",
+            "3": "660"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Tigreal",
@@ -761,12 +1181,199 @@
   },
   {
     "slug": "Alucard",
-    "name": "Alucard/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Alucard/Guide",
-    "intro": "Alucard is best teamed up with Frontliners who can tank CC skills for him. Preferably Initiator type and sustainable Tanks and Fighters. Or you can go with a support like Angela and Floryn since their kit can help with Alucard's survival during a teamfight.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Alucard",
+    "url": "https://mobile-legends.fandom.com/wiki/Alucard",
+    "intro": "Alucard, the Demon Hunter, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2443",
+        "level_15": "5593",
+        "growth": "225"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.8",
+        "level_15": "14.0",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "123",
+        "level_15": "244",
+        "growth": "8.64"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "86 (41.7%)",
+        "growth": "4.6429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.13",
+        "level_15": "1.54",
+        "growth": "0.0293"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Pursuit",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Pursuit.png/revision/latest?cb=20211216232556",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff After each skill cast, Alucard's next Basic Attack allows him to dash to the target's location and deal (+140% Total Physical Attack) Physical Damage . Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Groundsplitter",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2d/Groundsplitter.png/revision/latest?cb=20200718155948",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE Alucard rolls to the target location and slams his blade on the ground, dealing 270–370 (+110% Extra Physical Attack) Physical Damage to enemies hit and slowing them by 40% for 2 seconds. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "8.5",
+            "2": "8.1",
+            "3": "7.7",
+            "4": "7.3",
+            "5": "6.9",
+            "6": "6.5"
+          },
+          "Base Damage": {
+            "1": "270",
+            "2": "290",
+            "3": "310",
+            "4": "330",
+            "5": "350",
+            "6": "370"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Whirling Smash",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/Whirling_Smash.png/revision/latest?cb=20211216232613",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE Alucard launches a whirling slash, dealing 345–570 (+120% Extra Physical Attack) Physical Damage to nearby enemies. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.6",
+            "3": "5.2",
+            "4": "4.8",
+            "5": "4.4",
+            "6": "4.0"
+          },
+          "Base Damage": {
+            "1": "345",
+            "2": "390",
+            "3": "435",
+            "4": "480",
+            "5": "525",
+            "6": "570"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Fission Wave",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a0/Fission_Wave.png/revision/latest?cb=20211216232655",
+        "tags": [
+          "Buff",
+          "Burst"
+        ],
+        "description": "Buff Burst Passive: Alucard permanently gains 10%-30% extra Hybrid Lifesteal . Active: Alucard absorbs the energy of enemies in the target area, reducing their Movement Speed by 30% and Hybrid Defense by 10-20. Alucard gains 10-20 Hybrid Defense for each enemy hero hit and reduces the cooldown of his other skills to 50% for 6 seconds. Use Again : Alucard releases a shockwave in the target direction, dealing 400–700 (+200% Extra Physical Attack) Physical Damage to enemies hit. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Hybrid Defense Physical + Magic Defense. Hybrid Lifesteal Lifesteal (Basic Attacks) + Spell Vamp (Skills).",
+        "properties": {
+          "Cooldown": {
+            "1": "40.0",
+            "2": "35.0",
+            "3": "30.0"
+          },
+          "Duration": [
+            "6.0"
+          ],
+          "Hybrid Lifesteal (Passive)": {
+            "1": "10%",
+            "2": "20%",
+            "3": "30%"
+          },
+          "Hybrid Defense (Active)": {
+            "1": "10",
+            "2": "15",
+            "3": "20"
+          },
+          "Reduce Hybrid Defense (Enemies)": {
+            "1": "10",
+            "2": "15",
+            "3": "20"
+          },
+          "Base Damage": {
+            "1": "400",
+            "2": "550",
+            "3": "700"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Karina",
@@ -2703,21 +3310,406 @@
   },
   {
     "slug": "Fanny",
-    "name": "Fanny/Guide",
-    "url": "https://mobile-legends.fandom.com/wiki/Fanny/Guide",
-    "intro": "Fanny is notoriously known to be one of the most slippery yet hardest heroes to play in the game due to her unique 2nd skill that grants her unchallenged mobility which however requires high skill to pull it off and her 1st skill combined with 2nd skill and passive makes her damage extremely lethal even in the early stages of the game. Fanny is usually played as a jungler that is heavily reliant on the blue buff to start spamming away on her foes and finishing them off with ultimate . However, she's a hero that must not die since she's more likely to be a burden than a powerhouse as she requires high knowledge of mechanics, map awareness and fast dexterity.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Fanny",
+    "url": "https://mobile-legends.fandom.com/wiki/Fanny",
+    "intro": "Fanny, the Blade Dancer, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2426",
+        "level_15": "4400",
+        "growth": "141"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.6",
+        "level_15": "12.4",
+        "growth": "0.4143"
+      },
+      "energy": {
+        "label": "Energy",
+        "values": [
+          "100",
+          "0"
+        ]
+      },
+      "energy_regen": {
+        "label": "Energy Regen",
+        "values": [
+          "3",
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "126",
+        "level_15": "269",
+        "growth": "10.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "16 (11.8%)",
+        "level_15": "68 (36.2%)",
+        "growth": "3.7143"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.12",
+        "level_15": "1.44",
+        "growth": "0.0229"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "265"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Air Superiority",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ab/Air_Superiority.png/revision/latest?cb=20211205125003",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff During fight, Fanny deals 10%–20% extra damage to enemies hit (scales with flying speed [ speed unknown ] ) and applies a stack of Prey Mark to them (up to 2 stacks) on each attack. Her subsequent skill hits on marked enemy heroes restore 8 energy per stack for her. The energy restoration is reduced [ amount unknown ] if she hits multiple enemy heroes within a short period of time. [ duration unknown ]",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Tornado Strike",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/35/Tornado_Strike.png/revision/latest?cb=20211205125011",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE Fanny whirls her blades, dealing 275–525 (+85% Total Physical Attack) Physical Damage to nearby enemies. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "3.5",
+            "2": "3.3",
+            "3": "3.1",
+            "4": "2.9",
+            "5": "2.7",
+            "6": "2.5"
+          },
+          "Energy Cost": [
+            "12"
+          ],
+          "Base Damage": {
+            "1": "275",
+            "2": "325",
+            "3": "375",
+            "4": "425",
+            "5": "475",
+            "6": "525"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Steel Cable",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Steel_Cable.png/revision/latest?cb=20211205125019",
+        "tags": [
+          "Mobility"
+        ],
+        "description": "Mobility No way I'm going on foot! Fanny shoots a cable in the target direction that pulls her to the first obstacle hit. She can cast this skill again within 2 seconds until her energy runs out. Each successive cast reduces the skill's energy cost by 2. Fanny automatically casts Tornado Strike upon hitting an enemy mid-flight, as long as her energy is sufficient. Skill terms Charge Movement ability that cannot pass through obstacles.",
+        "properties": {
+          "Cooldown": [
+            "0.0"
+          ],
+          "Energy Cost": {
+            "1": "19",
+            "2": "18",
+            "3": "17",
+            "4": "16",
+            "5": "15",
+            "6": "14"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Cut Throat",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Cut_Throat.png/revision/latest?cb=20211205125029",
+        "tags": [
+          "Burst",
+          "Mobility"
+        ],
+        "description": "Burst Mobility Fanny leaps at the target enemy hero or Creep with her blades, dealing 400–650 (+200% Extra Physical Attack) Physical Damage . Each stack of Prey Mark of the target increases this damage by 30%. Skill terms Blink Movement ability that can pass through obstacles. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "35.0",
+            "2": "30.0",
+            "3": "25.0"
+          },
+          "Energy Cost": [
+            "12"
+          ],
+          "Base Damage": {
+            "1": "400",
+            "2": "525",
+            "3": "650"
+          },
+          "Extra Damage Per Prey Mark Stack": {
+            "1": "30%",
+            "2": "60%",
+            "3": ""
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Layla",
-    "name": "Layla/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Layla/Audio",
-    "intro": "Note: Teaming up with all S.A.B.E.R. squad members and use the skins to be able to interact this.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Layla",
+    "url": "https://mobile-legends.fandom.com/wiki/Layla",
+    "intro": "Layla, the Energy Gunner, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "1"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2250",
+        "level_15": "4378",
+        "growth": "152"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "5.4",
+        "level_15": "8.2",
+        "growth": "0.2"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "133",
+        "level_15": "252",
+        "growth": "8.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "71 (37.2%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.06",
+        "level_15": "1.34",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.3"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Malefic Gun",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/30/Malefic_Gun_-_Layla.png/revision/latest?cb=20220613134225",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Target locked. Fire! Layla deals increased damage to enemies farther away from her (starting at 100% and increasing to 130% at 6 units away). This does not include Turrets. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Malefic Bomb",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Malefic_Bomb.png/revision/latest?cb=20220613134304",
+        "tags": [
+          "Burst",
+          "Buff"
+        ],
+        "description": "Burst Buff Layla fires a Malefic Bomb in the target direction, dealing 200–400 (+80% Total Physical Attack) Physical Damage to the first enemy hit (can critically strike ). Upon hitting an enemy, Layla's Basic Attacks and Void Projectile gain extra range for 3 seconds, and she gains 60% Movement Speed that decays over 1.2 seconds. The duration of the Movement Speed boost is doubled if an enemy hero is hit. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Crit Damage The ratio of Crit Damage to Base Damage. The default is 200%. Crit Damage Dealt = Original Damage × (200% + All Crit Damage Increase% - All Crit Damage Decrease%).",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.6",
+            "3": "5.2",
+            "4": "4.8",
+            "5": "4.4",
+            "6": "4.0"
+          },
+          "Mana Cost": {
+            "1": "40",
+            "2": "45",
+            "3": "50",
+            "4": "55",
+            "5": "60",
+            "6": "65"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "240",
+            "3": "280",
+            "4": "320",
+            "5": "360",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Void Projectile",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Void_Projectile.png/revision/latest?cb=20220613134332",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Layla fires an orb of Malefic Energy that explodes on hit, dealing 170–320 (+65% Total Physical Attack) Physical Damage to targets in the area and applying Magic Mark on them for 3 seconds. When Layla hits an enemy with a Magic Mark, she deals 100–200 (+35% Total Physical Attack) Physical Damage to nearby enemies and stuns them for 0.25 seconds. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "7.5",
+            "2": "7.3",
+            "3": "7.1",
+            "4": "6.9",
+            "5": "6.7",
+            "6": "6.5"
+          },
+          "Mana Cost": {
+            "1": "65",
+            "2": "70",
+            "3": "75",
+            "4": "80",
+            "5": "85",
+            "6": "90"
+          },
+          "Base Damage": {
+            "1": "170",
+            "2": "200",
+            "3": "230",
+            "4": "260",
+            "5": "290",
+            "6": "320"
+          },
+          "Extra Damage": {
+            "1": "100",
+            "2": "120",
+            "3": "140",
+            "4": "160",
+            "5": "180",
+            "6": "200"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Destruction Rush",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5e/Destruction_Rush.png/revision/latest?cb=20220613134348",
+        "tags": [
+          "Burst",
+          "Buff"
+        ],
+        "description": "Burst Buff Layla fires a blast of Malefic Energy in the target direction, dealing 500–800 (+150% Total Physical Attack) Physical Damage to enemies in a line. Passive : The range of Layla's Void Projectile and Basic Attacks is increased by 0.6–1.8 units. Her sight range is also slightly increased each time this skill is upgraded. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "37.0",
+            "2": "32.0",
+            "3": "27.0"
+          },
+          "Mana Cost": {
+            "1": "130",
+            "2": "150",
+            "3": "170"
+          },
+          "Range Increase": {
+            "1": "0.6",
+            "2": "1.2",
+            "3": "1.8"
+          },
+          "Basic Attack Range Per Destruction Rush Level": {
+            "1": "4.9",
+            "2": "5.5",
+            "3": "6.1"
+          },
+          "Base Damage": {
+            "1": "500",
+            "2": "650",
+            "3": "800"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Minotaur",
@@ -3301,12 +4293,198 @@
   },
   {
     "slug": "Freya",
-    "name": "Freya/Audio",
-    "url": "https://mobile-legends.fandom.com/wiki/Freya/Audio",
-    "intro": "Note: Teaming up with all S.A.B.E.R. squad members and use the skins to be able to interact this.",
-    "infobox": {},
-    "hero_stats": {},
-    "abilities": []
+    "name": "Freya",
+    "url": "https://mobile-legends.fandom.com/wiki/Freya",
+    "intro": "Freya, the Valkyrie, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2550",
+        "level_15": "5560",
+        "growth": "215"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "9.8",
+        "level_15": "16.2",
+        "growth": "0.4571"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "120",
+        "level_15": "242",
+        "growth": "8.71"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "22 (15.5%)",
+        "level_15": "83 (40.9%)",
+        "growth": "4.3571"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.00",
+        "level_15": "1.28",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.5 / 3.5 (Valkyrie State)"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Power of Einherjar",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Power_of_Einherjar.png/revision/latest?cb=20251110105718",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Freya gains 1 Sacred Orb with each Basic Attack (up to 6 Sacred Orbs ). Consuming 1 Sacred Orb grants Freya 100% Attack Speed for her next Basic Attack (max 6 stacks). Sacred Orbs gradually recover when out of combat. Skill terms Attack Speed Current Attack Speed = Base Attack Speed + Extra Attack Speed × Attack Speed Ratio. The current total Attack Speed determines the number of attacks per second (capped at 3 attacks per second).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Leap of Faith",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/55/Leap_of_Faith.png/revision/latest?cb=20251110105717",
+        "tags": [
+          "CC",
+          "Shield"
+        ],
+        "description": "CC Shield Freya leaps to the target area and strikes the ground with her shield, gaining 500–900 (+100% Total Physical Attack) shield and dealing 200–300 (+80% Extra Physical Attack) Physical Damage to enemies within while knocking them airborne for 0.4 seconds. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.6",
+            "3": "7.2",
+            "4": "6.8",
+            "5": "6.4",
+            "6": "6.0"
+          },
+          "Shield": {
+            "1": "500",
+            "2": "580",
+            "3": "660",
+            "4": "740",
+            "5": "820",
+            "6": "900"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Valkyrie Slash",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c7/Valkyrie_Slash.png/revision/latest?cb=20251110105436",
+        "tags": [
+          "Mobility",
+          "Damage"
+        ],
+        "description": "Mobility Damage Freya charges forward and slashes, dealing 150–300 and slowing enemies by 30% for 0.5 seconds. This skill has no base cooldown but consumes 2 Sacred Orbs per cast. This skill deals 50% damage to creeps.",
+        "properties": {
+          "Cooldown": [
+            "0.4"
+          ],
+          "Base Damage": {
+            "1": "150",
+            "2": "180",
+            "3": "210",
+            "4": "240",
+            "5": "270",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Valkyrie Descent",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Valkyrie_Descent.png/revision/latest?cb=20251110105720",
+        "tags": [
+          "Morph",
+          "Buff"
+        ],
+        "description": "Morph Buff Freya selects a target area and dives down as a Valkyrie (gaining Control Immunity and 50% Damage Reducion), dealing 300–550 (+75% Total Physical Attack) Physical Damage and 40% slow to enemies in her path and at the landing point for 2 seconds. Upon landing, Freya enters the Valkyrie state for 12 seconds, during which her Basic Attacks deal 30-60 extra damage (extra damage cannot Crit) and she recovers 60–120 (+40% Total Physical Attack) per Basic Attack , and her Basic Attacks deal splash damage.",
+        "properties": {
+          "Cooldown": {
+            "1": "34.0",
+            "2": "30.0",
+            "3": "26.0"
+          },
+          "Enhanced Basic Attack Range": [
+            "3.5"
+          ],
+          "Base": {
+            "1": "300",
+            "2": "425",
+            "3": "500"
+          },
+          "Damage Increase": {
+            "1": "30",
+            "2": "45",
+            "3": "60"
+          },
+          "HP Regen": {
+            "1": "60",
+            "2": "90",
+            "3": "120"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Gord",
