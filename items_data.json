@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -18,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -327,10 +332,7 @@
         "slug": "swift-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Swift_Boots.png",
         "stats": [
-            "720",
             "Movement",
-            "+15% attack speed",
-            "+40 movement speed",
             "Pasif: -"
         ]
     },
@@ -391,9 +393,9 @@
         "stats": [
             "2100",
             "Defense",
-            "+900 hp",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
+            "+1200 hp",
+            "+15 physical defense",
+            "Pasif: Unique Passive - Twilight: Upon taking more than 500 damage in a single instance, the excess damage beyond that amount is reduced by 20 (+0.2% Total HP)%. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 4 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -426,12 +428,7 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2050",
-            "Magic",
-            "+300 hp",
-            "+60 magic power",
-            "+5% movement speed",
-            "Pasif: Unique Passive - Scorch: Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second. Unique Passive - Lifebane: Dealing damage to the target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds."
+            "Magic"
         ]
     },
     {
