@@ -12,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -515,7 +521,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
