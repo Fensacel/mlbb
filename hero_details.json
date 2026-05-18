@@ -8789,8 +8789,8 @@
       "physical_defense": {
         "label": "Physical Defense (Physical Damage Reduced)",
         "level_1": "18 (13%)",
-        "level_15": "60 (33.3%)",
-        "growth": "3"
+        "level_15": "74 (38.1%)",
+        "growth": "4"
       },
       "magic_defense": {
         "label": "Magic Defense (Magic Damage Reduced)",
@@ -8819,7 +8819,7 @@
       "movement_speed": {
         "label": "Movement Speed",
         "values": [
-          "245"
+          "250"
         ]
       },
       "basic_attack_range": {
