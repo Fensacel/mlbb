@@ -214,7 +214,11 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "Attack"
+            "2010",
+            "Attack",
+            "+80 physical attack",
+            "+10% cooldown reduction",
+            "Pasif: Unique Attribute: +15 Physical Penetration Unique Passive - Retribution: Dealing damage to the same enemy hero or creep 5 times in a row grants 50% extra Movement Speed that decays over 3 seconds (8 seconds cooldown)."
         ]
     },
     {
