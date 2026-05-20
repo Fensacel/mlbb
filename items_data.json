@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -102,7 +107,11 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "Defense"
+            "2500",
+            "Defense",
+            "+1800 hp",
+            "+20 hp regen",
+            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
         ]
     },
     {
