@@ -269,11 +269,7 @@
         "slug": "sea-halberd",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png",
         "stats": [
-            "2050",
-            "Attack",
-            "+20% attack speed",
-            "+80 physical attack",
-            "Pasif: Unique Passive - Lifebane: Dealing damage to a target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds. Unique Passive - Punish: Increase damage by 8% against enemy heroes with higher extra HP."
+            "Attack"
         ]
     },
     {
@@ -281,11 +277,7 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "1500",
-            "Attack",
-            "+15 movement speed",
-            "+60 adaptive attack",
-            "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
+            "Umum"
         ]
     },
     {
