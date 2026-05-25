@@ -7421,7 +7421,7 @@
         "tags": [
           "AOE"
         ],
-        "description": "AOE | Spell Vamp Ratio: 50% Vexana marks the target area with the power of the undead, striking it after 0.8 seconds delay and dealing 580–850 (+160% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "description": "AOE | Spell Vamp Ratio: 50% Vexana marks the target area with the power of the undead, striking it after 0.8 seconds delay and dealing 580–850 (+165% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
         "properties": {
           "Cooldown": {
             "1": "7.0",
@@ -7457,27 +7457,42 @@
           "Summon",
           "Damage"
         ],
-        "description": "Summon Damage | Spell Vamp Ratio: 50% Vexana summons an Eternal Guard at the target location, dealing 500–700 (+60% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 0.8 seconds. The Eternal Guard then joins Vexana in battle for 15 seconds. Each of Eternal Guard's attacks deals [225–275 (+40% Total Magic Power) (+enemy's 5% Total HP) Magic Damage ] to enemies in a large area.",
+        "description": "Summon Damage | Spell Vamp Ratio: 50% Vexana summons an Eternal Guard at the target location, dealing 480–720 (+60% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 0.8 seconds. The Eternal Guard then joins Vexana in battle for 15 seconds. Each of Eternal Guard's attacks deals [200–300 (+40% Total Magic Power) (+enemy's 5% Total HP) Magic Damage ] to enemies in a large area.",
         "properties": {
           "Cooldown": {
             "1": "60.0",
-            "2": "35.0",
+            "2": "53.0",
             "3": "46.0"
           },
           "Mana Cost": {
-            "1": "200",
-            "2": "300",
-            "3": "400"
+            "1": "120",
+            "2": "160",
+            "3": "200"
           },
           "Base Damage": {
-            "1": "500",
+            "1": "480",
             "2": "600",
-            "3": "700"
+            "3": "720"
           },
           "Slash Damage": {
-            "1": "225",
+            "1": "200",
             "2": "250",
-            "3": "275"
+            "3": "300"
+          },
+          "Extra HP": {
+            "1": "1800",
+            "2": "2250",
+            "3": "2700"
+          },
+          "Extra Hybrid Defense": {
+            "1": "40",
+            "2": "50",
+            "3": "60"
+          },
+          "Extra Magic Power": {
+            "1": "80",
+            "2": "100",
+            "3": "120"
           }
         }
       }
