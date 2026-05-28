@@ -141,7 +141,7 @@
       "tags": [
         "AOE"
       ],
-      "description": "AOE | Spell Vamp Ratio: 50% Pharsa releases magic energy in the target direction, dealing 525–700 (+145% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "description": "AOE | Spell Vamp Ratio: 50% Pharsa releases magic energy in the target direction, dealing 475–700 (+145% Total Magic Power) Magic Damage to enemies hit. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
       "properties": {
         "Cooldown": [
           "5.0"
@@ -155,11 +155,11 @@
           "6": "80"
         },
         "Base Damage": {
-          "1": "525",
-          "2": "560",
-          "3": "595",
-          "4": "630",
-          "5": "665",
+          "1": "475",
+          "2": "520",
+          "3": "565",
+          "4": "610",
+          "5": "655",
           "6": "700"
         }
       }
@@ -171,7 +171,7 @@
       "tags": [
         "Burst"
       ],
-      "description": "Burst | Spell Vamp Ratio: 50% Pharsa takes flight for 8 seconds and bombards the target location, dealing (+160% Total Magic Power) to enemies within the area. This skill can be cast up to 4 times within the duration. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "description": "Burst | Spell Vamp Ratio: 50% Passive : Each level up of this skill reduces the Spiritual Unity 's interval by 1 second. Active : Pharsa takes flight for 8 seconds and bombards the target location, dealing 530–870 (+160% Total Magic Power) Magic Damage to enemies within the area. This skill can be cast up to 4 times within the duration. Skill terms Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
       "properties": {
         "Cooldown": {
           "1": "36.0",
@@ -187,8 +187,8 @@
           "8"
         ],
         "Base Damage": {
-          "1": "570",
-          "2": "720",
+          "1": "530",
+          "2": "700",
           "3": "870"
         }
       }
