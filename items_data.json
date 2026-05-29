@@ -166,7 +166,10 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
+            "3010",
             "Attack",
+            "+50% movement speed",
+            "+160 physical attack",
             "Pasif: Dealing damage to non-Minion enemies below 50% HP grants 25% extra Physical Attack for 2 seconds (takes effect before the damage is dealt)."
         ]
     },
