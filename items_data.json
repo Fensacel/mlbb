@@ -754,7 +754,12 @@
         "name": "Molten Essence",
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
-        "stats": []
+        "stats": [
+            "800",
+            "Defense",
+            "+450 hp",
+            "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
+        ]
     },
     {
         "name": "Silence Robe",
