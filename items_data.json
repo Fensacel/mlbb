@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+40 magic defense",
+            "+5% movement speed",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -26,10 +31,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+165 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Magic"
         ]
     },
     {
@@ -608,7 +610,7 @@
             "2120",
             "Magic",
             "+6 mana regen",
-            "+70 magic power",
+            "+75 magic power",
             "+8% hybrid lifesteal",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Crisis: After casting a skill, the next Basic Attack within 3 seconds deals 90 (+60% Total Magic Power) extra True Damage and reduces the target's Movement Speed by 15% for 1.5 seconds (1.5 seconds cooldown)."
