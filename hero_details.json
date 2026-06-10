@@ -8597,7 +8597,7 @@
     "url": "https://mobile-legends.fandom.com/wiki/Argus",
     "intro": "Argus, the Dark Angel, is a hero in Mobile Legends: Bang Bang .",
     "infobox": {
-      "Durability": "1"
+      "Durability": "8"
     },
     "hero_stats": {
       "hp": {
@@ -8670,6 +8670,12 @@
         "label": "Movement Speed",
         "values": [
           "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.9"
         ]
       }
     },
