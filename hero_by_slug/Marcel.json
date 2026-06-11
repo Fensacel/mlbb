@@ -166,6 +166,25 @@
           "6": "112.5%"
         }
       }
+    },
+    {
+      "section": "Ultimate",
+      "name": "Golden Hour",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9c/Golden_Hour.png/revision/latest?cb=20260311075423",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Marcel and Clemar perform a joint shoot. After a short delay, Clemar takes a wide-angle shot of a designated area for 3 seconds. During this time, Marcel enters Tracking Haste within the area. All other units are put into Frozen Moment and are immune to all effects except from Marcel. All ranged Basic Attacks and projectiles are also frozen and will resolve after a delay. Golden Hour resets the cooldown of Platinum Snap for each enemy hero. Allied heroes with the Platinum Snap shield can move freely within the area.",
+      "properties": {
+        "Cooldown": {
+          "1": "74.0",
+          "2": "68.0",
+          "3": "62.0"
+        },
+        "Mana Cost": [
+          "150"
+        ]
+      }
     }
   ]
 }
