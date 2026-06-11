@@ -237,7 +237,13 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "Umum"
+            "2250",
+            "Defense",
+            "+750 hp",
+            "+10% spell vamp",
+            "+30 adaptive attack",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Demonize: When HP drops below 40%, gains 30% Damage Reduction for 3 seconds and reduces skill cooldowns by 2 seconds. This effect has a 60 seconds cooldown. Unique Passive - Defiance: For every 1% HP lost, damage is increased by 0.25%, up to 15%."
         ]
     },
     {
