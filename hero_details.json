@@ -25572,6 +25572,12 @@
         "values": [
           "260"
         ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "2"
+        ]
       }
     },
     "abilities": [
