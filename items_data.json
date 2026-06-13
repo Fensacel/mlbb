@@ -114,12 +114,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+12 hp regen",
-            "+65 movement speed",
-            "+35% slow reduction",
-            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+            "Movement"
         ]
     },
     {
