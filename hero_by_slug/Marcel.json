@@ -91,8 +91,10 @@
       "section": "Passive",
       "name": "Platinum Snap",
       "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f8/Platinum_Snap.png/revision/latest?cb=20260311075433",
-      "tags": [],
-      "description": "Marcel's split soul. Clemar, enters the camera to freeze the moment. Marcel's Basic Attack deal 50 (+40% Total Physical Attack) (+40% Total Physical Defense) (+40% Total Magic Defense) Physical Damage but cannot Crit . He cannot benefit from extra Attack Speed . Extra HP is converted into 1.5% Hybrid Defense. Clemar automatically snaps photos of nearby enemy heroes, causing a brief Frozen Moment and dealing True Damage equal to 20 + 5% of their Max HP (can trigger attack effects). It also grants a shield of the same amount to Marcel and a nearby allied hero. This effect has a 12 seconds cooldown per target (Each Basic Attack by Marcel reduces that target's cooldown cooldown by 1 second.)",
+      "tags": [
+        "CC"
+      ],
+      "description": "CC Marcel's split soul. Clemar, enters the camera to freeze the moment. Marcel's Basic Attack deal 50 (+40% Total Physical Attack) (+40% Total Physical Defense) (+40% Total Magic Defense) Physical Damage but cannot Crit . He cannot benefit from extra Attack Speed . Extra HP is converted into 1.5% Hybrid Defense. Clemar automatically snaps photos of nearby enemy heroes, causing a brief Frozen Moment and dealing True Damage equal to 20 + 5% of their Max HP (can trigger attack effects). It also grants a shield of the same amount to Marcel and a nearby allied hero. This effect has a 12 seconds cooldown per target (Each Basic Attack by Marcel reduces that target's cooldown cooldown by 1 second.)",
       "properties": {}
     },
     {
