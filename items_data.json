@@ -23,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -145,7 +145,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100 goldSoftware",
+            "2100",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
