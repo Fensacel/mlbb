@@ -142,7 +142,7 @@
         "Damage",
         "Buff"
       ],
-      "description": "Damage Buff After a short delay, Argus thrusts his Demonic Blade in the target direction, dealing 60–180 (+100% Total Physical Attack) Physical Damage to enemies hit. The charge time decreases as Attack Speed increases. Argus Fighter If an enemy hero is hit, he immediately gains 100 Malice Energy and becomes enhanced for 3s. While enhanced, he gains 30% Attack Speed, and Demonic Slash restores 50 Malice Energy. Meteoric Sword counts as a Basic Attack, can trigger Attack Effects, and can Crit. Skill terms Basic Attack",
+      "description": "Damage Buff After a short delay, Argus thrusts his Demonic Blade in the target direction, dealing 60–180 (+100% Total Physical Attack) Physical Damage to enemies hit. The charge time decreases as Attack Speed increases. Argus Fighter If an enemy hero is hit, he immediately gains 100 Malice Energy and becomes enhanced for 3s. While enhanced, he gains 30-55% Attack Speed, and Demonic Slash restores 50 Malice Energy. Meteoric Sword counts as a Basic Attack, can trigger Attack Effects, and can Crit. Skill terms Basic Attack",
       "properties": {
         "Cooldown": {
           "1": "8.0",
@@ -159,6 +159,14 @@
           "4": "132",
           "5": "156",
           "6": "180"
+        },
+        "Attack Speed": {
+          "1": "30%",
+          "2": "35%",
+          "3": "40%",
+          "4": "45%",
+          "5": "50%",
+          "6": "55%"
         }
       }
     },
