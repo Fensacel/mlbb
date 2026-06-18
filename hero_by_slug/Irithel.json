@@ -92,7 +92,7 @@
     {
       "section": "Passive",
       "name": "Jungle Heart",
-      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Jungle_Heart.png/revision/latest?cb=20171013131711",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b8/Jungle_Heart.png/revision/latest?cb=20260618090445",
       "tags": [
         "Buff"
       ],
@@ -113,7 +113,7 @@
     {
       "section": "Skill 1",
       "name": "Strafe",
-      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Strafe.png/revision/latest?cb=20171013131743",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/af/Strafe.png/revision/latest?cb=20260618090444",
       "tags": [
         "AOE",
         "Debuff"
@@ -147,7 +147,7 @@
     {
       "section": "Skill 2",
       "name": "Force of the Queen",
-      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Force_of_the_Queen.png/revision/latest?cb=20171013131826",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Force_of_the_Queen.png/revision/latest?cb=20260618090443",
       "tags": [
         "Slow",
         "AOE"
@@ -178,7 +178,7 @@
     {
       "section": "Ultimate",
       "name": "Heavy Crossbow",
-      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Heavy_Crossbow.png/revision/latest?cb=20171013131857",
+      "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/63/Heavy_Crossbow.png/revision/latest?cb=20260618090442",
       "tags": [
         "Buff",
         "Mobility"
