@@ -225,10 +225,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060",
-            "Attack",
-            "+60 physical attack",
-            "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
+            "Attack"
         ]
     },
     {
