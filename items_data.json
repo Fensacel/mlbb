@@ -156,8 +156,8 @@
             "2390",
             "Attack",
             "+25 crit chance",
-            "+60 physical attack",
-            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
+            "+65 physical attack",
+            "Pasif: Unique Attribute: +40% Crit Damage Unique Passive - Doom: Critical strikes grant 5% extra Physical Attack for 2 seconds."
         ]
     },
     {
@@ -690,7 +690,11 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "Magic"
+            "700",
+            "Magic",
+            "+300 hp",
+            "+380 mana",
+            "Pasif: Unique Passive - Gift: When HP drops below 50%, recovers 15% of HP over the next 3 seconds. When Mana drops below 50%, restores 15% of Mana over the next 3 seconds. Cooldown: 60 seconds."
         ]
     },
     {
