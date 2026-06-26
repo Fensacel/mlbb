@@ -156,8 +156,8 @@
             "2390",
             "Attack",
             "+25 crit chance",
-            "+65 physical attack",
-            "Pasif: Unique Attribute: +40% Crit Damage Unique Passive - Doom: Critical strikes grant 5% extra Physical Attack for 2 seconds."
+            "+60 physical attack",
+            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
         ]
     },
     {
