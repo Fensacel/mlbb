@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+40 magic defense",
-            "+5% movement speed",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -596,7 +591,7 @@
         "slug": "flask-of-the-oasis",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Flask_of_the_Oasis.png",
         "stats": [
-            "1850 goldSoftware",
+            "1850",
             "Magic",
             "+300 hp",
             "+60 magic power",
@@ -623,7 +618,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910 goldSoftware",
+            "1910",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -695,11 +690,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700",
-            "Magic",
-            "+300 hp",
-            "+380 mana",
-            "Pasif: Unique Passive - Gift: When HP drops below 50%, recovers 15% of HP over the next 3 seconds. When Mana drops below 50%, restores 15% of Mana over the next 3 seconds. Cooldown: 60 seconds."
+            "Magic"
         ]
     },
     {
