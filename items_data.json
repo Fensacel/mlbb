@@ -6,10 +6,10 @@
         "stats": [
             "2010",
             "Defense",
-            "+250 hp",
+            "+40 magic defense",
             "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -596,7 +596,7 @@
         "slug": "flask-of-the-oasis",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/c5/Flask_of_the_Oasis.png",
         "stats": [
-            "1850",
+            "1850 goldSoftware",
             "Magic",
             "+300 hp",
             "+60 magic power",
@@ -623,7 +623,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910",
+            "1910 goldSoftware",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
