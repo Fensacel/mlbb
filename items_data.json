@@ -515,12 +515,7 @@
         "slug": "lightning-truncheon",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Lightning_Truncheon.png",
         "stats": [
-            "2250",
-            "Magic",
-            "+400 mana",
-            "+75 magic power",
-            "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Magic"
         ]
     },
     {
