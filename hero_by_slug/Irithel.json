@@ -19,17 +19,15 @@
       "level_15": "10.2",
       "growth": "0.2286"
     },
-    "energy": {
-      "label": "Energy",
+    "mana": {
+      "label": "Mana",
       "values": [
-        "100",
         "0"
       ]
     },
-    "energy_regen": {
-      "label": "Energy Regen",
+    "mana_regen": {
+      "label": "Mana Regen",
       "values": [
-        "5.0",
         "0"
       ]
     },
@@ -97,18 +95,7 @@
         "Buff"
       ],
       "description": "Buff Irithel and Leo's immaculate teamwork allows her to shoot while moving. Each Basic Attack will shoot 2 crossbow bolt(s) (but takes longer to refill) that deal (+55% Total Physical Attack) Physical Damage per bolt (inherits a portion [55%] of Attack Effects ). Moving will build up Jungle Heart, up to a maximum of 10 units, and cause the next Basic Attack to unleash 1 additional bolt(s). Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
-      "properties": {
-        "Energy Cost": [
-          "100"
-        ],
-        "Attack Effects": [
-          "55%"
-        ],
-        "Energy Gain": {
-          "1": "5 energy",
-          "2": "0.5 units"
-        }
-      }
+      "properties": {}
     },
     {
       "section": "Skill 1",
