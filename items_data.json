@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -90,7 +95,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -515,7 +520,12 @@
         "slug": "lightning-truncheon",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Lightning_Truncheon.png",
         "stats": [
-            "Magic"
+            "2250",
+            "Magic",
+            "+400 mana",
+            "+75 magic power",
+            "+10% cd reduction",
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
