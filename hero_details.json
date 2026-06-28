@@ -9365,7 +9365,7 @@
           "CC",
           "Damage"
         ],
-        "description": "CC Damage Hylos gains 50% Movement Speed and causes his next Basic Attack within 3 seconds to deal 300–550 (+80% Total Magic Power) Magic Damage to the target, knock back and stun them for 1 second. This damage counts as Skill Damage . The extra Movement Speed rapidly decays over the duration and ends after the next Basic Attack . Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "description": "CC Damage Hylos gains 50% Movement Speed and causes his next Basic Attack within 3 seconds to deal 300–550 (+80% Total Magic Power) Magic Damage to the target, knock back and stun them for 1 second. The extra Movement Speed rapidly decays over the duration and ends after the next Basic Attack . Skill terms Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
         "properties": {
           "Cooldown": {
             "1": "12.0",
