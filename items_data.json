@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Defense"
         ]
     },
     {
@@ -37,7 +31,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120",
+            "2120 goldAgama & Kepercayaan",
             "Defense",
             "+800 hp",
             "+15 physical defense",
@@ -62,7 +56,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170",
+            "2170 goldGame Aksi dan Platform",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -114,7 +108,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720",
+            "720 goldGame Peran",
             "Movement",
             "+12 hp regen",
             "+55 movement speed",
@@ -139,7 +133,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100",
+            "2100 goldGame MOBA",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
@@ -165,7 +159,7 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
-            "3010",
+            "3010 goldSoftware",
             "Attack",
             "+50% movement speed",
             "+160 physical attack",
@@ -287,7 +281,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880",
+            "1880 goldSoftware",
             "Attack",
             "+20% crit chance",
             "+35% attack speed",
@@ -313,7 +307,7 @@
         "slug": "brute-force-breastplate",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Brute_Force_Breastplate.png",
         "stats": [
-            "2070",
+            "2070 goldGame Peran",
             "Defense",
             "+800 hp",
             "+20 physical defense",
@@ -338,7 +332,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820",
+            "1820 goldReferensi & Ulasan Game",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -477,7 +471,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000",
+            "2000 goldSoftware",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -631,7 +625,7 @@
         "slug": "wishing-lantern",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png",
         "stats": [
-            "2250",
+            "2250 goldGame Peran",
             "Magic",
             "+400 mana",
             "+75 magic power",
@@ -668,7 +662,7 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "1910",
+            "1910 goldReferensi & Ulasan Game",
             "Defense",
             "+80 physical defense",
             "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
@@ -679,7 +673,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730",
+            "730 goldSoftware",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
