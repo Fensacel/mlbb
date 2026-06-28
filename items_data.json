@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+40 magic defense",
+            "+5% movement speed",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
         ]
     },
     {
@@ -12,7 +17,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -31,7 +42,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120 goldAgama & Kepercayaan",
+            "2120",
             "Defense",
             "+800 hp",
             "+15 physical defense",
@@ -56,7 +67,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170 goldGame Aksi dan Platform",
+            "2170",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -108,7 +119,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720 goldGame Peran",
+            "720",
             "Movement",
             "+12 hp regen",
             "+55 movement speed",
@@ -120,12 +131,7 @@
         "slug": "athenas-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Athena%27s_Shield.png",
         "stats": [
-            "2150",
-            "Defense",
-            "+900 hp",
-            "+2 hp regen",
-            "+48 magic defense",
-            "Pasif: Unique Passive - Shield: Upon taking Magic Damage from enemy hero skills or Basic Attacks, reduces Magic Damage taken by 25% for 3 second (including the damage that triggers the effect)s. Regains this effect 5 seconds after leaving combat."
+            "Defense"
         ]
     },
     {
@@ -133,7 +139,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100 goldGame MOBA",
+            "2100",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
@@ -159,7 +165,7 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
-            "3010 goldSoftware",
+            "3010",
             "Attack",
             "+50% movement speed",
             "+160 physical attack",
@@ -281,7 +287,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880 goldSoftware",
+            "1880",
             "Attack",
             "+20% crit chance",
             "+35% attack speed",
@@ -307,7 +313,7 @@
         "slug": "brute-force-breastplate",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Brute_Force_Breastplate.png",
         "stats": [
-            "2070 goldGame Peran",
+            "2070",
             "Defense",
             "+800 hp",
             "+20 physical defense",
@@ -332,7 +338,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820 goldReferensi & Ulasan Game",
+            "1820",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -471,7 +477,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000 goldSoftware",
+            "2000",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -625,7 +631,7 @@
         "slug": "wishing-lantern",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png",
         "stats": [
-            "2250 goldGame Peran",
+            "2250",
             "Magic",
             "+400 mana",
             "+75 magic power",
@@ -662,7 +668,7 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "1910 goldReferensi & Ulasan Game",
+            "1910",
             "Defense",
             "+80 physical defense",
             "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
@@ -673,7 +679,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730 goldSoftware",
+            "730",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
