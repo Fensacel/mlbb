@@ -14080,23 +14080,1061 @@
   },
   {
     "slug": "Minsitthar",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Minsitthar",
+    "url": "https://mobile-legends.fandom.com/wiki/Minsitthar",
+    "intro": "Minsitthar, the Courageous Warrior, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2698",
+        "level_15": "5470",
+        "growth": "198"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.4",
+        "level_15": "13.2",
+        "growth": "0.4143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "121",
+        "level_15": "250",
+        "growth": "9.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "23 (16.1%)",
+        "level_15": "87 (42%)",
+        "growth": "4.5714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.07",
+        "level_15": "1.53",
+        "growth": "0.0329"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "80%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Mark of the King",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/61/Mark_of_the_King.png/revision/latest?cb=20230315070651",
+        "tags": [
+          "CC",
+          "Damage"
+        ],
+        "description": "CC Damage Minsitthar's Basic Attacks and skills apply a stack of Mark of the King , up to 5 stacks. Upon reaching max stacks, the next attack detonates all Mark of the King stacks, dealing 400 (+6% Total HP) Physical Damage and stunning the target for 0.8 seconds while healing Minsitthar for 400 (+6% Total HP) HP . Can only trigger once every 6 seconds on the same target. Skill terms Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Spear of Glory",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/16/Spear_of_Glory.png/revision/latest?cb=20230315070700",
+        "tags": [
+          "CC",
+          "Damage"
+        ],
+        "description": "CC Damage Minsitthar thrusts forward with the Spear of Glory, dealing 175–300 (+40% Total Physical Attack) Physical Damage and slowing enemies hit by 30%. Enemy heroes hit by the tip of the spear will be stunned for 0.6 seconds. After a short delay, Minsitthar pulls back the spear, dealing 175–300 (+40% Total Physical Attack) Physical Damage to all enemies along the way and dragging enemy heroes hit to him. Skill terms Physical Attack Total current Physical Attack Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+        "properties": {
+          "Cooldown": {
+            "1": "13.0",
+            "2": "12.2",
+            "3": "11.4",
+            "4": "10.6",
+            "5": "9.8",
+            "6": "9.0"
+          },
+          "Mana Cost": {
+            "1": "95",
+            "2": "105",
+            "3": "115",
+            "4": "125",
+            "5": "135",
+            "6": "145"
+          },
+          "Base Damage": {
+            "1": "175",
+            "2": "200",
+            "3": "225",
+            "4": "250",
+            "5": "275",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Shield Assault",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Shield_Assault.png/revision/latest?cb=20230315070653",
+        "tags": [
+          "Reduce DMG",
+          "Buff"
+        ],
+        "description": "Reduce DMG Buff Minsitthar awakens the power in his shield and releases it, dealing 100–200 (+45% Total Physical Attack) Physical Damage to all enemies in a rectangular area and slowing them by 80% (decaying rapidly over 2 seconds). Meanwhile, he enters Phalanx state for 3 seconds, reducing damage taken from the front by 25%–50% and enhancing his Basic Attack to swiftly strike an area in front of him for 100–200 (+45% Total Physical Attack) Physical Damage per hit. Skill terms Physical Attack Total current Physical Attack Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "7.0",
+            "2": "6.6",
+            "3": "6.2",
+            "4": "5.8",
+            "5": "5.4",
+            "6": "5.0"
+          },
+          "Mana Cost": {
+            "1": "50",
+            "2": "55",
+            "3": "60",
+            "4": "65",
+            "5": "70",
+            "6": "75"
+          },
+          "Phalanx Basic Attack Range": [
+            "5.0"
+          ],
+          "Base Damage": {
+            "1": "100",
+            "2": "120",
+            "3": "140",
+            "4": "160",
+            "5": "180",
+            "6": "200"
+          },
+          "Damage Reduction": {
+            "1": "25%",
+            "2": "30%",
+            "3": "35%",
+            "4": "40%",
+            "5": "45%",
+            "6": "50%"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "King's Calling",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1d/King%27s_Calling.png/revision/latest?cb=20230315070647",
+        "tags": [
+          "Summon",
+          "CC"
+        ],
+        "description": "Summon CC Where will I be? Minsitthar charges forward and calls 4 Royal Guards to form a field around him. The Royal Guards cannot move but will attack enemies in the field for (+40% Total Physical Attack) Physical Damage . Enemies in the field are slowed by 20% and cannot use movement skills . Skill terms Root Low level Crowd Control: Prevents a target from using Blink/Charge skills (excluding targeted Enhanced Basic Attacks with such effects). Cannot interrupt skills. Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "60.0",
+            "2": "55.0",
+            "3": "50.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "200",
+            "3": "250"
+          },
+          "Duration": [
+            "5.0"
+          ],
+          "Attack Effects": [
+            "40%"
+          ],
+          "Attack Rate": {
+            "1": "1 Basic ATK per 28",
+            "2": "30 second",
+            "3": ""
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Kadita",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Kadita",
+    "url": "https://mobile-legends.fandom.com/wiki/Kadita",
+    "intro": "Kadita, the Ocean Goddess, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2370",
+        "level_15": "4691",
+        "growth": "165.79"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.2",
+        "level_15": "11.6",
+        "growth": "0.3143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "105",
+        "level_15": "178",
+        "growth": "5.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "18 (13%)",
+        "level_15": "74 (38.1%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1",
+        "level_15": "1.24",
+        "growth": "0.0171"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "255"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "4.5"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Thalassophobia",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/43/Thalassophobia.png/revision/latest?cb=20210809092741",
+        "tags": [
+          "Heal"
+        ],
+        "description": "Heal Kadita gains the Blessing of the Ocean every 30 seconds. The Blessing is triggered when she takes damage from enemy heroes and lasts 4 seconds, allowing her to recover 65% of the HP Lost within the duration afterward.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Ocean Ode",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Ocean_Ode.png/revision/latest?cb=20210809092828",
+        "tags": [
+          "Mobility",
+          "AOE"
+        ],
+        "description": "Mobility AOE | Spell Vamp Ratio: 50% Kadita summons an ocean wave to carry herself in the target direction and back, dealing 250–450 (+90% Total Magic Power) Magic Damage to enemies hit and slowing them by 30%. While inside the wave, she gains Control Immunity and 50% Damage Reduction . This skill can pass through obstacles and terrain. Use Again : Kadita exits the wave without interrupting the wave's movement. Skill terms Blink Movement ability that can pass through obstacles. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Damage Reduction Deduct the final damage (the damage that has deducted by Physical and Magic DEF) by [fixed points] or by percent. But cannot deduct the True Damage.",
+        "properties": {
+          "Cooldown": {
+            "1": "9.0",
+            "2": "8.5",
+            "3": "8.0",
+            "4": "7.5",
+            "5": "7.0",
+            "6": "6.5"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "90",
+            "3": "100",
+            "4": "110",
+            "5": "120",
+            "6": "130"
+          },
+          "Base Damage": {
+            "1": "250",
+            "2": "290",
+            "3": "330",
+            "4": "370",
+            "5": "410",
+            "6": "450"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Breath of the Ocean",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Breath_of_the_Ocean.png/revision/latest?cb=20210809092915",
+        "tags": [
+          "AOE",
+          "CC"
+        ],
+        "description": "AOE CC | Spell Vamp Ratio: 50% After a short delay, Kadita summons an ocean wave to erupt at the target location, dealing 350–550 (+140% Total Magic Power) Magic Damage to enemies hit and knocking them airborne for 1 second. Kadita can cast this skill during Ocean Ode to summon an ocean wave beneath her with a shorter eruption delay. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": [
+            "8.0"
+          ],
+          "Mana Cost": {
+            "1": "90",
+            "2": "100",
+            "3": "110",
+            "4": "120",
+            "5": "130",
+            "6": "140"
+          },
+          "Base Damage": {
+            "1": "350",
+            "2": "380",
+            "3": "410",
+            "4": "440",
+            "5": "470",
+            "6": "550"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Rough Waves",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a0/Rough_Waves.png/revision/latest?cb=20210809093025",
+        "tags": [
+          "Burst",
+          "Invincible"
+        ],
+        "description": "Burst Invincible | Spell Vamp Ratio: 50% Kadita dives into the ground and sends ocean waves in all directions, each dealing 270–330 (+60% Total Magic Power) Magic Damage to enemies hit and slowing them by 30%. Enemies hit by multiple waves take increased damage. After a short period, the waves return to Kadita, each dealing 180–220 (+40% Total Magic Power) Magic Damage to enemies hit. When diving underground, Kadita cannot be interrupted (excluding Suppression ). When underground, Kadita becomes untargetable and gains 60% Movement Speed . Skill terms Untargetable You are immune to enemy damage effects within the duration. It doesn't remove any existing damage effects or damage over time. Magic Damage Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "40.0",
+            "2": "36.0",
+            "3": "32.0"
+          },
+          "Mana Cost": {
+            "1": "200",
+            "2": "240",
+            "3": "280"
+          },
+          "Base Damage": {
+            "1": "270",
+            "2": "300",
+            "3": "330"
+          },
+          "Return Damage": {
+            "1": "180",
+            "2": "200",
+            "3": "220"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Faramis",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Faramis",
+    "url": "https://mobile-legends.fandom.com/wiki/Faramis",
+    "intro": "Faramis, the Soul Binder, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2543",
+        "level_15": "4902",
+        "growth": "168.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.8",
+        "level_15": "10.8",
+        "growth": "0.2857"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "143",
+        "level_15": "216",
+        "growth": "5.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "20 (14.3%)",
+        "level_15": "66 (35.5%)",
+        "growth": "3.2857"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "38 (24.1%)",
+        "growth": "1.6429"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "0.98",
+        "level_15": "1.09",
+        "growth": "0.0079"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "245"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Vicious Retrieval",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7e/Vicious_Retrieval.png/revision/latest?cb=20220612054039",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Every 4 seconds, Faramis's next skill against enemy heroes and summoned objects generates a soul fragment on the spot. Faramis can absorb the soul fragment to restore 100 (+50% Total Magic Power) HP and gain 2 extra Magic Power (up to 40 stacks). Upon death, he consumes the absorbed soul fragments to reduce the respawn timer, each reducing the timer by 3% (up to 90%). Enemies that die around Faramis also have a chance [ how much? ] to drop soul fragments.",
+        "properties": {
+          "Extra Magic Power": {
+            "1": "{2, 4, 6, … , 80} where 80 = 40th stack"
+          },
+          "Respawn Timer Reduction": {
+            "1": "{3%, 6%, 9% … , 90%} where 90% = 30th stack"
+          }
+        }
+      },
+      {
+        "section": "Skill 1",
+        "name": "Shadow Stampede",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b4/Shadow_Stampede.png/revision/latest?cb=20220612054032",
+        "tags": [
+          "Buff",
+          "CC"
+        ],
+        "description": "Buff CC Faramis enters the Shadow state for 3 seconds, gaining 70% extra Movement Speed , 25 extra Physical and Magic Defense , 20% cooldown reduction of this skill, and the ability to move through terrain. Enemy heroes that come into contact with Faramis in this state are dealt 250–400 (+60% Total Magic Power) Magic Damage and applied with a Nether Mark . Upon leaving the Shadow state, Faramis drags all the marked enemy heroes toward him, dealing 250–400 (+60% Total Magic Power) Magic Damage . Use again to leave the Shadow state early and drags marked enemies toward him. The range of soul fragment absorption is increased while this skill is active. Skill terms Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%). Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp. Regen Effect Attribute that affects the actual HP Regen and Shield. The default ratio is 100%. Actual HP Regen/Shield = Original HP Regen/Shield × (100% + All Regen Effects Increase% - All Regen Effects Decrease%).",
+        "properties": {
+          "Cooldown": [
+            "15.0"
+          ],
+          "Mana Cost": {
+            "1": "70",
+            "2": "80",
+            "3": "90",
+            "4": "100",
+            "5": "110",
+            "6": "120"
+          },
+          "Extra Defense": [
+            "25"
+          ],
+          "Base Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          },
+          "Extra Damage": {
+            "1": "250",
+            "2": "280",
+            "3": "310",
+            "4": "340",
+            "5": "370",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Ghost Bursters",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/14/Ghost_Bursters.png/revision/latest?cb=20220612054026",
+        "tags": [
+          "AOE",
+          "Burst"
+        ],
+        "description": "AOE Burst Faramis gathers Nether energy in a fan-shaped area ahead, dealing 330–480 (+144% Total Magic Power) Magic Damage to enemies within. The energy will then split and bounce to nearby enemies, dealing 200–300 (+72% Total Magic Power) Magic Damage (splits up to 2 times on enemy hero hits and 1 time on non-enemy hero hits). Skill terms Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+        "properties": {
+          "Cooldown": {
+            "1": "6.0",
+            "2": "5.8",
+            "3": "5.6",
+            "4": "5.4",
+            "5": "5.2",
+            "6": "5.0"
+          },
+          "Mana Cost": {
+            "1": "75",
+            "2": "85",
+            "3": "95",
+            "4": "105",
+            "5": "115",
+            "6": "125"
+          },
+          "Base Damage": {
+            "1": "330",
+            "2": "360",
+            "3": "390",
+            "4": "420",
+            "5": "450",
+            "6": "480"
+          },
+          "Split Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Nether Realm",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f5/Nether_Realm.png/revision/latest?cb=20260313084936",
+        "tags": [
+          "Death Immune",
+          "Buff"
+        ],
+        "description": "Death Immune Buff Faramis turns his surroundings into the Nether Realm for 6s, making affected allied hero (including himself) enter the Specter state and granting them 400–800 plus 10 (+5% Total Magic Power) % extra HP and 50% extra Movement Speed for 1s. When Specter state breaks, the hero will clear all debuffs and enter a brief Resurrection state for 1s. An allied hero's Specter state ends when they leave the Nether Realm .",
+        "properties": {
+          "Cooldown": {
+            "1": "80.0",
+            "2": "75.0",
+            "3": "70.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "250",
+            "3": "350"
+          },
+          "Extra HP": {
+            "1": "400",
+            "2": "600",
+            "3": "800"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Badang",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Badang",
+    "url": "https://mobile-legends.fandom.com/wiki/Badang",
+    "intro": "Badang, the Tribal Warrior, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "4"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2708",
+        "level_15": "5788",
+        "growth": "220"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8",
+        "level_15": "13.8",
+        "growth": "0.4143"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "111",
+        "level_15": "244",
+        "growth": "9.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "23 (16.1%)",
+        "level_15": "87 (42%)",
+        "growth": "4.5714"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.13",
+        "level_15": "1.55",
+        "growth": "0.03"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "255"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "1.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Chivalry Fist",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/94/Chivalry_Fist.png/revision/latest?cb=20200829035801",
+        "tags": [
+          "CC",
+          "Damage"
+        ],
+        "description": "CC Damage After every 4 Basic Attacks , Badang's next Basic Attack deals 50 (+30% Extra Physical Attack) to enemies hit and knocks them back . Enemies that are knocked into obstacles will be stunned for 0.6s (minions and creeps are stunned directly). Fist Wind generated by Badang's skills can also trigger this effect. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Fist Wind",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/55/Fist_Wind.png/revision/latest?cb=20200829035816",
+        "tags": [
+          "AOE",
+          "Slow"
+        ],
+        "description": "AOE Slow Badang unleashes a gust of Fist Wind in the target direction, dealing 125–225 (+90% Extra Physical Attack) Physical Damage to enemies hit, slowing them by 30% for 1.5s, and knocking them back . The Fist Wind will explode upon hitting an obstacle, dealing 100–175 (+60% Extra Physical Attack) Physical Damage to nearby enemies. Fist Wind can trigger attack effects and grants Badang 1 Chivalry Fist stack upon cast. Badang stores up to 2 Fist Wind charges and restores 1 charge every 10.4s. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Attack Effect Both Physical and Magic Basic Attacks can trigger Attack Effects Attack Effects include the \"Devour\" effect of the Demon Hunter Sword equipment, the 'Weakness Finder\" Talent effect, etc.",
+        "properties": {
+          "Cooldown": {
+            "1": "10.4",
+            "2": "9.8",
+            "3": "9.2",
+            "4": "8.6",
+            "5": "8.0",
+            "6": "7.2"
+          },
+          "Base Damage": {
+            "1": "125",
+            "2": "145",
+            "3": "165",
+            "4": "185",
+            "5": "205",
+            "6": "225"
+          },
+          "Explosion Damage": {
+            "1": "100",
+            "2": "115",
+            "3": "130",
+            "4": "145",
+            "5": "160",
+            "6": "175"
+          },
+          "Skill Recharge Time": {
+            "1": "10.4",
+            "2": "9.8",
+            "3": "9.2",
+            "4": "8.6",
+            "5": "8.0",
+            "6": "7.2"
+          },
+          "Attack Effects": [
+            "100%"
+          ]
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Fist Break",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/ce/Fist_Break.png/revision/latest?cb=20200829035733",
+        "tags": [
+          "Mobility",
+          "CC"
+        ],
+        "description": "Mobility CC Badang dashes in the target direction, dealing 230–330 Physical Damage to enemies in his path while gaining a 350–600 shield that lasts 5 seconds. He stops immediately upon hitting an enemy hero, slightly knock back while creating an obstacle that lasts 4 seconds behind them. Enemies hit by the obstacle are dealt 130–180 Physical Damage . Use Again: Badang removes the obstacle he created. Skill terms Physical Damage Skill Deal Physical DMG to enemies. Triggers Spell Vamp. Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+        "properties": {
+          "Cooldown": [
+            "9.0"
+          ],
+          "Base Shield": {
+            "1": "350",
+            "2": "400",
+            "3": "450",
+            "4": "500",
+            "5": "550",
+            "6": "600"
+          },
+          "Base Damage": {
+            "1": "230",
+            "2": "250",
+            "3": "270",
+            "4": "290",
+            "5": "310",
+            "6": "330"
+          },
+          "Explosion Damage": {
+            "1": "130",
+            "2": "140",
+            "3": "150",
+            "4": "160",
+            "5": "170",
+            "6": "180"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Fist Crack",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/56/Fist_Crack.png/revision/latest?cb=20200829035747",
+        "tags": [
+          "Burst",
+          "AOE"
+        ],
+        "description": "Burst AOE Fight to protect and persist for benevolence. Badang throws a flurry of punches in the target direction, dealing 60–120 Physical Damage to enemies hit 9 times over 2.5 seconds (can trigger attack effects). The Fist Wind generated by the punches will explode upon hitting an obstacle, dealing 30–60 Physical Damage to nearby enemies. Badang is immune to control effects for the duration. Skill terms Physical Basic Attack Deal Physical Damage to enemies. Triggers ATK Effects and Lifesteal. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration.",
+        "properties": {
+          "Cooldown": [
+            "30.0"
+          ],
+          "Base Damage": {
+            "1": "60",
+            "2": "90",
+            "3": "120"
+          },
+          "Explosion Damage": {
+            "1": "30",
+            "2": "45",
+            "3": "60"
+          },
+          "Attack Effects": [
+            "100%"
+          ]
+        }
+      }
+    ]
   },
   {
     "slug": "Khufra",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Khufra",
+    "url": "https://mobile-legends.fandom.com/wiki/Khufra",
+    "intro": "Khufra, the Desert Tyrant, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "9"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2779",
+        "level_15": "6139",
+        "growth": "240"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "9.4",
+        "level_15": "18.2",
+        "growth": "0.6286"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "117",
+        "level_15": "204",
+        "growth": "6.21"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "19 (13.7%)",
+        "level_15": "119 (49.8%)",
+        "growth": "7.1429"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "71 (37.2%)",
+        "growth": "4"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "0.98",
+        "level_15": "1.22",
+        "growth": "0.0171"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "255"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "2"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Spell Curse",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/66/Spell_Curse.png/revision/latest?cb=20240113135908",
+        "tags": [
+          "Heal",
+          "Damage"
+        ],
+        "description": "Heal Damage Khufra activates the Spell Curse left by Esmeralda every 12 seconds, enhancing his next Basic Attack . The enhanced Basic Attack gains extra attack range [Cast Range: 4.9] and deals [ (+120% Total Physical Attack) (+target's 6% Max HP) Magic Damage ]. Also slows the target by 30% for 1.5 seconds and heals Khufra by 8% of his Max HP on hit. Each time Khufra applies a control effect to an enemy hero with his skill, the cooldown of Spell Curse is reduced by 4 seconds. Skill terms Magic Basic Attack Deal Magic DMG to enemies. It can trigger ATK Effect and Magic Lifesteal. Healing Effect The actual ratio of self HP Regen caused to shield values. The default is 100%. Actual Value = Original Value × (100% ± Healing Effect Increase/Reduction%) × (100% ± Healing Effect Increase/Reduction%) × ... Cooldown The time needed for casting the skill one more time, which can be affected by CD Reduction (unless otherwise stated).",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Tyrant's Revenge",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/04/Tyrant%27s_Revenge.png/revision/latest?cb=20240113140327",
+        "tags": [
+          "Mobility",
+          "CC"
+        ],
+        "description": "Mobility CC Khufra pulls the bandage on his arms to launch himself in the specified direction, dealing 50–100 plus 7 (+1.5% Extra Physical Attack) % of his Max HP Physical Damage to all enemy units on the path. When blinking to the furthest distance or encountering a first enemy hero, Khufra will immediately stop, dealing 50–100 plus 7 (+1.5% Extra Physical Attack) % of his Max HP Physical Damage to enemies nearby and then knocking them in the air for up to 1.1 seconds. Skill terms Blink Movement ability that can pass through obstacles. Extra Physical Attack Total Physical Attack bonuses from sources like equipment, Emblems, and skills (does not include base Physical Attack and Physical Attack Growth from leveling up). Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects.",
+        "properties": {
+          "Cooldown": {
+            "1": "15.0",
+            "2": "14.0",
+            "3": "13.0",
+            "4": "12.0",
+            "5": "11.0",
+            "6": "10.0"
+          },
+          "Mana Cost": {
+            "1": "80",
+            "2": "85",
+            "3": "90",
+            "4": "95",
+            "5": "100",
+            "6": "105"
+          },
+          "Path Damage, Airborne Damage": {
+            "1": "50",
+            "2": "60",
+            "3": "70",
+            "4": "80",
+            "5": "90",
+            "6": "100"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Bouncing Ball",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4c/Bouncing_Ball.png/revision/latest?cb=20240113140156",
+        "tags": [
+          "Slow",
+          "Buff"
+        ],
+        "description": "Slow Buff Khufra uses bandage to wrap himself into a magic bouncing ball, increasing his own Physical & Magic Defense by 30%–100&. Enemies trying to use blink skills to move across Khufra will be knocked airborne . [ duration needed ] Each time the magic bouncing ball hits the ground, it will deal Magic Damage equal to 50–100 plus 3 (+2% Extra Physical Attack) % of his Max HP to enemies nearby and slow them by 80%. Lasts 0.2 seconds. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Physical Defense Deduction of Physical Damage taken. Physical Defense will be affected by the enemy’s Physical PEN but not lower than 0. Actual Physical Damage taken = Physical Damage dealt by enemy 120/(120 + Physical Defense). Physical Defense will be affected by the enemy's Physical PEN, but will not be lower than -60. Magic Defense Reduces Magic Damage taken. Actual Magic Damage taken = Magic Damage dealt by enemy 120/(120 + Magic Defense). Magic Defense will be affected by the enemy's Magic PEN, but will not be lower than -60.",
+        "properties": {
+          "Cooldown": [
+            "10.0"
+          ],
+          "Mana Cost": {
+            "1": "70",
+            "2": "75",
+            "3": "80",
+            "4": "85",
+            "5": "90",
+            "6": "95"
+          },
+          "Defense Increase": {
+            "1": "30%",
+            "2": "44%",
+            "3": "58%",
+            "4": "72%",
+            "5": "86%",
+            "6": "100%"
+          },
+          "Base Damage": {
+            "1": "50",
+            "2": "60",
+            "3": "70",
+            "4": "80",
+            "5": "90",
+            "6": "100"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Tyrant's Rage",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/54/Tyrant%27s_Rage.png/revision/latest?cb=20240113140253",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Let those who comply with me thrive and those who resist me perish. Khufra pulls back all enemy targets around him toward his front, dealing 300–600 (+100% Total Physical Attack) Physical Damage and slowing them down for 1.25–1.75 seconds. If the enemies are knocked against walls, extra Physical Damage equal to 150% of this skill's damage will be inflicted upon them, and they will be stunned , instead of slowed. Skill terms Displacement Target Displacement; Can interrupt certain skills and Blink or Charge effects (interrupts the same skills as Knock Airborne effect). Including but not limited to Knockback, Drag and effects that pull targets together. Stun Basic level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt some skills. Movement Speed Movement Speed on the battlefield. Usually Calculated and Actual Movement Speed is equal. But when Movement Speed is below 230 or over 420 both Slowdown and Speedup Effect will decay. Calculated Movement Speed = Basic Movement Speed × (100% + All Speedup Effect% - All Slowdown Effect%).",
+        "properties": {
+          "Cooldown": {
+            "1": "50.0",
+            "2": "45.0",
+            "3": "40.0"
+          },
+          "Mana Cost": {
+            "1": "150",
+            "2": "200",
+            "3": "250"
+          },
+          "Base Damage": {
+            "1": "300",
+            "2": "450",
+            "3": "600"
+          },
+          "Slow Duration": {
+            "1": "1.25",
+            "2": "1.5",
+            "3": "1.75"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Granger",
@@ -22223,19 +23261,785 @@
   },
   {
     "slug": "Arlott",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Arlott",
+    "url": "https://mobile-legends.fandom.com/wiki/Arlott",
+    "intro": "Arlott, the Lone Lancer, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "6"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2628",
+        "level_15": "5428",
+        "growth": "200"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8",
+        "level_15": "14.2",
+        "growth": "0.4429"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "120",
+        "level_15": "260",
+        "growth": "10"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "21 (14.9%)",
+        "level_15": "82 (40.6%)",
+        "growth": "4.3571"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.09",
+        "level_15": "1.23",
+        "growth": "0.01"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "2"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Demon Gaze",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/48/Demon_Gaze.png/revision/latest?cb=20240605113340",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Arlott possesses a demonic eye that will Mark enemy units near Arlott that become affected by control effects for 7s. The eye will also automatically Mark a nearby enemy hero every 7s.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Dauntless Strike",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7d/Dauntless_Strike.png/revision/latest?cb=20240605113357",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Arlott swings his lance forward, dealing 200 (+60% Total Physical Attack) Physical Damage and briefly stunning the targets in the area. Targets hit by the further part of the AOE will be stunned for 1s instead.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.4",
+            "3": "6.8",
+            "4": "6.2",
+            "5": "5.6",
+            "6": "5.0"
+          },
+          "Mana Cost": {
+            "1": "-",
+            "2": "-",
+            "3": "-",
+            "4": "-",
+            "5": "-",
+            "6": "-"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "240",
+            "3": "280",
+            "4": "320",
+            "5": "360",
+            "6": "400"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Vengeance",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/74/Vengeance_%28Arlott%29.png/revision/latest?cb=20240605113419",
+        "tags": [
+          "Damage",
+          "Mobility"
+        ],
+        "description": "Damage Mobility Arlott charges at an enemy and deals 160 (+60% Total Physical Attack) Physical Damage (this skill cannot be interrupted during movement). If Arlott's target is Marked , this skill will deal double damage and refresh its cooldown , and restoring 0 (+90% Total Physical Attack) HP to Arlott (only restores 50% of that amount when used on a non-hero unit).",
+        "properties": {
+          "Cooldown": {
+            "1": "10.0",
+            "2": "9.6",
+            "3": "9.2",
+            "4": "8.8",
+            "5": "8.4",
+            "6": "8.0"
+          },
+          "Mana Cost": {
+            "1": "-",
+            "2": "-",
+            "3": "-",
+            "4": "-",
+            "5": "-",
+            "6": "-"
+          },
+          "Base Damage": {
+            "1": "135",
+            "2": "175",
+            "3": "215",
+            "4": "255",
+            "5": "295",
+            "6": "335"
+          },
+          "Base Regen": {
+            "1": "90%",
+            "2": "104%",
+            "3": "118%",
+            "4": "132%",
+            "5": "146%",
+            "6": "160%"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Final Slash",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2a/Final_Slash.png/revision/latest?cb=20240605113435",
+        "tags": [
+          "CC",
+          "AOE"
+        ],
+        "description": "CC AOE Arlott cleaves in front of him, dealing 400 (+80% Extra Physical Attack) Physical Damage to targets in the area and pushing them to the edge of the AOE and breifly revealing their location.",
+        "properties": {
+          "Cooldown": {
+            "1": "24.0",
+            "2": "21.0",
+            "3": "18.0"
+          },
+          "Mana Cost": {
+            "1": "100",
+            "2": "120",
+            "3": "140"
+          },
+          "Base Damage": {
+            "1": "400",
+            "2": "600",
+            "3": "800"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Ixia",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Ixia",
+    "url": "https://mobile-legends.fandom.com/wiki/Ixia",
+    "intro": "Ixia, the Arclight Outlaw, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2620",
+        "level_15": "4699",
+        "growth": "148.5"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "8.0",
+        "level_15": "11.0",
+        "growth": "0.2143"
+      },
+      "mana": {
+        "label": "Mana",
+        "level_1": "500",
+        "level_15": "1900",
+        "growth": "100"
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "level_1": "4",
+        "level_15": "6.8",
+        "growth": "0.2"
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "100",
+        "level_15": "205",
+        "growth": "7.5"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "17 (12.4%)",
+        "level_15": "73 (37.8%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.05",
+        "level_15": "1.33",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "240"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "5"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Siphon Starlium",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dc/Siphon_Starlium.png/revision/latest?cb=20231230023556",
+        "tags": [
+          "Damage",
+          "Heal"
+        ],
+        "description": "Damage Heal Ixia's Basic Attacks and skills apply a stack of Starlium Charge to enemies on hit. When Ixia performs a Basic Attack on an enemy with two stacks of Starlium Charge, the attack will consume the stacks and be replaced with Siphon Starlium , dealing (+150% Total Physical Attack) (+200 × Lifesteal) plus (+10 × Hero Level) Physical Damage to the target. Ixia recovers HP equal to the damage dealt by Siphon Starlium (only 20 (+100 × Lifesteal) % against non-hero units). Siphon Starlium can trigger on all enemies in front of Ixia that are within her Basic Attack range, but it cannot critically strike . Ixia's Basic Attacks cannot trigger Lifesteal .",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Dual Beam",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/c/ce/Dual_Beam.png/revision/latest?cb=20231230023610",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst Ixia fires 2 Starlium-charged energy beams along the ground in the target direction, dealing 120–225 (+80% Total Physical Attack) Physical Damage to enemies in a rectangular area and slowing enemy heroes by 40%. Upon hitting an enemy hero, Ixia also gains 40% Movement Speed for 3 seconds. Enemies hit by both beams will take double damage.",
+        "properties": {
+          "Cooldown": {
+            "1": "8.0",
+            "2": "7.2",
+            "3": "6.4",
+            "4": "5.6",
+            "5": "4.8",
+            "6": "4.0"
+          },
+          "Mana Cost": {
+            "1": "40",
+            "2": "45",
+            "3": "50",
+            "4": "55",
+            "5": "60",
+            "6": "65"
+          },
+          "Base Damage": {
+            "1": "175",
+            "2": "200",
+            "3": "225",
+            "4": "250",
+            "5": "275",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Star Helix",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9f/Star_Helix.png/revision/latest?cb=20231230023637",
+        "tags": [
+          "CC"
+        ],
+        "description": "CC Ixia launches a canister of Starlium energy in the target direction, knocking back nearby enemies, and pulling enemies in range to the center line after a short delay (approximately 0.5 seconds) and dealing 200–300 (+60% Total Physical Attack) Physical Damage .",
+        "properties": {
+          "Cooldown": {
+            "1": "11.0",
+            "2": "10.6",
+            "3": "10.2",
+            "4": "9.8",
+            "5": "9.4",
+            "6": "9.0"
+          },
+          "Mana Cost": {
+            "1": "75",
+            "2": "80",
+            "3": "85",
+            "4": "90",
+            "5": "95",
+            "6": "100"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Full Barrage",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0a/Full_Barrage.png/revision/latest?cb=20231230023654",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE Ixia disassembles her weapon into 6 smaller weapons and enters the Barrage state for 4 seconds. In this state, Ixia's Basic Attacks and skills can hit enemies in a large fan-shaped area but not outside of it. Ixia's Basic Attacks can hit up to 6 enemy units (prioritizes heroes), and Siphon Starlium will fire simultaneously with her normal Basic Attacks.",
+        "properties": {
+          "Cooldown": {
+            "1": "54.0",
+            "2": "48.0",
+            "3": "42.0"
+          },
+          "Mana Cost": {
+            "1": "75",
+            "2": "90",
+            "3": "105"
+          },
+          "Cast Range": [
+            "11 (Patch Notes 1.8.20)"
+          ]
+        }
+      }
+    ]
   },
   {
     "slug": "Nolan",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Nolan",
+    "url": "https://mobile-legends.fandom.com/wiki/Nolan",
+    "intro": "Nolan, the Cosmic Wayfinder, is a hero in Mobile Legends: Bang Bang .",
+    "infobox": {
+      "Durability": "3"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2549",
+        "level_15": "4607",
+        "growth": "147"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "7.0",
+        "level_15": "13.2",
+        "growth": "0.4429"
+      },
+      "energy": {
+        "label": "Energy",
+        "values": [
+          "100",
+          "0"
+        ]
+      },
+      "energy_regen": {
+        "label": "Energy Regen",
+        "values": [
+          "5",
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "124",
+        "level_15": "289",
+        "growth": "11.79"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "16 (11.8%)",
+        "level_15": "72 (37.5%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.09",
+        "level_15": "1.34",
+        "growth": "0.0179"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "260"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "2"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Dimensional Rift",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/46/Dimensional_Rift.png/revision/latest/scale-to-width-down/100?cb=20231110015640",
+        "tags": [
+          "Damage"
+        ],
+        "description": "Damage The father who swore to protect his shining star. Nolan's skills will leave a Rift that lasts 5 seconds and slows enemies by 30%. When a rift comes into contact with another rift, they will activate and pull enemies to their center and deal 220 (+140% Extra Physical Attack) Physical Damage after a short delay. Each time a rift activation hits an enemy hero or Creep , Nolan will gain 15 Energy and heals 150 (+120% Extra Physical Attack) for himself. If an enemy is hit by multiple rift activations, the damage after the first hit will be reduced to 40%. Cosmic Leap: If Nolan does not deal or take damage for 5 seconds, he enhances his next Basic Attack to dash to the target, dealing (+120% Total Physical Attack) Physical Damage and leaving a rift. (Damage to and from Minions or Creeps will not prevent Nolan from getting this effect.) Skill terms Pull Target Displacement: Cannot interrupt skills or Blink.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Expansion",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/bb/Expansion.png/revision/latest/scale-to-width-down/100?cb=20231110015656",
+        "tags": [
+          "AOE"
+        ],
+        "description": "AOE The scholar that explored the edge of the universe. Nolan cuts a rectangular area in front of him with his cosmic gauge, dealing 230–480 (+40% Total Physical Attack) Physical Damage and leaving a rift at the first enemy hit.",
+        "properties": {
+          "Cooldown": {
+            "1": "2.0",
+            "2": "1.8",
+            "3": "1.6",
+            "4": "1.4",
+            "5": "1.2",
+            "6": "1.0"
+          },
+          "Energy Cost": [
+            "25"
+          ],
+          "Base Damage": {
+            "1": "230",
+            "2": "280",
+            "3": "330",
+            "4": "380",
+            "5": "430",
+            "6": "480"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Gauge",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/90/Gauge.png/revision/latest/scale-to-width-down/100?cb=20231110015706",
+        "tags": [
+          "Mobility"
+        ],
+        "description": "Mobility The wayfinder that measured the distance of the star Nolan charges in the target direction and slashes with his cosmic gauge, dealing 70–220 (+13% Total Physical Attack) Physical Damage to enemies in his path and leaving a Rift .",
+        "properties": {
+          "Cooldown": {
+            "1": "2.0",
+            "2": "1.8",
+            "3": "1.6",
+            "4": "1.4",
+            "5": "1.2",
+            "6": "1.0"
+          },
+          "Energy Cost": [
+            "25"
+          ],
+          "Base Damage": {
+            "1": "70",
+            "2": "100",
+            "3": "130",
+            "4": "160",
+            "5": "190",
+            "6": "220"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Fracture",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Fracture.png/revision/latest/scale-to-width-down/100?cb=20231110015726",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst The hero that finally returned home. Nolan slashes the target location 3 times, 120–180 (+50% Extra Physical Attack) Physical Damage with each slash while leaving 3 Rifts and slowing the target hit by 30% for 0.5s. The rifts will be activated automatically while Nolan dashes backwards.",
+        "properties": {
+          "Cooldown": {
+            "1": "21.0",
+            "2": "18.0",
+            "3": "15.0"
+          },
+          "Energy Cost": [
+            "0"
+          ],
+          "Base Damage": {
+            "1": "120",
+            "2": "150",
+            "3": "180"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Cici",
-    "error": "Halaman tidak ditemukan dari API search."
+    "name": "Cici",
+    "url": "https://mobile-legends.fandom.com/wiki/Cici",
+    "intro": "Cici, the Buoyant Performer, is a hero in Mobile Legends: Bang Bang , and is accompanied by Yoyo.",
+    "infobox": {
+      "Durability": "5"
+    },
+    "hero_stats": {
+      "hp": {
+        "label": "HP",
+        "level_1": "2431",
+        "level_15": "5161",
+        "growth": "195"
+      },
+      "hp_regen": {
+        "label": "HP Regen",
+        "level_1": "6.0",
+        "level_15": "14.0",
+        "growth": "0.5714"
+      },
+      "mana": {
+        "label": "Mana",
+        "values": [
+          "0"
+        ]
+      },
+      "mana_regen": {
+        "label": "Mana Regen",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_attack": {
+        "label": "Physical Attack",
+        "level_1": "129",
+        "level_15": "226",
+        "growth": "6.93"
+      },
+      "magic_power": {
+        "label": "Magic Power",
+        "values": [
+          "0"
+        ]
+      },
+      "physical_defense": {
+        "label": "Physical Defense (Physical Damage Reduced)",
+        "level_1": "23 (16.1%)",
+        "level_15": "79 (39.7%)",
+        "growth": "4"
+      },
+      "magic_defense": {
+        "label": "Magic Defense (Magic Damage Reduced)",
+        "level_1": "15 (11.1%)",
+        "level_15": "50 (29.4%)",
+        "growth": "2.5"
+      },
+      "attack_speed": {
+        "label": "Attack Speed",
+        "level_1": "1.07",
+        "level_15": "1.35",
+        "growth": "0.02"
+      },
+      "attack_speed_ratio": {
+        "label": "Attack Speed Ratio",
+        "values": [
+          "100%"
+        ]
+      },
+      "critical_damage": {
+        "label": "Critical Damage",
+        "values": [
+          "200%"
+        ]
+      },
+      "movement_speed": {
+        "label": "Movement Speed",
+        "values": [
+          "250"
+        ]
+      },
+      "basic_attack_range": {
+        "label": "Basic Attack range",
+        "values": [
+          "3.8"
+        ]
+      }
+    },
+    "abilities": [
+      {
+        "section": "Passive",
+        "name": "Performer's Delight",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/97/Performer%27s_Delight.png/revision/latest?cb=20231223051030",
+        "tags": [
+          "Buff"
+        ],
+        "description": "Buff Cici generates a stack of Delight after dealing damage, increasing her Movement Speed by 0.75% and Spell Vamp by 0.75% per stack up to 10 times, doubling the effects at full stacks.",
+        "properties": {}
+      },
+      {
+        "section": "Skill 1",
+        "name": "Yo-Yo Blitz",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/59/Yo-Yo_Blitz.png/revision/latest?cb=20231223050624",
+        "tags": [
+          "Burst"
+        ],
+        "description": "Burst Cici uses Yoyo to continuously attack the nearest enemy within range (prioritizing heroes) for 3.5 seconds, hitting them up to 10 times and dealing Physical Damage equal to 60–85 plus 3–4.5 (+1.2% Extra Physical Attack) % of the target's Max HP per hit. Cici can move and use other skills during this attack. If there's no enemy hero within the range, Yoyo will attack Turrets or the Base instead. The skill deals 20% extra damage to Minions .",
+        "properties": {
+          "Cooldown": [
+            "6.5"
+          ],
+          "Duration": [
+            "3.5"
+          ],
+          "Base Damage": {
+            "1": "60",
+            "2": "65",
+            "3": "70",
+            "4": "75",
+            "5": "80",
+            "6": "85"
+          },
+          "Targets HP Percentage": {
+            "1": "3%",
+            "2": "3.3%",
+            "3": "3.6%",
+            "4": "3.9%",
+            "5": "4.2%",
+            "6": "4.5%"
+          },
+          "Max Damage to Creeps": {
+            "1": "75",
+            "2": "130",
+            "3": "185",
+            "4": "240",
+            "5": "295",
+            "6": "350"
+          }
+        }
+      },
+      {
+        "section": "Skill 2",
+        "name": "Buoyant Bounce",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2e/Buoyant_Bounce.png/revision/latest?cb=20231223050621",
+        "tags": [
+          "Mobility"
+        ],
+        "description": "Mobility Cici leaps to a target location. If she lands on any unit (not including Turrets and Base ), she can leap again in the Joystick's direction. If she lands on an enemy with the first leap, she deals 200–300 (+40% Total Physical Attack) Physical Damage to them.",
+        "properties": {
+          "Cooldown": {
+            "1": "9.5",
+            "2": "9.1",
+            "3": "8.7",
+            "4": "8.3",
+            "5": "7.9",
+            "6": "7.5"
+          },
+          "Base Damage": {
+            "1": "200",
+            "2": "220",
+            "3": "240",
+            "4": "260",
+            "5": "280",
+            "6": "300"
+          }
+        }
+      },
+      {
+        "section": "Ultimate",
+        "name": "Curtain Call",
+        "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/06/Curtain_Call.png/revision/latest?cb=20231223050623",
+        "tags": [
+          "CC",
+          "Slow"
+        ],
+        "description": "CC Slow Cici throws Yoyo at the target enemy hero and links them with another nearby enemy hero, dealing 100 (+10% Total Physical Attack) Physical Damage , slowing them by 30%, and pulling them together. During this time, Cici can use Yo-Yo Blitz to attack both linked targets at the same time. If only one is within the range of Yo-Yo Blitz, Cici will attack the target twice, but the damage of the second attack will be reduced to 25%~45%.",
+        "properties": {
+          "Cooldown": {
+            "1": "40.0",
+            "2": "36.0",
+            "3": "32.0"
+          },
+          "Decay Ratio": {
+            "1": "25%",
+            "2": "35%",
+            "3": "45%"
+          }
+        }
+      }
+    ]
   },
   {
     "slug": "Chip",
