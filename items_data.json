@@ -28,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -117,8 +117,9 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+55 movement speed",
-            "+35% slow reduction"
+            "+65 movement speed",
+            "+35% slow reduction",
+            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
         ]
     },
     {
@@ -364,12 +365,7 @@
         "slug": "blade-of-the-heptaseas",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Blade_of_the_Heptaseas.png",
         "stats": [
-            "1950",
-            "Attack",
-            "+250 hp",
-            "+70 physical attack",
-            "+15 physical penetration",
-            "Pasif: If no damage is taken or dealt within 5s, the next Basic Attack will deal extra Physical Damage equal to 160 plus 40% Physical Attack, and inflict 40% slow effects upon the target for 1.5s."
+            "Attack"
         ]
     },
     {
