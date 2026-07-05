@@ -180,7 +180,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+75 magic power",
+            "+70 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -465,7 +465,7 @@
         "slug": "demon-hunter-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Demon_Hunter_Sword.png",
         "stats": [
-            "2180",
+            "2180 goldSoftware",
             "Attack",
             "+20% attack speed",
             "+35 physical attack",
@@ -762,6 +762,8 @@
         "stats": [
             "1020",
             "Defense",
+            "540 hp",
+            "23 magic defense",
             "Pasif: -"
         ]
     },
