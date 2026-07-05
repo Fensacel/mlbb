@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -26,10 +20,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+185 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Magic"
         ]
     },
     {
@@ -180,7 +171,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+70 magic power",
+            "+75 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -202,10 +193,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970",
-            "Magic",
-            "+65 magic power",
-            "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
+            "Magic"
         ]
     },
     {
@@ -465,7 +453,7 @@
         "slug": "demon-hunter-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Demon_Hunter_Sword.png",
         "stats": [
-            "2180 goldSoftware",
+            "2180",
             "Attack",
             "+20% attack speed",
             "+35 physical attack",
