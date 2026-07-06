@@ -144,7 +144,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100 goldSoftware",
+            "2100",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
@@ -241,7 +241,7 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "2250 goldSoftware",
+            "2250",
             "Defense",
             "+750 hp",
             "+10% spell vamp",
@@ -343,7 +343,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820 goldSoftware",
+            "1820",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -533,7 +533,7 @@
         "slug": "malefic-gun",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png",
         "stats": [
-            "2120 goldSoftware",
+            "2120",
             "Attack",
             "+20% attack speed",
             "+40 physical attack",
