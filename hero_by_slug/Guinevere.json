@@ -165,7 +165,7 @@
         "Burst",
         "CC"
       ],
-      "description": "Burst CC Violet Requiem, where is my dear friend? Guinevere creates a force field around her [for 2 seconds], attacking nearby enemies 11 times within 2 seconds, dealing 880–1320 (+385% Total Magic Power) Magic Damage in total. If the enemy hit is already airborne , they will be knocked airborne again, up to 8 additional times. Guinevere is immune to crowd control while casting this skill. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
+      "description": "Burst CC Violet Requiem, where is my dear friend? Guinevere creates a force field around her [for 2 seconds], attacking nearby enemies 11 times within 2 seconds, dealing 880–1320 (+385% Total Magic Power) Magic Damage in total. If the enemy hit is already airborne , they will be knocked airborne again, up to 8 additional times. Guinevere is immune to Crowd Control while casting this skill. Skill terms Airborne High level Crowd Control: Prevents a target from moving, and using Basic Attacks and skills. Can interrupt a large number of skills, and Blink/Charge effects. Control Immunity You are immune to enemy CC effects (Suppressed excluded) within the duration. Magic Skill Deal Magic DMG to enemies. Triggers Spell Vamp.",
       "properties": {
         "Cooldown": {
           "1": "52.0",
