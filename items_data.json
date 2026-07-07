@@ -12,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -22,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -174,7 +180,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+70 magic power",
+            "+75 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -650,7 +656,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780",
+            "780 goldSoftware",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
