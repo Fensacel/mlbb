@@ -656,7 +656,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780 goldSoftware",
+            "780",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -760,7 +760,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020",
+            "1020 goldSoftware",
             "Defense",
             "540 hp",
             "23 magic defense",
