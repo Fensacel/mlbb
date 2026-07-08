@@ -6,10 +6,10 @@
         "stats": [
             "2010",
             "Defense",
-            "+40 magic defense",
+            "+250 hp",
             "+5% movement speed",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Fortress Shield: For each enemy hero within 5 units, Hybrid Defense is increased by 8, up to 40. Unique Passive - Lifebane: Reduces Shield and HP Regen effects of nearby enemies within 5 units to 60% of normal for 1 second."
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -194,7 +194,7 @@
         "slug": "corrosion-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
         "stats": [
-            "2050",
+            "2050 goldGame Peran",
             "Attack",
             "+30% attack speed",
             "+5% movement speed",
@@ -230,7 +230,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060",
+            "2060 goldGame Peran",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -443,7 +443,7 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "2020",
+            "2020 goldGame Aksi dan Platform",
             "Attack",
             "+20% crit chance",
             "+15% attack speed",
