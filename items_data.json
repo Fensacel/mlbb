@@ -23,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -170,7 +170,7 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
-            "3010 goldGame Aksi dan Platform",
+            "3010",
             "Attack",
             "+50% movement speed",
             "+160 physical attack",
@@ -194,7 +194,7 @@
         "slug": "corrosion-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
         "stats": [
-            "2050 goldGame Aksi dan Platform",
+            "2050",
             "Attack",
             "+30% attack speed",
             "+5% movement speed",
@@ -207,7 +207,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970 goldGame Aksi dan Platform",
+            "1970",
             "Magic",
             "+65 magic power",
             "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
@@ -255,7 +255,7 @@
         "slug": "rose-gold-meteor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png",
         "stats": [
-            "2030 goldGame Peran",
+            "2030",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -382,7 +382,7 @@
         "slug": "blood-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png",
         "stats": [
-            "2100 goldGame Aksi dan Platform",
+            "2100",
             "Magic",
             "+90 magic power",
             "Pasif: Unique Passive - Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
@@ -405,7 +405,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050 goldReferensi & Ulasan Game",
+            "2050",
             "Attack",
             "+600 hp",
             "+30 adaptive attack",
@@ -720,7 +720,7 @@
         "slug": "fury-hammer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Fury_Hammer.png",
         "stats": [
-            "830 goldGame Peran",
+            "830",
             "Attack",
             "+35 physical attack",
             "Pasif: Unique Attribute: +12 Physical Penetration"
