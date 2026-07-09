@@ -12,7 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860 goldSoftware Bisnis & Produktivitas",
+            "1860",
             "Defense",
             "+850 hp",
             "+20 magic defense",
@@ -26,7 +26,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000 goldSoftware",
+            "3000",
             "Magic",
             "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
@@ -62,7 +62,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170 goldGame Aksi dan Platform",
+            "2170",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -90,7 +90,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -114,7 +114,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+12 hp regen",
             "+55 movement speed",
@@ -540,7 +540,7 @@
         "slug": "radiant-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Radiant_Armor.png",
         "stats": [
-            "1880 goldGame Aksi dan Platform",
+            "1880",
             "Defense",
             "+950 hp",
             "+12 hp regen",
@@ -565,7 +565,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -690,7 +690,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700 goldSoftware",
+            "700",
             "Magic",
             "+300 hp",
             "+380 mana",
