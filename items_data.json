@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -17,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860 goldSoftware Bisnis & Produktivitas",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -25,7 +26,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
+            "3000 goldSoftware",
             "Magic",
             "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
@@ -61,7 +62,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170",
+            "2170 goldGame Aksi dan Platform",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -89,7 +90,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -113,7 +114,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+12 hp regen",
             "+55 movement speed",
@@ -152,7 +153,7 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "2390 goldSoftware",
+            "2390",
             "Attack",
             "+25 crit chance",
             "+60 physical attack",
@@ -539,7 +540,7 @@
         "slug": "radiant-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Radiant_Armor.png",
         "stats": [
-            "1880",
+            "1880 goldGame Aksi dan Platform",
             "Defense",
             "+950 hp",
             "+12 hp regen",
@@ -564,7 +565,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -689,7 +690,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700",
+            "700 goldSoftware",
             "Magic",
             "+300 hp",
             "+380 mana",
