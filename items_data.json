@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -690,7 +684,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700",
+            "700 goldSoftware",
             "Magic",
             "+300 hp",
             "+380 mana",
