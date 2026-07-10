@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -23,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -122,8 +117,9 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+55 movement speed",
-            "+35% slow reduction"
+            "+65 movement speed",
+            "+35% slow reduction",
+            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
         ]
     },
     {
@@ -182,7 +178,7 @@
         "slug": "concentrated-energy",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png",
         "stats": [
-            "2020",
+            "2020 goldSoftware",
             "Magic",
             "+400 hp",
             "+75 magic power",
@@ -742,7 +738,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050 goldSoftware",
+            "1050",
             "Attack",
             "+10% lifesteal",
             "+35 physical attack",
