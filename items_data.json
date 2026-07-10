@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -275,7 +280,11 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "Attack"
+            "1500",
+            "Attack",
+            "+15 movement speed",
+            "+60 adaptive attack",
+            "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
     {
@@ -632,7 +641,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Butterfly Goddess: For every 800 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
+            "Pasif: Unique Passive - Butterfly Goddess: For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
         ]
     },
     {
@@ -675,7 +684,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730",
+            "730 goldSoftware",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
