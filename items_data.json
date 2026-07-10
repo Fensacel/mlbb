@@ -23,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -684,7 +684,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730 goldSoftware",
+            "730",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
@@ -742,7 +742,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050",
+            "1050 goldSoftware",
             "Attack",
             "+10% lifesteal",
             "+35 physical attack",
