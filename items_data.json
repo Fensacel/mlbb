@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -18,7 +23,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -28,7 +33,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -177,7 +182,7 @@
         "slug": "concentrated-energy",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Magic",
             "+400 hp",
             "+75 magic power",
@@ -225,7 +230,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060 goldGame Peran",
+            "2060",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -425,10 +430,10 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2150",
+            "2050",
             "Magic",
-            "+400 hp",
-            "+75 magic power",
+            "+300 hp",
+            "+60 magic power",
             "+5% movement speed",
             "Pasif: Unique Passive - Scorch: Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second. Unique Passive - Lifebane: Dealing damage to the target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds."
         ]
@@ -451,7 +456,7 @@
         "slug": "clock-of-destiny",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Magic",
             "+400 hp",
             "+400 mana",
@@ -477,7 +482,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000 goldSoftware",
+            "2000",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -520,7 +525,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
@@ -553,7 +558,7 @@
         "slug": "cursed-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Cursed_Helmet.png",
         "stats": [
-            "1910 goldSoftware",
+            "1910",
             "Defense",
             "+1200 hp",
             "+20 magic defense",
@@ -565,7 +570,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720 goldGame Aksi dan Platform",
+            "720",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -604,7 +609,7 @@
         "slug": "starlium-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/26/Starlium_Scythe.png",
         "stats": [
-            "2120 goldSoftware",
+            "2120",
             "Magic",
             "+6 mana regen",
             "+75 magic power",
@@ -631,7 +636,12 @@
         "slug": "wishing-lantern",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png",
         "stats": [
-            "Magic"
+            "2250",
+            "Magic",
+            "+400 mana",
+            "+75 magic power",
+            "+10% cd reduction",
+            "Pasif: Unique Passive - Butterfly Goddess: For every 900 Magic Damage dealt to an enemy hero (calculated before Damage Reduction), a Butterfly Goddess is summoned to attack the enemy hero, dealing Magic Damage equal to 8% of their Current HP."
         ]
     },
     {
@@ -651,7 +661,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780 goldSoftware",
+            "780",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -663,7 +673,7 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "1910 goldSoftware",
+            "1910",
             "Defense",
             "+80 physical defense",
             "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
@@ -674,7 +684,10 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "Defense"
+            "730",
+            "Defense",
+            "+30 physical defense",
+            "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
         ]
     },
     {
@@ -741,7 +754,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800 goldSoftware",
+            "800",
             "Defense",
             "+450 hp",
             "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
