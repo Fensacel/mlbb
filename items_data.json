@@ -22,7 +22,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -84,7 +84,11 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+18 magic defense",
+            "+40 movement speed",
+            "Pasif: Unique Passive - Fortitude: CC and Slow Duration reduced by 25%."
         ]
     },
     {
@@ -96,7 +100,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
+            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
         ]
     },
     {
@@ -107,9 +111,8 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+65 movement speed",
-            "+35% slow reduction",
-            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+            "+55 movement speed",
+            "+35% slow reduction"
         ]
     },
     {
@@ -133,7 +136,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -693,7 +696,12 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "Magic"
+            "2070",
+            "Magic",
+            "+300 hp",
+            "+75 magic power",
+            "+15% cooldown reduction",
+            "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
         ]
     },
     {
