@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -263,7 +263,7 @@
         "slug": "sea-halberd",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+20% attack speed",
             "+80 physical attack",
