@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -23,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -33,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -119,11 +114,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+12 hp regen",
-            "+55 movement speed",
-            "+35% slow reduction"
+            "Movement"
         ]
     },
     {
@@ -147,7 +138,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+8% spell vamp",
+            "+12% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -585,7 +576,7 @@
             "2030",
             "Magic",
             "+10% lifesteal",
-            "+60 magic power",
+            "+55 magic power",
             "+20% attack speed",
             "+5% cooldown reduction",
             "Pasif: Unique Passive - Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
