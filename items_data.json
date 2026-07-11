@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -33,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -147,7 +142,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -268,7 +263,7 @@
         "slug": "sea-halberd",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png",
         "stats": [
-            "2050",
+            "2050 goldSoftware",
             "Attack",
             "+20% attack speed",
             "+80 physical attack",
@@ -280,7 +275,7 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "1500 goldSoftware",
+            "1500",
             "Attack",
             "+15 movement speed",
             "+60 adaptive attack",
