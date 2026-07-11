@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -117,9 +117,8 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+65 movement speed",
-            "+35% slow reduction",
-            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+            "+55 movement speed",
+            "+35% slow reduction"
         ]
     },
     {
@@ -178,7 +177,7 @@
         "slug": "concentrated-energy",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Magic",
             "+400 hp",
             "+75 magic power",
