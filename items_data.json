@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -28,7 +33,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -153,7 +158,11 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "Attack"
+            "2390",
+            "Attack",
+            "+25 crit chance",
+            "+60 physical attack",
+            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
         ]
     },
     {
@@ -384,7 +393,7 @@
         "slug": "chastise-pauldron",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png",
         "stats": [
-            "2100 goldRiwayat Militer",
+            "2100",
             "Defense",
             "+900 hp",
             "+40 physical defense",
