@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -28,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -153,11 +153,7 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "2390",
-            "Attack",
-            "+25 crit chance",
-            "+60 physical attack",
-            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
+            "Attack"
         ]
     },
     {
@@ -352,7 +348,7 @@
         "slug": "warrior-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+40 movement speed",
             "+18 physical defense",
@@ -388,7 +384,7 @@
         "slug": "chastise-pauldron",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png",
         "stats": [
-            "2100",
+            "2100 goldRiwayat Militer",
             "Defense",
             "+900 hp",
             "+40 physical defense",
@@ -715,7 +711,7 @@
         "slug": "fury-hammer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Fury_Hammer.png",
         "stats": [
-            "830 goldSoftware",
+            "830",
             "Attack",
             "+35 physical attack",
             "Pasif: Unique Attribute: +12 Physical Penetration"
@@ -760,7 +756,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020 goldSoftware",
+            "1020",
             "Defense",
             "540 hp",
             "23 magic defense",
