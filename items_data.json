@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -26,7 +26,10 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "Magic"
+            "3000 goldSoftware",
+            "Magic",
+            "+165 magic power",
+            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
     {
@@ -34,7 +37,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120",
+            "2120 goldAgama & Kepercayaan",
             "Defense",
             "+800 hp",
             "+15 physical defense",
@@ -46,7 +49,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+150 hp",
             "+40 movement speed",
@@ -59,7 +62,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170",
+            "2170 goldGame Peran",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -72,7 +75,7 @@
         "slug": "endless-battle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Endless_Battle.png",
         "stats": [
-            "2330",
+            "2330 goldGame Peran",
             "Attack",
             "+250 hp",
             "+5 mana regen",
@@ -87,7 +90,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -114,9 +117,8 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+65 movement speed",
-            "+35% slow reduction",
-            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+            "+55 movement speed",
+            "+35% slow reduction"
         ]
     },
     {
@@ -140,7 +142,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -211,7 +213,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010",
+            "2010 goldSoftware",
             "Attack",
             "+80 physical attack",
             "+10% cooldown reduction",
@@ -324,7 +326,7 @@
         "slug": "swift-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Swift_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+15% attack speed",
             "+40 movement speed",
@@ -336,7 +338,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820",
+            "1820 goldGame Aksi dan Platform",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -411,11 +413,7 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "2000",
-            "Magic",
-            "+75 magic power",
-            "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Magic"
         ]
     },
     {
@@ -423,10 +421,10 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2050",
+            "2150",
             "Magic",
-            "+300 hp",
-            "+60 magic power",
+            "+400 hp",
+            "+75 magic power",
             "+5% movement speed",
             "Pasif: Unique Passive - Scorch: Dealing Magic Damage burns the targets for 3 seconds, also dealing extra Magic Damage equal to 1% of the target's Max HP per second. Unique Passive - Lifebane: Dealing damage to the target will reduce the Shield and HP Regen effects on them to 60% of normal for 3 seconds."
         ]
@@ -526,7 +524,7 @@
         "slug": "malefic-gun",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png",
         "stats": [
-            "2120",
+            "2120 goldSoftware",
             "Attack",
             "+20% attack speed",
             "+40 physical attack",
