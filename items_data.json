@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -26,10 +20,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+165 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Magic"
         ]
     },
     {
@@ -37,11 +28,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120",
-            "Defense",
-            "+800 hp",
-            "+15 physical defense",
-            "Pasif: Unique Passive - Immortal: Resurrect 2.5 seconds upon death and gets 16% Max HP and a shield that can absorb 150(+70*Hero Level）damage. Shield lasts 3 seconds. This effect has a 210 seconds cooldown."
+            "Defense"
         ]
     },
     {
@@ -49,12 +36,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720",
-            "Movement",
-            "+150 hp",
-            "+40 movement speed",
-            "+10% cooldown reduction",
-            "Pasif: -"
+            "Movement"
         ]
     },
     {
@@ -90,11 +72,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
-            "Movement",
-            "+18 magic defense",
-            "+40 movement speed",
-            "Pasif: Unique Passive - Fortitude: CC and Slow Duration reduced by 25%."
+            "Movement"
         ]
     },
     {
@@ -156,8 +134,8 @@
             "2390",
             "Attack",
             "+25 crit chance",
-            "+60 physical attack",
-            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
+            "+65 physical attack",
+            "Pasif: Unique Attribute: +40% Crit Damage Unique Passive - Doom: Critical strikes grant 5% extra Physical Attack for 2 seconds."
         ]
     },
     {
@@ -225,7 +203,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060 goldGame Peran",
+            "2060",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -254,8 +232,8 @@
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
-            "+40 physical attack",
-            "Pasif: Unique Passive - Dragon Scale: Every 1% Lifesteal increases Hybrid Defense by 1, up to 50 (effect is halved for non-Fighter heroes). Unique Passive - Lifeline: When taking damage that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "+30 physical attack",
+            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -580,7 +558,7 @@
             "2030",
             "Magic",
             "+10% lifesteal",
-            "+55 magic power",
+            "+60 magic power",
             "+20% attack speed",
             "+5% cooldown reduction",
             "Pasif: Unique Passive - Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
