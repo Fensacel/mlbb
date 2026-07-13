@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -106,7 +106,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
+            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
         ]
     },
     {
@@ -225,7 +225,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060",
+            "2060 goldGame Peran",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -254,8 +254,8 @@
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
-            "+30 physical attack",
-            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "+40 physical attack",
+            "Pasif: Unique Passive - Dragon Scale: Every 1% Lifesteal increases Hybrid Defense by 1, up to 50 (effect is halved for non-Fighter heroes). Unique Passive - Lifeline: When taking damage that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -580,7 +580,7 @@
             "2030",
             "Magic",
             "+10% lifesteal",
-            "+60 magic power",
+            "+55 magic power",
             "+20% attack speed",
             "+5% cooldown reduction",
             "Pasif: Unique Passive - Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
