@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -99,11 +93,7 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "2500",
-            "Defense",
-            "+1800 hp",
-            "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
+            "Defense"
         ]
     },
     {
@@ -111,7 +101,12 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+12 hp regen",
+            "+65 movement speed",
+            "+35% slow reduction",
+            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
         ]
     },
     {
