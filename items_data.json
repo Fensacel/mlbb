@@ -31,11 +31,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120",
-            "Defense",
-            "+800 hp",
-            "+15 physical defense",
-            "Pasif: Unique Passive - Immortal: Resurrect 2.5 seconds upon death and gets 16% Max HP and a shield that can absorb 150(+70*Hero Level）damage. Shield lasts 3 seconds. This effect has a 210 seconds cooldown."
+            "Defense"
         ]
     },
     {
@@ -43,7 +39,12 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+150 hp",
+            "+40 movement speed",
+            "+10% cooldown reduction",
+            "Pasif: -"
         ]
     },
     {
@@ -51,12 +52,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170",
-            "Defense",
-            "+920 hp",
-            "+4 hp regen",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times)."
+            "Defense"
         ]
     },
     {
@@ -91,11 +87,7 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "2500",
-            "Defense",
-            "+1800 hp",
-            "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
+            "Defense"
         ]
     },
     {
@@ -277,12 +269,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880",
-            "Attack",
-            "+20% crit chance",
-            "+35% attack speed",
-            "+20 movement speed",
-            "Pasif: Unique Passive - Typhoon: Every 5–2 seconds (reduced by 0.2 seconds for each Basic Attack), the next Basic Attack will hit up to 3 enemy units for 150–362 Magic Damage. (This attack can Crit and the damage increases to 200% against Minions.)"
+            "Attack"
         ]
     },
     {
@@ -467,7 +454,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000",
+            "2000 goldSoftware",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -658,7 +645,10 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "Defense"
+            "1910",
+            "Defense",
+            "+80 physical defense",
+            "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
         ]
     },
     {
