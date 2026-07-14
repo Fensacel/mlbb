@@ -28,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -106,7 +106,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
+            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
         ]
     },
     {
@@ -702,11 +702,11 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070",
+            "1870",
             "Magic",
-            "+300 hp",
-            "+75 magic power",
-            "+15% cooldown reduction",
+            "+250 hp",
+            "+50 magic power",
+            "+20% cooldown reduction",
             "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
         ]
     },
