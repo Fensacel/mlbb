@@ -12,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -22,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -84,7 +90,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -147,7 +153,7 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "2390 goldSoftware",
+            "2390",
             "Attack",
             "+25 crit chance",
             "+60 physical attack",
@@ -257,7 +263,7 @@
         "slug": "sea-halberd",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+20% attack speed",
             "+80 physical attack",
@@ -382,7 +388,7 @@
         "slug": "chastise-pauldron",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2f/Chastise_Pauldron.png",
         "stats": [
-            "2100 goldSoftware",
+            "2100",
             "Defense",
             "+900 hp",
             "+40 physical defense",
