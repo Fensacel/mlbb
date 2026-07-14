@@ -12,7 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -20,7 +26,10 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "Magic"
+            "3000",
+            "Magic",
+            "+185 magic power",
+            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
     {
@@ -28,7 +37,11 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "Defense"
+            "2120",
+            "Defense",
+            "+800 hp",
+            "+15 physical defense",
+            "Pasif: Unique Passive - Immortal: Resurrect 2.5 seconds upon death and gets 16% Max HP and a shield that can absorb 150(+70*Hero Level）damage. Shield lasts 3 seconds. This effect has a 210 seconds cooldown."
         ]
     },
     {
@@ -36,7 +49,12 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+150 hp",
+            "+40 movement speed",
+            "+10% cooldown reduction",
+            "Pasif: -"
         ]
     },
     {
@@ -72,7 +90,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -88,7 +106,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
+            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
         ]
     },
     {
@@ -99,9 +117,8 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+65 movement speed",
-            "+35% slow reduction",
-            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
+            "+55 movement speed",
+            "+35% slow reduction"
         ]
     },
     {
@@ -125,7 +142,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -400,7 +417,7 @@
             "Magic",
             "+75 magic power",
             "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 3+(0.3*Hero Level) for 2 seconds. Stacks up to 3 times."
         ]
     },
     {
@@ -601,7 +618,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910",
+            "1910 goldSoftware",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -766,7 +783,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910",
+            "1910 goldSoftware",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
