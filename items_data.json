@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -28,7 +33,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+185 magic power",
+            "+165 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -49,7 +54,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+150 hp",
             "+40 movement speed",
@@ -62,7 +67,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170 goldSoftware",
+            "2170",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -90,7 +95,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -102,7 +107,7 @@
         "slug": "guardian-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a3/Guardian_Helmet.png",
         "stats": [
-            "2500 goldSoftware",
+            "2500",
             "Defense",
             "+1800 hp",
             "+20 hp regen",
@@ -114,7 +119,7 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+12 hp regen",
             "+55 movement speed",
@@ -126,7 +131,7 @@
         "slug": "athenas-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Athena%27s_Shield.png",
         "stats": [
-            "2150 goldSoftware",
+            "2150",
             "Defense",
             "+900 hp",
             "+2 hp regen",
@@ -165,7 +170,7 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
-            "3010 goldSoftware",
+            "3010",
             "Attack",
             "+50% movement speed",
             "+160 physical attack",
@@ -177,7 +182,7 @@
         "slug": "concentrated-energy",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Magic",
             "+400 hp",
             "+75 magic power",
@@ -202,7 +207,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970 goldSoftware",
+            "1970",
             "Magic",
             "+65 magic power",
             "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
@@ -213,7 +218,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010 goldSoftware",
+            "2010",
             "Attack",
             "+80 physical attack",
             "+10% cooldown reduction",
@@ -225,7 +230,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060 goldReferensi & Ulasan Game",
+            "2060",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -236,7 +241,7 @@
         "slug": "queens-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f4/Queen%27s_Wings.png",
         "stats": [
-            "2250 goldSoftware",
+            "2250",
             "Defense",
             "+750 hp",
             "+10% spell vamp",
@@ -250,7 +255,7 @@
         "slug": "rose-gold-meteor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -263,7 +268,7 @@
         "slug": "sea-halberd",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/83/Sea_Halberd.png",
         "stats": [
-            "2050 goldSoftware",
+            "2050",
             "Attack",
             "+20% attack speed",
             "+80 physical attack",
@@ -275,7 +280,7 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "1500 goldSoftware",
+            "1500",
             "Attack",
             "+15 movement speed",
             "+60 adaptive attack",
@@ -287,7 +292,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880 goldSoftware",
+            "1880",
             "Attack",
             "+20% crit chance",
             "+35% attack speed",
@@ -300,7 +305,7 @@
         "slug": "arcane-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Arcane_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+15 magic power",
             "+40 movement speed",
@@ -326,7 +331,7 @@
         "slug": "swift-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Swift_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+15% attack speed",
             "+40 movement speed",
@@ -364,7 +369,7 @@
         "slug": "blade-of-the-heptaseas",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Blade_of_the_Heptaseas.png",
         "stats": [
-            "1950 goldSoftware",
+            "1950",
             "Attack",
             "+250 hp",
             "+70 physical attack",
@@ -377,7 +382,7 @@
         "slug": "blood-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png",
         "stats": [
-            "2100 goldSoftware",
+            "2100",
             "Magic",
             "+90 magic power",
             "Pasif: Unique Passive - Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
@@ -413,11 +418,11 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "2000 goldSoftware",
+            "2000",
             "Magic",
             "+75 magic power",
             "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 3+(0.3*Hero Level) for 2 seconds. Stacks up to 3 times."
         ]
     },
     {
@@ -438,7 +443,7 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Attack",
             "+20% crit chance",
             "+15% attack speed",
@@ -451,7 +456,7 @@
         "slug": "clock-of-destiny",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Magic",
             "+400 hp",
             "+400 mana",
@@ -465,7 +470,7 @@
         "slug": "demon-hunter-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Demon_Hunter_Sword.png",
         "stats": [
-            "2180 goldGame Peran",
+            "2180",
             "Attack",
             "+20% attack speed",
             "+35 physical attack",
@@ -489,7 +494,7 @@
         "slug": "great-dragon-spear",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Great_Dragon_Spear.png",
         "stats": [
-            "2140 goldSoftware",
+            "2140",
             "Attack",
             "+70 physiccal attack",
             "+10% cooldown reduction",
@@ -515,7 +520,7 @@
         "slug": "lightning-truncheon",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Lightning_Truncheon.png",
         "stats": [
-            "2250 goldSoftware",
+            "2250",
             "Magic",
             "+400 mana",
             "+75 magic power",
@@ -528,7 +533,7 @@
         "slug": "malefic-gun",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/72/Malefic_Gun.png",
         "stats": [
-            "2120 goldSoftware",
+            "2120",
             "Attack",
             "+20% attack speed",
             "+40 physical attack",
@@ -540,7 +545,7 @@
         "slug": "radiant-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Radiant_Armor.png",
         "stats": [
-            "1880 goldSoftware",
+            "1880",
             "Defense",
             "+950 hp",
             "+12 hp regen",
@@ -577,7 +582,7 @@
         "slug": "feather-of-heaven",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Feather_of_Heaven.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Magic",
             "+10% lifesteal",
             "+60 magic power",
@@ -644,7 +649,7 @@
         "slug": "azure-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Azure_Blade.png",
         "stats": [
-            "599 goldSoftware",
+            "599",
             "Attack",
             "+5 mana regen",
             "+5% cooldown reduction",
@@ -668,7 +673,7 @@
         "slug": "blade-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d9/Blade_Armor.png",
         "stats": [
-            "1910 goldSoftware",
+            "1910",
             "Defense",
             "+80 physical defense",
             "Pasif: Unique Attribute: +20% Crit Damage Reduction Unique Passive - Bladed Armor: When struck by a Basic Attack, deals Physical Damage equal to 30 (+2% Total Physical Defense)% of the incoming damage (calculated before Damage Reduction) to the attacker and slows them by 15% for 1 second."
@@ -679,7 +684,7 @@
         "slug": "dreadnaught-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/0f/Dreadnaught_Armor.png",
         "stats": [
-            "730 goldSoftware",
+            "730",
             "Defense",
             "+30 physical defense",
             "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 4% for 2 seconds (this effect stacks up to 3 times)."
@@ -690,7 +695,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700 goldSoftware",
+            "700",
             "Magic",
             "+300 hp",
             "+380 mana",
@@ -702,7 +707,7 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070 goldSoftware",
+            "2070",
             "Magic",
             "+300 hp",
             "+75 magic power",
@@ -715,7 +720,7 @@
         "slug": "fury-hammer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/52/Fury_Hammer.png",
         "stats": [
-            "830 goldSoftware",
+            "830",
             "Attack",
             "+35 physical attack",
             "Pasif: Unique Attribute: +12 Physical Penetration"
@@ -737,7 +742,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050 goldSoftware",
+            "1050",
             "Attack",
             "+10% lifesteal",
             "+35 physical attack",
@@ -749,7 +754,7 @@
         "slug": "molten-essence",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/8c/Molten_Essence.png",
         "stats": [
-            "800 goldSoftware",
+            "800",
             "Defense",
             "+450 hp",
             "Pasif: Unique Passive - Burning Soul: Deals (0.6% Total HP) Magic Damage to nearby enemies per second. This damage is increased by 125(+15*Hero Level)% against creeps and minions."
@@ -760,7 +765,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020 goldSoftware",
+            "1020",
             "Defense",
             "540 hp",
             "23 magic defense",
@@ -772,7 +777,7 @@
         "slug": "steel-legplates",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/3/3c/Steel_Legplates.png",
         "stats": [
-            "630 goldSoftware",
+            "630",
             "Defense",
             "+35 physical defense",
             "Pasif: -"
@@ -796,7 +801,7 @@
         "slug": "winter-crown",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9d/Winter_Crown.png",
         "stats": [
-            "1910 goldSoftware",
+            "1910",
             "Attack",
             "+400 hp",
             "+45 adaptive attack",
