@@ -641,18 +641,6 @@
         "level_15": "11.4",
         "growth": "0.3"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "114",
@@ -4711,18 +4699,6 @@
         "level_15": "13.2",
         "growth": "0.4429"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "121",
@@ -5019,18 +4995,6 @@
         "level_1": "7.8",
         "level_15": "14",
         "growth": "0.4429"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -7202,18 +7166,6 @@
         "level_15": "12.6",
         "growth": "0.4"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "119",
@@ -7828,18 +7780,6 @@
         "level_15": "16.8",
         "growth": "0.6"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "128",
@@ -8244,18 +8184,6 @@
         "level_15": "10.2",
         "growth": "0.2286"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "125",
@@ -8420,18 +8348,6 @@
         "level_1": "8.4",
         "level_15": "16.8",
         "growth": "0.6"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -8598,18 +8514,6 @@
         "level_1": "8.0",
         "level_15": "13.6",
         "growth": "0.4"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -9729,18 +9633,6 @@
         "level_1": "7.0",
         "level_15": "13.2",
         "growth": "0.4429"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -12866,18 +12758,6 @@
         "level_15": "13.2",
         "growth": "0.4429"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "148",
@@ -13709,18 +13589,6 @@
         "level_1": "7.4",
         "level_15": "13.0",
         "growth": "0.4"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -15332,18 +15200,6 @@
         "level_15": "14.0",
         "growth": "0.4429"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "126",
@@ -15940,20 +15796,6 @@
         "level_15": "13.6",
         "growth": "0.4143"
       },
-      "energy": {
-        "label": "Energy",
-        "values": [
-          "100",
-          "0"
-        ]
-      },
-      "energy_regen": {
-        "label": "Energy Regen",
-        "values": [
-          "3",
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "117",
@@ -16314,18 +16156,6 @@
         "level_1": "8.2",
         "level_15": "15.0",
         "growth": "0.4857"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -16897,20 +16727,6 @@
         "level_1": "3.8",
         "level_15": "10.0",
         "growth": "0.4429"
-      },
-      "energy": {
-        "label": "Energy",
-        "values": [
-          "100",
-          "0"
-        ]
-      },
-      "energy_regen": {
-        "label": "Energy Regen",
-        "values": [
-          "1",
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -19038,18 +18854,6 @@
         "level_15": "13.2",
         "growth": "0.4429"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "109",
@@ -20714,18 +20518,6 @@
         "level_15": "17.6",
         "growth": "0.4857"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "132",
@@ -21701,18 +21493,6 @@
         "level_1": "9.0",
         "level_15": "17.4",
         "growth": "0.6"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",
@@ -24732,18 +24512,6 @@
         "level_15": "14.2",
         "growth": "0.4429"
       },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
-      },
       "physical_attack": {
         "label": "Physical Attack",
         "level_1": "119",
@@ -25420,18 +25188,6 @@
         "level_1": "10.8",
         "level_15": "17.6",
         "growth": "0.4857"
-      },
-      "mana": {
-        "label": "Mana",
-        "values": [
-          "0"
-        ]
-      },
-      "mana_regen": {
-        "label": "Mana Regen",
-        "values": [
-          "0"
-        ]
       },
       "physical_attack": {
         "label": "Physical Attack",

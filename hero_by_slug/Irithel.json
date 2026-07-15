@@ -19,18 +19,6 @@
       "level_15": "10.2",
       "growth": "0.2286"
     },
-    "mana": {
-      "label": "Mana",
-      "values": [
-        "0"
-      ]
-    },
-    "mana_regen": {
-      "label": "Mana Regen",
-      "values": [
-        "0"
-      ]
-    },
     "physical_attack": {
       "label": "Physical Attack",
       "level_1": "125",

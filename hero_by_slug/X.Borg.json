@@ -25,20 +25,6 @@
       "level_15": "13.6",
       "growth": "0.4143"
     },
-    "energy": {
-      "label": "Energy",
-      "values": [
-        "100",
-        "0"
-      ]
-    },
-    "energy_regen": {
-      "label": "Energy Regen",
-      "values": [
-        "3",
-        "0"
-      ]
-    },
     "physical_attack": {
       "label": "Physical Attack",
       "level_1": "117",
