@@ -28,7 +28,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -49,7 +49,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+150 hp",
             "+40 movement speed",
@@ -180,7 +180,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+75 magic power",
+            "+70 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -189,12 +189,7 @@
         "slug": "corrosion-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
         "stats": [
-            "2050",
-            "Attack",
-            "+30% attack speed",
-            "+5% movement speed",
-            "+30 physical attack",
-            "Pasif: Unique Passive - Corrosive: Basic Attacks gain 80 extra Physical Damage and slow the target by 8% (halved for ranged Basic Attacks) for 1.5 seconds. Stacks up to 5 times. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
+            "Attack"
         ]
     },
     {
@@ -565,7 +560,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
