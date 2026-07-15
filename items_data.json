@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Umum"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -254,8 +259,8 @@
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
-            "+40 physical attack",
-            "Pasif: Unique Passive - Dragon Scale: Every 1% Lifesteal increases Hybrid Defense by 1, up to 50 (effect is halved for non-Fighter heroes). Unique Passive - Lifeline: When taking damage that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "+30 physical attack",
+            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -277,6 +282,8 @@
         "stats": [
             "1500",
             "Attack",
+            "+15 movement speed",
+            "+60 adaptive attack",
             "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
@@ -388,9 +395,9 @@
         "stats": [
             "2100",
             "Defense",
-            "+900 hp",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
+            "+1200 hp",
+            "+15 physical defense",
+            "Pasif: Unique Passive - Twilight: Upon taking more than 500 damage in a single instance, the excess damage beyond that amount is reduced by 20 (+0.2% Total HP)%. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 4 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -475,7 +482,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000 goldSoftware",
+            "2000",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
