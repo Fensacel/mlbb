@@ -12,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -28,7 +22,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -142,7 +136,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -390,9 +384,9 @@
         "stats": [
             "2100",
             "Defense",
-            "+900 hp",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
+            "+1200 hp",
+            "+15 physical defense",
+            "Pasif: Unique Passive - Twilight: Upon taking more than 500 damage in a single instance, the excess damage beyond that amount is reduced by 20 (+0.2% Total HP)%. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 4 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -577,13 +571,7 @@
         "slug": "feather-of-heaven",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Feather_of_Heaven.png",
         "stats": [
-            "2030",
-            "Magic",
-            "+10% lifesteal",
-            "+60 magic power",
-            "+20% attack speed",
-            "+5% cooldown reduction",
-            "Pasif: Unique Passive - Affliction: Each Basic Attack deals extra 50 (+30% Total Magic Power) Magic Damage. Unique Passive - Impulse: Basic Attacks grant 6% extra Attack Speed for 3 seconds, capped at 5 stacks."
+            "Magic"
         ]
     },
     {
