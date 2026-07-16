@@ -277,6 +277,8 @@
         "stats": [
             "1500",
             "Attack",
+            "+15 movement speed",
+            "+60 adaptive attack",
             "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
@@ -465,10 +467,9 @@
         "stats": [
             "2180",
             "Attack",
-            "+8% lifesteal",
             "+20% attack speed",
             "+35 physical attack",
-            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Basic Attacks grant 2% Lifesteal for 3 seconds (stacks up to 5 times)."
+            "Pasif: Unique Passive - Engulf: Basic Attacks deal 8% of the target's current HP as extra physical damage (capped at 60 against minions). Unique Passive - Devour: Each Basic Attack recover (10+4*Hero Level) HP, and counts as an Attack Effect"
         ]
     },
     {
@@ -519,7 +520,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
