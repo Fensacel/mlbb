@@ -26,7 +26,10 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "Magic"
+            "3000",
+            "Magic",
+            "+185 magic power",
+            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
     {
@@ -46,7 +49,12 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+150 hp",
+            "+40 movement speed",
+            "+10% cooldown reduction",
+            "Pasif: -"
         ]
     },
     {
@@ -269,8 +277,6 @@
         "stats": [
             "1500",
             "Attack",
-            "+15 movement speed",
-            "+60 adaptive attack",
             "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
@@ -382,9 +388,9 @@
         "stats": [
             "2100",
             "Defense",
-            "+900 hp",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Chastise: Taking damage will reduce the Attack Speed and Attack Speed cap of the attacker to 75% of normal for 2 seconds. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 2 seconds. This effect has a 60 seconds cooldown."
+            "+1200 hp",
+            "+15 physical defense",
+            "Pasif: Unique Passive - Twilight: Upon taking more than 500 damage in a single instance, the excess damage beyond that amount is reduced by 20 (+0.2% Total HP)%. Unique Passive - Redemption: When incoming damage reduces HP below 30%, recover 20% Max HP over the next 4 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -392,12 +398,7 @@
         "slug": "fleeting-time",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/71/Fleeting_Time.png",
         "stats": [
-            "2050",
-            "Attack",
-            "+600 hp",
-            "+30 adaptive attack",
-            "+15% cooldown reduction",
-            "Pasif: -"
+            "Attack"
         ]
     },
     {
@@ -512,7 +513,7 @@
             "+400 mana",
             "+75 magic power",
             "+10% cd reduction",
-            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 255 (+85% Magic Power) extra Magic Damage to all enemies in range."
+            "Pasif: Unique Passive - Resonate: Every 6 seconds, the next skill echoes, dealing 170 (+85% Magic Power) extra Magic Damage to all enemies in range."
         ]
     },
     {
