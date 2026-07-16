@@ -4,7 +4,12 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "Defense"
+            "2010",
+            "Defense",
+            "+250 hp",
+            "+5% movement speed",
+            "+55 physical defense",
+            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
         ]
     },
     {
@@ -12,7 +17,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "Defense"
+            "1860",
+            "Defense",
+            "+850 hp",
+            "+20 magic defense",
+            "+20 physical defense",
+            "+10% cooldown reduction",
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -20,10 +31,7 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000",
-            "Magic",
-            "+185 magic power",
-            "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
+            "Umum"
         ]
     },
     {
@@ -43,7 +51,12 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "Movement"
+            "720",
+            "Movement",
+            "+150 hp",
+            "+40 movement speed",
+            "+10% cooldown reduction",
+            "Pasif: -"
         ]
     },
     {
@@ -51,7 +64,12 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "Defense"
+            "2170",
+            "Defense",
+            "+920 hp",
+            "+4 hp regen",
+            "+40 physical defense",
+            "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times)."
         ]
     },
     {
@@ -74,7 +92,7 @@
         "slug": "tought-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/89/Tough_Boots.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+18 magic defense",
             "+40 movement speed",
@@ -90,7 +108,7 @@
             "Defense",
             "+1800 hp",
             "+20 hp regen",
-            "Pasif: Unique Passive - Recovery: After 5 seconds out of combat, recover (2.5% Total HP) HP per second. Unique Passive - Defender: Upon taking more than 500 damage in a single instance, recover 30 (+0.3% Total HP)% HP from the excess damage beyond that amount."
+            "Pasif: Unique Passive - Recovery: Recovers (2.5% Total HP) HP per second (reduced to (0.5% Total HP) HP per second over 5 seconds after taking damage)."
         ]
     },
     {
@@ -101,7 +119,7 @@
             "720",
             "Movement",
             "+12 hp regen",
-            "+55 movement speed",
+            "+65 movement speed",
             "+35% slow reduction"
         ]
     },
@@ -110,7 +128,7 @@
         "slug": "athenas-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Athena%27s_Shield.png",
         "stats": [
-            "2150",
+            "2150 goldSoftware",
             "Defense",
             "+900 hp",
             "+2 hp regen",
@@ -126,7 +144,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+12% spell vamp",
+            "+8% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -164,7 +182,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+70 magic power",
+            "+75 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -173,7 +191,7 @@
         "slug": "corrosion-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
         "stats": [
-            "2050",
+            "2050 goldSoftware",
             "Attack",
             "+30% attack speed",
             "+5% movement speed",
@@ -209,7 +227,7 @@
         "slug": "malefic-roar",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/12/Malefic_Roar.png",
         "stats": [
-            "2060",
+            "2060 goldSoftware",
             "Attack",
             "+60 physical attack",
             "Pasif: Unique Passive - Armor Buster: Increase Physical Penetration by 30%. Unique Passive - Breaker: When attacking an enemy, gains 0.% extra Physical Penetration for each point of the enemy's Physical Defense, capped at 30%."
@@ -238,8 +256,8 @@
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
-            "+30 physical attack",
-            "Pasif: Unique Passive - Dragon Scale: Every 4 extra Physical Attack increase Hybrid Defense by 1. Unique Passive - Lifeline: When taking damage from enemy hero that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
+            "+40 physical attack",
+            "Pasif: Unique Passive - Dragon Scale: Every 1% Lifesteal increases Hybrid Defense by 1, up to 50 (effect is halved for non-Fighter heroes). Unique Passive - Lifeline: When taking damage that reduces HP below 30%, gains a (120*Hero Level) shield (increases with level) and 50% Movement Speed that rapidly decays over 3 seconds. This effect has a 60 seconds cooldown."
         ]
     },
     {
@@ -261,8 +279,6 @@
         "stats": [
             "1500",
             "Attack",
-            "+15 movement speed",
-            "+60 adaptive attack",
             "Pasif: Unique Passive - Lethality: After dealing damage to an enemy hero, executes the hero if their HP is lower than 4%. Gains 10 stack(s) of Lethality for each kill and loses 30% current stack(s) for each death. Each stack of Lethality increases the HP threshold of the execute effect by 0.1%, stacking up 80 times."
         ]
     },
@@ -322,7 +338,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820",
+            "1820 goldReferensi & Ulasan Game",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -401,7 +417,7 @@
             "Magic",
             "+75 magic power",
             "+5% movement speed",
-            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 2.5+(0.5*Hero Level) for 2 seconds. Stacks up to 3 times."
+            "Pasif: Unique Attribute: +10 Magic Penetration Unique Passive - Magic: Dealing Magic Damage to enemy heroes will reduce their Magic Defense by 3+(0.3*Hero Level) for 2 seconds. Stacks up to 3 times."
         ]
     },
     {
@@ -489,9 +505,9 @@
             "Magic",
             "+300 hp",
             "+10% spell vamp",
-            "+60 magic power",
+            "+75 magic power",
             "+7% movement speed",
-            "Pasif: Unique Passive - Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 0,4 second cooldown."
+            "Pasif: Unique Passive - Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 1 second cooldown."
         ]
     },
     {
@@ -615,7 +631,7 @@
         "slug": "wishing-lantern",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png",
         "stats": [
-            "2250",
+            "2250 goldSoftware",
             "Magic",
             "+400 mana",
             "+75 magic power",
