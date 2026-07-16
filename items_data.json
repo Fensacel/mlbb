@@ -4,12 +4,7 @@
         "slug": "dominance-ice",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Dominance_Ice.png",
         "stats": [
-            "2010",
-            "Defense",
-            "+250 hp",
-            "+5% movement speed",
-            "+55 physical defense",
-            "Pasif: Unique Passive - Arctic Cold: Taking damage will reduce the Attack Speed of the attacker to 80% of normal for 1 second. Unique Passive - Lifebane: Taking damage will reduce the Shield and HP Regen effects of the attacker to 60% of normal for 1 second."
+            "Defense"
         ]
     },
     {
@@ -17,13 +12,7 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860",
-            "Defense",
-            "+850 hp",
-            "+20 magic defense",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Defense"
         ]
     },
     {
@@ -33,7 +22,7 @@
         "stats": [
             "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -54,12 +43,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720",
-            "Movement",
-            "+150 hp",
-            "+40 movement speed",
-            "+10% cooldown reduction",
-            "Pasif: -"
+            "Movement"
         ]
     },
     {
@@ -67,12 +51,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170",
-            "Defense",
-            "+920 hp",
-            "+4 hp regen",
-            "+40 physical defense",
-            "Pasif: Unique Passive - Deter: When hit by a skill, reduces the attacker's Physical Damage by 6% for 2 seconds (this effect stacks up to 3 times)."
+            "Defense"
         ]
     },
     {
@@ -147,7 +126,7 @@
             "2100",
             "Attack",
             "+400 hp",
-            "+8% spell vamp",
+            "+12% spell vamp",
             "+35 physical attack",
             "+10% cooldown reduction",
             "Pasif: Unique Passive - Fighting Spirit: Attacks grants 12 extra Physical Attack per second for 4 seconds, up to 6 stacks. Deals 10% extra True Damage based on the damage dealt (no damage reduction counted) at full stacks. (Marksmen, Mages, and Supports only receive 50% of these stacked effects.)"
@@ -185,7 +164,7 @@
             "2020",
             "Magic",
             "+400 hp",
-            "+75 magic power",
+            "+70 magic power",
             "Pasif: Unique Attribute: +20% Hybrid Lifesteal Unique Passive - Recharge: Increases Magic Power by 5 after dealing Magic Damage (this effect stacks up to 6 times and can only gain 1 stack every 0.4 second). When reaching full stacks, increases Magic Damage by 12% for 5 seconds."
         ]
     },
@@ -707,11 +686,11 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070",
+            "1870",
             "Magic",
-            "+300 hp",
-            "+75 magic power",
-            "+15% cooldown reduction",
+            "+250 hp",
+            "+50 magic power",
+            "+20% cooldown reduction",
             "Pasif: Unique Passive - Mana Spring: Regenerates 15% of Max Mana every 10 seconds. Unique Passive - Magic Mastery: Max Cooldown Reduction is increased by 5%."
         ]
     },
