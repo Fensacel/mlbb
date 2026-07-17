@@ -158,11 +158,7 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "2390",
-            "Attack",
-            "+25 crit chance",
-            "+60 physical attack",
-            "Pasif: Unique Attribute: +30% Crit Damage Unique Passive - Doom: When Basic Attacks Crit, they deal extra True Damage equal to 12% of the damage before reduction."
+            "Attack"
         ]
     },
     {
@@ -510,9 +506,9 @@
             "Magic",
             "+300 hp",
             "+10% spell vamp",
-            "+75 magic power",
+            "+60 magic power",
             "+7% movement speed",
-            "Pasif: Unique Passive - Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 1 second cooldown."
+            "Pasif: Unique Passive - Ice Bound: When a skill deals damage to an enemy hero, it will also slow them by 10% for 2 seconds (stacks up to 3 times). This effect has a 0,4 second cooldown."
         ]
     },
     {
