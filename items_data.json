@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
         ]
     },
     {
@@ -49,7 +49,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720",
+            "720 goldSoftware",
             "Movement",
             "+150 hp",
             "+40 movement speed",
@@ -760,11 +760,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020",
-            "Defense",
-            "540 hp",
-            "23 magic defense",
-            "Pasif: -"
+            "Defense"
         ]
     },
     {
