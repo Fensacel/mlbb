@@ -18,7 +18,7 @@
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -202,7 +202,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970",
+            "1970 goldGame MOBA",
             "Magic",
             "+65 magic power",
             "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
@@ -425,7 +425,7 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2050",
+            "2050 goldGame MOBA",
             "Magic",
             "+300 hp",
             "+60 magic power",
@@ -477,7 +477,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000",
+            "2000 goldGame Peran",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -656,7 +656,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780",
+            "780 goldSoftware",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -783,12 +783,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910",
-            "Attack",
-            "+10% lifesteal",
-            "+20% attack speed",
-            "+30 physical attack",
-            "Pasif: Unique Active - Wind Chant: Become immune to all Physical Damage for 2 seconds (duration is halved for non-Marksmen; 90 seconds cooldown)."
+            "Attack"
         ]
     },
     {
