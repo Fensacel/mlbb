@@ -12,13 +12,13 @@
         "slug": "oracle",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Oracle.png",
         "stats": [
-            "1860 goldSoftware Bisnis & Produktivitas",
+            "1860",
             "Defense",
             "+850 hp",
             "+20 magic defense",
             "+20 physical defense",
             "+10% cooldown reduction",
-            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 25%."
+            "Pasif: Unique Passive - Bless: Received Shield and HP Regen effects are increased by 30%."
         ]
     },
     {
@@ -26,9 +26,9 @@
         "slug": "holy-crystal",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/64/Holy_Crystal.png",
         "stats": [
-            "3000 goldGame Peran",
+            "3000",
             "Magic",
-            "+165 magic power",
+            "+185 magic power",
             "Pasif: Unique Passive - Mystery: Gains 21%-35% extra Magic Power (scales with level)"
         ]
     },
@@ -37,7 +37,7 @@
         "slug": "immortality",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/84/Immortality.png",
         "stats": [
-            "2120 goldSoftware",
+            "2120",
             "Defense",
             "+800 hp",
             "+15 physical defense",
@@ -49,7 +49,7 @@
         "slug": "magic-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5a/Magic_Shoes.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+150 hp",
             "+40 movement speed",
@@ -62,7 +62,7 @@
         "slug": "antique-cuirass",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/40/Antique_Cuirass.png",
         "stats": [
-            "2170 goldGame Strategi",
+            "2170",
             "Defense",
             "+920 hp",
             "+4 hp regen",
@@ -114,11 +114,12 @@
         "slug": "rapid-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Rapid_Boots.png",
         "stats": [
-            "720 goldGame MOBA",
+            "720",
             "Movement",
             "+12 hp regen",
-            "+55 movement speed",
-            "+35% slow reduction"
+            "+65 movement speed",
+            "+35% slow reduction",
+            "Pasif: Unique Passive - Side Effect: Loses 20 Movement Speed for 5 seconds upon dealing or taking damage."
         ]
     },
     {
@@ -139,7 +140,7 @@
         "slug": "war-axe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/70/War_Axe.png",
         "stats": [
-            "2100 goldGame Peran",
+            "2100",
             "Attack",
             "+400 hp",
             "+8% spell vamp",
@@ -153,7 +154,7 @@
         "slug": "berserker-fury",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6c/Berserker%27s_Fury.png",
         "stats": [
-            "2390 goldSoftware",
+            "2390",
             "Attack",
             "+25 crit chance",
             "+60 physical attack",
@@ -165,7 +166,7 @@
         "slug": "blade-of-despair",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d5/Blade_of_Despair.png",
         "stats": [
-            "3010 goldGame Aksi dan Platform",
+            "3010",
             "Attack",
             "+50% movement speed",
             "+160 physical attack",
@@ -177,7 +178,7 @@
         "slug": "concentrated-energy",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4e/Concentrated_Energy.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Magic",
             "+400 hp",
             "+75 magic power",
@@ -189,7 +190,7 @@
         "slug": "corrosion-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f3/Corrosion_Scythe.png",
         "stats": [
-            "2050 goldGame Peran",
+            "2050",
             "Attack",
             "+30% attack speed",
             "+5% movement speed",
@@ -202,7 +203,7 @@
         "slug": "divine-glaive",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/9/9a/Divine_Glaive.png",
         "stats": [
-            "1970 goldGame Aksi dan Platform",
+            "1970",
             "Magic",
             "+65 magic power",
             "Pasif: Unique Attribute: +40% Magic Penetration Unique Passive - Spellbreaker: When attacking an enemy, gains 0.1% extra Magic Penetration for each point of the enemy's Magic Defense, capped at 20%."
@@ -213,7 +214,7 @@
         "slug": "hunter-strike",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/b/b9/Hunter_Strike.png",
         "stats": [
-            "2010 goldReferensi & Ulasan Game",
+            "2010",
             "Attack",
             "+80 physical attack",
             "+10% cooldown reduction",
@@ -250,7 +251,7 @@
         "slug": "rose-gold-meteor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/2b/Rose_Gold_Meteor.png",
         "stats": [
-            "2030 goldGame MOBA",
+            "2030",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -275,7 +276,7 @@
         "slug": "sky-piercer",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4f/Sky_Piercer.png",
         "stats": [
-            "1500 goldSoftware",
+            "1500",
             "Attack",
             "+15 movement speed",
             "+60 adaptive attack",
@@ -287,7 +288,7 @@
         "slug": "windtalker",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/45/Windtalker.png",
         "stats": [
-            "1880 goldSoftware",
+            "1880",
             "Attack",
             "+20% crit chance",
             "+35% attack speed",
@@ -300,7 +301,7 @@
         "slug": "arcane-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/15/Arcane_Boots.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+15 magic power",
             "+40 movement speed",
@@ -313,12 +314,7 @@
         "slug": "brute-force-breastplate",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/f6/Brute_Force_Breastplate.png",
         "stats": [
-            "2070 goldSoftware",
-            "Defense",
-            "+800 hp",
-            "+20 physical defense",
-            "+10% cooldown reduction",
-            "Pasif: Unique Passive - Brute Force: Each second after dealing damage, gain 8 extra Adaptive Attack and 2% extra Movement Speed for 4 seconds, up to 6 stacks. Gain 25% extra Control Duration Reduction at full stacks."
+            "Defense"
         ]
     },
     {
@@ -338,7 +334,7 @@
         "slug": "thunder-belt",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/dd/Thunder_Belt.png",
         "stats": [
-            "1820 goldGame Peran",
+            "1820",
             "Defense",
             "+600 hp",
             "+15 magic defense",
@@ -352,7 +348,7 @@
         "slug": "warrior-boots",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4b/Warrior_Boots.png",
         "stats": [
-            "720 goldGame Peran",
+            "720",
             "Movement",
             "+40 movement speed",
             "+18 physical defense",
@@ -364,7 +360,7 @@
         "slug": "blade-of-the-heptaseas",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Blade_of_the_Heptaseas.png",
         "stats": [
-            "1950 goldGame Aksi dan Platform",
+            "1950",
             "Attack",
             "+250 hp",
             "+70 physical attack",
@@ -377,7 +373,7 @@
         "slug": "blood-wings",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/44/Blood_Wings.png",
         "stats": [
-            "2100 goldGame Peran",
+            "2100",
             "Magic",
             "+90 magic power",
             "Pasif: Unique Passive - Guard: Gains a 800 (+100% Magic Power) Shield that will regenerate 20 seconds after being damaged. The Shield also grants 30 Movement Speed while it lasts and 150 Movement Speed for 1 second after it breaks."
@@ -413,7 +409,7 @@
         "slug": "genius-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/20/Genius_Wand.png",
         "stats": [
-            "2000 goldSoftware",
+            "2000",
             "Magic",
             "+75 magic power",
             "+5% movement speed",
@@ -425,7 +421,7 @@
         "slug": "glowing-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/7/7a/Glowing_Wand.png",
         "stats": [
-            "2050 goldGame Peran",
+            "2050",
             "Magic",
             "+300 hp",
             "+60 magic power",
@@ -438,7 +434,7 @@
         "slug": "haas-claws",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/f/fd/Haas%27_Claws.png",
         "stats": [
-            "2020 goldSoftware",
+            "2020",
             "Attack",
             "+20% crit chance",
             "+15% attack speed",
@@ -451,7 +447,7 @@
         "slug": "clock-of-destiny",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/4/4a/Clock_of_Destiny.png",
         "stats": [
-            "2030 goldSoftware",
+            "2030",
             "Magic",
             "+400 hp",
             "+400 mana",
@@ -465,7 +461,7 @@
         "slug": "demon-hunter-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1a/Demon_Hunter_Sword.png",
         "stats": [
-            "2180 goldGame Aksi dan Platform",
+            "2180",
             "Attack",
             "+20% attack speed",
             "+35 physical attack",
@@ -477,7 +473,7 @@
         "slug": "golden-staff",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Golden_Staff.png",
         "stats": [
-            "2000 goldReferensi & Ulasan Game",
+            "2000",
             "Attack",
             "+15% attack speed",
             "+55 physical attack",
@@ -489,7 +485,7 @@
         "slug": "great-dragon-spear",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Great_Dragon_Spear.png",
         "stats": [
-            "2140 goldSoftware",
+            "2140",
             "Attack",
             "+70 physiccal attack",
             "+10% cooldown reduction",
@@ -501,7 +497,7 @@
         "slug": "ice-queen-wand",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/da/Ice_Queen_Wand.png",
         "stats": [
-            "2040 goldGame Peran",
+            "2040",
             "Magic",
             "+300 hp",
             "+10% spell vamp",
@@ -515,7 +511,7 @@
         "slug": "lightning-truncheon",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ee/Lightning_Truncheon.png",
         "stats": [
-            "2250 goldGame MOBA",
+            "2250",
             "Magic",
             "+400 mana",
             "+75 magic power",
@@ -540,7 +536,7 @@
         "slug": "radiant-armor",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d8/Radiant_Armor.png",
         "stats": [
-            "1880 goldSoftware",
+            "1880",
             "Defense",
             "+950 hp",
             "+12 hp regen",
@@ -553,7 +549,7 @@
         "slug": "cursed-helmet",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/8/80/Cursed_Helmet.png",
         "stats": [
-            "1910 goldGame Aksi dan Platform",
+            "1910",
             "Defense",
             "+1200 hp",
             "+20 magic defense",
@@ -565,7 +561,7 @@
         "slug": "demon-shoes",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/17/Demon_Shoes.png",
         "stats": [
-            "720 goldSoftware",
+            "720",
             "Movement",
             "+10 mana regen",
             "+40 movement speed",
@@ -577,7 +573,7 @@
         "slug": "feather-of-heaven",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/ed/Feather_of_Heaven.png",
         "stats": [
-            "2030 goldGame Aksi dan Platform",
+            "2030",
             "Magic",
             "+10% lifesteal",
             "+60 magic power",
@@ -604,7 +600,7 @@
         "slug": "starlium-scythe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/26/Starlium_Scythe.png",
         "stats": [
-            "2120 goldGame MOBA",
+            "2120",
             "Magic",
             "+6 mana regen",
             "+75 magic power",
@@ -618,7 +614,7 @@
         "slug": "wind-of-nature",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/e/e3/Wind_of_Nature.png",
         "stats": [
-            "1910 goldGame Peran",
+            "1910",
             "Attack",
             "+10% lifesteal",
             "+20% attack speed",
@@ -631,7 +627,7 @@
         "slug": "wishing-lantern",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/0/07/Wishing_Lantern.png",
         "stats": [
-            "2250 goldGame Aksi dan Platform",
+            "2250",
             "Magic",
             "+400 mana",
             "+75 magic power",
@@ -644,7 +640,7 @@
         "slug": "azure-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/6/6d/Azure_Blade.png",
         "stats": [
-            "599 goldSoftware",
+            "599",
             "Attack",
             "+5 mana regen",
             "+5% cooldown reduction",
@@ -656,7 +652,7 @@
         "slug": "black-ice-shield",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/5/5d/Black_Ice_Shield.png",
         "stats": [
-            "780 goldSoftware",
+            "780",
             "Defense",
             "+20 magic defense",
             "+20 physical defense",
@@ -690,7 +686,7 @@
         "slug": "elegant-gem",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/d/d4/Elegant_Gem.png",
         "stats": [
-            "700 goldSoftware",
+            "700",
             "Magic",
             "+300 hp",
             "+380 mana",
@@ -702,7 +698,7 @@
         "slug": "enchanted-talisman",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/2/21/Enchanted_Talisman.png",
         "stats": [
-            "2070 goldSoftware",
+            "2070",
             "Magic",
             "+300 hp",
             "+75 magic power",
@@ -726,7 +722,7 @@
         "slug": "legion-sword",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/1/1e/Legion_Sword.png",
         "stats": [
-            "910 goldSoftware",
+            "910",
             "Attack",
             "+60 physical attack",
             "Pasif: -"
@@ -737,7 +733,7 @@
         "slug": "magic-blade",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/ae/Magic_Blade.png",
         "stats": [
-            "1050 goldSoftware",
+            "1050",
             "Attack",
             "+10% lifesteal",
             "+35 physical attack",
@@ -760,7 +756,7 @@
         "slug": "silence-robe",
         "image_url": "https://static.wikia.nocookie.net/mobile-legends/images/a/a4/Silence_Robe.png",
         "stats": [
-            "1020 goldSoftware",
+            "1020",
             "Defense",
             "540 hp",
             "23 magic defense",
